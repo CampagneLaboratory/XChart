@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="-1" />
+    </dependencies>
+    <rename id="ztlb.2202909375770430359" type="CONCEPT" from="DAataFile" to="DataFile" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="0" />
+    </dependencies>
+    <rename id="ztlb.2202909375770430354" type="CONCEPT" from="File" to="DelimitedFile" />
+  </StructureModification>
+</history>
+

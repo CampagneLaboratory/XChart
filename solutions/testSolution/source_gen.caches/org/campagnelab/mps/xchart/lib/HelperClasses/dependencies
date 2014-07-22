@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="org.campagnelab.mps.xchart.lib.HelperClasses.ChartPanel" file="ChartPanel.java">
+    <classNode dependClassName="java.awt.Graphics" />
+    <classNode dependClassName="javax.swing.JLabel" />
+    <classNode dependClassName="org.apache.log4j.LogManager" />
+    <classNode dependClassName="org.apache.log4j.Logger" />
+    <classNode extendsClassName="javax.swing.JPanel" />
+  </dependency>
+</dependenciesRoot>
+
