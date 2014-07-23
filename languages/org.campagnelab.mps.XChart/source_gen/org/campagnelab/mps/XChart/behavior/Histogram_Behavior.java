@@ -4,27 +4,36 @@ package org.campagnelab.mps.XChart.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import javax.swing.JComponent;
+import com.xeiam.xchart.XChartPanel;
+import java.util.ArrayList;
+import org.campagnelab.mps.xchart.lib.HelperClasses.BinHelper;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import com.xeiam.xchart.Chart;
 import com.xeiam.xchart.ChartBuilder;
 import com.xeiam.xchart.StyleManager;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import java.util.ArrayList;
-import org.campagnelab.mps.xchart.lib.HelperClasses.BinHelper;
-import org.campagnelab.mps.xchart.lib.HelperClasses.ChartPanel;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class Histogram_Behavior {
   public static void init(SNode thisNode) {
   }
 
   public static JComponent virtual_getJComponent_5455899477603853704(SNode thisNode) {
-
-    Chart chart = new ChartBuilder().chartType(StyleManager.ChartType.Bar).width(800).height(600).title("Score Histogram").xAxisTitle(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "x", false), "virtual_getColumnName_7335187880077215104", new Object[]{})).yAxisTitle("Number").build();
+    XChartPanel component = Chart_Behavior.call_getComponentInternal_7263499363579573717(thisNode);
     ArrayList<Double> x = new ArrayList<Double>();
     ArrayList<Double> y = new ArrayList<Double>();
     BinHelper.bin(BehaviorReflection.invokeVirtual((Class<double[]>) ((Class) Object.class), SLinkOperations.getTarget(thisNode, "x", false), "virtual_getDoubles_2202909375770410262", new Object[]{}), x, y);
-    chart.addSeries("test 1", x, y);
+
+    if (component != null) {
+      component.resize(Chart_Behavior.call_getWidth_7263499363579584527(thisNode), Chart_Behavior.call_getHeight_7263499363579587829(thisNode));
+      component.updateSeries("series", x, y);
+      return component;
+    }
+    Chart chart = new ChartBuilder().chartType(StyleManager.ChartType.Bar).width(Chart_Behavior.call_getWidth_7263499363579584527(thisNode)).height(Chart_Behavior.call_getHeight_7263499363579587829(thisNode)).theme(ChartStyle_Behavior.call_getTheme_7263499363580278109(SLinkOperations.getTarget(thisNode, "style", true))).title("Score Histogram").xAxisTitle(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "x", false), "virtual_getColumnName_7335187880077215104", new Object[]{})).yAxisTitle(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "style", true), "yAxisLabel")).build();
+    chart.addSeries("series", x, y);
     chart.getStyleManager().setLegendPosition(StyleManager.LegendPosition.InsideNE);
-    return new ChartPanel(chart);
+    component = new XChartPanel(chart);
+    Chart_Behavior.call_putComponentInternal_7263499363579768301(thisNode, component);
+    return component;
   }
 }
