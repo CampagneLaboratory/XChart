@@ -1,44 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
+  <root nodeRef="r:64bc9cc9-8a3c-4162-8593-f9690fd5918f(org.campagnelab.mps.xchart.lib.HelperClasses)/6243283334560928091">
+    <nodeInfo nodeId="6243283334560928600" fileName="DoublesToCollection.java" startLine="8" startPosition="63" endLine="9" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6243283334560935800" fileName="DoublesToCollection.java" startLine="9" startPosition="66" endLine="10" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6243283334561216063" fileName="DoublesToCollection.java" startLine="11" startPosition="33" endLine="12" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6243283334561220388" fileName="DoublesToCollection.java" startLine="12" startPosition="26" endLine="13" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="6243283334560939816" fileName="DoublesToCollection.java" startLine="14" startPosition="5" endLine="15" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6243283334560929778" fileName="DoublesToCollection.java" startLine="10" startPosition="14" endLine="14" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6243283334560928130" fileName="DoublesToCollection.java" startLine="8" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="toCollection#([D)Ljava/util/ArrayList;" />
+    <scopeInfo nodeId="6243283334560929781" fileName="DoublesToCollection.java" startLine="11" startPosition="33" endLine="13" endPosition="16" />
+    <scopeInfo nodeId="6243283334560929778" fileName="DoublesToCollection.java" startLine="10" startPosition="14" endLine="14" endPosition="5">
+      <varInfo nodeId="6243283334560929784" varName="element" />
+    </scopeInfo>
+    <scopeInfo nodeId="6243283334560928134" fileName="DoublesToCollection.java" startLine="8" startPosition="63" endLine="15" endPosition="18">
+      <varInfo nodeId="6243283334560935803" varName="i" />
+      <varInfo nodeId="6243283334560928601" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="6243283334560928130" fileName="DoublesToCollection.java" startLine="8" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="6243283334560928148" varName="data" />
+    </scopeInfo>
+    <unitInfo nodeId="6243283334560928091" fileName="DoublesToCollection.java" startLine="7" startPosition="0" endLine="18" endPosition="0" unitName="org.campagnelab.mps.xchart.lib.HelperClasses.DoublesToCollection" />
+  </root>
   <root nodeRef="r:64bc9cc9-8a3c-4162-8593-f9690fd5918f(org.campagnelab.mps.xchart.lib.HelperClasses)/7335187880077420190">
-    <nodeInfo nodeId="7335187880077420454" fileName="ChartPanel.java" startLine="12" startPosition="0" endLine="13" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="chartPanel" />
-    <nodeInfo nodeId="7335187880077425391" fileName="ChartPanel.java" startLine="14" startPosition="23" endLine="15" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5270176140463715419" fileName="ChartPanel.java" startLine="15" startPosition="35" endLine="16" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5270176140464149579" fileName="ChartPanel.java" startLine="16" startPosition="35" endLine="17" endPosition="46" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5270176140464271105" fileName="ChartPanel.java" startLine="17" startPosition="46" endLine="18" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7335187880077451986" fileName="ChartPanel.java" startLine="18" startPosition="36" endLine="19" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3487897233198794095" fileName="ChartPanel.java" startLine="23" startPosition="30" endLine="24" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5270176140463655166" fileName="ChartPanel.java" startLine="25" startPosition="5" endLine="26" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5270176140464281478" fileName="ChartPanel.java" startLine="27" startPosition="29" endLine="28" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="3487897233198783563" fileName="ChartPanel.java" startLine="28" startPosition="27" endLine="29" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5270176140464297980" fileName="ChartPanel.java" startLine="30" startPosition="5" endLine="31" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5270176140464242841" fileName="ChartPanel.java" startLine="34" startPosition="42" endLine="35" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5270176140464242845" fileName="ChartPanel.java" startLine="35" startPosition="27" endLine="36" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5270176140464256645" fileName="ChartPanel.java" startLine="36" startPosition="29" endLine="37" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7335187880077420190" fileName="ChartPanel.java" startLine="41" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" propertyString="LOG" />
-    <nodeInfo nodeId="3487897233198794095" fileName="ChartPanel.java" startLine="22" startPosition="42" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="3487897233198794095" fileName="ChartPanel.java" startLine="22" startPosition="42" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7335187880077698246" fileName="ChartPanel.java" startLine="26" startPosition="36" endLine="30" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="5270176140464242836" fileName="ChartPanel.java" startLine="34" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="paintComponent#(Ljava/awt/Graphics;)V" />
-    <nodeInfo nodeId="7335187880077420492" fileName="ChartPanel.java" startLine="14" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ChartPanel#()V" />
-    <nodeInfo nodeId="7335187880077455979" fileName="ChartPanel.java" startLine="22" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="refresh#(Ljavax/swing/JPanel;)V" />
-    <scopeInfo nodeId="3487897233198794095" fileName="ChartPanel.java" startLine="23" startPosition="30" endLine="24" endPosition="48" />
-    <scopeInfo nodeId="7335187880077698249" fileName="ChartPanel.java" startLine="27" startPosition="29" endLine="29" endPosition="38" />
-    <scopeInfo nodeId="3487897233198794095" fileName="ChartPanel.java" startLine="22" startPosition="42" endLine="25" endPosition="5" />
-    <scopeInfo nodeId="5270176140464242839" fileName="ChartPanel.java" startLine="34" startPosition="42" endLine="37" endPosition="28">
-      <varInfo nodeId="5270176140464242844" varName="height" />
-      <varInfo nodeId="5270176140464242840" varName="width" />
+    <nodeInfo nodeId="7335187880077420454" fileName="ChartPanel.java" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="chartPanel" />
+    <nodeInfo nodeId="5270176140465237637" fileName="ChartPanel.java" startLine="12" startPosition="34" endLine="13" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5270176140465240536" fileName="ChartPanel.java" startLine="13" startPosition="40" endLine="14" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7335187880077420492" fileName="ChartPanel.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ChartPanel#(Lcom/xeiam/xchart/Chart;)V" />
+    <scopeInfo nodeId="7335187880077420495" fileName="ChartPanel.java" startLine="12" startPosition="34" endLine="14" endPosition="25" />
+    <scopeInfo nodeId="7335187880077420492" fileName="ChartPanel.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="5270176140465230839" varName="chart" />
     </scopeInfo>
-    <scopeInfo nodeId="7335187880077420495" fileName="ChartPanel.java" startLine="14" startPosition="23" endLine="19" endPosition="25" />
-    <scopeInfo nodeId="5270176140464242836" fileName="ChartPanel.java" startLine="34" startPosition="0" endLine="39" endPosition="0">
-      <varInfo nodeId="5270176140464242837" varName="g" />
-    </scopeInfo>
-    <scopeInfo nodeId="7335187880077420492" fileName="ChartPanel.java" startLine="14" startPosition="0" endLine="21" endPosition="0" />
-    <scopeInfo nodeId="7335187880077455982" fileName="ChartPanel.java" startLine="22" startPosition="42" endLine="31" endPosition="19" />
-    <scopeInfo nodeId="7335187880077455979" fileName="ChartPanel.java" startLine="22" startPosition="0" endLine="33" endPosition="0">
-      <varInfo nodeId="7335187880077457432" varName="chartPanel" />
-    </scopeInfo>
-    <unitInfo nodeId="7335187880077420190" fileName="ChartPanel.java" startLine="11" startPosition="0" endLine="43" endPosition="0" unitName="org.campagnelab.mps.xchart.lib.HelperClasses.ChartPanel" />
+    <unitInfo nodeId="7335187880077420190" fileName="ChartPanel.java" startLine="9" startPosition="0" endLine="19" endPosition="0" unitName="org.campagnelab.mps.xchart.lib.HelperClasses.ChartPanel" />
   </root>
 </debugInfo>
 

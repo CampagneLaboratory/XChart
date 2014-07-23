@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="org.campagnelab.mps.xchart.lib.HelperClasses.ChartPanel" file="ChartPanel.java">
-    <classNode dependClassName="java.awt.Graphics" />
-    <classNode dependClassName="javax.swing.JLabel" />
-    <classNode dependClassName="org.apache.log4j.LogManager" />
-    <classNode dependClassName="org.apache.log4j.Logger" />
+    <classNode dependClassName="com.xeiam.xchart.Chart" />
+    <classNode dependClassName="com.xeiam.xchart.XChartPanel" />
     <classNode extendsClassName="javax.swing.JPanel" />
+  </dependency>
+  <dependency className="org.campagnelab.mps.xchart.lib.HelperClasses.DoublesToCollection" file="DoublesToCollection.java">
+    <classNode dependClassName="java.lang.Double" />
+    <classNode dependClassName="java.util.ArrayList" />
   </dependency>
 </dependenciesRoot>
 

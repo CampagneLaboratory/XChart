@@ -5,14 +5,9 @@ package org.campagnelab.mps.XChart.behavior;
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 import javax.swing.JComponent;
 import org.jetbrains.mps.openapi.model.SNode;
-import com.xeiam.xchart.XChartPanel;
 
 public abstract class Chart_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
   public Chart_BehaviorDescriptor() {
-  }
-
-  public JComponent virtual_getJComponent_5455899477603853704(SNode thisNode) {
-    return Chart_Behavior.virtual_getJComponent_5455899477603853704(thisNode);
   }
 
   @Override
@@ -20,5 +15,5 @@ public abstract class Chart_BehaviorDescriptor extends BaseConcept_BehaviorDescr
     return "org.campagnelab.mps.XChart.structure.Chart";
   }
 
-  public abstract XChartPanel virtual_rebuildChart_7335187880077546450(SNode thisNode);
+  public abstract JComponent virtual_getJComponent_5455899477603853704(SNode thisNode);
 }

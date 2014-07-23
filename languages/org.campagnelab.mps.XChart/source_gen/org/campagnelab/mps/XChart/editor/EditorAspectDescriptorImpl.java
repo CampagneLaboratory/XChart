@@ -16,19 +16,40 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
       case 0:
-        return Collections.<ConceptEditor>singletonList(new Column_Editor());
+        return Collections.<ConceptEditor>singletonList(new Chart_Editor());
       case 1:
+        return Collections.<ConceptEditor>singletonList(new Column_Editor());
+      case 2:
+        return Collections.<ConceptEditor>singletonList(new ColumnToDoubles_Editor());
+      case 3:
+        return Collections.<ConceptEditor>singletonList(new Doubles_Editor());
+      case 4:
+        return Collections.<ConceptEditor>singletonList(new FileRef_Editor());
+      case 5:
         return Collections.<ConceptEditor>singletonList(new Histogram_Editor());
+      case 6:
+        return Collections.<ConceptEditor>singletonList(new Page_Editor());
+      case 7:
+        return Collections.<ConceptEditor>singletonList(new ScatterPlot_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
   }
 
   public Collection<ConceptEditorComponent> getEditorComponents(ConceptDescriptor descriptor, String editorComponentId) {
+    switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0c, descriptor.getConceptFqName())) {
+      case 0:
+        if ("org.campagnelab.mps.XChart.editor.ChartDimensions".equals(editorComponentId)) {
+          return Collections.<ConceptEditorComponent>singletonList(new ChartDimensions());
+        }
+        break;
+      default:
+    }
     return Collections.<ConceptEditorComponent>emptyList();
   }
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.mps.XChart.structure.Column", "org.campagnelab.mps.XChart.structure.Histogram"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.mps.XChart.structure.Chart", "org.campagnelab.mps.XChart.structure.Column", "org.campagnelab.mps.XChart.structure.ColumnToDoubles", "org.campagnelab.mps.XChart.structure.Doubles", "org.campagnelab.mps.XChart.structure.FileRef", "org.campagnelab.mps.XChart.structure.Histogram", "org.campagnelab.mps.XChart.structure.Page", "org.campagnelab.mps.XChart.structure.ScatterPlot"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0c = new String[]{"org.campagnelab.mps.XChart.structure.Chart"};
 }

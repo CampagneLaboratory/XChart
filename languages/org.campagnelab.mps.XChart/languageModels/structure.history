@@ -12,5 +12,17 @@
     </dependencies>
     <rename id="ztlb.2202909375770430354" type="CONCEPT" from="File" to="DelimitedFile" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="1" />
+    </dependencies>
+    <rename id="ztlb.5270176140464602978" type="CHILD" from="SelectedColumns" to="selectedColumns" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="2" />
+    </dependencies>
+    <rename id="ztlb.5270176140465128127" type="CHILD" from="files" to="columns" />
+  </StructureModification>
 </history>
 

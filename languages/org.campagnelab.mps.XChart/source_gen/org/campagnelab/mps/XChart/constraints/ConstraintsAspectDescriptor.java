@@ -12,15 +12,21 @@ public class ConstraintsAspectDescriptor implements jetbrains.mps.smodel.runtime
 
   public ConstraintsDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_2qnle6_a0a0b, fqName)) {
-      case 0:
-        return new DelimitedFile_Constraints();
       case 1:
+        return new DelimitedFile_Constraints();
+      case 3:
         return new Histogram_Constraints();
+      case 0:
+        return new ColumnToDoubles_Constraints();
+      case 4:
+        return new Page_Constraints();
+      case 2:
+        return new Doubles_Constraints();
       default:
         // todo: illegal in some cases? 
         return new BaseConstraintsDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"org.campagnelab.mps.XChart.structure.DelimitedFile", "org.campagnelab.mps.XChart.structure.Histogram"};
+  private static String[] stringSwitchCases_2qnle6_a0a0b = new String[]{"org.campagnelab.mps.XChart.structure.ColumnToDoubles", "org.campagnelab.mps.XChart.structure.DelimitedFile", "org.campagnelab.mps.XChart.structure.Doubles", "org.campagnelab.mps.XChart.structure.Histogram", "org.campagnelab.mps.XChart.structure.Page"};
 }

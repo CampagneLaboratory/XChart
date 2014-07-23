@@ -4,7 +4,6 @@ package org.campagnelab.mps.XChart.behavior;
 
 import javax.swing.JComponent;
 import org.jetbrains.mps.openapi.model.SNode;
-import com.xeiam.xchart.XChartPanel;
 
 public class Histogram_BehaviorDescriptor extends Chart_BehaviorDescriptor {
   public Histogram_BehaviorDescriptor() {
@@ -12,10 +11,6 @@ public class Histogram_BehaviorDescriptor extends Chart_BehaviorDescriptor {
 
   public JComponent virtual_getJComponent_5455899477603853704(SNode thisNode) {
     return Histogram_Behavior.virtual_getJComponent_5455899477603853704(thisNode);
-  }
-
-  public XChartPanel virtual_rebuildChart_7335187880077546450(SNode thisNode) {
-    return Histogram_Behavior.virtual_rebuildChart_7335187880077546450(thisNode);
   }
 
   @Override
