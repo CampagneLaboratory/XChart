@@ -93,7 +93,13 @@
     <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.Histogram" typeId="ztlb.2202909375770410339" id="7263499363578820093" nodeInfo="ng">
       <property name="width" nameId="ztlb.5270176140465640105" value="400" />
       <property name="height" nameId="ztlb.5270176140465640107" value="400" />
-      <link role="x" roleId="ztlb.5270176140464624703" targetNodeId="7263499363578115722" resolveInfo="end" />
+      <link role="x" roleId="ztlb.5270176140464624703" targetNodeId="7263499363577631696" resolveInfo="log2(PRKM+1)" />
+    </node>
+    <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.ScatterPlot" typeId="ztlb.5270176140464883847" id="7263499363579263832" nodeInfo="ng">
+      <property name="width" nameId="ztlb.5270176140465640105" value="400" />
+      <property name="height" nameId="ztlb.5270176140465640107" value="400" />
+      <link role="x" roleId="ztlb.5270176140464883899" targetNodeId="7263499363578115722" resolveInfo="end" />
+      <link role="y" roleId="ztlb.5270176140464883901" targetNodeId="7263499363578115715" resolveInfo="expression" />
     </node>
   </root>
 </model>

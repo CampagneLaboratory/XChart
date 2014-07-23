@@ -128,11 +128,14 @@
     <classNode dependClassName="com.xeiam.xchart.ChartBuilder" />
     <classNode dependClassName="com.xeiam.xchart.StyleManager" />
     <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Double" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="javax.swing.JComponent" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
+    <classNode dependClassName="org.campagnelab.mps.xchart.lib.HelperClasses.BinHelper" />
     <classNode dependClassName="org.campagnelab.mps.xchart.lib.HelperClasses.ChartPanel" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>

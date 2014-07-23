@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="org.campagnelab.mps.xchart.lib.HelperClasses.BinHelper" file="BinHelper.java">
+    <classNode dependClassName="java.lang.Double" />
+    <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.util.ArrayList" />
+  </dependency>
   <dependency className="org.campagnelab.mps.xchart.lib.HelperClasses.ChartPanel" file="ChartPanel.java">
     <classNode dependClassName="com.xeiam.xchart.Chart" />
     <classNode dependClassName="com.xeiam.xchart.XChartPanel" />

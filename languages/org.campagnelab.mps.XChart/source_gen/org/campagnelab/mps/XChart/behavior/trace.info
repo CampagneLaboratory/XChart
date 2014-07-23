@@ -313,24 +313,29 @@
     <unitInfo nodeId="6243283334561631190" fileName="Page_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Page_Behavior" />
   </root>
   <root nodeRef="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/7335187880077203157">
-    <nodeInfo nodeId="5270176140464623574" fileName="Histogram_Behavior.java" startLine="18" startPosition="86" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="5270176140464540153" fileName="Histogram_Behavior.java" startLine="19" startPosition="0" endLine="20" endPosition="321" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5270176140464540182" fileName="Histogram_Behavior.java" startLine="20" startPosition="321" endLine="21" endPosition="228" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5270176140464540197" fileName="Histogram_Behavior.java" startLine="21" startPosition="228" endLine="22" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5270176140464540204" fileName="Histogram_Behavior.java" startLine="22" startPosition="84" endLine="23" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="18" startPosition="0" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getJComponent_5455899477603853704#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
-    <scopeInfo nodeId="7335187880077203159" fileName="Histogram_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
-    <scopeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="5270176140464623574" fileName="Histogram_Behavior.java" startLine="20" startPosition="86" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5270176140464540153" fileName="Histogram_Behavior.java" startLine="21" startPosition="0" endLine="22" endPosition="321" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7263499363578961801" fileName="Histogram_Behavior.java" startLine="22" startPosition="321" endLine="23" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7263499363578989882" fileName="Histogram_Behavior.java" startLine="23" startPosition="50" endLine="24" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7263499363578990733" fileName="Histogram_Behavior.java" startLine="24" startPosition="50" endLine="25" endPosition="207" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5270176140464540182" fileName="Histogram_Behavior.java" startLine="25" startPosition="207" endLine="26" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5270176140464540197" fileName="Histogram_Behavior.java" startLine="26" startPosition="36" endLine="27" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5270176140464540204" fileName="Histogram_Behavior.java" startLine="27" startPosition="84" endLine="28" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="17" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="20" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getJComponent_5455899477603853704#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
+    <scopeInfo nodeId="7335187880077203159" fileName="Histogram_Behavior.java" startLine="17" startPosition="43" endLine="17" endPosition="43" />
+    <scopeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="17" startPosition="0" endLine="19" endPosition="0">
       <varInfo nodeId="7335187880077203157" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5270176140464539252" fileName="Histogram_Behavior.java" startLine="18" startPosition="86" endLine="23" endPosition="33">
+    <scopeInfo nodeId="5270176140464539252" fileName="Histogram_Behavior.java" startLine="20" startPosition="86" endLine="28" endPosition="33">
       <varInfo nodeId="5270176140464540154" varName="chart" />
+      <varInfo nodeId="7263499363578961802" varName="x" />
+      <varInfo nodeId="7263499363578989883" varName="y" />
     </scopeInfo>
-    <scopeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="18" startPosition="0" endLine="25" endPosition="0">
+    <scopeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="20" startPosition="0" endLine="30" endPosition="0">
       <varInfo nodeId="7335187880077203157" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="14" startPosition="0" endLine="26" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Histogram_Behavior" />
+    <unitInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="16" startPosition="0" endLine="31" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Histogram_Behavior" />
   </root>
 </debugInfo>
 
