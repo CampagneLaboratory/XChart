@@ -61,12 +61,12 @@
       <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="7263499363580063274" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="RPKM" />
         <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="7263499363577631635" resolveInfo="BXUJDPK-WT-310-s1.ann-counts.tsv" />
-        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="7263499363577631650" resolveInfo="RPKM" />
+        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="6638345083846648225" resolveInfo="RPKM" />
       </node>
       <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="7263499363580063272" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="log2(PRKM+1)" />
         <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="7263499363577631635" resolveInfo="BXUJDPK-WT-310-s1.ann-counts.tsv" />
-        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="7263499363577631651" resolveInfo="log2(PRKM+1)" />
+        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="6638345083846648226" resolveInfo="log2(PRKM+1)" />
       </node>
     </node>
     <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.Histogram" typeId="ztlb.2202909375770410339" id="7263499363580132201" nodeInfo="ng">
@@ -75,6 +75,7 @@
         <property name="width" nameId="ztlb.5270176140465640105" value="400" />
         <property name="height" nameId="ztlb.5270176140465640107" value="400" />
         <property name="theme" nameId="ztlb.7263499363580132743" value="2" />
+        <property name="title" nameId="ztlb.6638345083846441451" value="My histogram" />
       </node>
     </node>
     <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.ScatterPlot" typeId="ztlb.5270176140464883847" id="7263499363580132211" nodeInfo="ng">
@@ -85,6 +86,9 @@
         <property name="height" nameId="ztlb.5270176140465640107" value="400" />
         <property name="theme" nameId="ztlb.7263499363580132743" value="2" />
         <property name="name" nameId="tpck.1169194664001" value="MyStyle" />
+        <property name="title" nameId="ztlb.6638345083846441451" value="Title" />
+        <property name="xAxisLabel" nameId="ztlb.7263499363579462027" value="log 2 RPKM" />
+        <property name="yAxisLabel" nameId="ztlb.7263499363579462031" value="R" />
       </node>
     </node>
     <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.Histogram" typeId="ztlb.2202909375770410339" id="7263499363580939976" nodeInfo="ng">
@@ -167,7 +171,7 @@
         <property name="height" nameId="ztlb.5270176140465640107" value="400" />
         <property name="title" nameId="ztlb.6638345083846441451" value="Sequence Variations" />
         <property name="yAxisLabel" nameId="ztlb.7263499363579462031" value="number of variations per cycle" />
-        <property name="xAxisLabel" nameId="ztlb.7263499363579462027" value="read index" />
+        <property name="xAxisLabel" nameId="ztlb.7263499363579462027" value="r" />
       </node>
     </node>
   </root>

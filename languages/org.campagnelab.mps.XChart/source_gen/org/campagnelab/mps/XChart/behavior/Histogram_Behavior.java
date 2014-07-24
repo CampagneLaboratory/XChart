@@ -10,9 +10,7 @@ import org.campagnelab.mps.xchart.lib.HelperClasses.BinHelper;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import com.xeiam.xchart.Chart;
-import com.xeiam.xchart.ChartBuilder;
 import com.xeiam.xchart.StyleManager;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class Histogram_Behavior {
   public static void init(SNode thisNode) {
@@ -29,7 +27,8 @@ public class Histogram_Behavior {
       component.updateSeries("series", x, y);
       return component;
     }
-    Chart chart = new ChartBuilder().chartType(StyleManager.ChartType.Bar).width(Chart_Behavior.call_getWidth_7263499363579584527(thisNode)).height(Chart_Behavior.call_getHeight_7263499363579587829(thisNode)).theme(ChartStyle_Behavior.call_getTheme_7263499363580278109(SLinkOperations.getTarget(thisNode, "style", true))).title("Score Histogram").xAxisTitle(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "x", false), "virtual_getColumnName_7335187880077215104", new Object[]{})).yAxisTitle(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "style", true), "yAxisLabel")).build();
+    Chart chart = ChartStyle_Behavior.call_buildChart_6638345083848028113(SLinkOperations.getTarget(thisNode, "style", true), StyleManager.ChartType.Bar, BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "x", false), "virtual_getColumnName_7335187880077215104", new Object[]{}), "frequency");
+
     chart.addSeries("series", x, y);
     chart.getStyleManager().setLegendPosition(StyleManager.LegendPosition.InsideNE);
     component = new XChartPanel(chart);

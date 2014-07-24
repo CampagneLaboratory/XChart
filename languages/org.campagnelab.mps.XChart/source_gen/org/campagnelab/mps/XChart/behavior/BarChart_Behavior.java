@@ -9,9 +9,7 @@ import org.campagnelab.mps.xchart.lib.HelperClasses.DoublesToCollection;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import com.xeiam.xchart.Chart;
-import com.xeiam.xchart.ChartBuilder;
 import com.xeiam.xchart.StyleManager;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class BarChart_Behavior {
   public static void init(SNode thisNode) {
@@ -24,7 +22,8 @@ public class BarChart_Behavior {
       component.updateSeries("series", DoublesToCollection.toCollection(BehaviorReflection.invokeVirtual((Class<double[]>) ((Class) Object.class), SLinkOperations.getTarget(thisNode, "x", false), "virtual_getDoubles_2202909375770410262", new Object[]{})), DoublesToCollection.toCollection(BehaviorReflection.invokeVirtual((Class<double[]>) ((Class) Object.class), SLinkOperations.getTarget(thisNode, "heights", false), "virtual_getDoubles_2202909375770410262", new Object[]{})));
       return component;
     }
-    Chart chart = new ChartBuilder().chartType(StyleManager.ChartType.Bar).width(Chart_Behavior.call_getWidth_7263499363579584527(thisNode)).height(Chart_Behavior.call_getHeight_7263499363579587829(thisNode)).theme(ChartStyle_Behavior.call_getTheme_7263499363580278109(SLinkOperations.getTarget(thisNode, "style", true))).title(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "style", true), "title")).xAxisTitle(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "x", false), "virtual_getColumnName_7335187880077215104", new Object[]{})).yAxisTitle(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "style", true), "yAxisLabel")).build();
+
+    Chart chart = ChartStyle_Behavior.call_buildChart_6638345083848028113(SLinkOperations.getTarget(thisNode, "style", true), StyleManager.ChartType.Bar, BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "x", false), "virtual_getColumnName_7335187880077215104", new Object[]{}), BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "heights", false), "virtual_getColumnName_7335187880077215104", new Object[]{}));
     chart.addSeries("series", DoublesToCollection.toCollection(BehaviorReflection.invokeVirtual((Class<double[]>) ((Class) Object.class), SLinkOperations.getTarget(thisNode, "x", false), "virtual_getDoubles_2202909375770410262", new Object[]{})), DoublesToCollection.toCollection(BehaviorReflection.invokeVirtual((Class<double[]>) ((Class) Object.class), SLinkOperations.getTarget(thisNode, "heights", false), "virtual_getDoubles_2202909375770410262", new Object[]{})));
     chart.getStyleManager().setLegendPosition(StyleManager.LegendPosition.InsideNE);
     component = new XChartPanel(chart);

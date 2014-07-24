@@ -10,7 +10,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.campagnelab.mps.xchart.lib.HelperClasses.DoublesToCollection;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import com.xeiam.xchart.Chart;
-import com.xeiam.xchart.ChartBuilder;
 import com.xeiam.xchart.StyleManager;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -36,7 +35,7 @@ public class ScatterPlot_Behavior {
       component.updateSeries("series", DoublesToCollection.toCollection(BehaviorReflection.invokeVirtual((Class<double[]>) ((Class) Object.class), SLinkOperations.getTarget(thisNode, "x", false), "virtual_getDoubles_2202909375770410262", new Object[]{})), DoublesToCollection.toCollection(BehaviorReflection.invokeVirtual((Class<double[]>) ((Class) Object.class), SLinkOperations.getTarget(thisNode, "y", false), "virtual_getDoubles_2202909375770410262", new Object[]{})));
       return component;
     }
-    Chart chart = new ChartBuilder().chartType(StyleManager.ChartType.Scatter).theme(ChartStyle_Behavior.call_getTheme_7263499363580278109(SLinkOperations.getTarget(thisNode, "style", true))).width(width).height(height).title("ScatterPlot").xAxisTitle(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "x", false), "virtual_getColumnName_7335187880077215104", new Object[]{})).yAxisTitle(BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "y", false), "virtual_getColumnName_7335187880077215104", new Object[]{})).build();
+    Chart chart = ChartStyle_Behavior.call_buildChart_6638345083848028113(SLinkOperations.getTarget(thisNode, "style", true), StyleManager.ChartType.Scatter, BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "x", false), "virtual_getColumnName_7335187880077215104", new Object[]{}), BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(thisNode, "y", false), "virtual_getColumnName_7335187880077215104", new Object[]{}));
     chart.addSeries("series", BehaviorReflection.invokeVirtual((Class<double[]>) ((Class) Object.class), SLinkOperations.getTarget(thisNode, "x", false), "virtual_getDoubles_2202909375770410262", new Object[]{}), BehaviorReflection.invokeVirtual((Class<double[]>) ((Class) Object.class), SLinkOperations.getTarget(thisNode, "y", false), "virtual_getDoubles_2202909375770410262", new Object[]{}));
     chart.getStyleManager().setLegendPosition(StyleManager.LegendPosition.InsideNE);
     component = new XChartPanel(chart);
