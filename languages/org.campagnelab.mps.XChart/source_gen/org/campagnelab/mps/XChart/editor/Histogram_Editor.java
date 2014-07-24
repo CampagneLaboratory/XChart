@@ -8,18 +8,9 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
-import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.InlineCellProvider;
-import jetbrains.mps.nodeEditor.cells.ModelAccessor;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
-import jetbrains.mps.openapi.editor.cells.CellActionType;
-import jetbrains.mps.editor.runtime.cells.EmptyCellAction;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import javax.swing.JComponent;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.editor.runtime.cells.BigCellUtil;
 
 public class Histogram_Editor extends DefaultNodeEditor {
@@ -36,8 +27,9 @@ public class Histogram_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_dnpd9w_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_dnpd9w_a0(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_dnpd9w_b0(editorContext, node));
-    editorCell.addEditorCell(this.createJComponent_dnpd9w_c0(editorContext, node));
+    editorCell.addEditorCell(this.createComponent_dnpd9w_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_dnpd9w_c0(editorContext, node));
+    editorCell.addEditorCell(this.createJComponent_dnpd9w_d0(editorContext, node));
     return editorCell;
   }
 
@@ -48,70 +40,25 @@ public class Histogram_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_dnpd9w_b0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("x");
-    provider.setNoTargetText("<no x>");
-    EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new Histogram_Editor._Inline_dnpd9w_a1a());
-    editorCell = provider.createEditorCell(editorContext);
-    if (editorCell.getRole() == null) {
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("x");
-    }
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
+  private EditorCell createComponent_dnpd9w_b0(EditorContext editorContext, SNode node) {
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "org.campagnelab.mps.XChart.editor.DataSeriesComponent");
     return editorCell;
   }
 
-  public static class _Inline_dnpd9w_a1a extends InlineCellProvider {
-    public _Inline_dnpd9w_a1a() {
-      super();
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext) {
-      return this.createEditorCell(editorContext, this.getSNode());
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createModelAccess_dnpd9w_a0b0(editorContext, node);
-    }
-
-    private EditorCell createModelAccess_dnpd9w_a0b0(final EditorContext editorContext, final SNode node) {
-      ModelAccessor modelAccessor = new ModelAccessor() {
-        public String getText() {
-          return BehaviorReflection.invokeVirtual(String.class, node, "virtual_getColumnName_7335187880077215104", new Object[]{});
-        }
-
-        public void setText(String text) {
-        }
-
-        public boolean isValidText(String text) {
-          return true;
-        }
-      };
-      EditorCell_Property editorCell = EditorCell_Property.create(editorContext, modelAccessor, node);
-      editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
-      editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
-      editorCell.setCellId("ModelAccess_dnpd9w_a0b0");
-      editorCell.setDefaultText("");
-      return editorCell;
-    }
-  }
-
-  private EditorCell createJComponent_dnpd9w_c0(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, Histogram_Editor._QueryFunction_JComponent_dnpd9w_a2a(node, editorContext), "_dnpd9w_c0");
-    editorCell.setCellId("JComponent_dnpd9w_c0");
+  private EditorCell createConstant_dnpd9w_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_dnpd9w_c0");
+    editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private static JComponent _QueryFunction_JComponent_dnpd9w_a2a(final SNode node, final EditorContext editorContext) {
+  private EditorCell createJComponent_dnpd9w_d0(EditorContext editorContext, SNode node) {
+    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, Histogram_Editor._QueryFunction_JComponent_dnpd9w_a3a(node, editorContext), "_dnpd9w_d0");
+    editorCell.setCellId("JComponent_dnpd9w_d0");
+    return editorCell;
+  }
+
+  private static JComponent _QueryFunction_JComponent_dnpd9w_a3a(final SNode node, final EditorContext editorContext) {
     return BehaviorReflection.invokeVirtual(JComponent.class, node, "virtual_getJComponent_5455899477603853704", new Object[]{});
   }
 

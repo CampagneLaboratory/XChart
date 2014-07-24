@@ -6,9 +6,23 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.action.NodeSetupContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 
 public class QueriesGenerated {
   public static void nodeFactory_NodeSetup_ColumnToDoubles_3552713013257612326(final IOperationContext operationContext, final NodeSetupContext _context) {
     SLinkOperations.setTarget(_context.getNewNode(), "file", SNodeOperations.as(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getEnclosingNode(), "org.campagnelab.mps.XChart.structure.FileRef", true, false), "file", false), "org.campagnelab.mps.XChart.structure.DelimitedFile"), false);
+  }
+
+  public static void nodeFactory_NodeSetup_DataSeries_6638345083853732928(final IOperationContext operationContext, final NodeSetupContext _context) {
+    SNode another = ListSequence.fromList(SNodeOperations.getDescendants(_context.getEnclosingNode(), "org.campagnelab.mps.XChart.structure.DataSeries", false, new String[]{})).findFirst(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return ListSequence.fromList(SLinkOperations.getTargets(it, "values", true)).isNotEmpty();
+      }
+    });
+    for (SNode v : ListSequence.fromList(SLinkOperations.getTargets(another, "values", true))) {
+      ListSequence.fromList(SLinkOperations.getTargets(_context.getNewNode(), "values", true)).addElement(SNodeOperations.copyNode(v));
+    }
   }
 }

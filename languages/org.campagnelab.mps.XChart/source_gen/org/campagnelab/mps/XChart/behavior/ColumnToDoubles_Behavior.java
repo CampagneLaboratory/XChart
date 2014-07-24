@@ -5,12 +5,8 @@ package org.campagnelab.mps.XChart.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.File;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import java.util.ArrayList;
-import java.io.IOException;
+import org.campagnelab.mps.xchart.lib.HelperClasses.ColumnLoader;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
@@ -23,55 +19,17 @@ public class ColumnToDoubles_Behavior {
     if (cached != null) {
       return cached;
     }
-    BufferedReader reader = null;
-    if (SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "file", false), "path") == null) {
-      return new double[0];
+    String delimiter = "\t";
+    {
+      SNode dFile = SLinkOperations.getTarget(thisNode, "file", false);
+      if (SNodeOperations.isInstanceOf(dFile, "org.campagnelab.mps.XChart.structure.DelimitedFile")) {
+        delimiter = SPropertyOperations.getString(dFile, "delimitor");
+      }
     }
-    try {
-      reader = new BufferedReader(new FileReader(new File(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "file", false), "path"))));
-      String header = reader.readLine();
-      String delimiter = "\t";
-      {
-        SNode dFile = SLinkOperations.getTarget(thisNode, "file", false);
-        if (SNodeOperations.isInstanceOf(dFile, "org.campagnelab.mps.XChart.structure.DelimitedFile")) {
-          delimiter = SPropertyOperations.getString(dFile, "delimitor");
-        }
-      }
-      String[] columns = header.split(delimiter);
-      int index = -1;
-      for (String col : columns) {
-        index += 1;
-        if (SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "column", false), "name").equalsIgnoreCase(col)) {
-          break;
-        }
-      }
-      if (index == -1) {
-        return new double[0];
-      }
-      String line = null;
-      ArrayList<String> list = new ArrayList<String>();
+    double[] result = ColumnLoader.load(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "file", false), "path"), SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "column", false), "name"), delimiter);
+    thisNode.putUserObject(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "file", false), "path") + SLinkOperations.getTarget(thisNode, "column", false), result);
+    return result;
 
-      while ((line = reader.readLine()) != null) {
-        String[] values = line.split(delimiter);
-        list.add(values[index]);
-      }
-      double[] result = new double[list.size()];
-      int i = 0;
-      for (String element : list) {
-        result[i++] = Double.parseDouble(element);
-      }
-      thisNode.putUserObject(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "file", false), "path") + SLinkOperations.getTarget(thisNode, "column", false), result);
-      return result;
-    } catch (IOException exception) {
-      return new double[0];
-    } finally {
-      try {
-        if (reader != null) {
-          reader.close();
-        }
-      } catch (IOException e) {
-      }
-    }
   }
 
   public static String virtual_getColumnName_7335187880077215104(SNode thisNode) {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="49" endPosition="0" unitName="org.campagnelab.mps.XChart.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="53" endPosition="0" unitName="org.campagnelab.mps.XChart.structure.StructureAspectDescriptor" />
   <root nodeRef="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)/7263499363580132749">
     <nodeInfo nodeId="7263499363580132749" fileName="ChartTheme.java" startLine="14" startPosition="0" endLine="15" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
     <nodeInfo nodeId="7263499363580132749" fileName="ChartTheme.java" startLine="16" startPosition="27" endLine="17" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

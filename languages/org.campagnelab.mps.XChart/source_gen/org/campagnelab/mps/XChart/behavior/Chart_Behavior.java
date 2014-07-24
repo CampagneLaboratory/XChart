@@ -5,8 +5,10 @@ package org.campagnelab.mps.XChart.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import com.xeiam.xchart.XChartPanel;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import com.xeiam.xchart.XChartPanel;
 import javax.swing.JComponent;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
@@ -15,6 +17,30 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 public class Chart_Behavior {
   public static void init(SNode thisNode) {
     SLinkOperations.setTarget(thisNode, "style", SConceptOperations.createNewNode("org.campagnelab.mps.XChart.structure.ChartStyle", null), true);
+  }
+
+  public static void call_addSeries_6638345083849971954(SNode thisNode, String seriesName, String... valueNames) {
+    SNode series = Chart_Behavior.call_createNewSeries_6638345083852264294(thisNode, seriesName, valueNames);
+    ListSequence.fromList(SLinkOperations.getTargets(thisNode, "dataSeries", true)).addElement(series);
+  }
+
+  public static SNode call_createNewSeries_6638345083852264294(SNode thisNode, String seriesName, String... valueNames) {
+    SNode series = SConceptOperations.createNewNode("org.campagnelab.mps.XChart.structure.DataSeries", null);
+    SPropertyOperations.set(series, "name", seriesName);
+    for (String value : valueNames) {
+      SNode ref = SConceptOperations.createNewNode("org.campagnelab.mps.XChart.structure.DoublesReference", null);
+      SPropertyOperations.set(ref, "name", value);
+      ListSequence.fromList(SLinkOperations.getTargets(series, "values", true)).addElement(ref);
+    }
+    return series;
+  }
+
+  public static SNode call_series_6638345083850011770(SNode thisNode, final String name) {
+    return ListSequence.fromList(SLinkOperations.getTargets(thisNode, "dataSeries", true)).findFirst(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SPropertyOperations.getString(it, "name").equals(name);
+      }
+    });
   }
 
   public static XChartPanel virtual_getComponentInternal_7263499363579573717(SNode thisNode) {

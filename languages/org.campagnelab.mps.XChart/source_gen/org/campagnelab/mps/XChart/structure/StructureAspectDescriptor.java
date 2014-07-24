@@ -14,9 +14,9 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.BarChart").super_("org.campagnelab.mps.XChart.structure.Chart").parents("org.campagnelab.mps.XChart.structure.Chart").references("x", "heights").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.BarChart").super_("org.campagnelab.mps.XChart.structure.Chart").parents("org.campagnelab.mps.XChart.structure.Chart").create();
       case 1:
-        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.Chart").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"style"}, new boolean[]{false}).abstract_().alias("chart", "A Chart").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.Chart").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").children(new String[]{"style", "dataSeries"}, new boolean[]{false, true}).abstract_().alias("chart", "A Chart").create();
       case 2:
         return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.ChartStyle").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").properties("width", "height", "xAxisLabel", "yAxisLabel", "theme", "title").create();
       case 3:
@@ -26,23 +26,27 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 5:
         return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.DataFile").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").properties("path").children(new String[]{"columns"}, new boolean[]{true}).alias("", "A data file").create();
       case 6:
-        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.DelimitedFile").super_("org.campagnelab.mps.XChart.structure.DataFile").parents("org.campagnelab.mps.XChart.structure.DataFile").properties("delimitor").alias("delimited-file", "File with column delimited by some character").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.DataSeries").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"values"}, new boolean[]{true}).create();
       case 7:
-        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.Doubles").interface_().create();
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.DelimitedFile").super_("org.campagnelab.mps.XChart.structure.DataFile").parents("org.campagnelab.mps.XChart.structure.DataFile").properties("delimitor").alias("delimited-file", "File with column delimited by some character").create();
       case 8:
-        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.FileRef").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.ScopeProvider").references("file").children(new String[]{"selectedColumns"}, new boolean[]{true}).create();
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.Doubles").interface_().create();
       case 9:
-        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.Histogram").super_("org.campagnelab.mps.XChart.structure.Chart").parents("org.campagnelab.mps.XChart.structure.Chart").references("x").alias("Histogram", "").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.DoublesReference").super_("jetbrains.mps.baseLanguage.structure.Expression").parents("jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.lang.core.structure.INamedConcept").references("doubles").create();
       case 10:
-        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.Page").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.ScopeProvider").children(new String[]{"columns", "charts"}, new boolean[]{true, true}).alias("Page", "A 2D page where to view diagrams").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.FileRef").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.ScopeProvider").references("file").children(new String[]{"selectedColumns"}, new boolean[]{true}).create();
       case 11:
-        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.ScatterPlot").super_("org.campagnelab.mps.XChart.structure.Chart").parents("org.campagnelab.mps.XChart.structure.Chart").references("x", "y").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.Histogram").super_("org.campagnelab.mps.XChart.structure.Chart").parents("org.campagnelab.mps.XChart.structure.Chart").references("x").alias("Histogram", "").create();
       case 12:
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.Page").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.ScopeProvider", "jetbrains.mps.execution.util.structure.IMainClass", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"columns", "charts"}, new boolean[]{true, true}).alias("Page", "A 2D page where to view diagrams").create();
+      case 13:
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.ScatterPlot").super_("org.campagnelab.mps.XChart.structure.Chart").parents("org.campagnelab.mps.XChart.structure.Chart").create();
+      case 14:
         return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.Tsvfile").super_("org.campagnelab.mps.XChart.structure.DelimitedFile").parents("org.campagnelab.mps.XChart.structure.DelimitedFile").alias("TSV", "Tab delimited file").create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
 
-  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.mps.XChart.structure.BarChart", "org.campagnelab.mps.XChart.structure.Chart", "org.campagnelab.mps.XChart.structure.ChartStyle", "org.campagnelab.mps.XChart.structure.Column", "org.campagnelab.mps.XChart.structure.ColumnToDoubles", "org.campagnelab.mps.XChart.structure.DataFile", "org.campagnelab.mps.XChart.structure.DelimitedFile", "org.campagnelab.mps.XChart.structure.Doubles", "org.campagnelab.mps.XChart.structure.FileRef", "org.campagnelab.mps.XChart.structure.Histogram", "org.campagnelab.mps.XChart.structure.Page", "org.campagnelab.mps.XChart.structure.ScatterPlot", "org.campagnelab.mps.XChart.structure.Tsvfile"};
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"org.campagnelab.mps.XChart.structure.BarChart", "org.campagnelab.mps.XChart.structure.Chart", "org.campagnelab.mps.XChart.structure.ChartStyle", "org.campagnelab.mps.XChart.structure.Column", "org.campagnelab.mps.XChart.structure.ColumnToDoubles", "org.campagnelab.mps.XChart.structure.DataFile", "org.campagnelab.mps.XChart.structure.DataSeries", "org.campagnelab.mps.XChart.structure.DelimitedFile", "org.campagnelab.mps.XChart.structure.Doubles", "org.campagnelab.mps.XChart.structure.DoublesReference", "org.campagnelab.mps.XChart.structure.FileRef", "org.campagnelab.mps.XChart.structure.Histogram", "org.campagnelab.mps.XChart.structure.Page", "org.campagnelab.mps.XChart.structure.ScatterPlot", "org.campagnelab.mps.XChart.structure.Tsvfile"};
 }

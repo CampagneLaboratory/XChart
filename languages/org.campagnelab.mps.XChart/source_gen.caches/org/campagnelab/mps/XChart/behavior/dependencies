@@ -6,9 +6,11 @@
     <classNode dependClassName="com.xeiam.xchart.XChartPanel" />
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="javax.swing.JComponent" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.ChartStyle_Behavior" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Chart_Behavior" />
@@ -34,7 +36,9 @@
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.ColumnToDoubles_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Column_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.DataFile_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.DataSeries_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.DelimitedFile_BehaviorDescriptor" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.DoublesReference_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.FileRef_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Histogram_BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Page_BehaviorDescriptor" />
@@ -46,6 +50,7 @@
     <classNode dependClassName="com.xeiam.xchart.Chart" />
     <classNode dependClassName="com.xeiam.xchart.ChartBuilder" />
     <classNode dependClassName="com.xeiam.xchart.StyleManager" />
+    <classNode dependClassName="com.xeiam.xchart.XChartPanel" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
@@ -69,6 +74,8 @@
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="javax.swing.JComponent" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
@@ -88,21 +95,16 @@
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.ColumnToDoubles_Behavior" file="ColumnToDoubles_Behavior.java">
-    <classNode dependClassName="java.io.BufferedReader" />
-    <classNode dependClassName="java.io.File" />
-    <classNode dependClassName="java.io.FileReader" />
-    <classNode dependClassName="java.io.IOException" />
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Double" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
+    <classNode dependClassName="org.campagnelab.mps.xchart.lib.HelperClasses.ColumnLoader" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.ColumnToDoubles_BehaviorDescriptor" file="ColumnToDoubles_BehaviorDescriptor.java">
@@ -142,6 +144,16 @@
     <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
+  <dependency className="org.campagnelab.mps.XChart.behavior.DataSeries_BehaviorDescriptor" file="DataSeries_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.DelimitedFile_Behavior" file="DelimitedFile_Behavior.java">
     <classNode dependClassName="java.io.BufferedReader" />
     <classNode dependClassName="java.io.File" />
@@ -155,6 +167,16 @@
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.DataFile_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="org.campagnelab.mps.XChart.behavior.DoublesReference_BehaviorDescriptor" file="DoublesReference_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Doubles_Behavior" file="Doubles_Behavior.java">
@@ -203,10 +225,12 @@
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Double" />
     <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="javax.swing.JComponent" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.ChartStyle_Behavior" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Chart_Behavior" />
@@ -228,7 +252,11 @@
   <dependency className="org.campagnelab.mps.XChart.behavior.Page_BehaviorDescriptor" file="Page_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.execution.util.behavior.IMainClass_Behavior" />
+    <classNode dependClassName="jetbrains.mps.execution.util.behavior.IMainClass_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.ScopeProvider_Behavior" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.ScopeProvider_BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.scope.Scope" />
@@ -241,18 +269,19 @@
     <classNode dependClassName="com.xeiam.xchart.StyleManager" />
     <classNode dependClassName="com.xeiam.xchart.XChartPanel" />
     <classNode dependClassName="java.lang.Class" />
-    <classNode dependClassName="java.lang.ClassCastException" />
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="javax.swing.JComponent" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.ChartStyle_Behavior" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Chart_Behavior" />
     <classNode dependClassName="org.campagnelab.mps.xchart.lib.HelperClasses.DoublesToCollection" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>

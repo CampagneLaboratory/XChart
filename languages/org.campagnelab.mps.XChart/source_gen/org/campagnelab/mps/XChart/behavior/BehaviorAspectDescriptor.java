@@ -12,9 +12,9 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
-      case 7:
+      case 9:
         return new Histogram_BehaviorDescriptor();
-      case 5:
+      case 6:
         return new DelimitedFile_BehaviorDescriptor();
       case 4:
         return new DataFile_BehaviorDescriptor();
@@ -22,22 +22,26 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
         return new Column_BehaviorDescriptor();
       case 3:
         return new ColumnToDoubles_BehaviorDescriptor();
-      case 10:
+      case 12:
         return new Tsvfile_BehaviorDescriptor();
-      case 8:
+      case 10:
         return new Page_BehaviorDescriptor();
-      case 9:
+      case 11:
         return new ScatterPlot_BehaviorDescriptor();
-      case 6:
+      case 8:
         return new FileRef_BehaviorDescriptor();
       case 1:
         return new ChartStyle_BehaviorDescriptor();
       case 0:
         return new BarChart_BehaviorDescriptor();
+      case 5:
+        return new DataSeries_BehaviorDescriptor();
+      case 7:
+        return new DoublesReference_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.mps.XChart.structure.BarChart", "org.campagnelab.mps.XChart.structure.ChartStyle", "org.campagnelab.mps.XChart.structure.Column", "org.campagnelab.mps.XChart.structure.ColumnToDoubles", "org.campagnelab.mps.XChart.structure.DataFile", "org.campagnelab.mps.XChart.structure.DelimitedFile", "org.campagnelab.mps.XChart.structure.FileRef", "org.campagnelab.mps.XChart.structure.Histogram", "org.campagnelab.mps.XChart.structure.Page", "org.campagnelab.mps.XChart.structure.ScatterPlot", "org.campagnelab.mps.XChart.structure.Tsvfile"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"org.campagnelab.mps.XChart.structure.BarChart", "org.campagnelab.mps.XChart.structure.ChartStyle", "org.campagnelab.mps.XChart.structure.Column", "org.campagnelab.mps.XChart.structure.ColumnToDoubles", "org.campagnelab.mps.XChart.structure.DataFile", "org.campagnelab.mps.XChart.structure.DataSeries", "org.campagnelab.mps.XChart.structure.DelimitedFile", "org.campagnelab.mps.XChart.structure.DoublesReference", "org.campagnelab.mps.XChart.structure.FileRef", "org.campagnelab.mps.XChart.structure.Histogram", "org.campagnelab.mps.XChart.structure.Page", "org.campagnelab.mps.XChart.structure.ScatterPlot", "org.campagnelab.mps.XChart.structure.Tsvfile"};
 }

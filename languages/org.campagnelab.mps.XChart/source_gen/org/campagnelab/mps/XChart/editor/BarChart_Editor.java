@@ -8,21 +8,12 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
-import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.InlineCellProvider;
-import jetbrains.mps.nodeEditor.cells.ModelAccessor;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
-import jetbrains.mps.openapi.editor.cells.CellActionType;
-import jetbrains.mps.editor.runtime.cells.EmptyCellAction;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import javax.swing.JComponent;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.editor.runtime.cells.BigCellUtil;
 
 public class BarChart_Editor extends DefaultNodeEditor {
@@ -39,166 +30,48 @@ public class BarChart_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_89i1cg_a");
     editorCell.setBig(true);
     editorCell.addEditorCell(this.createConstant_89i1cg_a0(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_89i1cg_b0(editorContext, node));
+    editorCell.addEditorCell(this.createComponent_89i1cg_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_89i1cg_c0(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_89i1cg_d0(editorContext, node));
+    editorCell.addEditorCell(this.createJComponent_89i1cg_d0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_89i1cg_e0(editorContext, node));
-    editorCell.addEditorCell(this.createJComponent_89i1cg_f0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_89i1cg_g0(editorContext, node));
     return editorCell;
   }
 
   private EditorCell createConstant_89i1cg_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Scatter Plot");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Bar Chart");
     editorCell.setCellId("Constant_89i1cg_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefCell_89i1cg_b0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("x");
-    provider.setNoTargetText("<no x>");
-    EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new BarChart_Editor._Inline_89i1cg_a1a());
-    editorCell = provider.createEditorCell(editorContext);
-    if (editorCell.getRole() == null) {
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("x");
-    }
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
+  private EditorCell createComponent_89i1cg_b0(EditorContext editorContext, SNode node) {
+    EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "org.campagnelab.mps.XChart.editor.DataSeriesComponent");
     return editorCell;
   }
 
-  public static class _Inline_89i1cg_a1a extends InlineCellProvider {
-    public _Inline_89i1cg_a1a() {
-      super();
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext) {
-      return this.createEditorCell(editorContext, this.getSNode());
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createModelAccess_89i1cg_a0b0(editorContext, node);
-    }
-
-    private EditorCell createModelAccess_89i1cg_a0b0(final EditorContext editorContext, final SNode node) {
-      ModelAccessor modelAccessor = new ModelAccessor() {
-        public String getText() {
-          return BehaviorReflection.invokeVirtual(String.class, node, "virtual_getColumnName_7335187880077215104", new Object[]{});
-        }
-
-        public void setText(String text) {
-        }
-
-        public boolean isValidText(String text) {
-          return true;
-        }
-      };
-      EditorCell_Property editorCell = EditorCell_Property.create(editorContext, modelAccessor, node);
-      editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
-      editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
-      editorCell.setCellId("ModelAccess_89i1cg_a0b0");
-      editorCell.setDefaultText("");
-      return editorCell;
-    }
-  }
-
   private EditorCell createConstant_89i1cg_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "vs");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_89i1cg_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefCell_89i1cg_d0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("heights");
-    provider.setNoTargetText("<no heights>");
-    EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new BarChart_Editor._Inline_89i1cg_a3a());
-    editorCell = provider.createEditorCell(editorContext);
-    if (editorCell.getRole() == null) {
-      editorCell.setReferenceCell(true);
-      editorCell.setRole("heights");
-    }
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
-  }
-
-  public static class _Inline_89i1cg_a3a extends InlineCellProvider {
-    public _Inline_89i1cg_a3a() {
-      super();
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext) {
-      return this.createEditorCell(editorContext, this.getSNode());
-    }
-
-    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createModelAccess_89i1cg_a0d0(editorContext, node);
-    }
-
-    private EditorCell createModelAccess_89i1cg_a0d0(final EditorContext editorContext, final SNode node) {
-      ModelAccessor modelAccessor = new ModelAccessor() {
-        public String getText() {
-          return BehaviorReflection.invokeVirtual(String.class, node, "virtual_getColumnName_7335187880077215104", new Object[]{});
-        }
-
-        public void setText(String text) {
-        }
-
-        public boolean isValidText(String text) {
-          return true;
-        }
-      };
-      EditorCell_Property editorCell = EditorCell_Property.create(editorContext, modelAccessor, node);
-      editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());
-      editorCell.setAction(CellActionType.BACKSPACE, EmptyCellAction.getInstance());
-      editorCell.setCellId("ModelAccess_89i1cg_a0d0");
-      editorCell.setDefaultText("");
-      return editorCell;
-    }
-  }
-
-  private EditorCell createConstant_89i1cg_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_89i1cg_e0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createJComponent_89i1cg_f0(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, BarChart_Editor._QueryFunction_JComponent_89i1cg_a5a(node, editorContext), "_89i1cg_f0");
-    editorCell.setCellId("JComponent_89i1cg_f0");
+  private EditorCell createJComponent_89i1cg_d0(EditorContext editorContext, SNode node) {
+    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, BarChart_Editor._QueryFunction_JComponent_89i1cg_a3a(node, editorContext), "_89i1cg_d0");
+    editorCell.setCellId("JComponent_89i1cg_d0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
     editorCell.getStyle().putAll(style);
     return editorCell;
   }
 
-  private static JComponent _QueryFunction_JComponent_89i1cg_a5a(final SNode node, final EditorContext editorContext) {
+  private static JComponent _QueryFunction_JComponent_89i1cg_a3a(final SNode node, final EditorContext editorContext) {
     return BehaviorReflection.invokeVirtual(JComponent.class, node, "virtual_getJComponent_5455899477603853704", new Object[]{});
   }
 
-  private EditorCell createConstant_89i1cg_g0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_89i1cg_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_89i1cg_g0");
+    editorCell.setCellId("Constant_89i1cg_e0");
     editorCell.setDefaultText("");
     return editorCell;
   }

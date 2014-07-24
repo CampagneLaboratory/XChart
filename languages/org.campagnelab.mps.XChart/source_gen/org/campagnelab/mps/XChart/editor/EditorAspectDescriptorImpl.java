@@ -26,14 +26,18 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 4:
         return Collections.<ConceptEditor>singletonList(new ColumnToDoubles_Editor());
       case 5:
-        return Collections.<ConceptEditor>singletonList(new Doubles_Editor());
+        return Collections.<ConceptEditor>singletonList(new DataSeries_Editor());
       case 6:
-        return Collections.<ConceptEditor>singletonList(new FileRef_Editor());
+        return Collections.<ConceptEditor>singletonList(new Doubles_Editor());
       case 7:
-        return Collections.<ConceptEditor>singletonList(new Histogram_Editor());
+        return Collections.<ConceptEditor>singletonList(new DoublesReference_Editor());
       case 8:
-        return Collections.<ConceptEditor>singletonList(new Page_Editor());
+        return Collections.<ConceptEditor>singletonList(new FileRef_Editor());
       case 9:
+        return Collections.<ConceptEditor>singletonList(new Histogram_Editor());
+      case 10:
+        return Collections.<ConceptEditor>singletonList(new Page_Editor());
+      case 11:
         return Collections.<ConceptEditor>singletonList(new ScatterPlot_Editor());
       default:
     }
@@ -43,8 +47,12 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   public Collection<ConceptEditorComponent> getEditorComponents(ConceptDescriptor descriptor, String editorComponentId) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0c, descriptor.getConceptFqName())) {
       case 0:
-        if ("org.campagnelab.mps.XChart.editor.ChartDimensions".equals(editorComponentId)) {
-          return Collections.<ConceptEditorComponent>singletonList(new ChartDimensions());
+        switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a0a2, editorComponentId)) {
+          case 0:
+            return Collections.<ConceptEditorComponent>singletonList(new ChartDimensions());
+          case 1:
+            return Collections.<ConceptEditorComponent>singletonList(new DataSeriesComponent());
+          default:
         }
         break;
       default:
@@ -54,6 +62,7 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.mps.XChart.structure.BarChart", "org.campagnelab.mps.XChart.structure.Chart", "org.campagnelab.mps.XChart.structure.ChartStyle", "org.campagnelab.mps.XChart.structure.Column", "org.campagnelab.mps.XChart.structure.ColumnToDoubles", "org.campagnelab.mps.XChart.structure.Doubles", "org.campagnelab.mps.XChart.structure.FileRef", "org.campagnelab.mps.XChart.structure.Histogram", "org.campagnelab.mps.XChart.structure.Page", "org.campagnelab.mps.XChart.structure.ScatterPlot"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"org.campagnelab.mps.XChart.structure.BarChart", "org.campagnelab.mps.XChart.structure.Chart", "org.campagnelab.mps.XChart.structure.ChartStyle", "org.campagnelab.mps.XChart.structure.Column", "org.campagnelab.mps.XChart.structure.ColumnToDoubles", "org.campagnelab.mps.XChart.structure.DataSeries", "org.campagnelab.mps.XChart.structure.Doubles", "org.campagnelab.mps.XChart.structure.DoublesReference", "org.campagnelab.mps.XChart.structure.FileRef", "org.campagnelab.mps.XChart.structure.Histogram", "org.campagnelab.mps.XChart.structure.Page", "org.campagnelab.mps.XChart.structure.ScatterPlot"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0a0a2 = new String[]{"org.campagnelab.mps.XChart.editor.ChartDimensions", "org.campagnelab.mps.XChart.editor.DataSeriesComponent"};
   private static String[] stringSwitchCases_xbvbvu_a0a0c = new String[]{"org.campagnelab.mps.XChart.structure.Chart"};
 }

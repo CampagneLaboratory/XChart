@@ -7,12 +7,16 @@ import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
+import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.smodel.IOperationContext;
+import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -29,22 +33,52 @@ public class Page_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_twirny_a");
     editorCell.setBig(true);
-    editorCell.addEditorCell(this.createConstant_twirny_a0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_twirny_b0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_twirny_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_twirny_b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_twirny_c0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_twirny_d0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_twirny_e0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_twirny_f0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_twirny_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "look in these files:");
-    editorCell.setCellId("Constant_twirny_a0");
+  private EditorCell createProperty_twirny_a0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("name");
+    provider.setNoTargetText("<no name>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_name");
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createConstant_twirny_b0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_twirny_b0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_twirny_b0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new Page_Editor.columnsListHandler_twirny_b0(node, "columns", editorContext);
+  private EditorCell createConstant_twirny_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "look in these files:");
+    editorCell.setCellId("Constant_twirny_c0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createRefNodeList_twirny_d0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new Page_Editor.columnsListHandler_twirny_d0(node, "columns", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_columns");
     Style style = new StyleImpl();
@@ -54,8 +88,8 @@ public class Page_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class columnsListHandler_twirny_b0 extends RefNodeListHandler {
-    public columnsListHandler_twirny_b0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class columnsListHandler_twirny_d0 extends RefNodeListHandler {
+    public columnsListHandler_twirny_d0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -91,9 +125,9 @@ public class Page_Editor extends DefaultNodeEditor {
     }
   }
 
-  private EditorCell createConstant_twirny_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_twirny_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "-------");
-    editorCell.setCellId("Constant_twirny_c0");
+    editorCell.setCellId("Constant_twirny_e0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
     editorCell.getStyle().putAll(style);
@@ -101,8 +135,8 @@ public class Page_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_twirny_d0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new Page_Editor.chartsListHandler_twirny_d0(node, "charts", editorContext);
+  private EditorCell createRefNodeList_twirny_f0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new Page_Editor.chartsListHandler_twirny_f0(node, "charts", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_charts");
     Style style = new StyleImpl();
@@ -112,8 +146,8 @@ public class Page_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class chartsListHandler_twirny_d0 extends RefNodeListHandler {
-    public chartsListHandler_twirny_d0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class chartsListHandler_twirny_f0 extends RefNodeListHandler {
+    public chartsListHandler_twirny_f0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

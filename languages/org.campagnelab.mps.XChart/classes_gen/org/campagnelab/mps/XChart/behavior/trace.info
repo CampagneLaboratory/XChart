@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <unitInfo fileName="BarChart_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.BarChart_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="44" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="48" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="ChartStyle_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.ChartStyle_BehaviorDescriptor" />
   <unitInfo fileName="Chart_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="25" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Chart_BehaviorDescriptor" />
   <unitInfo fileName="ColumnToDoubles_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="36" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.ColumnToDoubles_BehaviorDescriptor" />
   <unitInfo fileName="Column_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Column_BehaviorDescriptor" />
   <unitInfo fileName="DataFile_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.DataFile_BehaviorDescriptor" />
+  <unitInfo fileName="DataSeries_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.DataSeries_BehaviorDescriptor" />
   <unitInfo fileName="DelimitedFile_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.DelimitedFile_BehaviorDescriptor" />
+  <unitInfo fileName="DoublesReference_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="23" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.DoublesReference_BehaviorDescriptor" />
   <unitInfo fileName="Doubles_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="12" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Doubles_BehaviorDescriptor" />
   <unitInfo fileName="FileRef_BehaviorDescriptor.java" startLine="10" startPosition="0" endLine="27" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.FileRef_BehaviorDescriptor" />
   <unitInfo fileName="Histogram_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Histogram_BehaviorDescriptor" />
-  <unitInfo fileName="Page_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Page_BehaviorDescriptor" />
+  <unitInfo fileName="Page_BehaviorDescriptor.java" startLine="15" startPosition="0" endLine="44" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Page_BehaviorDescriptor" />
   <unitInfo fileName="ScatterPlot_BehaviorDescriptor.java" startLine="8" startPosition="0" endLine="21" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.ScatterPlot_BehaviorDescriptor" />
   <unitInfo fileName="Tsvfile_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Tsvfile_BehaviorDescriptor" />
   <root nodeRef="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/2202909375770435121">
@@ -68,117 +70,57 @@
     <unitInfo nodeId="2202909375770435121" fileName="Doubles_Behavior.java" startLine="10" startPosition="0" endLine="48" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Doubles_Behavior" />
   </root>
   <root nodeRef="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/2202909375770436533">
-    <nodeInfo nodeId="5270176140465296352" fileName="ColumnToDoubles_Behavior.java" startLine="21" startPosition="81" endLine="22" endPosition="202" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5270176140465305122" fileName="ColumnToDoubles_Behavior.java" startLine="23" startPosition="25" endLine="24" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2202909375771306699" fileName="ColumnToDoubles_Behavior.java" startLine="25" startPosition="5" endLine="26" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7335187880077756013" fileName="ColumnToDoubles_Behavior.java" startLine="27" startPosition="108" endLine="28" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2202909375771285941" fileName="ColumnToDoubles_Behavior.java" startLine="30" startPosition="9" endLine="31" endPosition="151" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2202909375770913972" fileName="ColumnToDoubles_Behavior.java" startLine="31" startPosition="151" endLine="32" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3552713013257920139" fileName="ColumnToDoubles_Behavior.java" startLine="32" startPosition="40" endLine="33" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3552713013258023306" fileName="ColumnToDoubles_Behavior.java" startLine="34" startPosition="7" endLine="35" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="3552713013258045556" fileName="ColumnToDoubles_Behavior.java" startLine="36" startPosition="104" endLine="37" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2202909375770927221" fileName="ColumnToDoubles_Behavior.java" startLine="39" startPosition="7" endLine="40" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2202909375770956582" fileName="ColumnToDoubles_Behavior.java" startLine="40" startPosition="49" endLine="41" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2202909375770967740" fileName="ColumnToDoubles_Behavior.java" startLine="42" startPosition="34" endLine="43" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2202909375770973574" fileName="ColumnToDoubles_Behavior.java" startLine="44" startPosition="128" endLine="45" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
-    <nodeInfo nodeId="2202909375770983556" fileName="ColumnToDoubles_Behavior.java" startLine="48" startPosition="24" endLine="49" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2202909375770998871" fileName="ColumnToDoubles_Behavior.java" startLine="50" startPosition="7" endLine="51" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2202909375771096094" fileName="ColumnToDoubles_Behavior.java" startLine="51" startPosition="25" endLine="52" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2202909375771089958" fileName="ColumnToDoubles_Behavior.java" startLine="52" startPosition="55" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="2202909375771071325" fileName="ColumnToDoubles_Behavior.java" startLine="54" startPosition="50" endLine="55" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2202909375771098910" fileName="ColumnToDoubles_Behavior.java" startLine="55" startPosition="48" endLine="56" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2202909375771111294" fileName="ColumnToDoubles_Behavior.java" startLine="57" startPosition="7" endLine="58" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2202909375771187132" fileName="ColumnToDoubles_Behavior.java" startLine="58" startPosition="48" endLine="59" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2202909375771177544" fileName="ColumnToDoubles_Behavior.java" startLine="60" startPosition="35" endLine="61" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5270176140465318339" fileName="ColumnToDoubles_Behavior.java" startLine="62" startPosition="7" endLine="63" endPosition="183" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2202909375771207448" fileName="ColumnToDoubles_Behavior.java" startLine="63" startPosition="183" endLine="64" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="3597430320022509532" fileName="ColumnToDoubles_Behavior.java" startLine="65" startPosition="37" endLine="66" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2202909375771323902" fileName="ColumnToDoubles_Behavior.java" startLine="69" startPosition="29" endLine="70" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="4089421369806397852" fileName="ColumnToDoubles_Behavior.java" startLine="77" startPosition="82" endLine="78" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="82" startPosition="79" endLine="83" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="87" startPosition="112" endLine="88" endPosition="263" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="18" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="5270176140465258439" fileName="ColumnToDoubles_Behavior.java" startLine="22" startPosition="202" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7335187880077744003" fileName="ColumnToDoubles_Behavior.java" startLine="26" startPosition="33" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="3552713013258023306" fileName="ColumnToDoubles_Behavior.java" startLine="35" startPosition="73" endLine="38" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2202909375770955065" fileName="ColumnToDoubles_Behavior.java" startLine="43" startPosition="19" endLine="46" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2202909375770979581" fileName="ColumnToDoubles_Behavior.java" startLine="47" startPosition="7" endLine="50" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2202909375771216897" fileName="ColumnToDoubles_Behavior.java" startLine="59" startPosition="16" endLine="62" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="2202909375770540895" fileName="ColumnToDoubles_Behavior.java" startLine="68" startPosition="11" endLine="71" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="77" startPosition="0" endLine="80" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getColumnName_7335187880077215104#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-    <nodeInfo nodeId="2202909375771045752" fileName="ColumnToDoubles_Behavior.java" startLine="53" startPosition="0" endLine="57" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
-    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="81" startPosition="0" endLine="85" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getColumnName_4089421369806385653#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
-    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="86" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getColumnName_4089421369806385653#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljava/lang/String;" />
-    <nodeInfo nodeId="3552713013258023306" fileName="ColumnToDoubles_Behavior.java" startLine="33" startPosition="30" endLine="39" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
-    <nodeInfo nodeId="2202909375770953215" fileName="ColumnToDoubles_Behavior.java" startLine="41" startPosition="21" endLine="47" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
-    <nodeInfo nodeId="2202909375770538551" fileName="ColumnToDoubles_Behavior.java" startLine="67" startPosition="15" endLine="73" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="2202909375770531274" fileName="ColumnToDoubles_Behavior.java" startLine="29" startPosition="5" endLine="74" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryStatement" />
-    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="21" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getDoubles_2202909375770410262#(Lorg/jetbrains/mps/openapi/model/SNode;)[D" />
-    <scopeInfo nodeId="2202909375770436535" fileName="ColumnToDoubles_Behavior.java" startLine="18" startPosition="43" endLine="18" endPosition="43" />
-    <scopeInfo nodeId="2202909375770538554" fileName="ColumnToDoubles_Behavior.java" startLine="72" startPosition="0" endLine="72" endPosition="31">
-      <varInfo nodeId="2202909375770538556" varName="e" />
-    </scopeInfo>
-    <scopeInfo nodeId="2202909375770538560" fileName="ColumnToDoubles_Behavior.java" startLine="72" startPosition="31" endLine="72" endPosition="31" />
-    <scopeInfo nodeId="5270176140465258442" fileName="ColumnToDoubles_Behavior.java" startLine="23" startPosition="25" endLine="24" endPosition="20" />
-    <scopeInfo nodeId="7335187880077744006" fileName="ColumnToDoubles_Behavior.java" startLine="27" startPosition="108" endLine="28" endPosition="27" />
-    <scopeInfo nodeId="3552713013258023310" fileName="ColumnToDoubles_Behavior.java" startLine="36" startPosition="104" endLine="37" endPosition="72" />
-    <scopeInfo nodeId="2202909375770955066" fileName="ColumnToDoubles_Behavior.java" startLine="44" startPosition="128" endLine="45" endPosition="16" />
-    <scopeInfo nodeId="2202909375770979584" fileName="ColumnToDoubles_Behavior.java" startLine="48" startPosition="24" endLine="49" endPosition="29" />
-    <scopeInfo nodeId="2202909375771216900" fileName="ColumnToDoubles_Behavior.java" startLine="60" startPosition="35" endLine="61" endPosition="50" />
-    <scopeInfo nodeId="2202909375770444722" fileName="ColumnToDoubles_Behavior.java" startLine="65" startPosition="0" endLine="66" endPosition="27">
-      <varInfo nodeId="2202909375770444724" varName="exception" />
-    </scopeInfo>
-    <scopeInfo nodeId="2202909375770444728" fileName="ColumnToDoubles_Behavior.java" startLine="65" startPosition="37" endLine="66" endPosition="27" />
-    <scopeInfo nodeId="2202909375770540898" fileName="ColumnToDoubles_Behavior.java" startLine="69" startPosition="29" endLine="70" endPosition="25" />
-    <scopeInfo nodeId="4089421369806385657" fileName="ColumnToDoubles_Behavior.java" startLine="77" startPosition="82" endLine="78" endPosition="103" />
-    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="82" startPosition="79" endLine="83" endPosition="129" />
-    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="87" startPosition="112" endLine="88" endPosition="263" />
-    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="18" startPosition="0" endLine="20" endPosition="0">
+    <nodeInfo nodeId="5270176140465296352" fileName="ColumnToDoubles_Behavior.java" startLine="17" startPosition="81" endLine="18" endPosition="202" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5270176140465305122" fileName="ColumnToDoubles_Behavior.java" startLine="19" startPosition="25" endLine="20" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="3552713013257920139" fileName="ColumnToDoubles_Behavior.java" startLine="21" startPosition="5" endLine="22" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3552713013258023306" fileName="ColumnToDoubles_Behavior.java" startLine="23" startPosition="5" endLine="24" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="3552713013258045556" fileName="ColumnToDoubles_Behavior.java" startLine="25" startPosition="102" endLine="26" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083849638422" fileName="ColumnToDoubles_Behavior.java" startLine="28" startPosition="5" endLine="29" endPosition="235" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="5270176140465318339" fileName="ColumnToDoubles_Behavior.java" startLine="29" startPosition="235" endLine="30" endPosition="181" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083849661416" fileName="ColumnToDoubles_Behavior.java" startLine="30" startPosition="181" endLine="31" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083849642229" fileName="ColumnToDoubles_Behavior.java" startLine="31" startPosition="18" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="4089421369806397852" fileName="ColumnToDoubles_Behavior.java" startLine="35" startPosition="82" endLine="36" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="40" startPosition="79" endLine="41" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="45" startPosition="112" endLine="46" endPosition="263" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="14" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="5270176140465258439" fileName="ColumnToDoubles_Behavior.java" startLine="18" startPosition="202" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="3552713013258023306" fileName="ColumnToDoubles_Behavior.java" startLine="24" startPosition="71" endLine="27" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="35" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getColumnName_7335187880077215104#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="39" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getColumnName_4089421369806385653#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="44" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getColumnName_4089421369806385653#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljava/lang/String;" />
+    <nodeInfo nodeId="3552713013258023306" fileName="ColumnToDoubles_Behavior.java" startLine="22" startPosition="28" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="17" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getDoubles_2202909375770410262#(Lorg/jetbrains/mps/openapi/model/SNode;)[D" />
+    <scopeInfo nodeId="2202909375770436535" fileName="ColumnToDoubles_Behavior.java" startLine="14" startPosition="43" endLine="14" endPosition="43" />
+    <scopeInfo nodeId="5270176140465258442" fileName="ColumnToDoubles_Behavior.java" startLine="19" startPosition="25" endLine="20" endPosition="20" />
+    <scopeInfo nodeId="3552713013258023310" fileName="ColumnToDoubles_Behavior.java" startLine="25" startPosition="102" endLine="26" endPosition="70" />
+    <scopeInfo nodeId="4089421369806385657" fileName="ColumnToDoubles_Behavior.java" startLine="35" startPosition="82" endLine="36" endPosition="103" />
+    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="40" startPosition="79" endLine="41" endPosition="129" />
+    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="45" startPosition="112" endLine="46" endPosition="263" />
+    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="14" startPosition="0" endLine="16" endPosition="0">
       <varInfo nodeId="2202909375770436533" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="2202909375771045754" fileName="ColumnToDoubles_Behavior.java" startLine="54" startPosition="50" endLine="56" endPosition="32">
-      <varInfo nodeId="2202909375771071328" varName="values" />
-    </scopeInfo>
-    <scopeInfo nodeId="2202909375771216897" fileName="ColumnToDoubles_Behavior.java" startLine="59" startPosition="16" endLine="62" endPosition="7">
-      <varInfo nodeId="2202909375771216903" varName="element" />
-    </scopeInfo>
-    <scopeInfo nodeId="2202909375770538553" fileName="ColumnToDoubles_Behavior.java" startLine="68" startPosition="11" endLine="71" endPosition="9" />
-    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="77" startPosition="0" endLine="80" endPosition="0">
+    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="35" startPosition="0" endLine="38" endPosition="0">
       <varInfo nodeId="2202909375770436533" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="3552713013258023306" fileName="ColumnToDoubles_Behavior.java" startLine="34" startPosition="7" endLine="38" endPosition="9">
+    <scopeInfo nodeId="3552713013258023306" fileName="ColumnToDoubles_Behavior.java" startLine="23" startPosition="5" endLine="27" endPosition="7">
       <varInfo nodeId="3552713013258023306" varName="dFile" />
     </scopeInfo>
-    <scopeInfo nodeId="2202909375770953221" fileName="ColumnToDoubles_Behavior.java" startLine="42" startPosition="34" endLine="46" endPosition="9" />
-    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="81" startPosition="0" endLine="85" endPosition="0">
+    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="39" startPosition="0" endLine="43" endPosition="0">
       <varInfo nodeId="2202909375770436533" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="86" startPosition="0" endLine="90" endPosition="0">
+    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="44" startPosition="0" endLine="48" endPosition="0">
       <varInfo nodeId="2202909375770436533" varName="callerConceptFqName" />
       <varInfo nodeId="2202909375770436533" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="2202909375770953215" fileName="ColumnToDoubles_Behavior.java" startLine="41" startPosition="21" endLine="47" endPosition="7">
-      <varInfo nodeId="2202909375770953217" varName="col" />
-    </scopeInfo>
-    <scopeInfo nodeId="2202909375770531277" fileName="ColumnToDoubles_Behavior.java" startLine="67" startPosition="15" endLine="73" endPosition="7" />
-    <scopeInfo nodeId="2202909375770444721" fileName="ColumnToDoubles_Behavior.java" startLine="30" startPosition="9" endLine="64" endPosition="20">
-      <varInfo nodeId="2202909375770927224" varName="columns" />
-      <varInfo nodeId="3552713013257920142" varName="delimiter" />
-      <varInfo nodeId="2202909375770913975" varName="header" />
-      <varInfo nodeId="2202909375771187135" varName="i" />
-      <varInfo nodeId="2202909375770956585" varName="index" />
-      <varInfo nodeId="2202909375770998874" varName="line" />
-      <varInfo nodeId="2202909375771096095" varName="list" />
-      <varInfo nodeId="2202909375771111297" varName="result" />
-    </scopeInfo>
-    <scopeInfo nodeId="2202909375770436541" fileName="ColumnToDoubles_Behavior.java" startLine="21" startPosition="81" endLine="74" endPosition="5">
+    <scopeInfo nodeId="2202909375770436541" fileName="ColumnToDoubles_Behavior.java" startLine="17" startPosition="81" endLine="32" endPosition="0">
       <varInfo nodeId="5270176140465296355" varName="cached" />
-      <varInfo nodeId="2202909375771306700" varName="reader" />
+      <varInfo nodeId="3552713013257920142" varName="delimiter" />
+      <varInfo nodeId="6638345083849638425" varName="result" />
     </scopeInfo>
-    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="21" startPosition="0" endLine="76" endPosition="0">
+    <scopeInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="17" startPosition="0" endLine="34" endPosition="0">
       <varInfo nodeId="2202909375770436533" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="17" startPosition="0" endLine="91" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.ColumnToDoubles_Behavior" />
+    <unitInfo nodeId="2202909375770436533" fileName="ColumnToDoubles_Behavior.java" startLine="13" startPosition="0" endLine="49" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.ColumnToDoubles_Behavior" />
   </root>
   <root nodeRef="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/3597430320022539914">
     <nodeInfo nodeId="3597430320022539914" fileName="DataFile_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
@@ -228,138 +170,222 @@
     <unitInfo nodeId="3597430320022583658" fileName="Tsvfile_Behavior.java" startLine="8" startPosition="0" endLine="13" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Tsvfile_Behavior" />
   </root>
   <root nodeRef="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/5270176140464889350">
-    <nodeInfo nodeId="6243283334561248926" fileName="ScatterPlot_Behavior.java" startLine="21" startPosition="86" endLine="22" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6243283334561245900" fileName="ScatterPlot_Behavior.java" startLine="22" startPosition="33" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="6243283334561257413" fileName="ScatterPlot_Behavior.java" startLine="24" startPosition="9" endLine="25" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6243283334561265033" fileName="ScatterPlot_Behavior.java" startLine="26" startPosition="36" endLine="27" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6243283334561274473" fileName="ScatterPlot_Behavior.java" startLine="27" startPosition="23" endLine="28" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="2762822300284403675" fileName="ScatterPlot_Behavior.java" startLine="29" startPosition="5" endLine="30" endPosition="123" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="2762822300284409180" fileName="ScatterPlot_Behavior.java" startLine="30" startPosition="123" endLine="31" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6243283334560522955" fileName="ScatterPlot_Behavior.java" startLine="31" startPosition="125" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="6243283334560512261" fileName="ScatterPlot_Behavior.java" startLine="33" startPosition="28" endLine="34" endPosition="38" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6243283334560683554" fileName="ScatterPlot_Behavior.java" startLine="34" startPosition="38" endLine="35" endPosition="473" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6243283334560243585" fileName="ScatterPlot_Behavior.java" startLine="35" startPosition="473" endLine="36" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6638345083848494683" fileName="ScatterPlot_Behavior.java" startLine="37" startPosition="5" endLine="38" endPosition="474" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="5270176140464890604" fileName="ScatterPlot_Behavior.java" startLine="38" startPosition="474" endLine="39" endPosition="396" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5270176140464890619" fileName="ScatterPlot_Behavior.java" startLine="39" startPosition="396" endLine="40" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6243283334560259380" fileName="ScatterPlot_Behavior.java" startLine="40" startPosition="84" endLine="41" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6243283334560165786" fileName="ScatterPlot_Behavior.java" startLine="41" startPosition="39" endLine="42" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="46" startPosition="83" endLine="47" endPosition="133" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="51" startPosition="116" endLine="52" endPosition="263" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="18" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="45" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getJComponent_5270176140464889353#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
-    <nodeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getJComponent_5270176140464889353#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljavax/swing/JComponent;" />
-    <nodeInfo nodeId="6243283334560237134" fileName="ScatterPlot_Behavior.java" startLine="32" startPosition="0" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6243283334561236841" fileName="ScatterPlot_Behavior.java" startLine="23" startPosition="0" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="21" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getJComponent_5455899477603853704#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
-    <scopeInfo nodeId="5270176140464889352" fileName="ScatterPlot_Behavior.java" startLine="18" startPosition="43" endLine="18" endPosition="43" />
-    <scopeInfo nodeId="6243283334561236843" fileName="ScatterPlot_Behavior.java" startLine="24" startPosition="9" endLine="25" endPosition="68" />
-    <scopeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="46" startPosition="83" endLine="47" endPosition="133" />
-    <scopeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="51" startPosition="116" endLine="52" endPosition="263" />
-    <scopeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="18" startPosition="0" endLine="20" endPosition="0">
+    <nodeInfo nodeId="6638345083852944107" fileName="ScatterPlot_Behavior.java" startLine="20" startPosition="43" endLine="21" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083855080404" fileName="ScatterPlot_Behavior.java" startLine="24" startPosition="86" endLine="25" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6243283334560522955" fileName="ScatterPlot_Behavior.java" startLine="25" startPosition="99" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="6638345083848971375" fileName="ScatterPlot_Behavior.java" startLine="27" startPosition="28" endLine="28" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083855067372" fileName="ScatterPlot_Behavior.java" startLine="31" startPosition="43" endLine="32" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083855067393" fileName="ScatterPlot_Behavior.java" startLine="36" startPosition="43" endLine="37" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083855067403" fileName="ScatterPlot_Behavior.java" startLine="39" startPosition="30" endLine="40" endPosition="426" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083855067418" fileName="ScatterPlot_Behavior.java" startLine="40" startPosition="426" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="6243283334560243585" fileName="ScatterPlot_Behavior.java" startLine="42" startPosition="7" endLine="43" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083855114888" fileName="ScatterPlot_Behavior.java" startLine="44" startPosition="5" endLine="45" endPosition="352" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083855114924" fileName="ScatterPlot_Behavior.java" startLine="48" startPosition="41" endLine="49" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083855114945" fileName="ScatterPlot_Behavior.java" startLine="53" startPosition="41" endLine="54" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083855114955" fileName="ScatterPlot_Behavior.java" startLine="56" startPosition="28" endLine="57" endPosition="417" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083855114970" fileName="ScatterPlot_Behavior.java" startLine="58" startPosition="5" endLine="59" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6243283334560259380" fileName="ScatterPlot_Behavior.java" startLine="59" startPosition="84" endLine="60" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083848752716" fileName="ScatterPlot_Behavior.java" startLine="60" startPosition="39" endLine="61" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6243283334560165786" fileName="ScatterPlot_Behavior.java" startLine="61" startPosition="86" endLine="62" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="66" startPosition="83" endLine="67" endPosition="133" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="71" startPosition="116" endLine="72" endPosition="263" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6638345083855067370" fileName="ScatterPlot_Behavior.java" startLine="31" startPosition="0" endLine="34" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6638345083855067391" fileName="ScatterPlot_Behavior.java" startLine="36" startPosition="0" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6638345083855114922" fileName="ScatterPlot_Behavior.java" startLine="48" startPosition="0" endLine="51" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6638345083855114943" fileName="ScatterPlot_Behavior.java" startLine="53" startPosition="0" endLine="56" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="65" startPosition="0" endLine="69" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getJComponent_5270176140464889353#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
+    <nodeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="70" startPosition="0" endLine="74" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getJComponent_5270176140464889353#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljavax/swing/JComponent;" />
+    <nodeInfo nodeId="6638345083855067361" fileName="ScatterPlot_Behavior.java" startLine="29" startPosition="108" endLine="34" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083855067382" fileName="ScatterPlot_Behavior.java" startLine="34" startPosition="30" endLine="39" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083855114913" fileName="ScatterPlot_Behavior.java" startLine="46" startPosition="106" endLine="51" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083855114934" fileName="ScatterPlot_Behavior.java" startLine="51" startPosition="28" endLine="56" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083855114907" fileName="ScatterPlot_Behavior.java" startLine="45" startPosition="352" endLine="58" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6638345083855067355" fileName="ScatterPlot_Behavior.java" startLine="28" startPosition="131" endLine="42" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6243283334560237134" fileName="ScatterPlot_Behavior.java" startLine="26" startPosition="0" endLine="44" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="24" startPosition="0" endLine="64" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getJComponent_5455899477603853704#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
+    <scopeInfo nodeId="5270176140464889352" fileName="ScatterPlot_Behavior.java" startLine="20" startPosition="43" endLine="21" endPosition="82" />
+    <scopeInfo nodeId="6638345083855067371" fileName="ScatterPlot_Behavior.java" startLine="31" startPosition="43" endLine="32" endPosition="73" />
+    <scopeInfo nodeId="6638345083855067392" fileName="ScatterPlot_Behavior.java" startLine="36" startPosition="43" endLine="37" endPosition="73" />
+    <scopeInfo nodeId="6638345083855114923" fileName="ScatterPlot_Behavior.java" startLine="48" startPosition="41" endLine="49" endPosition="71" />
+    <scopeInfo nodeId="6638345083855114944" fileName="ScatterPlot_Behavior.java" startLine="53" startPosition="41" endLine="54" endPosition="71" />
+    <scopeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="66" startPosition="83" endLine="67" endPosition="133" />
+    <scopeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="71" startPosition="116" endLine="72" endPosition="263" />
+    <scopeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
       <varInfo nodeId="5270176140464889350" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="6243283334561236844" fileName="ScatterPlot_Behavior.java" startLine="26" startPosition="0" endLine="28" endPosition="53">
-      <varInfo nodeId="6243283334561236846" varName="e" />
+    <scopeInfo nodeId="6638345083855067370" fileName="ScatterPlot_Behavior.java" startLine="31" startPosition="0" endLine="34" endPosition="0">
+      <varInfo nodeId="6638345083855067370" varName="it" />
     </scopeInfo>
-    <scopeInfo nodeId="6243283334561236850" fileName="ScatterPlot_Behavior.java" startLine="26" startPosition="36" endLine="28" endPosition="53" />
-    <scopeInfo nodeId="6243283334560237137" fileName="ScatterPlot_Behavior.java" startLine="33" startPosition="28" endLine="36" endPosition="23" />
-    <scopeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="45" startPosition="0" endLine="49" endPosition="0">
+    <scopeInfo nodeId="6638345083855067391" fileName="ScatterPlot_Behavior.java" startLine="36" startPosition="0" endLine="39" endPosition="0">
+      <varInfo nodeId="6638345083855067391" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083855114922" fileName="ScatterPlot_Behavior.java" startLine="48" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="6638345083855114922" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083855114943" fileName="ScatterPlot_Behavior.java" startLine="53" startPosition="0" endLine="56" endPosition="0">
+      <varInfo nodeId="6638345083855114943" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="65" startPosition="0" endLine="69" endPosition="0">
       <varInfo nodeId="5270176140464889350" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="50" startPosition="0" endLine="54" endPosition="0">
+    <scopeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="70" startPosition="0" endLine="74" endPosition="0">
       <varInfo nodeId="5270176140464889350" varName="callerConceptFqName" />
       <varInfo nodeId="5270176140464889350" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5270176140464889360" fileName="ScatterPlot_Behavior.java" startLine="21" startPosition="86" endLine="42" endPosition="21">
-      <varInfo nodeId="6638345083848494684" varName="chart" />
-      <varInfo nodeId="6243283334561248927" varName="component" />
-      <varInfo nodeId="2762822300284409181" varName="height" />
-      <varInfo nodeId="2762822300284403678" varName="width" />
+    <scopeInfo nodeId="6638345083855114912" fileName="ScatterPlot_Behavior.java" startLine="46" startPosition="106" endLine="57" endPosition="417">
+      <varInfo nodeId="6638345083855114935" varName="heights" />
+      <varInfo nodeId="6638345083855114914" varName="x" />
     </scopeInfo>
-    <scopeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="21" startPosition="0" endLine="44" endPosition="0">
+    <scopeInfo nodeId="6638345083855067360" fileName="ScatterPlot_Behavior.java" startLine="29" startPosition="108" endLine="41" endPosition="0">
+      <varInfo nodeId="6638345083855067383" varName="heights" />
+      <varInfo nodeId="6638345083855067362" varName="x" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083855114907" fileName="ScatterPlot_Behavior.java" startLine="45" startPosition="352" endLine="58" endPosition="5">
+      <varInfo nodeId="6638345083855114908" varName="series" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083855067355" fileName="ScatterPlot_Behavior.java" startLine="28" startPosition="131" endLine="42" endPosition="7">
+      <varInfo nodeId="6638345083855067356" varName="series" />
+    </scopeInfo>
+    <scopeInfo nodeId="6243283334560237137" fileName="ScatterPlot_Behavior.java" startLine="27" startPosition="28" endLine="43" endPosition="23" />
+    <scopeInfo nodeId="5270176140464889360" fileName="ScatterPlot_Behavior.java" startLine="24" startPosition="86" endLine="62" endPosition="21">
+      <varInfo nodeId="6638345083855114889" varName="chart" />
+      <varInfo nodeId="6638345083855080405" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="24" startPosition="0" endLine="64" endPosition="0">
       <varInfo nodeId="5270176140464889350" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="17" startPosition="0" endLine="55" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.ScatterPlot_Behavior" />
+    <unitInfo nodeId="6638345083855067370" fileName="ScatterPlot_Behavior.java" startLine="30" startPosition="132" endLine="34" endPosition="9" unitName="org.campagnelab.mps.XChart.behavior.ScatterPlot_Behavior$1" />
+    <unitInfo nodeId="6638345083855067391" fileName="ScatterPlot_Behavior.java" startLine="35" startPosition="138" endLine="39" endPosition="9" unitName="org.campagnelab.mps.XChart.behavior.ScatterPlot_Behavior$2" />
+    <unitInfo nodeId="6638345083855114922" fileName="ScatterPlot_Behavior.java" startLine="47" startPosition="130" endLine="51" endPosition="7" unitName="org.campagnelab.mps.XChart.behavior.ScatterPlot_Behavior$3" />
+    <unitInfo nodeId="6638345083855114943" fileName="ScatterPlot_Behavior.java" startLine="52" startPosition="136" endLine="56" endPosition="7" unitName="org.campagnelab.mps.XChart.behavior.ScatterPlot_Behavior$4" />
+    <unitInfo nodeId="5270176140464889350" fileName="ScatterPlot_Behavior.java" startLine="19" startPosition="0" endLine="75" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.ScatterPlot_Behavior" />
   </root>
   <root nodeRef="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/5455899477603853499">
-    <nodeInfo nodeId="7263499363579415389" fileName="Chart_Behavior.java" startLine="16" startPosition="43" endLine="17" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363579577913" fileName="Chart_Behavior.java" startLine="20" startPosition="94" endLine="21" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363579577917" fileName="Chart_Behavior.java" startLine="21" startPosition="33" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="7263499363579577920" fileName="Chart_Behavior.java" startLine="23" startPosition="9" endLine="24" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363579577934" fileName="Chart_Behavior.java" startLine="25" startPosition="36" endLine="26" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363579577938" fileName="Chart_Behavior.java" startLine="26" startPosition="23" endLine="27" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363579580459" fileName="Chart_Behavior.java" startLine="28" startPosition="5" endLine="29" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6243283334560270676" fileName="Chart_Behavior.java" startLine="32" startPosition="107" endLine="33" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363579577945" fileName="Chart_Behavior.java" startLine="36" startPosition="71" endLine="37" endPosition="123" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363579587634" fileName="Chart_Behavior.java" startLine="37" startPosition="123" endLine="38" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363579577955" fileName="Chart_Behavior.java" startLine="41" startPosition="72" endLine="42" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363579590549" fileName="Chart_Behavior.java" startLine="42" startPosition="125" endLine="43" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="47" startPosition="83" endLine="48" endPosition="133" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="52" startPosition="116" endLine="53" endPosition="257" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="57" startPosition="91" endLine="58" endPosition="141" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="62" startPosition="124" endLine="63" endPosition="265" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="32" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_putComponentInternal_7263499363579768301#(Lorg/jetbrains/mps/openapi/model/SNode;Lcom/xeiam/xchart/XChartPanel;)V" />
-    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="36" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getWidth_7263499363579584527#(Lorg/jetbrains/mps/openapi/model/SNode;)I" />
-    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="41" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getHeight_7263499363579587829#(Lorg/jetbrains/mps/openapi/model/SNode;)I" />
-    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="46" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getJComponent_5455899477603853704#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
-    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="51" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getJComponent_5455899477603853704#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljavax/swing/JComponent;" />
-    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="56" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getComponentInternal_7263499363579573717#(Lorg/jetbrains/mps/openapi/model/SNode;)Lcom/xeiam/xchart/XChartPanel;" />
-    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="61" startPosition="0" endLine="65" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getComponentInternal_7263499363579573717#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Lcom/xeiam/xchart/XChartPanel;" />
-    <nodeInfo nodeId="7263499363579577918" fileName="Chart_Behavior.java" startLine="22" startPosition="0" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
-    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="20" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getComponentInternal_7263499363579573717#(Lorg/jetbrains/mps/openapi/model/SNode;)Lcom/xeiam/xchart/XChartPanel;" />
-    <scopeInfo nodeId="5455899477603853652" fileName="Chart_Behavior.java" startLine="16" startPosition="43" endLine="17" endPosition="146" />
-    <scopeInfo nodeId="7263499363579577919" fileName="Chart_Behavior.java" startLine="23" startPosition="9" endLine="24" endPosition="68" />
-    <scopeInfo nodeId="7263499363579768304" fileName="Chart_Behavior.java" startLine="32" startPosition="107" endLine="33" endPosition="51" />
-    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="47" startPosition="83" endLine="48" endPosition="133" />
-    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="52" startPosition="116" endLine="53" endPosition="257" />
-    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="57" startPosition="91" endLine="58" endPosition="141" />
-    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="62" startPosition="124" endLine="63" endPosition="265" />
-    <scopeInfo nodeId="7263499363579577930" fileName="Chart_Behavior.java" startLine="25" startPosition="0" endLine="27" endPosition="53">
+    <nodeInfo nodeId="7263499363579415389" fileName="Chart_Behavior.java" startLine="18" startPosition="43" endLine="19" endPosition="146" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083852270888" fileName="Chart_Behavior.java" startLine="22" startPosition="114" endLine="23" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083849927266" fileName="Chart_Behavior.java" startLine="23" startPosition="109" endLine="24" endPosition="103" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083849974176" fileName="Chart_Behavior.java" startLine="27" startPosition="121" endLine="28" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083849975444" fileName="Chart_Behavior.java" startLine="28" startPosition="109" endLine="29" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083851045054" fileName="Chart_Behavior.java" startLine="30" startPosition="37" endLine="31" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083851045382" fileName="Chart_Behavior.java" startLine="31" startPosition="114" endLine="32" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083851021628" fileName="Chart_Behavior.java" startLine="32" startPosition="50" endLine="33" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083852267355" fileName="Chart_Behavior.java" startLine="34" startPosition="5" endLine="35" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083850026667" fileName="Chart_Behavior.java" startLine="40" startPosition="39" endLine="41" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7263499363579577913" fileName="Chart_Behavior.java" startLine="46" startPosition="94" endLine="47" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7263499363579577917" fileName="Chart_Behavior.java" startLine="47" startPosition="33" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="7263499363579577920" fileName="Chart_Behavior.java" startLine="49" startPosition="9" endLine="50" endPosition="68" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7263499363579577934" fileName="Chart_Behavior.java" startLine="51" startPosition="36" endLine="52" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7263499363579577938" fileName="Chart_Behavior.java" startLine="52" startPosition="23" endLine="53" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7263499363579580459" fileName="Chart_Behavior.java" startLine="54" startPosition="5" endLine="55" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6243283334560270676" fileName="Chart_Behavior.java" startLine="58" startPosition="107" endLine="59" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7263499363579577945" fileName="Chart_Behavior.java" startLine="62" startPosition="71" endLine="63" endPosition="123" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7263499363579587634" fileName="Chart_Behavior.java" startLine="63" startPosition="123" endLine="64" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7263499363579577955" fileName="Chart_Behavior.java" startLine="67" startPosition="72" endLine="68" endPosition="125" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7263499363579590549" fileName="Chart_Behavior.java" startLine="68" startPosition="125" endLine="69" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="73" startPosition="83" endLine="74" endPosition="133" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="78" startPosition="116" endLine="79" endPosition="257" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="83" startPosition="91" endLine="84" endPosition="141" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="88" startPosition="124" endLine="89" endPosition="265" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6638345083850026370" fileName="Chart_Behavior.java" startLine="40" startPosition="0" endLine="43" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="58" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_putComponentInternal_7263499363579768301#(Lorg/jetbrains/mps/openapi/model/SNode;Lcom/xeiam/xchart/XChartPanel;)V" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="22" startPosition="0" endLine="26" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_addSeries_6638345083849971954#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;null)V" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="62" startPosition="0" endLine="66" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getWidth_7263499363579584527#(Lorg/jetbrains/mps/openapi/model/SNode;)I" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="67" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getHeight_7263499363579587829#(Lorg/jetbrains/mps/openapi/model/SNode;)I" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="72" startPosition="0" endLine="76" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getJComponent_5455899477603853704#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="77" startPosition="0" endLine="81" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getJComponent_5455899477603853704#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Ljavax/swing/JComponent;" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="82" startPosition="0" endLine="86" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getComponentInternal_7263499363579573717#(Lorg/jetbrains/mps/openapi/model/SNode;)Lcom/xeiam/xchart/XChartPanel;" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="87" startPosition="0" endLine="91" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="callSuper_getComponentInternal_7263499363579573717#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Lcom/xeiam/xchart/XChartPanel;" />
+    <nodeInfo nodeId="6638345083851021335" fileName="Chart_Behavior.java" startLine="29" startPosition="56" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6638345083850013511" fileName="Chart_Behavior.java" startLine="38" startPosition="90" endLine="43" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7263499363579577918" fileName="Chart_Behavior.java" startLine="48" startPosition="0" endLine="54" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="38" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_series_6638345083850011770#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="27" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_createNewSeries_6638345083852264294#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;null)Lorg/jetbrains/mps/openapi/model/SNode;" />
+    <nodeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="46" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getComponentInternal_7263499363579573717#(Lorg/jetbrains/mps/openapi/model/SNode;)Lcom/xeiam/xchart/XChartPanel;" />
+    <scopeInfo nodeId="5455899477603853652" fileName="Chart_Behavior.java" startLine="18" startPosition="43" endLine="19" endPosition="146" />
+    <scopeInfo nodeId="6638345083850026371" fileName="Chart_Behavior.java" startLine="40" startPosition="39" endLine="41" endPosition="70" />
+    <scopeInfo nodeId="7263499363579577919" fileName="Chart_Behavior.java" startLine="49" startPosition="9" endLine="50" endPosition="68" />
+    <scopeInfo nodeId="7263499363579768304" fileName="Chart_Behavior.java" startLine="58" startPosition="107" endLine="59" endPosition="51" />
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="73" startPosition="83" endLine="74" endPosition="133" />
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="78" startPosition="116" endLine="79" endPosition="257" />
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="83" startPosition="91" endLine="84" endPosition="141" />
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="88" startPosition="124" endLine="89" endPosition="265" />
+    <scopeInfo nodeId="6638345083849971957" fileName="Chart_Behavior.java" startLine="22" startPosition="114" endLine="24" endPosition="103">
+      <varInfo nodeId="6638345083852270889" varName="series" />
+    </scopeInfo>
+    <scopeInfo nodeId="7263499363579577930" fileName="Chart_Behavior.java" startLine="51" startPosition="0" endLine="53" endPosition="53">
       <varInfo nodeId="7263499363579577931" varName="e" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363579577933" fileName="Chart_Behavior.java" startLine="25" startPosition="36" endLine="27" endPosition="53" />
-    <scopeInfo nodeId="7263499363579584530" fileName="Chart_Behavior.java" startLine="36" startPosition="71" endLine="38" endPosition="17">
+    <scopeInfo nodeId="7263499363579577933" fileName="Chart_Behavior.java" startLine="51" startPosition="36" endLine="53" endPosition="53" />
+    <scopeInfo nodeId="7263499363579584530" fileName="Chart_Behavior.java" startLine="62" startPosition="71" endLine="64" endPosition="17">
       <varInfo nodeId="7263499363579577946" varName="width" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363579587832" fileName="Chart_Behavior.java" startLine="41" startPosition="72" endLine="43" endPosition="18">
+    <scopeInfo nodeId="7263499363579587832" fileName="Chart_Behavior.java" startLine="67" startPosition="72" endLine="69" endPosition="18">
       <varInfo nodeId="7263499363579577956" varName="height" />
     </scopeInfo>
-    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="16" startPosition="0" endLine="19" endPosition="0">
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="18" startPosition="0" endLine="21" endPosition="0">
       <varInfo nodeId="5455899477603853499" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="32" startPosition="0" endLine="35" endPosition="0">
+    <scopeInfo nodeId="6638345083851021341" fileName="Chart_Behavior.java" startLine="30" startPosition="37" endLine="33" endPosition="96">
+      <varInfo nodeId="6638345083851045057" varName="ref" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083850026370" fileName="Chart_Behavior.java" startLine="40" startPosition="0" endLine="43" endPosition="0">
+      <varInfo nodeId="6638345083850026370" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="58" startPosition="0" endLine="61" endPosition="0">
       <varInfo nodeId="7263499363579770029" varName="component" />
       <varInfo nodeId="5455899477603853499" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="36" startPosition="0" endLine="40" endPosition="0">
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="22" startPosition="0" endLine="26" endPosition="0">
+      <varInfo nodeId="6638345083849972447" varName="seriesName" />
+      <varInfo nodeId="5455899477603853499" varName="thisNode" />
+      <varInfo nodeId="6638345083851020948" varName="valueNames" />
+    </scopeInfo>
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="62" startPosition="0" endLine="66" endPosition="0">
       <varInfo nodeId="5455899477603853499" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="41" startPosition="0" endLine="45" endPosition="0">
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="67" startPosition="0" endLine="71" endPosition="0">
       <varInfo nodeId="5455899477603853499" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="46" startPosition="0" endLine="50" endPosition="0">
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="72" startPosition="0" endLine="76" endPosition="0">
       <varInfo nodeId="5455899477603853499" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="51" startPosition="0" endLine="55" endPosition="0">
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="77" startPosition="0" endLine="81" endPosition="0">
       <varInfo nodeId="5455899477603853499" varName="callerConceptFqName" />
       <varInfo nodeId="5455899477603853499" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="56" startPosition="0" endLine="60" endPosition="0">
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="82" startPosition="0" endLine="86" endPosition="0">
       <varInfo nodeId="5455899477603853499" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="61" startPosition="0" endLine="65" endPosition="0">
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="87" startPosition="0" endLine="91" endPosition="0">
       <varInfo nodeId="5455899477603853499" varName="callerConceptFqName" />
       <varInfo nodeId="5455899477603853499" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363579573720" fileName="Chart_Behavior.java" startLine="20" startPosition="94" endLine="29" endPosition="21">
+    <scopeInfo nodeId="6638345083851021335" fileName="Chart_Behavior.java" startLine="29" startPosition="56" endLine="34" endPosition="5">
+      <varInfo nodeId="6638345083851021337" varName="value" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083850011773" fileName="Chart_Behavior.java" startLine="38" startPosition="90" endLine="43" endPosition="7" />
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="38" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="6638345083850013488" varName="name" />
+      <varInfo nodeId="5455899477603853499" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083852264297" fileName="Chart_Behavior.java" startLine="27" startPosition="121" endLine="35" endPosition="18">
+      <varInfo nodeId="6638345083849974179" varName="series" />
+    </scopeInfo>
+    <scopeInfo nodeId="7263499363579573720" fileName="Chart_Behavior.java" startLine="46" startPosition="94" endLine="55" endPosition="21">
       <varInfo nodeId="7263499363579577914" varName="component" />
     </scopeInfo>
-    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="20" startPosition="0" endLine="31" endPosition="0">
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="27" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="6638345083852267698" varName="seriesName" />
+      <varInfo nodeId="5455899477603853499" varName="thisNode" />
+      <varInfo nodeId="6638345083852267851" varName="valueNames" />
+    </scopeInfo>
+    <scopeInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="46" startPosition="0" endLine="57" endPosition="0">
       <varInfo nodeId="5455899477603853499" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="15" startPosition="0" endLine="66" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Chart_Behavior" />
+    <unitInfo nodeId="6638345083850026370" fileName="Chart_Behavior.java" startLine="39" startPosition="105" endLine="43" endPosition="5" unitName="org.campagnelab.mps.XChart.behavior.Chart_Behavior$1" />
+    <unitInfo nodeId="5455899477603853499" fileName="Chart_Behavior.java" startLine="17" startPosition="0" endLine="92" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Chart_Behavior" />
   </root>
   <root nodeRef="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/6243283334561631190">
     <nodeInfo nodeId="6243283334561631190" fileName="Page_Behavior.java" startLine="8" startPosition="0" endLine="10" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
@@ -370,33 +396,83 @@
     <unitInfo nodeId="6243283334561631190" fileName="Page_Behavior.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Page_Behavior" />
   </root>
   <root nodeRef="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/6638345083846357598">
-    <nodeInfo nodeId="6638345083846362531" fileName="BarChart_Behavior.java" startLine="18" startPosition="86" endLine="19" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6638345083846362561" fileName="BarChart_Behavior.java" startLine="20" startPosition="28" endLine="21" endPosition="144" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6638345083846424045" fileName="BarChart_Behavior.java" startLine="21" startPosition="144" endLine="22" endPosition="479" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6638345083846362574" fileName="BarChart_Behavior.java" startLine="22" startPosition="479" endLine="23" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6638345083848107282" fileName="BarChart_Behavior.java" startLine="24" startPosition="5" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="6638345083848093455" fileName="BarChart_Behavior.java" startLine="25" startPosition="0" endLine="26" endPosition="476" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6638345083846362619" fileName="BarChart_Behavior.java" startLine="26" startPosition="476" endLine="27" endPosition="470" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6638345083846362626" fileName="BarChart_Behavior.java" startLine="27" startPosition="470" endLine="28" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6638345083846362633" fileName="BarChart_Behavior.java" startLine="28" startPosition="84" endLine="29" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6638345083846362639" fileName="BarChart_Behavior.java" startLine="29" startPosition="39" endLine="30" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6638345083846362642" fileName="BarChart_Behavior.java" startLine="30" startPosition="86" endLine="31" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6638345083846357598" fileName="BarChart_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="6638345083846362559" fileName="BarChart_Behavior.java" startLine="19" startPosition="99" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6638345083846357598" fileName="BarChart_Behavior.java" startLine="18" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getJComponent_5455899477603853704#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
-    <scopeInfo nodeId="6638345083846357751" fileName="BarChart_Behavior.java" startLine="15" startPosition="43" endLine="15" endPosition="43" />
-    <scopeInfo nodeId="6638345083846357598" fileName="BarChart_Behavior.java" startLine="15" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="6638345083851189258" fileName="BarChart_Behavior.java" startLine="18" startPosition="43" endLine="19" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083846362531" fileName="BarChart_Behavior.java" startLine="22" startPosition="86" endLine="23" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083850622001" fileName="BarChart_Behavior.java" startLine="23" startPosition="99" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="6638345083848988586" fileName="BarChart_Behavior.java" startLine="25" startPosition="28" endLine="26" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083851238319" fileName="BarChart_Behavior.java" startLine="29" startPosition="43" endLine="30" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083851250530" fileName="BarChart_Behavior.java" startLine="34" startPosition="43" endLine="35" endPosition="79" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083846424045" fileName="BarChart_Behavior.java" startLine="37" startPosition="30" endLine="38" endPosition="426" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083851256518" fileName="BarChart_Behavior.java" startLine="38" startPosition="426" endLine="39" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="6638345083846362574" fileName="BarChart_Behavior.java" startLine="40" startPosition="7" endLine="41" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083848093455" fileName="BarChart_Behavior.java" startLine="42" startPosition="5" endLine="43" endPosition="348" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083851264032" fileName="BarChart_Behavior.java" startLine="46" startPosition="41" endLine="47" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083851264053" fileName="BarChart_Behavior.java" startLine="51" startPosition="41" endLine="52" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083851264063" fileName="BarChart_Behavior.java" startLine="54" startPosition="28" endLine="55" endPosition="417" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083846362626" fileName="BarChart_Behavior.java" startLine="56" startPosition="5" endLine="57" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083846362633" fileName="BarChart_Behavior.java" startLine="57" startPosition="84" endLine="58" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083846362639" fileName="BarChart_Behavior.java" startLine="58" startPosition="39" endLine="59" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083846362642" fileName="BarChart_Behavior.java" startLine="59" startPosition="86" endLine="60" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083846357598" fileName="BarChart_Behavior.java" startLine="18" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6638345083851237879" fileName="BarChart_Behavior.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6638345083851250528" fileName="BarChart_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6638345083851264030" fileName="BarChart_Behavior.java" startLine="46" startPosition="0" endLine="49" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6638345083851264051" fileName="BarChart_Behavior.java" startLine="51" startPosition="0" endLine="54" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6638345083850363300" fileName="BarChart_Behavior.java" startLine="27" startPosition="108" endLine="32" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083851250519" fileName="BarChart_Behavior.java" startLine="32" startPosition="30" endLine="37" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083851264021" fileName="BarChart_Behavior.java" startLine="44" startPosition="106" endLine="49" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083851264042" fileName="BarChart_Behavior.java" startLine="49" startPosition="28" endLine="54" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083851264015" fileName="BarChart_Behavior.java" startLine="43" startPosition="348" endLine="56" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6638345083851196474" fileName="BarChart_Behavior.java" startLine="26" startPosition="131" endLine="40" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6638345083846362559" fileName="BarChart_Behavior.java" startLine="24" startPosition="0" endLine="42" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083846357598" fileName="BarChart_Behavior.java" startLine="22" startPosition="0" endLine="62" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getJComponent_5455899477603853704#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
+    <scopeInfo nodeId="6638345083846357751" fileName="BarChart_Behavior.java" startLine="18" startPosition="43" endLine="19" endPosition="88" />
+    <scopeInfo nodeId="6638345083851237880" fileName="BarChart_Behavior.java" startLine="29" startPosition="43" endLine="30" endPosition="73" />
+    <scopeInfo nodeId="6638345083851250529" fileName="BarChart_Behavior.java" startLine="34" startPosition="43" endLine="35" endPosition="79" />
+    <scopeInfo nodeId="6638345083851264031" fileName="BarChart_Behavior.java" startLine="46" startPosition="41" endLine="47" endPosition="71" />
+    <scopeInfo nodeId="6638345083851264052" fileName="BarChart_Behavior.java" startLine="51" startPosition="41" endLine="52" endPosition="77" />
+    <scopeInfo nodeId="6638345083846357598" fileName="BarChart_Behavior.java" startLine="18" startPosition="0" endLine="21" endPosition="0">
       <varInfo nodeId="6638345083846357598" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="6638345083846362560" fileName="BarChart_Behavior.java" startLine="20" startPosition="28" endLine="23" endPosition="23" />
-    <scopeInfo nodeId="6638345083846358589" fileName="BarChart_Behavior.java" startLine="18" startPosition="86" endLine="31" endPosition="21">
+    <scopeInfo nodeId="6638345083851237879" fileName="BarChart_Behavior.java" startLine="29" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="6638345083851237879" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083851250528" fileName="BarChart_Behavior.java" startLine="34" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="6638345083851250528" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083851264030" fileName="BarChart_Behavior.java" startLine="46" startPosition="0" endLine="49" endPosition="0">
+      <varInfo nodeId="6638345083851264030" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083851264051" fileName="BarChart_Behavior.java" startLine="51" startPosition="0" endLine="54" endPosition="0">
+      <varInfo nodeId="6638345083851264051" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083851264020" fileName="BarChart_Behavior.java" startLine="44" startPosition="106" endLine="55" endPosition="417">
+      <varInfo nodeId="6638345083851264043" varName="heights" />
+      <varInfo nodeId="6638345083851264022" varName="x" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083851196480" fileName="BarChart_Behavior.java" startLine="27" startPosition="108" endLine="39" endPosition="0">
+      <varInfo nodeId="6638345083851250520" varName="heights" />
+      <varInfo nodeId="6638345083850363303" varName="x" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083851264015" fileName="BarChart_Behavior.java" startLine="43" startPosition="348" endLine="56" endPosition="5">
+      <varInfo nodeId="6638345083851264016" varName="series" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083851196474" fileName="BarChart_Behavior.java" startLine="26" startPosition="131" endLine="40" endPosition="7">
+      <varInfo nodeId="6638345083851196476" varName="series" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083846362560" fileName="BarChart_Behavior.java" startLine="25" startPosition="28" endLine="41" endPosition="23" />
+    <scopeInfo nodeId="6638345083846358589" fileName="BarChart_Behavior.java" startLine="22" startPosition="86" endLine="60" endPosition="21">
       <varInfo nodeId="6638345083848093456" varName="chart" />
       <varInfo nodeId="6638345083846362532" varName="component" />
     </scopeInfo>
-    <scopeInfo nodeId="6638345083846357598" fileName="BarChart_Behavior.java" startLine="18" startPosition="0" endLine="33" endPosition="0">
+    <scopeInfo nodeId="6638345083846357598" fileName="BarChart_Behavior.java" startLine="22" startPosition="0" endLine="62" endPosition="0">
       <varInfo nodeId="6638345083846357598" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="6638345083846357598" fileName="BarChart_Behavior.java" startLine="14" startPosition="0" endLine="34" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.BarChart_Behavior" />
+    <unitInfo nodeId="6638345083851237879" fileName="BarChart_Behavior.java" startLine="28" startPosition="132" endLine="32" endPosition="9" unitName="org.campagnelab.mps.XChart.behavior.BarChart_Behavior$1" />
+    <unitInfo nodeId="6638345083851250528" fileName="BarChart_Behavior.java" startLine="33" startPosition="138" endLine="37" endPosition="9" unitName="org.campagnelab.mps.XChart.behavior.BarChart_Behavior$2" />
+    <unitInfo nodeId="6638345083851264030" fileName="BarChart_Behavior.java" startLine="45" startPosition="130" endLine="49" endPosition="7" unitName="org.campagnelab.mps.XChart.behavior.BarChart_Behavior$3" />
+    <unitInfo nodeId="6638345083851264051" fileName="BarChart_Behavior.java" startLine="50" startPosition="136" endLine="54" endPosition="7" unitName="org.campagnelab.mps.XChart.behavior.BarChart_Behavior$4" />
+    <unitInfo nodeId="6638345083846357598" fileName="BarChart_Behavior.java" startLine="17" startPosition="0" endLine="63" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.BarChart_Behavior" />
   </root>
   <root nodeRef="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/6638345083846694859">
     <nodeInfo nodeId="6638345083846719944" fileName="FileRef_Behavior.java" startLine="16" startPosition="101" endLine="17" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
@@ -460,83 +536,127 @@
     <unitInfo nodeId="6638345083846694859" fileName="FileRef_Behavior.java" startLine="12" startPosition="0" endLine="44" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.FileRef_Behavior" />
   </root>
   <root nodeRef="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/7263499363579449689">
-    <nodeInfo nodeId="7443327808758646839" fileName="ChartStyle_Behavior.java" startLine="12" startPosition="43" endLine="13" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7443327808758726455" fileName="ChartStyle_Behavior.java" startLine="13" startPosition="59" endLine="14" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6638345083847258418" fileName="ChartStyle_Behavior.java" startLine="14" startPosition="60" endLine="15" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363581079760" fileName="ChartStyle_Behavior.java" startLine="19" startPosition="102" endLine="20" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363581084037" fileName="ChartStyle_Behavior.java" startLine="22" startPosition="101" endLine="23" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363581085323" fileName="ChartStyle_Behavior.java" startLine="25" startPosition="101" endLine="26" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363581091027" fileName="ChartStyle_Behavior.java" startLine="27" startPosition="5" endLine="28" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6638345083848059631" fileName="ChartStyle_Behavior.java" startLine="32" startPosition="72" endLine="33" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6638345083848069145" fileName="ChartStyle_Behavior.java" startLine="35" startPosition="72" endLine="36" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="6638345083848032746" fileName="ChartStyle_Behavior.java" startLine="37" startPosition="5" endLine="38" endPosition="357" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6638345083848077837" fileName="ChartStyle_Behavior.java" startLine="38" startPosition="357" endLine="39" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363581072981" fileName="ChartStyle_Behavior.java" startLine="18" startPosition="91" endLine="21" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7263499363581084035" fileName="ChartStyle_Behavior.java" startLine="21" startPosition="5" endLine="24" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7263499363581085321" fileName="ChartStyle_Behavior.java" startLine="24" startPosition="5" endLine="27" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6638345083848057288" fileName="ChartStyle_Behavior.java" startLine="31" startPosition="149" endLine="34" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="6638345083848069143" fileName="ChartStyle_Behavior.java" startLine="34" startPosition="5" endLine="37" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="12" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="31" startPosition="0" endLine="41" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_buildChart_6638345083848028113#(Lorg/jetbrains/mps/openapi/model/SNode;Lcom/xeiam/xchart/StyleManager/ChartType;Ljava/lang/String;Ljava/lang/String;)Lcom/xeiam/xchart/Chart;" />
-    <nodeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="18" startPosition="0" endLine="30" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getTheme_7263499363580278109#(Lorg/jetbrains/mps/openapi/model/SNode;)Lcom/xeiam/xchart/StyleManager/ChartTheme;" />
-    <scopeInfo nodeId="7263499363581072984" fileName="ChartStyle_Behavior.java" startLine="19" startPosition="102" endLine="20" endPosition="45" />
-    <scopeInfo nodeId="7263499363581084036" fileName="ChartStyle_Behavior.java" startLine="22" startPosition="101" endLine="23" endPosition="44" />
-    <scopeInfo nodeId="7263499363581085322" fileName="ChartStyle_Behavior.java" startLine="25" startPosition="101" endLine="26" endPosition="44" />
-    <scopeInfo nodeId="6638345083848057291" fileName="ChartStyle_Behavior.java" startLine="32" startPosition="72" endLine="33" endPosition="74" />
-    <scopeInfo nodeId="6638345083848069144" fileName="ChartStyle_Behavior.java" startLine="35" startPosition="72" endLine="36" endPosition="74" />
-    <scopeInfo nodeId="7263499363579449691" fileName="ChartStyle_Behavior.java" startLine="12" startPosition="43" endLine="15" endPosition="51" />
-    <scopeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="12" startPosition="0" endLine="17" endPosition="0">
+    <nodeInfo nodeId="7443327808758646839" fileName="ChartStyle_Behavior.java" startLine="13" startPosition="43" endLine="14" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7443327808758726455" fileName="ChartStyle_Behavior.java" startLine="14" startPosition="59" endLine="15" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847258418" fileName="ChartStyle_Behavior.java" startLine="15" startPosition="60" endLine="16" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7263499363581079760" fileName="ChartStyle_Behavior.java" startLine="20" startPosition="102" endLine="21" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7263499363581084037" fileName="ChartStyle_Behavior.java" startLine="23" startPosition="101" endLine="24" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7263499363581085323" fileName="ChartStyle_Behavior.java" startLine="26" startPosition="101" endLine="27" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7263499363581091027" fileName="ChartStyle_Behavior.java" startLine="28" startPosition="5" endLine="29" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083848059631" fileName="ChartStyle_Behavior.java" startLine="33" startPosition="72" endLine="34" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083848069145" fileName="ChartStyle_Behavior.java" startLine="36" startPosition="72" endLine="37" endPosition="74" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083848032746" fileName="ChartStyle_Behavior.java" startLine="38" startPosition="5" endLine="39" endPosition="357" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083848077837" fileName="ChartStyle_Behavior.java" startLine="39" startPosition="357" endLine="40" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083848911132" fileName="ChartStyle_Behavior.java" startLine="43" startPosition="99" endLine="44" endPosition="120" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7263499363581072981" fileName="ChartStyle_Behavior.java" startLine="19" startPosition="91" endLine="22" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7263499363581084035" fileName="ChartStyle_Behavior.java" startLine="22" startPosition="5" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7263499363581085321" fileName="ChartStyle_Behavior.java" startLine="25" startPosition="5" endLine="28" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083848057288" fileName="ChartStyle_Behavior.java" startLine="32" startPosition="149" endLine="35" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083848069143" fileName="ChartStyle_Behavior.java" startLine="35" startPosition="5" endLine="38" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="43" startPosition="0" endLine="46" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_updateStyleItems_6638345083848910007#(Lorg/jetbrains/mps/openapi/model/SNode;Lcom/xeiam/xchart/XChartPanel;)V" />
+    <nodeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="13" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="32" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_buildChart_6638345083848028113#(Lorg/jetbrains/mps/openapi/model/SNode;Lcom/xeiam/xchart/StyleManager/ChartType;Ljava/lang/String;Ljava/lang/String;)Lcom/xeiam/xchart/Chart;" />
+    <nodeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="19" startPosition="0" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="call_getTheme_7263499363580278109#(Lorg/jetbrains/mps/openapi/model/SNode;)Lcom/xeiam/xchart/StyleManager/ChartTheme;" />
+    <scopeInfo nodeId="7263499363581072984" fileName="ChartStyle_Behavior.java" startLine="20" startPosition="102" endLine="21" endPosition="45" />
+    <scopeInfo nodeId="7263499363581084036" fileName="ChartStyle_Behavior.java" startLine="23" startPosition="101" endLine="24" endPosition="44" />
+    <scopeInfo nodeId="7263499363581085322" fileName="ChartStyle_Behavior.java" startLine="26" startPosition="101" endLine="27" endPosition="44" />
+    <scopeInfo nodeId="6638345083848057291" fileName="ChartStyle_Behavior.java" startLine="33" startPosition="72" endLine="34" endPosition="74" />
+    <scopeInfo nodeId="6638345083848069144" fileName="ChartStyle_Behavior.java" startLine="36" startPosition="72" endLine="37" endPosition="74" />
+    <scopeInfo nodeId="6638345083848910010" fileName="ChartStyle_Behavior.java" startLine="43" startPosition="99" endLine="44" endPosition="120" />
+    <scopeInfo nodeId="7263499363579449691" fileName="ChartStyle_Behavior.java" startLine="13" startPosition="43" endLine="16" endPosition="56" />
+    <scopeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="43" startPosition="0" endLine="46" endPosition="0">
+      <varInfo nodeId="6638345083848911113" varName="panel" />
       <varInfo nodeId="7263499363579449689" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="6638345083848028116" fileName="ChartStyle_Behavior.java" startLine="31" startPosition="149" endLine="39" endPosition="17">
+    <scopeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="13" startPosition="0" endLine="18" endPosition="0">
+      <varInfo nodeId="7263499363579449689" varName="thisNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083848028116" fileName="ChartStyle_Behavior.java" startLine="32" startPosition="149" endLine="40" endPosition="17">
       <varInfo nodeId="6638345083848032747" varName="chart" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580278112" fileName="ChartStyle_Behavior.java" startLine="18" startPosition="91" endLine="28" endPosition="42" />
-    <scopeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="31" startPosition="0" endLine="41" endPosition="0">
+    <scopeInfo nodeId="7263499363580278112" fileName="ChartStyle_Behavior.java" startLine="19" startPosition="91" endLine="29" endPosition="42" />
+    <scopeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="32" startPosition="0" endLine="42" endPosition="0">
       <varInfo nodeId="6638345083848079419" varName="chartType" />
       <varInfo nodeId="7263499363579449689" varName="thisNode" />
       <varInfo nodeId="6638345083848053342" varName="xColumnName" />
       <varInfo nodeId="6638345083848054162" varName="yColumnName" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="18" startPosition="0" endLine="30" endPosition="0">
+    <scopeInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="19" startPosition="0" endLine="31" endPosition="0">
       <varInfo nodeId="7263499363579449689" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="11" startPosition="0" endLine="42" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.ChartStyle_Behavior" />
+    <unitInfo nodeId="7263499363579449689" fileName="ChartStyle_Behavior.java" startLine="12" startPosition="0" endLine="47" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.ChartStyle_Behavior" />
   </root>
   <root nodeRef="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/7335187880077203157">
-    <nodeInfo nodeId="7263499363579542683" fileName="Histogram_Behavior.java" startLine="19" startPosition="86" endLine="20" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363578961801" fileName="Histogram_Behavior.java" startLine="20" startPosition="99" endLine="21" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363578989882" fileName="Histogram_Behavior.java" startLine="21" startPosition="50" endLine="22" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363578990733" fileName="Histogram_Behavior.java" startLine="22" startPosition="50" endLine="23" endPosition="207" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363579542687" fileName="Histogram_Behavior.java" startLine="23" startPosition="207" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="7263499363579609994" fileName="Histogram_Behavior.java" startLine="25" startPosition="28" endLine="26" endPosition="144" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363579610000" fileName="Histogram_Behavior.java" startLine="26" startPosition="144" endLine="27" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363579610017" fileName="Histogram_Behavior.java" startLine="27" startPosition="45" endLine="28" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="6638345083848312927" fileName="Histogram_Behavior.java" startLine="29" startPosition="5" endLine="30" endPosition="325" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="6638345083848309555" fileName="Histogram_Behavior.java" startLine="30" startPosition="325" endLine="31" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="5270176140464540182" fileName="Histogram_Behavior.java" startLine="31" startPosition="0" endLine="32" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5270176140464540197" fileName="Histogram_Behavior.java" startLine="32" startPosition="36" endLine="33" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363579792613" fileName="Histogram_Behavior.java" startLine="33" startPosition="84" endLine="34" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363579836353" fileName="Histogram_Behavior.java" startLine="34" startPosition="39" endLine="35" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="5270176140464540204" fileName="Histogram_Behavior.java" startLine="35" startPosition="86" endLine="36" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="16" startPosition="0" endLine="18" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-    <nodeInfo nodeId="7263499363579609992" fileName="Histogram_Behavior.java" startLine="24" startPosition="0" endLine="29" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="19" startPosition="0" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getJComponent_5455899477603853704#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
-    <scopeInfo nodeId="7335187880077203159" fileName="Histogram_Behavior.java" startLine="16" startPosition="43" endLine="16" endPosition="43" />
-    <scopeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="16" startPosition="0" endLine="18" endPosition="0">
+    <nodeInfo nodeId="6638345083852961470" fileName="Histogram_Behavior.java" startLine="19" startPosition="43" endLine="20" endPosition="77" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7263499363579542683" fileName="Histogram_Behavior.java" startLine="23" startPosition="86" endLine="24" endPosition="99" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7263499363579542687" fileName="Histogram_Behavior.java" startLine="24" startPosition="99" endLine="25" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="6638345083854527887" fileName="Histogram_Behavior.java" startLine="26" startPosition="28" endLine="27" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083854527911" fileName="Histogram_Behavior.java" startLine="30" startPosition="43" endLine="31" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7263499363578961801" fileName="Histogram_Behavior.java" startLine="33" startPosition="30" endLine="34" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7263499363578989882" fileName="Histogram_Behavior.java" startLine="34" startPosition="55" endLine="35" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="7263499363578990733" fileName="Histogram_Behavior.java" startLine="35" startPosition="54" endLine="36" endPosition="166" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083854527942" fileName="Histogram_Behavior.java" startLine="36" startPosition="166" endLine="37" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083854527957" fileName="Histogram_Behavior.java" startLine="37" startPosition="85" endLine="38" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="6638345083854527958" fileName="Histogram_Behavior.java" startLine="39" startPosition="7" endLine="40" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083854527963" fileName="Histogram_Behavior.java" startLine="41" startPosition="5" endLine="42" endPosition="348" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083854589027" fileName="Histogram_Behavior.java" startLine="45" startPosition="41" endLine="46" endPosition="71" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083854589037" fileName="Histogram_Behavior.java" startLine="48" startPosition="28" endLine="49" endPosition="53" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083854589044" fileName="Histogram_Behavior.java" startLine="49" startPosition="53" endLine="50" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083854589051" fileName="Histogram_Behavior.java" startLine="50" startPosition="52" endLine="51" endPosition="164" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083854589060" fileName="Histogram_Behavior.java" startLine="51" startPosition="164" endLine="52" endPosition="76" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083854589069" fileName="Histogram_Behavior.java" startLine="52" startPosition="76" endLine="53" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="5270176140464540197" fileName="Histogram_Behavior.java" startLine="54" startPosition="5" endLine="55" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7263499363579792613" fileName="Histogram_Behavior.java" startLine="55" startPosition="84" endLine="56" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7263499363579836353" fileName="Histogram_Behavior.java" startLine="56" startPosition="39" endLine="57" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="5270176140464540204" fileName="Histogram_Behavior.java" startLine="57" startPosition="86" endLine="58" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="19" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+    <nodeInfo nodeId="6638345083854527909" fileName="Histogram_Behavior.java" startLine="30" startPosition="0" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6638345083854589025" fileName="Histogram_Behavior.java" startLine="45" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+    <nodeInfo nodeId="6638345083854527900" fileName="Histogram_Behavior.java" startLine="28" startPosition="108" endLine="33" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083854589016" fileName="Histogram_Behavior.java" startLine="43" startPosition="106" endLine="48" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083854527894" fileName="Histogram_Behavior.java" startLine="27" startPosition="131" endLine="39" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6638345083854589010" fileName="Histogram_Behavior.java" startLine="42" startPosition="348" endLine="54" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="6638345083854527885" fileName="Histogram_Behavior.java" startLine="25" startPosition="0" endLine="41" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="23" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="virtual_getJComponent_5455899477603853704#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljavax/swing/JComponent;" />
+    <scopeInfo nodeId="7335187880077203159" fileName="Histogram_Behavior.java" startLine="19" startPosition="43" endLine="20" endPosition="77" />
+    <scopeInfo nodeId="6638345083854527910" fileName="Histogram_Behavior.java" startLine="30" startPosition="43" endLine="31" endPosition="73" />
+    <scopeInfo nodeId="6638345083854589026" fileName="Histogram_Behavior.java" startLine="45" startPosition="41" endLine="46" endPosition="71" />
+    <scopeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="19" startPosition="0" endLine="22" endPosition="0">
       <varInfo nodeId="7335187880077203157" varName="thisNode" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363579609993" fileName="Histogram_Behavior.java" startLine="25" startPosition="28" endLine="28" endPosition="23" />
-    <scopeInfo nodeId="5270176140464539252" fileName="Histogram_Behavior.java" startLine="19" startPosition="86" endLine="36" endPosition="21">
-      <varInfo nodeId="6638345083848312928" varName="chart" />
-      <varInfo nodeId="7263499363579542684" varName="component" />
-      <varInfo nodeId="7263499363578961802" varName="x" />
+    <scopeInfo nodeId="6638345083854527909" fileName="Histogram_Behavior.java" startLine="30" startPosition="0" endLine="33" endPosition="0">
+      <varInfo nodeId="6638345083854527909" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083854589025" fileName="Histogram_Behavior.java" startLine="45" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="6638345083854589025" varName="it" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083854527899" fileName="Histogram_Behavior.java" startLine="28" startPosition="108" endLine="38" endPosition="0">
+      <varInfo nodeId="6638345083854527901" varName="x" />
+      <varInfo nodeId="7263499363578961802" varName="xa" />
       <varInfo nodeId="7263499363578989883" varName="y" />
     </scopeInfo>
-    <scopeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="19" startPosition="0" endLine="38" endPosition="0">
+    <scopeInfo nodeId="6638345083854589015" fileName="Histogram_Behavior.java" startLine="43" startPosition="106" endLine="53" endPosition="0">
+      <varInfo nodeId="6638345083854589017" varName="x" />
+      <varInfo nodeId="6638345083854589038" varName="xa" />
+      <varInfo nodeId="6638345083854589045" varName="y" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083854527894" fileName="Histogram_Behavior.java" startLine="27" startPosition="131" endLine="39" endPosition="7">
+      <varInfo nodeId="6638345083854527895" varName="series" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083854589010" fileName="Histogram_Behavior.java" startLine="42" startPosition="348" endLine="54" endPosition="5">
+      <varInfo nodeId="6638345083854589011" varName="series" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083854527886" fileName="Histogram_Behavior.java" startLine="26" startPosition="28" endLine="40" endPosition="23" />
+    <scopeInfo nodeId="5270176140464539252" fileName="Histogram_Behavior.java" startLine="23" startPosition="86" endLine="58" endPosition="21">
+      <varInfo nodeId="6638345083854527964" varName="chart" />
+      <varInfo nodeId="7263499363579542684" varName="component" />
+    </scopeInfo>
+    <scopeInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="23" startPosition="0" endLine="60" endPosition="0">
       <varInfo nodeId="7335187880077203157" varName="thisNode" />
     </scopeInfo>
-    <unitInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="15" startPosition="0" endLine="39" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Histogram_Behavior" />
+    <unitInfo nodeId="6638345083854527909" fileName="Histogram_Behavior.java" startLine="29" startPosition="132" endLine="33" endPosition="9" unitName="org.campagnelab.mps.XChart.behavior.Histogram_Behavior$1" />
+    <unitInfo nodeId="6638345083854589025" fileName="Histogram_Behavior.java" startLine="44" startPosition="130" endLine="48" endPosition="7" unitName="org.campagnelab.mps.XChart.behavior.Histogram_Behavior$2" />
+    <unitInfo nodeId="7335187880077203157" fileName="Histogram_Behavior.java" startLine="18" startPosition="0" endLine="61" endPosition="0" unitName="org.campagnelab.mps.XChart.behavior.Histogram_Behavior" />
   </root>
 </debugInfo>
 
