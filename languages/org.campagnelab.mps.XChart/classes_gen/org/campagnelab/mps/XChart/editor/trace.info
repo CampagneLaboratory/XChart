@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="13" startPosition="0" endLine="58" endPosition="0" unitName="org.campagnelab.mps.XChart.editor.EditorAspectDescriptorImpl" />
+  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="13" startPosition="0" endLine="60" endPosition="0" unitName="org.campagnelab.mps.XChart.editor.EditorAspectDescriptorImpl" />
   <root nodeRef="r:cfb31b41-ab7a-42c8-913f-b1491325cb39(org.campagnelab.mps.XChart.editor)/3552713013257548377">
     <nodeInfo nodeId="3552713013257548377" fileName="FileRef_Editor.java" startLine="33" startPosition="79" endLine="34" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="3552713013257548377" fileName="FileRef_Editor.java" startLine="37" startPosition="89" endLine="38" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1398,6 +1398,307 @@
     </scopeInfo>
     <unitInfo nodeId="5270176140465852688" fileName="ChartDimensions.java" startLine="17" startPosition="0" endLine="53" endPosition="0" unitName="org.campagnelab.mps.XChart.editor.ChartDimensions" />
   </root>
+  <root nodeRef="r:cfb31b41-ab7a-42c8-913f-b1491325cb39(org.campagnelab.mps.XChart.editor)/6638345083847183376">
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="29" startPosition="79" endLine="30" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="33" startPosition="82" endLine="34" endPosition="62" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="37" startPosition="89" endLine="38" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="38" startPosition="97" endLine="39" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="39" startPosition="48" endLine="40" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="40" startPosition="28" endLine="41" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="40" startPosition="28" endLine="41" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="41" startPosition="81" endLine="42" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="41" startPosition="81" endLine="42" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="42" startPosition="80" endLine="43" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="42" startPosition="80" endLine="43" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="43" startPosition="81" endLine="44" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="43" startPosition="81" endLine="44" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="44" startPosition="80" endLine="45" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="44" startPosition="80" endLine="45" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="46" startPosition="83" endLine="47" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="46" startPosition="83" endLine="47" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="47" startPosition="81" endLine="48" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189209" fileName="BarChart_Editor.java" startLine="51" startPosition="88" endLine="52" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847189209" fileName="BarChart_Editor.java" startLine="52" startPosition="98" endLine="53" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189209" fileName="BarChart_Editor.java" startLine="53" startPosition="47" endLine="54" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189209" fileName="BarChart_Editor.java" startLine="54" startPosition="34" endLine="55" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="58" startPosition="87" endLine="59" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="59" startPosition="81" endLine="60" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="60" startPosition="26" endLine="61" endPosition="39" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="61" startPosition="39" endLine="62" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="62" startPosition="26" endLine="63" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="63" startPosition="80" endLine="64" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="65" startPosition="39" endLine="66" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="66" startPosition="40" endLine="67" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="68" startPosition="5" endLine="69" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="69" startPosition="73" endLine="70" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="70" startPosition="57" endLine="71" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="72" startPosition="35" endLine="73" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="73" startPosition="72" endLine="74" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="74" startPosition="78" endLine="75" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="76" startPosition="10" endLine="77" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189211" fileName="BarChart_Editor.java" startLine="81" startPosition="33" endLine="82" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6638345083847189211" fileName="BarChart_Editor.java" startLine="85" startPosition="69" endLine="86" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189211" fileName="BarChart_Editor.java" startLine="89" startPosition="81" endLine="90" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189216" fileName="BarChart_Editor.java" startLine="95" startPosition="33" endLine="96" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189224" fileName="BarChart_Editor.java" startLine="102" startPosition="49" endLine="103" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="105" startPosition="8" endLine="106" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="106" startPosition="102" endLine="107" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="107" startPosition="81" endLine="108" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="108" startPosition="84" endLine="109" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="109" startPosition="54" endLine="110" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="110" startPosition="36" endLine="111" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189226" fileName="BarChart_Editor.java" startLine="115" startPosition="88" endLine="116" endPosition="88" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847189226" fileName="BarChart_Editor.java" startLine="116" startPosition="88" endLine="117" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189226" fileName="BarChart_Editor.java" startLine="117" startPosition="47" endLine="118" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189226" fileName="BarChart_Editor.java" startLine="118" startPosition="34" endLine="119" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="122" startPosition="87" endLine="123" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="123" startPosition="81" endLine="124" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="124" startPosition="32" endLine="125" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="125" startPosition="45" endLine="126" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="126" startPosition="26" endLine="127" endPosition="80" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="127" startPosition="80" endLine="128" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="129" startPosition="39" endLine="130" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="130" startPosition="40" endLine="131" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="132" startPosition="5" endLine="133" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="133" startPosition="73" endLine="134" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="134" startPosition="57" endLine="135" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="136" startPosition="35" endLine="137" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="137" startPosition="72" endLine="138" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="138" startPosition="78" endLine="139" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="140" startPosition="10" endLine="141" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189228" fileName="BarChart_Editor.java" startLine="145" startPosition="33" endLine="146" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+    <nodeInfo nodeId="6638345083847189228" fileName="BarChart_Editor.java" startLine="149" startPosition="69" endLine="150" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189228" fileName="BarChart_Editor.java" startLine="153" startPosition="81" endLine="154" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189233" fileName="BarChart_Editor.java" startLine="159" startPosition="33" endLine="160" endPosition="131" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189241" fileName="BarChart_Editor.java" startLine="166" startPosition="49" endLine="167" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="169" startPosition="8" endLine="170" endPosition="102" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="170" startPosition="102" endLine="171" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="171" startPosition="81" endLine="172" endPosition="84" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="172" startPosition="84" endLine="173" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="173" startPosition="54" endLine="174" endPosition="36" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="174" startPosition="36" endLine="175" endPosition="24" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189243" fileName="BarChart_Editor.java" startLine="179" startPosition="88" endLine="180" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847189243" fileName="BarChart_Editor.java" startLine="180" startPosition="86" endLine="181" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189243" fileName="BarChart_Editor.java" startLine="181" startPosition="47" endLine="182" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189243" fileName="BarChart_Editor.java" startLine="182" startPosition="34" endLine="183" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="186" startPosition="90" endLine="187" endPosition="179" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="187" startPosition="179" endLine="188" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="188" startPosition="49" endLine="189" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="189" startPosition="34" endLine="190" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="190" startPosition="63" endLine="191" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="191" startPosition="40" endLine="192" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189247" fileName="BarChart_Editor.java" startLine="195" startPosition="119" endLine="196" endPosition="129" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189252" fileName="BarChart_Editor.java" startLine="199" startPosition="88" endLine="200" endPosition="86" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847189252" fileName="BarChart_Editor.java" startLine="200" startPosition="86" endLine="201" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189252" fileName="BarChart_Editor.java" startLine="201" startPosition="47" endLine="202" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847189252" fileName="BarChart_Editor.java" startLine="202" startPosition="34" endLine="203" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847192522" fileName="BarChart_Editor.java" startLine="206" startPosition="88" endLine="207" endPosition="144" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847192522" fileName="BarChart_Editor.java" startLine="207" startPosition="144" endLine="208" endPosition="67" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847192522" fileName="BarChart_Editor.java" startLine="209" startPosition="26" endLine="210" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847192522" fileName="BarChart_Editor.java" startLine="211" startPosition="5" endLine="212" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="99" startPosition="0" endLine="101" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setText#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="163" startPosition="0" endLine="165" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setText#(Ljava/lang/String;)V" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="29" startPosition="0" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="33" startPosition="0" endLine="36" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createInspectedCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847189211" fileName="BarChart_Editor.java" startLine="81" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="_Inline_89i1cg_a1a#()V" />
+    <nodeInfo nodeId="6638345083847189211" fileName="BarChart_Editor.java" startLine="85" startPosition="0" endLine="88" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847189211" fileName="BarChart_Editor.java" startLine="89" startPosition="0" endLine="92" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="95" startPosition="0" endLine="98" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getText#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="102" startPosition="0" endLine="105" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isValidText#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="6638345083847189228" fileName="BarChart_Editor.java" startLine="145" startPosition="0" endLine="148" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="_Inline_89i1cg_a3a#()V" />
+    <nodeInfo nodeId="6638345083847189228" fileName="BarChart_Editor.java" startLine="149" startPosition="0" endLine="152" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847189228" fileName="BarChart_Editor.java" startLine="153" startPosition="0" endLine="156" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="159" startPosition="0" endLine="162" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="getText#()Ljava/lang/String;" />
+    <nodeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="166" startPosition="0" endLine="169" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="isValidText#(Ljava/lang/String;)Z" />
+    <nodeInfo nodeId="6638345083847189245" fileName="BarChart_Editor.java" startLine="195" startPosition="0" endLine="198" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="_QueryFunction_JComponent_89i1cg_a5a#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljavax/swing/JComponent;" />
+    <nodeInfo nodeId="6638345083847192522" fileName="BarChart_Editor.java" startLine="208" startPosition="67" endLine="211" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="64" startPosition="58" endLine="68" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="128" startPosition="58" endLine="132" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083847189209" fileName="BarChart_Editor.java" startLine="51" startPosition="0" endLine="57" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_89i1cg_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="71" startPosition="59" endLine="77" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083847189226" fileName="BarChart_Editor.java" startLine="115" startPosition="0" endLine="121" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_89i1cg_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="135" startPosition="59" endLine="141" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083847189243" fileName="BarChart_Editor.java" startLine="179" startPosition="0" endLine="185" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_89i1cg_e0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847189252" fileName="BarChart_Editor.java" startLine="199" startPosition="0" endLine="205" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_89i1cg_g0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="186" startPosition="0" endLine="194" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createJComponent_89i1cg_f0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847192522" fileName="BarChart_Editor.java" startLine="206" startPosition="0" endLine="214" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createComponent_89i1cg_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="93" startPosition="107" endLine="105" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="157" startPosition="107" endLine="169" endPosition="8" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="37" startPosition="0" endLine="50" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_89i1cg_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="93" startPosition="0" endLine="113" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createModelAccess_89i1cg_a0b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="157" startPosition="0" endLine="177" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createModelAccess_89i1cg_a0d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="58" startPosition="0" endLine="79" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefCell_89i1cg_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="122" startPosition="0" endLine="143" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createRefCell_89i1cg_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="6638345083847189221" fileName="BarChart_Editor.java" startLine="99" startPosition="42" endLine="99" endPosition="42" />
+    <scopeInfo nodeId="6638345083847189238" fileName="BarChart_Editor.java" startLine="163" startPosition="42" endLine="163" endPosition="42" />
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="29" startPosition="79" endLine="30" endPosition="63" />
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="33" startPosition="82" endLine="34" endPosition="62" />
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="40" startPosition="28" endLine="41" endPosition="81" />
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="41" startPosition="81" endLine="42" endPosition="80" />
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="42" startPosition="80" endLine="43" endPosition="81" />
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="43" startPosition="81" endLine="44" endPosition="80" />
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="44" startPosition="80" endLine="45" endPosition="81" />
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="45" startPosition="81" endLine="46" endPosition="83" />
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="46" startPosition="83" endLine="47" endPosition="81" />
+    <scopeInfo nodeId="6638345083847189211" fileName="BarChart_Editor.java" startLine="81" startPosition="33" endLine="82" endPosition="14" />
+    <scopeInfo nodeId="6638345083847189211" fileName="BarChart_Editor.java" startLine="85" startPosition="69" endLine="86" endPosition="67" />
+    <scopeInfo nodeId="6638345083847189211" fileName="BarChart_Editor.java" startLine="89" startPosition="81" endLine="90" endPosition="69" />
+    <scopeInfo nodeId="6638345083847189215" fileName="BarChart_Editor.java" startLine="95" startPosition="33" endLine="96" endPosition="131" />
+    <scopeInfo nodeId="6638345083847189223" fileName="BarChart_Editor.java" startLine="102" startPosition="49" endLine="103" endPosition="22" />
+    <scopeInfo nodeId="6638345083847189228" fileName="BarChart_Editor.java" startLine="145" startPosition="33" endLine="146" endPosition="14" />
+    <scopeInfo nodeId="6638345083847189228" fileName="BarChart_Editor.java" startLine="149" startPosition="69" endLine="150" endPosition="67" />
+    <scopeInfo nodeId="6638345083847189228" fileName="BarChart_Editor.java" startLine="153" startPosition="81" endLine="154" endPosition="69" />
+    <scopeInfo nodeId="6638345083847189232" fileName="BarChart_Editor.java" startLine="159" startPosition="33" endLine="160" endPosition="131" />
+    <scopeInfo nodeId="6638345083847189240" fileName="BarChart_Editor.java" startLine="166" startPosition="49" endLine="167" endPosition="22" />
+    <scopeInfo nodeId="6638345083847189246" fileName="BarChart_Editor.java" startLine="195" startPosition="119" endLine="196" endPosition="129" />
+    <scopeInfo nodeId="6638345083847192522" fileName="BarChart_Editor.java" startLine="209" startPosition="26" endLine="210" endPosition="27" />
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="65" startPosition="39" endLine="67" endPosition="30" />
+    <scopeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="99" startPosition="0" endLine="101" endPosition="0">
+      <varInfo nodeId="6638345083847189212" varName="text" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="129" startPosition="39" endLine="131" endPosition="36" />
+    <scopeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="163" startPosition="0" endLine="165" endPosition="0">
+      <varInfo nodeId="6638345083847189229" varName="text" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="29" startPosition="0" endLine="32" endPosition="0">
+      <varInfo nodeId="6638345083847183376" varName="editorContext" />
+      <varInfo nodeId="6638345083847183376" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="33" startPosition="0" endLine="36" endPosition="0">
+      <varInfo nodeId="6638345083847183376" varName="editorContext" />
+      <varInfo nodeId="6638345083847183376" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="72" startPosition="35" endLine="75" endPosition="109">
+      <varInfo nodeId="6638345083847183376" varName="manager" />
+      <varInfo nodeId="6638345083847183376" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189211" fileName="BarChart_Editor.java" startLine="81" startPosition="0" endLine="84" endPosition="0" />
+    <scopeInfo nodeId="6638345083847189211" fileName="BarChart_Editor.java" startLine="85" startPosition="0" endLine="88" endPosition="0">
+      <varInfo nodeId="6638345083847189211" varName="editorContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189211" fileName="BarChart_Editor.java" startLine="89" startPosition="0" endLine="92" endPosition="0">
+      <varInfo nodeId="6638345083847189211" varName="editorContext" />
+      <varInfo nodeId="6638345083847189211" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="95" startPosition="0" endLine="98" endPosition="0" />
+    <scopeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="102" startPosition="0" endLine="105" endPosition="0">
+      <varInfo nodeId="6638345083847189212" varName="text" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="136" startPosition="35" endLine="139" endPosition="109">
+      <varInfo nodeId="6638345083847183376" varName="manager" />
+      <varInfo nodeId="6638345083847183376" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189228" fileName="BarChart_Editor.java" startLine="145" startPosition="0" endLine="148" endPosition="0" />
+    <scopeInfo nodeId="6638345083847189228" fileName="BarChart_Editor.java" startLine="149" startPosition="0" endLine="152" endPosition="0">
+      <varInfo nodeId="6638345083847189228" varName="editorContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189228" fileName="BarChart_Editor.java" startLine="153" startPosition="0" endLine="156" endPosition="0">
+      <varInfo nodeId="6638345083847189228" varName="editorContext" />
+      <varInfo nodeId="6638345083847189228" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="159" startPosition="0" endLine="162" endPosition="0" />
+    <scopeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="166" startPosition="0" endLine="169" endPosition="0">
+      <varInfo nodeId="6638345083847189229" varName="text" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189245" fileName="BarChart_Editor.java" startLine="195" startPosition="0" endLine="198" endPosition="0">
+      <varInfo nodeId="6638345083847189245" varName="editorContext" />
+      <varInfo nodeId="6638345083847189245" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189209" fileName="BarChart_Editor.java" startLine="51" startPosition="88" endLine="55" endPosition="22">
+      <varInfo nodeId="6638345083847189209" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189226" fileName="BarChart_Editor.java" startLine="115" startPosition="88" endLine="119" endPosition="22">
+      <varInfo nodeId="6638345083847189226" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189243" fileName="BarChart_Editor.java" startLine="179" startPosition="88" endLine="183" endPosition="22">
+      <varInfo nodeId="6638345083847189243" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189252" fileName="BarChart_Editor.java" startLine="199" startPosition="88" endLine="203" endPosition="22">
+      <varInfo nodeId="6638345083847189252" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189209" fileName="BarChart_Editor.java" startLine="51" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="6638345083847189209" varName="editorContext" />
+      <varInfo nodeId="6638345083847189209" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189226" fileName="BarChart_Editor.java" startLine="115" startPosition="0" endLine="121" endPosition="0">
+      <varInfo nodeId="6638345083847189226" varName="editorContext" />
+      <varInfo nodeId="6638345083847189226" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189243" fileName="BarChart_Editor.java" startLine="179" startPosition="0" endLine="185" endPosition="0">
+      <varInfo nodeId="6638345083847189243" varName="editorContext" />
+      <varInfo nodeId="6638345083847189243" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="186" startPosition="90" endLine="192" endPosition="22">
+      <varInfo nodeId="6638345083847183376" varName="editorCell" />
+      <varInfo nodeId="6638345083847183376" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189252" fileName="BarChart_Editor.java" startLine="199" startPosition="0" endLine="205" endPosition="0">
+      <varInfo nodeId="6638345083847189252" varName="editorContext" />
+      <varInfo nodeId="6638345083847189252" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847192522" fileName="BarChart_Editor.java" startLine="206" startPosition="88" endLine="212" endPosition="22">
+      <varInfo nodeId="6638345083847192522" varName="bigCell" />
+      <varInfo nodeId="6638345083847192522" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="186" startPosition="0" endLine="194" endPosition="0">
+      <varInfo nodeId="6638345083847183376" varName="editorContext" />
+      <varInfo nodeId="6638345083847183376" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847192522" fileName="BarChart_Editor.java" startLine="206" startPosition="0" endLine="214" endPosition="0">
+      <varInfo nodeId="6638345083847192522" varName="editorContext" />
+      <varInfo nodeId="6638345083847192522" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="37" startPosition="89" endLine="48" endPosition="22">
+      <varInfo nodeId="6638345083847183376" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="37" startPosition="0" endLine="50" endPosition="0">
+      <varInfo nodeId="6638345083847183376" varName="editorContext" />
+      <varInfo nodeId="6638345083847183376" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="93" startPosition="107" endLine="111" endPosition="24">
+      <varInfo nodeId="6638345083847189212" varName="editorCell" />
+      <varInfo nodeId="6638345083847189212" varName="modelAccessor" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="157" startPosition="107" endLine="175" endPosition="24">
+      <varInfo nodeId="6638345083847189229" varName="editorCell" />
+      <varInfo nodeId="6638345083847189229" varName="modelAccessor" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="58" startPosition="87" endLine="77" endPosition="22">
+      <varInfo nodeId="6638345083847183376" varName="attributeConcept" />
+      <varInfo nodeId="6638345083847183376" varName="attributeKind" />
+      <varInfo nodeId="6638345083847183376" varName="editorCell" />
+      <varInfo nodeId="6638345083847183376" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="122" startPosition="87" endLine="141" endPosition="22">
+      <varInfo nodeId="6638345083847183376" varName="attributeConcept" />
+      <varInfo nodeId="6638345083847183376" varName="attributeKind" />
+      <varInfo nodeId="6638345083847183376" varName="editorCell" />
+      <varInfo nodeId="6638345083847183376" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="93" startPosition="0" endLine="113" endPosition="0">
+      <varInfo nodeId="6638345083847189212" varName="editorContext" />
+      <varInfo nodeId="6638345083847189212" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="157" startPosition="0" endLine="177" endPosition="0">
+      <varInfo nodeId="6638345083847189229" varName="editorContext" />
+      <varInfo nodeId="6638345083847189229" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="58" startPosition="0" endLine="79" endPosition="0">
+      <varInfo nodeId="6638345083847183376" varName="editorContext" />
+      <varInfo nodeId="6638345083847183376" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="122" startPosition="0" endLine="143" endPosition="0">
+      <varInfo nodeId="6638345083847183376" varName="editorContext" />
+      <varInfo nodeId="6638345083847183376" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="6638345083847189212" fileName="BarChart_Editor.java" startLine="94" startPosition="40" endLine="105" endPosition="7" unitName="org.campagnelab.mps.XChart.editor.BarChart_Editor$1" />
+    <unitInfo nodeId="6638345083847189229" fileName="BarChart_Editor.java" startLine="158" startPosition="40" endLine="169" endPosition="7" unitName="org.campagnelab.mps.XChart.editor.BarChart_Editor$1" />
+    <unitInfo nodeId="6638345083847189211" fileName="BarChart_Editor.java" startLine="80" startPosition="0" endLine="114" endPosition="0" unitName="org.campagnelab.mps.XChart.editor.BarChart_Editor$_Inline_89i1cg_a1a" />
+    <unitInfo nodeId="6638345083847189228" fileName="BarChart_Editor.java" startLine="144" startPosition="0" endLine="178" endPosition="0" unitName="org.campagnelab.mps.XChart.editor.BarChart_Editor$_Inline_89i1cg_a3a" />
+    <unitInfo nodeId="6638345083847183376" fileName="BarChart_Editor.java" startLine="28" startPosition="0" endLine="215" endPosition="0" unitName="org.campagnelab.mps.XChart.editor.BarChart_Editor" />
+  </root>
   <root nodeRef="r:cfb31b41-ab7a-42c8-913f-b1491325cb39(org.campagnelab.mps.XChart.editor)/7263499363580700577">
     <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="24" startPosition="89" endLine="25" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1414,31 +1715,31 @@
     <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="31" startPosition="83" endLine="32" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="31" startPosition="83" endLine="32" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="32" startPosition="81" endLine="33" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700632" fileName="ChartStyle_Editor.java" startLine="36" startPosition="88" endLine="37" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700632" fileName="ChartStyle_Editor.java" startLine="37" startPosition="97" endLine="38" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700632" fileName="ChartStyle_Editor.java" startLine="38" startPosition="47" endLine="39" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700632" fileName="ChartStyle_Editor.java" startLine="39" startPosition="34" endLine="40" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="43" startPosition="88" endLine="44" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="44" startPosition="82" endLine="45" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="45" startPosition="29" endLine="46" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="46" startPosition="42" endLine="47" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="47" startPosition="26" endLine="48" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="48" startPosition="58" endLine="49" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="49" startPosition="42" endLine="50" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="50" startPosition="73" endLine="51" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="51" startPosition="57" endLine="52" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="53" startPosition="35" endLine="54" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="54" startPosition="72" endLine="55" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="55" startPosition="78" endLine="56" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="57" startPosition="10" endLine="58" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700634" fileName="ChartStyle_Editor.java" startLine="61" startPosition="88" endLine="62" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700634" fileName="ChartStyle_Editor.java" startLine="62" startPosition="87" endLine="63" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700634" fileName="ChartStyle_Editor.java" startLine="63" startPosition="47" endLine="64" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700634" fileName="ChartStyle_Editor.java" startLine="64" startPosition="34" endLine="65" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700634" fileName="ChartStyle_Editor.java" startLine="65" startPosition="60" endLine="66" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700634" fileName="ChartStyle_Editor.java" startLine="66" startPosition="60" endLine="67" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700634" fileName="ChartStyle_Editor.java" startLine="67" startPosition="40" endLine="68" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700634" fileName="ChartStyle_Editor.java" startLine="68" startPosition="34" endLine="69" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400937" fileName="ChartStyle_Editor.java" startLine="36" startPosition="88" endLine="37" endPosition="97" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400937" fileName="ChartStyle_Editor.java" startLine="37" startPosition="97" endLine="38" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400937" fileName="ChartStyle_Editor.java" startLine="38" startPosition="47" endLine="39" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400937" fileName="ChartStyle_Editor.java" startLine="39" startPosition="34" endLine="40" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="43" startPosition="88" endLine="44" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="44" startPosition="82" endLine="45" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="45" startPosition="29" endLine="46" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="46" startPosition="42" endLine="47" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="47" startPosition="26" endLine="48" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="48" startPosition="58" endLine="49" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="49" startPosition="42" endLine="50" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="50" startPosition="73" endLine="51" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="51" startPosition="57" endLine="52" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="53" startPosition="35" endLine="54" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="54" startPosition="72" endLine="55" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="55" startPosition="78" endLine="56" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="57" startPosition="10" endLine="58" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400939" fileName="ChartStyle_Editor.java" startLine="61" startPosition="88" endLine="62" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400939" fileName="ChartStyle_Editor.java" startLine="62" startPosition="87" endLine="63" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400939" fileName="ChartStyle_Editor.java" startLine="63" startPosition="47" endLine="64" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400939" fileName="ChartStyle_Editor.java" startLine="64" startPosition="34" endLine="65" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400939" fileName="ChartStyle_Editor.java" startLine="65" startPosition="60" endLine="66" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400939" fileName="ChartStyle_Editor.java" startLine="66" startPosition="60" endLine="67" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400939" fileName="ChartStyle_Editor.java" startLine="67" startPosition="40" endLine="68" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400939" fileName="ChartStyle_Editor.java" startLine="68" startPosition="34" endLine="69" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="72" startPosition="90" endLine="73" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="73" startPosition="96" endLine="74" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="74" startPosition="49" endLine="75" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -1474,177 +1775,214 @@
     <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="90" startPosition="82" endLine="91" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="91" startPosition="82" endLine="92" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="91" startPosition="82" endLine="92" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="92" startPosition="82" endLine="93" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700640" fileName="ChartStyle_Editor.java" startLine="96" startPosition="89" endLine="97" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700640" fileName="ChartStyle_Editor.java" startLine="97" startPosition="91" endLine="98" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700640" fileName="ChartStyle_Editor.java" startLine="98" startPosition="48" endLine="99" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700640" fileName="ChartStyle_Editor.java" startLine="99" startPosition="34" endLine="100" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700641" fileName="ChartStyle_Editor.java" startLine="103" startPosition="89" endLine="104" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700641" fileName="ChartStyle_Editor.java" startLine="104" startPosition="87" endLine="105" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700641" fileName="ChartStyle_Editor.java" startLine="105" startPosition="48" endLine="106" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700641" fileName="ChartStyle_Editor.java" startLine="106" startPosition="34" endLine="107" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700641" fileName="ChartStyle_Editor.java" startLine="107" startPosition="54" endLine="108" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700641" fileName="ChartStyle_Editor.java" startLine="108" startPosition="40" endLine="109" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700641" fileName="ChartStyle_Editor.java" startLine="109" startPosition="34" endLine="110" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="113" startPosition="89" endLine="114" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="114" startPosition="82" endLine="115" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="115" startPosition="30" endLine="116" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="116" startPosition="43" endLine="117" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="117" startPosition="26" endLine="118" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="118" startPosition="58" endLine="119" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="119" startPosition="43" endLine="120" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="120" startPosition="34" endLine="121" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="121" startPosition="60" endLine="122" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="122" startPosition="40" endLine="123" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="123" startPosition="73" endLine="124" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="124" startPosition="57" endLine="125" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="126" startPosition="35" endLine="127" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="127" startPosition="72" endLine="128" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="128" startPosition="78" endLine="129" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="130" startPosition="10" endLine="131" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700645" fileName="ChartStyle_Editor.java" startLine="134" startPosition="89" endLine="135" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700645" fileName="ChartStyle_Editor.java" startLine="135" startPosition="92" endLine="136" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700645" fileName="ChartStyle_Editor.java" startLine="136" startPosition="48" endLine="137" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700645" fileName="ChartStyle_Editor.java" startLine="137" startPosition="34" endLine="138" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700646" fileName="ChartStyle_Editor.java" startLine="141" startPosition="89" endLine="142" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700646" fileName="ChartStyle_Editor.java" startLine="142" startPosition="87" endLine="143" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700646" fileName="ChartStyle_Editor.java" startLine="143" startPosition="48" endLine="144" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700646" fileName="ChartStyle_Editor.java" startLine="144" startPosition="34" endLine="145" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700646" fileName="ChartStyle_Editor.java" startLine="145" startPosition="54" endLine="146" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700646" fileName="ChartStyle_Editor.java" startLine="146" startPosition="40" endLine="147" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700646" fileName="ChartStyle_Editor.java" startLine="147" startPosition="34" endLine="148" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="151" startPosition="89" endLine="152" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="152" startPosition="82" endLine="153" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="153" startPosition="31" endLine="154" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="154" startPosition="44" endLine="155" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="155" startPosition="26" endLine="156" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="156" startPosition="58" endLine="157" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="157" startPosition="44" endLine="158" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="158" startPosition="34" endLine="159" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="159" startPosition="60" endLine="160" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="160" startPosition="40" endLine="161" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="161" startPosition="73" endLine="162" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="162" startPosition="57" endLine="163" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="164" startPosition="35" endLine="165" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="165" startPosition="72" endLine="166" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="166" startPosition="78" endLine="167" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="168" startPosition="10" endLine="169" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700650" fileName="ChartStyle_Editor.java" startLine="172" startPosition="89" endLine="173" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700650" fileName="ChartStyle_Editor.java" startLine="173" startPosition="98" endLine="174" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700650" fileName="ChartStyle_Editor.java" startLine="174" startPosition="48" endLine="175" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700650" fileName="ChartStyle_Editor.java" startLine="175" startPosition="34" endLine="176" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700651" fileName="ChartStyle_Editor.java" startLine="179" startPosition="89" endLine="180" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700651" fileName="ChartStyle_Editor.java" startLine="180" startPosition="87" endLine="181" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700651" fileName="ChartStyle_Editor.java" startLine="181" startPosition="48" endLine="182" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700651" fileName="ChartStyle_Editor.java" startLine="182" startPosition="34" endLine="183" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700651" fileName="ChartStyle_Editor.java" startLine="183" startPosition="54" endLine="184" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700651" fileName="ChartStyle_Editor.java" startLine="184" startPosition="40" endLine="185" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700651" fileName="ChartStyle_Editor.java" startLine="185" startPosition="34" endLine="186" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="189" startPosition="89" endLine="190" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="190" startPosition="82" endLine="191" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="191" startPosition="35" endLine="192" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="192" startPosition="48" endLine="193" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="193" startPosition="26" endLine="194" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="194" startPosition="58" endLine="195" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="195" startPosition="48" endLine="196" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="196" startPosition="34" endLine="197" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="197" startPosition="60" endLine="198" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="198" startPosition="40" endLine="199" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="199" startPosition="73" endLine="200" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="200" startPosition="57" endLine="201" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="202" startPosition="35" endLine="203" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="203" startPosition="72" endLine="204" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="204" startPosition="78" endLine="205" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="206" startPosition="10" endLine="207" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700655" fileName="ChartStyle_Editor.java" startLine="210" startPosition="89" endLine="211" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700655" fileName="ChartStyle_Editor.java" startLine="211" startPosition="98" endLine="212" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700655" fileName="ChartStyle_Editor.java" startLine="212" startPosition="48" endLine="213" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700655" fileName="ChartStyle_Editor.java" startLine="213" startPosition="34" endLine="214" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700656" fileName="ChartStyle_Editor.java" startLine="217" startPosition="89" endLine="218" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700656" fileName="ChartStyle_Editor.java" startLine="218" startPosition="87" endLine="219" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700656" fileName="ChartStyle_Editor.java" startLine="219" startPosition="48" endLine="220" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700656" fileName="ChartStyle_Editor.java" startLine="220" startPosition="34" endLine="221" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700656" fileName="ChartStyle_Editor.java" startLine="221" startPosition="54" endLine="222" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700656" fileName="ChartStyle_Editor.java" startLine="222" startPosition="40" endLine="223" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700656" fileName="ChartStyle_Editor.java" startLine="223" startPosition="34" endLine="224" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="227" startPosition="89" endLine="228" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="228" startPosition="82" endLine="229" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="229" startPosition="35" endLine="230" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="230" startPosition="48" endLine="231" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="231" startPosition="26" endLine="232" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="232" startPosition="58" endLine="233" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="233" startPosition="48" endLine="234" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="234" startPosition="34" endLine="235" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="235" startPosition="60" endLine="236" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="236" startPosition="40" endLine="237" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="237" startPosition="73" endLine="238" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="238" startPosition="57" endLine="239" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="240" startPosition="35" endLine="241" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="241" startPosition="72" endLine="242" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="242" startPosition="78" endLine="243" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="244" startPosition="10" endLine="245" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700660" fileName="ChartStyle_Editor.java" startLine="248" startPosition="89" endLine="249" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700660" fileName="ChartStyle_Editor.java" startLine="249" startPosition="91" endLine="250" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700660" fileName="ChartStyle_Editor.java" startLine="250" startPosition="48" endLine="251" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700660" fileName="ChartStyle_Editor.java" startLine="251" startPosition="34" endLine="252" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700661" fileName="ChartStyle_Editor.java" startLine="255" startPosition="89" endLine="256" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700661" fileName="ChartStyle_Editor.java" startLine="256" startPosition="87" endLine="257" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700661" fileName="ChartStyle_Editor.java" startLine="257" startPosition="48" endLine="258" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700661" fileName="ChartStyle_Editor.java" startLine="258" startPosition="34" endLine="259" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700661" fileName="ChartStyle_Editor.java" startLine="259" startPosition="54" endLine="260" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700661" fileName="ChartStyle_Editor.java" startLine="260" startPosition="40" endLine="261" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700661" fileName="ChartStyle_Editor.java" startLine="261" startPosition="34" endLine="262" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="265" startPosition="89" endLine="266" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="266" startPosition="82" endLine="267" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="267" startPosition="30" endLine="268" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="268" startPosition="43" endLine="269" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="269" startPosition="26" endLine="270" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="270" startPosition="58" endLine="271" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="271" startPosition="43" endLine="272" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="272" startPosition="34" endLine="273" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="273" startPosition="60" endLine="274" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="274" startPosition="40" endLine="275" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="275" startPosition="73" endLine="276" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="276" startPosition="57" endLine="277" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="278" startPosition="35" endLine="279" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="279" startPosition="72" endLine="280" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="280" startPosition="78" endLine="281" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="282" startPosition="10" endLine="283" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
-    <nodeInfo nodeId="7263499363580700665" fileName="ChartStyle_Editor.java" startLine="286" startPosition="88" endLine="287" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700665" fileName="ChartStyle_Editor.java" startLine="287" startPosition="87" endLine="288" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700665" fileName="ChartStyle_Editor.java" startLine="288" startPosition="47" endLine="289" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
-    <nodeInfo nodeId="7263499363580700665" fileName="ChartStyle_Editor.java" startLine="289" startPosition="34" endLine="290" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700665" fileName="ChartStyle_Editor.java" startLine="290" startPosition="60" endLine="291" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700665" fileName="ChartStyle_Editor.java" startLine="291" startPosition="40" endLine="292" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="7263499363580700665" fileName="ChartStyle_Editor.java" startLine="292" startPosition="34" endLine="293" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="92" startPosition="82" endLine="93" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="92" startPosition="82" endLine="93" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="93" startPosition="82" endLine="94" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="93" startPosition="82" endLine="94" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="94" startPosition="82" endLine="95" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="94" startPosition="82" endLine="95" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="95" startPosition="82" endLine="96" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400945" fileName="ChartStyle_Editor.java" startLine="99" startPosition="89" endLine="100" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400945" fileName="ChartStyle_Editor.java" startLine="100" startPosition="91" endLine="101" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400945" fileName="ChartStyle_Editor.java" startLine="101" startPosition="48" endLine="102" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400945" fileName="ChartStyle_Editor.java" startLine="102" startPosition="34" endLine="103" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400946" fileName="ChartStyle_Editor.java" startLine="106" startPosition="89" endLine="107" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400946" fileName="ChartStyle_Editor.java" startLine="107" startPosition="87" endLine="108" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400946" fileName="ChartStyle_Editor.java" startLine="108" startPosition="48" endLine="109" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400946" fileName="ChartStyle_Editor.java" startLine="109" startPosition="34" endLine="110" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400946" fileName="ChartStyle_Editor.java" startLine="110" startPosition="54" endLine="111" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400946" fileName="ChartStyle_Editor.java" startLine="111" startPosition="40" endLine="112" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400946" fileName="ChartStyle_Editor.java" startLine="112" startPosition="34" endLine="113" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="116" startPosition="89" endLine="117" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="117" startPosition="82" endLine="118" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="118" startPosition="30" endLine="119" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="119" startPosition="43" endLine="120" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="120" startPosition="26" endLine="121" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="121" startPosition="58" endLine="122" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="122" startPosition="43" endLine="123" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="123" startPosition="34" endLine="124" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="124" startPosition="60" endLine="125" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="125" startPosition="40" endLine="126" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="126" startPosition="73" endLine="127" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="127" startPosition="57" endLine="128" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="129" startPosition="35" endLine="130" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="130" startPosition="72" endLine="131" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="131" startPosition="78" endLine="132" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="133" startPosition="10" endLine="134" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400950" fileName="ChartStyle_Editor.java" startLine="137" startPosition="89" endLine="138" endPosition="92" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400950" fileName="ChartStyle_Editor.java" startLine="138" startPosition="92" endLine="139" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400950" fileName="ChartStyle_Editor.java" startLine="139" startPosition="48" endLine="140" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400950" fileName="ChartStyle_Editor.java" startLine="140" startPosition="34" endLine="141" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400951" fileName="ChartStyle_Editor.java" startLine="144" startPosition="89" endLine="145" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400951" fileName="ChartStyle_Editor.java" startLine="145" startPosition="87" endLine="146" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400951" fileName="ChartStyle_Editor.java" startLine="146" startPosition="48" endLine="147" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400951" fileName="ChartStyle_Editor.java" startLine="147" startPosition="34" endLine="148" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400951" fileName="ChartStyle_Editor.java" startLine="148" startPosition="54" endLine="149" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400951" fileName="ChartStyle_Editor.java" startLine="149" startPosition="40" endLine="150" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400951" fileName="ChartStyle_Editor.java" startLine="150" startPosition="34" endLine="151" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="154" startPosition="89" endLine="155" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="155" startPosition="82" endLine="156" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="156" startPosition="31" endLine="157" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="157" startPosition="44" endLine="158" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="158" startPosition="26" endLine="159" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="159" startPosition="58" endLine="160" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="160" startPosition="44" endLine="161" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="161" startPosition="34" endLine="162" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="162" startPosition="60" endLine="163" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="163" startPosition="40" endLine="164" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="164" startPosition="73" endLine="165" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="165" startPosition="57" endLine="166" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="167" startPosition="35" endLine="168" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="168" startPosition="72" endLine="169" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="169" startPosition="78" endLine="170" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="171" startPosition="10" endLine="172" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400955" fileName="ChartStyle_Editor.java" startLine="175" startPosition="89" endLine="176" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400955" fileName="ChartStyle_Editor.java" startLine="176" startPosition="98" endLine="177" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400955" fileName="ChartStyle_Editor.java" startLine="177" startPosition="48" endLine="178" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400955" fileName="ChartStyle_Editor.java" startLine="178" startPosition="34" endLine="179" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400956" fileName="ChartStyle_Editor.java" startLine="182" startPosition="89" endLine="183" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400956" fileName="ChartStyle_Editor.java" startLine="183" startPosition="87" endLine="184" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400956" fileName="ChartStyle_Editor.java" startLine="184" startPosition="48" endLine="185" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400956" fileName="ChartStyle_Editor.java" startLine="185" startPosition="34" endLine="186" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400956" fileName="ChartStyle_Editor.java" startLine="186" startPosition="54" endLine="187" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400956" fileName="ChartStyle_Editor.java" startLine="187" startPosition="40" endLine="188" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400956" fileName="ChartStyle_Editor.java" startLine="188" startPosition="34" endLine="189" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="192" startPosition="89" endLine="193" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="193" startPosition="82" endLine="194" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="194" startPosition="35" endLine="195" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="195" startPosition="48" endLine="196" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="196" startPosition="26" endLine="197" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="197" startPosition="58" endLine="198" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="198" startPosition="48" endLine="199" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="199" startPosition="34" endLine="200" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="200" startPosition="60" endLine="201" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="201" startPosition="40" endLine="202" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="202" startPosition="73" endLine="203" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="203" startPosition="57" endLine="204" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="205" startPosition="35" endLine="206" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="206" startPosition="72" endLine="207" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="207" startPosition="78" endLine="208" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="209" startPosition="10" endLine="210" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400960" fileName="ChartStyle_Editor.java" startLine="213" startPosition="89" endLine="214" endPosition="98" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400960" fileName="ChartStyle_Editor.java" startLine="214" startPosition="98" endLine="215" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400960" fileName="ChartStyle_Editor.java" startLine="215" startPosition="48" endLine="216" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400960" fileName="ChartStyle_Editor.java" startLine="216" startPosition="34" endLine="217" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400961" fileName="ChartStyle_Editor.java" startLine="220" startPosition="89" endLine="221" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400961" fileName="ChartStyle_Editor.java" startLine="221" startPosition="87" endLine="222" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400961" fileName="ChartStyle_Editor.java" startLine="222" startPosition="48" endLine="223" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400961" fileName="ChartStyle_Editor.java" startLine="223" startPosition="34" endLine="224" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400961" fileName="ChartStyle_Editor.java" startLine="224" startPosition="54" endLine="225" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400961" fileName="ChartStyle_Editor.java" startLine="225" startPosition="40" endLine="226" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400961" fileName="ChartStyle_Editor.java" startLine="226" startPosition="34" endLine="227" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="230" startPosition="89" endLine="231" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="231" startPosition="82" endLine="232" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="232" startPosition="35" endLine="233" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="233" startPosition="48" endLine="234" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="234" startPosition="26" endLine="235" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="235" startPosition="58" endLine="236" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="236" startPosition="48" endLine="237" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="237" startPosition="34" endLine="238" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="238" startPosition="60" endLine="239" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="239" startPosition="40" endLine="240" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="240" startPosition="73" endLine="241" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="241" startPosition="57" endLine="242" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="243" startPosition="35" endLine="244" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="244" startPosition="72" endLine="245" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="245" startPosition="78" endLine="246" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="247" startPosition="10" endLine="248" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400965" fileName="ChartStyle_Editor.java" startLine="251" startPosition="89" endLine="252" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400965" fileName="ChartStyle_Editor.java" startLine="252" startPosition="91" endLine="253" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400965" fileName="ChartStyle_Editor.java" startLine="253" startPosition="48" endLine="254" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400965" fileName="ChartStyle_Editor.java" startLine="254" startPosition="34" endLine="255" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400966" fileName="ChartStyle_Editor.java" startLine="258" startPosition="89" endLine="259" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400966" fileName="ChartStyle_Editor.java" startLine="259" startPosition="87" endLine="260" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400966" fileName="ChartStyle_Editor.java" startLine="260" startPosition="48" endLine="261" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400966" fileName="ChartStyle_Editor.java" startLine="261" startPosition="34" endLine="262" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400966" fileName="ChartStyle_Editor.java" startLine="262" startPosition="54" endLine="263" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400966" fileName="ChartStyle_Editor.java" startLine="263" startPosition="40" endLine="264" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400966" fileName="ChartStyle_Editor.java" startLine="264" startPosition="34" endLine="265" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="268" startPosition="89" endLine="269" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="269" startPosition="82" endLine="270" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="270" startPosition="30" endLine="271" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="271" startPosition="43" endLine="272" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="272" startPosition="26" endLine="273" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="273" startPosition="58" endLine="274" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="274" startPosition="43" endLine="275" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="275" startPosition="34" endLine="276" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="276" startPosition="60" endLine="277" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="277" startPosition="40" endLine="278" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="278" startPosition="73" endLine="279" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="279" startPosition="57" endLine="280" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="281" startPosition="35" endLine="282" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="282" startPosition="72" endLine="283" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="283" startPosition="78" endLine="284" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="285" startPosition="10" endLine="286" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400970" fileName="ChartStyle_Editor.java" startLine="289" startPosition="89" endLine="290" endPosition="91" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400970" fileName="ChartStyle_Editor.java" startLine="290" startPosition="91" endLine="291" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400970" fileName="ChartStyle_Editor.java" startLine="291" startPosition="48" endLine="292" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400970" fileName="ChartStyle_Editor.java" startLine="292" startPosition="34" endLine="293" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400971" fileName="ChartStyle_Editor.java" startLine="296" startPosition="89" endLine="297" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400971" fileName="ChartStyle_Editor.java" startLine="297" startPosition="87" endLine="298" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400971" fileName="ChartStyle_Editor.java" startLine="298" startPosition="48" endLine="299" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400971" fileName="ChartStyle_Editor.java" startLine="299" startPosition="34" endLine="300" endPosition="54" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400971" fileName="ChartStyle_Editor.java" startLine="300" startPosition="54" endLine="301" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400971" fileName="ChartStyle_Editor.java" startLine="301" startPosition="40" endLine="302" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400971" fileName="ChartStyle_Editor.java" startLine="302" startPosition="34" endLine="303" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="306" startPosition="89" endLine="307" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="307" startPosition="82" endLine="308" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="308" startPosition="30" endLine="309" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="309" startPosition="43" endLine="310" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="310" startPosition="26" endLine="311" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="311" startPosition="58" endLine="312" endPosition="43" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="312" startPosition="43" endLine="313" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="313" startPosition="34" endLine="314" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="314" startPosition="60" endLine="315" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="315" startPosition="40" endLine="316" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="316" startPosition="73" endLine="317" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="317" startPosition="57" endLine="318" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="319" startPosition="35" endLine="320" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="320" startPosition="72" endLine="321" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="321" startPosition="78" endLine="322" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="323" startPosition="10" endLine="324" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6638345083847400975" fileName="ChartStyle_Editor.java" startLine="327" startPosition="88" endLine="328" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400975" fileName="ChartStyle_Editor.java" startLine="328" startPosition="87" endLine="329" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400975" fileName="ChartStyle_Editor.java" startLine="329" startPosition="47" endLine="330" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6638345083847400975" fileName="ChartStyle_Editor.java" startLine="330" startPosition="34" endLine="331" endPosition="60" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400975" fileName="ChartStyle_Editor.java" startLine="331" startPosition="60" endLine="332" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400975" fileName="ChartStyle_Editor.java" startLine="332" startPosition="40" endLine="333" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6638345083847400975" fileName="ChartStyle_Editor.java" startLine="333" startPosition="34" endLine="334" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="20" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700632" fileName="ChartStyle_Editor.java" startLine="36" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="52" startPosition="59" endLine="58" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7263499363580700640" fileName="ChartStyle_Editor.java" startLine="96" startPosition="0" endLine="102" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_a3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="125" startPosition="59" endLine="131" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7263499363580700645" fileName="ChartStyle_Editor.java" startLine="134" startPosition="0" endLine="140" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_d3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="163" startPosition="59" endLine="169" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7263499363580700650" fileName="ChartStyle_Editor.java" startLine="172" startPosition="0" endLine="178" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_g3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="201" startPosition="59" endLine="207" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7263499363580700655" fileName="ChartStyle_Editor.java" startLine="210" startPosition="0" endLine="216" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_j3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="239" startPosition="59" endLine="245" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7263499363580700660" fileName="ChartStyle_Editor.java" startLine="248" startPosition="0" endLine="254" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_m3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="277" startPosition="59" endLine="283" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
-    <nodeInfo nodeId="7263499363580700641" fileName="ChartStyle_Editor.java" startLine="103" startPosition="0" endLine="112" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_b3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700646" fileName="ChartStyle_Editor.java" startLine="141" startPosition="0" endLine="150" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_e3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700651" fileName="ChartStyle_Editor.java" startLine="179" startPosition="0" endLine="188" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_h3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700656" fileName="ChartStyle_Editor.java" startLine="217" startPosition="0" endLine="226" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_k3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700661" fileName="ChartStyle_Editor.java" startLine="255" startPosition="0" endLine="264" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_n3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700665" fileName="ChartStyle_Editor.java" startLine="286" startPosition="0" endLine="295" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_e0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700634" fileName="ChartStyle_Editor.java" startLine="61" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400937" fileName="ChartStyle_Editor.java" startLine="36" startPosition="0" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="52" startPosition="59" endLine="58" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083847400945" fileName="ChartStyle_Editor.java" startLine="99" startPosition="0" endLine="105" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_a3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="128" startPosition="59" endLine="134" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083847400950" fileName="ChartStyle_Editor.java" startLine="137" startPosition="0" endLine="143" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_d3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="166" startPosition="59" endLine="172" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083847400955" fileName="ChartStyle_Editor.java" startLine="175" startPosition="0" endLine="181" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_g3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="204" startPosition="59" endLine="210" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083847400960" fileName="ChartStyle_Editor.java" startLine="213" startPosition="0" endLine="219" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_j3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="242" startPosition="59" endLine="248" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083847400965" fileName="ChartStyle_Editor.java" startLine="251" startPosition="0" endLine="257" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_m3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="280" startPosition="59" endLine="286" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083847400970" fileName="ChartStyle_Editor.java" startLine="289" startPosition="0" endLine="295" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_p3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="318" startPosition="59" endLine="324" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6638345083847400946" fileName="ChartStyle_Editor.java" startLine="106" startPosition="0" endLine="115" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_b3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400951" fileName="ChartStyle_Editor.java" startLine="144" startPosition="0" endLine="153" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_e3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400956" fileName="ChartStyle_Editor.java" startLine="182" startPosition="0" endLine="191" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_h3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400961" fileName="ChartStyle_Editor.java" startLine="220" startPosition="0" endLine="229" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_k3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400966" fileName="ChartStyle_Editor.java" startLine="258" startPosition="0" endLine="267" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_n3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400971" fileName="ChartStyle_Editor.java" startLine="296" startPosition="0" endLine="305" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_q3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400975" fileName="ChartStyle_Editor.java" startLine="327" startPosition="0" endLine="336" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_e0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400939" fileName="ChartStyle_Editor.java" startLine="61" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_intf8c_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="24" startPosition="0" endLine="35" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_intf8c_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="43" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_intf8c_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="113" startPosition="0" endLine="133" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_intf8c_c3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="151" startPosition="0" endLine="171" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_intf8c_f3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="189" startPosition="0" endLine="209" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_intf8c_i3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="227" startPosition="0" endLine="247" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_intf8c_l3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="265" startPosition="0" endLine="285" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_intf8c_o3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-    <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="72" startPosition="0" endLine="95" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_intf8c_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="43" startPosition="0" endLine="60" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_intf8c_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="116" startPosition="0" endLine="136" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_intf8c_c3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="154" startPosition="0" endLine="174" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_intf8c_f3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="192" startPosition="0" endLine="212" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_intf8c_i3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="230" startPosition="0" endLine="250" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_intf8c_l3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="268" startPosition="0" endLine="288" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_intf8c_o3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="306" startPosition="0" endLine="326" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_intf8c_r3a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="72" startPosition="0" endLine="98" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_intf8c_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
     <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="20" startPosition="79" endLine="21" endPosition="63" />
     <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="27" startPosition="28" endLine="28" endPosition="81" />
     <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="28" startPosition="81" endLine="29" endPosition="81" />
@@ -1666,213 +2004,246 @@
     <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="89" startPosition="82" endLine="90" endPosition="82" />
     <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="90" startPosition="82" endLine="91" endPosition="82" />
     <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="91" startPosition="82" endLine="92" endPosition="82" />
+    <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="92" startPosition="82" endLine="93" endPosition="82" />
+    <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="93" startPosition="82" endLine="94" endPosition="82" />
+    <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="94" startPosition="82" endLine="95" endPosition="82" />
     <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="20" startPosition="0" endLine="23" endPosition="0">
       <varInfo nodeId="7263499363580700577" varName="editorContext" />
       <varInfo nodeId="7263499363580700577" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="53" startPosition="35" endLine="56" endPosition="109">
-      <varInfo nodeId="7263499363580700633" varName="manager" />
-      <varInfo nodeId="7263499363580700633" varName="opContext" />
+    <scopeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="53" startPosition="35" endLine="56" endPosition="109">
+      <varInfo nodeId="6638345083847400938" varName="manager" />
+      <varInfo nodeId="6638345083847400938" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="126" startPosition="35" endLine="129" endPosition="109">
-      <varInfo nodeId="7263499363580700643" varName="manager" />
-      <varInfo nodeId="7263499363580700643" varName="opContext" />
+    <scopeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="129" startPosition="35" endLine="132" endPosition="109">
+      <varInfo nodeId="6638345083847400948" varName="manager" />
+      <varInfo nodeId="6638345083847400948" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="164" startPosition="35" endLine="167" endPosition="109">
-      <varInfo nodeId="7263499363580700648" varName="manager" />
-      <varInfo nodeId="7263499363580700648" varName="opContext" />
+    <scopeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="167" startPosition="35" endLine="170" endPosition="109">
+      <varInfo nodeId="6638345083847400953" varName="manager" />
+      <varInfo nodeId="6638345083847400953" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="202" startPosition="35" endLine="205" endPosition="109">
-      <varInfo nodeId="7263499363580700653" varName="manager" />
-      <varInfo nodeId="7263499363580700653" varName="opContext" />
+    <scopeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="205" startPosition="35" endLine="208" endPosition="109">
+      <varInfo nodeId="6638345083847400958" varName="manager" />
+      <varInfo nodeId="6638345083847400958" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="240" startPosition="35" endLine="243" endPosition="109">
-      <varInfo nodeId="7263499363580700658" varName="manager" />
-      <varInfo nodeId="7263499363580700658" varName="opContext" />
+    <scopeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="243" startPosition="35" endLine="246" endPosition="109">
+      <varInfo nodeId="6638345083847400963" varName="manager" />
+      <varInfo nodeId="6638345083847400963" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="278" startPosition="35" endLine="281" endPosition="109">
-      <varInfo nodeId="7263499363580700663" varName="manager" />
-      <varInfo nodeId="7263499363580700663" varName="opContext" />
+    <scopeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="281" startPosition="35" endLine="284" endPosition="109">
+      <varInfo nodeId="6638345083847400968" varName="manager" />
+      <varInfo nodeId="6638345083847400968" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700632" fileName="ChartStyle_Editor.java" startLine="36" startPosition="88" endLine="40" endPosition="22">
-      <varInfo nodeId="7263499363580700632" varName="editorCell" />
+    <scopeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="319" startPosition="35" endLine="322" endPosition="109">
+      <varInfo nodeId="6638345083847400973" varName="manager" />
+      <varInfo nodeId="6638345083847400973" varName="opContext" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700640" fileName="ChartStyle_Editor.java" startLine="96" startPosition="89" endLine="100" endPosition="22">
-      <varInfo nodeId="7263499363580700640" varName="editorCell" />
+    <scopeInfo nodeId="6638345083847400937" fileName="ChartStyle_Editor.java" startLine="36" startPosition="88" endLine="40" endPosition="22">
+      <varInfo nodeId="6638345083847400937" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700645" fileName="ChartStyle_Editor.java" startLine="134" startPosition="89" endLine="138" endPosition="22">
-      <varInfo nodeId="7263499363580700645" varName="editorCell" />
+    <scopeInfo nodeId="6638345083847400945" fileName="ChartStyle_Editor.java" startLine="99" startPosition="89" endLine="103" endPosition="22">
+      <varInfo nodeId="6638345083847400945" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700650" fileName="ChartStyle_Editor.java" startLine="172" startPosition="89" endLine="176" endPosition="22">
-      <varInfo nodeId="7263499363580700650" varName="editorCell" />
+    <scopeInfo nodeId="6638345083847400950" fileName="ChartStyle_Editor.java" startLine="137" startPosition="89" endLine="141" endPosition="22">
+      <varInfo nodeId="6638345083847400950" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700655" fileName="ChartStyle_Editor.java" startLine="210" startPosition="89" endLine="214" endPosition="22">
-      <varInfo nodeId="7263499363580700655" varName="editorCell" />
+    <scopeInfo nodeId="6638345083847400955" fileName="ChartStyle_Editor.java" startLine="175" startPosition="89" endLine="179" endPosition="22">
+      <varInfo nodeId="6638345083847400955" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700660" fileName="ChartStyle_Editor.java" startLine="248" startPosition="89" endLine="252" endPosition="22">
-      <varInfo nodeId="7263499363580700660" varName="editorCell" />
+    <scopeInfo nodeId="6638345083847400960" fileName="ChartStyle_Editor.java" startLine="213" startPosition="89" endLine="217" endPosition="22">
+      <varInfo nodeId="6638345083847400960" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700632" fileName="ChartStyle_Editor.java" startLine="36" startPosition="0" endLine="42" endPosition="0">
-      <varInfo nodeId="7263499363580700632" varName="editorContext" />
-      <varInfo nodeId="7263499363580700632" varName="node" />
+    <scopeInfo nodeId="6638345083847400965" fileName="ChartStyle_Editor.java" startLine="251" startPosition="89" endLine="255" endPosition="22">
+      <varInfo nodeId="6638345083847400965" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700640" fileName="ChartStyle_Editor.java" startLine="96" startPosition="0" endLine="102" endPosition="0">
-      <varInfo nodeId="7263499363580700640" varName="editorContext" />
-      <varInfo nodeId="7263499363580700640" varName="node" />
+    <scopeInfo nodeId="6638345083847400970" fileName="ChartStyle_Editor.java" startLine="289" startPosition="89" endLine="293" endPosition="22">
+      <varInfo nodeId="6638345083847400970" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700645" fileName="ChartStyle_Editor.java" startLine="134" startPosition="0" endLine="140" endPosition="0">
-      <varInfo nodeId="7263499363580700645" varName="editorContext" />
-      <varInfo nodeId="7263499363580700645" varName="node" />
+    <scopeInfo nodeId="6638345083847400937" fileName="ChartStyle_Editor.java" startLine="36" startPosition="0" endLine="42" endPosition="0">
+      <varInfo nodeId="6638345083847400937" varName="editorContext" />
+      <varInfo nodeId="6638345083847400937" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700650" fileName="ChartStyle_Editor.java" startLine="172" startPosition="0" endLine="178" endPosition="0">
-      <varInfo nodeId="7263499363580700650" varName="editorContext" />
-      <varInfo nodeId="7263499363580700650" varName="node" />
+    <scopeInfo nodeId="6638345083847400945" fileName="ChartStyle_Editor.java" startLine="99" startPosition="0" endLine="105" endPosition="0">
+      <varInfo nodeId="6638345083847400945" varName="editorContext" />
+      <varInfo nodeId="6638345083847400945" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700655" fileName="ChartStyle_Editor.java" startLine="210" startPosition="0" endLine="216" endPosition="0">
-      <varInfo nodeId="7263499363580700655" varName="editorContext" />
-      <varInfo nodeId="7263499363580700655" varName="node" />
+    <scopeInfo nodeId="6638345083847400950" fileName="ChartStyle_Editor.java" startLine="137" startPosition="0" endLine="143" endPosition="0">
+      <varInfo nodeId="6638345083847400950" varName="editorContext" />
+      <varInfo nodeId="6638345083847400950" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700660" fileName="ChartStyle_Editor.java" startLine="248" startPosition="0" endLine="254" endPosition="0">
-      <varInfo nodeId="7263499363580700660" varName="editorContext" />
-      <varInfo nodeId="7263499363580700660" varName="node" />
+    <scopeInfo nodeId="6638345083847400955" fileName="ChartStyle_Editor.java" startLine="175" startPosition="0" endLine="181" endPosition="0">
+      <varInfo nodeId="6638345083847400955" varName="editorContext" />
+      <varInfo nodeId="6638345083847400955" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700641" fileName="ChartStyle_Editor.java" startLine="103" startPosition="89" endLine="110" endPosition="22">
-      <varInfo nodeId="7263499363580700641" varName="editorCell" />
-      <varInfo nodeId="7263499363580700641" varName="style" />
+    <scopeInfo nodeId="6638345083847400960" fileName="ChartStyle_Editor.java" startLine="213" startPosition="0" endLine="219" endPosition="0">
+      <varInfo nodeId="6638345083847400960" varName="editorContext" />
+      <varInfo nodeId="6638345083847400960" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700646" fileName="ChartStyle_Editor.java" startLine="141" startPosition="89" endLine="148" endPosition="22">
-      <varInfo nodeId="7263499363580700646" varName="editorCell" />
-      <varInfo nodeId="7263499363580700646" varName="style" />
+    <scopeInfo nodeId="6638345083847400965" fileName="ChartStyle_Editor.java" startLine="251" startPosition="0" endLine="257" endPosition="0">
+      <varInfo nodeId="6638345083847400965" varName="editorContext" />
+      <varInfo nodeId="6638345083847400965" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700651" fileName="ChartStyle_Editor.java" startLine="179" startPosition="89" endLine="186" endPosition="22">
-      <varInfo nodeId="7263499363580700651" varName="editorCell" />
-      <varInfo nodeId="7263499363580700651" varName="style" />
+    <scopeInfo nodeId="6638345083847400970" fileName="ChartStyle_Editor.java" startLine="289" startPosition="0" endLine="295" endPosition="0">
+      <varInfo nodeId="6638345083847400970" varName="editorContext" />
+      <varInfo nodeId="6638345083847400970" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700656" fileName="ChartStyle_Editor.java" startLine="217" startPosition="89" endLine="224" endPosition="22">
-      <varInfo nodeId="7263499363580700656" varName="editorCell" />
-      <varInfo nodeId="7263499363580700656" varName="style" />
+    <scopeInfo nodeId="6638345083847400946" fileName="ChartStyle_Editor.java" startLine="106" startPosition="89" endLine="113" endPosition="22">
+      <varInfo nodeId="6638345083847400946" varName="editorCell" />
+      <varInfo nodeId="6638345083847400946" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700661" fileName="ChartStyle_Editor.java" startLine="255" startPosition="89" endLine="262" endPosition="22">
-      <varInfo nodeId="7263499363580700661" varName="editorCell" />
-      <varInfo nodeId="7263499363580700661" varName="style" />
+    <scopeInfo nodeId="6638345083847400951" fileName="ChartStyle_Editor.java" startLine="144" startPosition="89" endLine="151" endPosition="22">
+      <varInfo nodeId="6638345083847400951" varName="editorCell" />
+      <varInfo nodeId="6638345083847400951" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700665" fileName="ChartStyle_Editor.java" startLine="286" startPosition="88" endLine="293" endPosition="22">
-      <varInfo nodeId="7263499363580700665" varName="editorCell" />
-      <varInfo nodeId="7263499363580700665" varName="style" />
+    <scopeInfo nodeId="6638345083847400956" fileName="ChartStyle_Editor.java" startLine="182" startPosition="89" endLine="189" endPosition="22">
+      <varInfo nodeId="6638345083847400956" varName="editorCell" />
+      <varInfo nodeId="6638345083847400956" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700634" fileName="ChartStyle_Editor.java" startLine="61" startPosition="88" endLine="69" endPosition="22">
-      <varInfo nodeId="7263499363580700634" varName="editorCell" />
-      <varInfo nodeId="7263499363580700634" varName="style" />
+    <scopeInfo nodeId="6638345083847400961" fileName="ChartStyle_Editor.java" startLine="220" startPosition="89" endLine="227" endPosition="22">
+      <varInfo nodeId="6638345083847400961" varName="editorCell" />
+      <varInfo nodeId="6638345083847400961" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847400966" fileName="ChartStyle_Editor.java" startLine="258" startPosition="89" endLine="265" endPosition="22">
+      <varInfo nodeId="6638345083847400966" varName="editorCell" />
+      <varInfo nodeId="6638345083847400966" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847400971" fileName="ChartStyle_Editor.java" startLine="296" startPosition="89" endLine="303" endPosition="22">
+      <varInfo nodeId="6638345083847400971" varName="editorCell" />
+      <varInfo nodeId="6638345083847400971" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847400975" fileName="ChartStyle_Editor.java" startLine="327" startPosition="88" endLine="334" endPosition="22">
+      <varInfo nodeId="6638345083847400975" varName="editorCell" />
+      <varInfo nodeId="6638345083847400975" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847400939" fileName="ChartStyle_Editor.java" startLine="61" startPosition="88" endLine="69" endPosition="22">
+      <varInfo nodeId="6638345083847400939" varName="editorCell" />
+      <varInfo nodeId="6638345083847400939" varName="style" />
     </scopeInfo>
     <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="24" startPosition="89" endLine="33" endPosition="22">
       <varInfo nodeId="7263499363580700577" varName="editorCell" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700641" fileName="ChartStyle_Editor.java" startLine="103" startPosition="0" endLine="112" endPosition="0">
-      <varInfo nodeId="7263499363580700641" varName="editorContext" />
-      <varInfo nodeId="7263499363580700641" varName="node" />
+    <scopeInfo nodeId="6638345083847400946" fileName="ChartStyle_Editor.java" startLine="106" startPosition="0" endLine="115" endPosition="0">
+      <varInfo nodeId="6638345083847400946" varName="editorContext" />
+      <varInfo nodeId="6638345083847400946" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700646" fileName="ChartStyle_Editor.java" startLine="141" startPosition="0" endLine="150" endPosition="0">
-      <varInfo nodeId="7263499363580700646" varName="editorContext" />
-      <varInfo nodeId="7263499363580700646" varName="node" />
+    <scopeInfo nodeId="6638345083847400951" fileName="ChartStyle_Editor.java" startLine="144" startPosition="0" endLine="153" endPosition="0">
+      <varInfo nodeId="6638345083847400951" varName="editorContext" />
+      <varInfo nodeId="6638345083847400951" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700651" fileName="ChartStyle_Editor.java" startLine="179" startPosition="0" endLine="188" endPosition="0">
-      <varInfo nodeId="7263499363580700651" varName="editorContext" />
-      <varInfo nodeId="7263499363580700651" varName="node" />
+    <scopeInfo nodeId="6638345083847400956" fileName="ChartStyle_Editor.java" startLine="182" startPosition="0" endLine="191" endPosition="0">
+      <varInfo nodeId="6638345083847400956" varName="editorContext" />
+      <varInfo nodeId="6638345083847400956" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700656" fileName="ChartStyle_Editor.java" startLine="217" startPosition="0" endLine="226" endPosition="0">
-      <varInfo nodeId="7263499363580700656" varName="editorContext" />
-      <varInfo nodeId="7263499363580700656" varName="node" />
+    <scopeInfo nodeId="6638345083847400961" fileName="ChartStyle_Editor.java" startLine="220" startPosition="0" endLine="229" endPosition="0">
+      <varInfo nodeId="6638345083847400961" varName="editorContext" />
+      <varInfo nodeId="6638345083847400961" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700661" fileName="ChartStyle_Editor.java" startLine="255" startPosition="0" endLine="264" endPosition="0">
-      <varInfo nodeId="7263499363580700661" varName="editorContext" />
-      <varInfo nodeId="7263499363580700661" varName="node" />
+    <scopeInfo nodeId="6638345083847400966" fileName="ChartStyle_Editor.java" startLine="258" startPosition="0" endLine="267" endPosition="0">
+      <varInfo nodeId="6638345083847400966" varName="editorContext" />
+      <varInfo nodeId="6638345083847400966" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700665" fileName="ChartStyle_Editor.java" startLine="286" startPosition="0" endLine="295" endPosition="0">
-      <varInfo nodeId="7263499363580700665" varName="editorContext" />
-      <varInfo nodeId="7263499363580700665" varName="node" />
+    <scopeInfo nodeId="6638345083847400971" fileName="ChartStyle_Editor.java" startLine="296" startPosition="0" endLine="305" endPosition="0">
+      <varInfo nodeId="6638345083847400971" varName="editorContext" />
+      <varInfo nodeId="6638345083847400971" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700634" fileName="ChartStyle_Editor.java" startLine="61" startPosition="0" endLine="71" endPosition="0">
-      <varInfo nodeId="7263499363580700634" varName="editorContext" />
-      <varInfo nodeId="7263499363580700634" varName="node" />
+    <scopeInfo nodeId="6638345083847400975" fileName="ChartStyle_Editor.java" startLine="327" startPosition="0" endLine="336" endPosition="0">
+      <varInfo nodeId="6638345083847400975" varName="editorContext" />
+      <varInfo nodeId="6638345083847400975" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847400939" fileName="ChartStyle_Editor.java" startLine="61" startPosition="0" endLine="71" endPosition="0">
+      <varInfo nodeId="6638345083847400939" varName="editorContext" />
+      <varInfo nodeId="6638345083847400939" varName="node" />
     </scopeInfo>
     <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="24" startPosition="0" endLine="35" endPosition="0">
       <varInfo nodeId="7263499363580700577" varName="editorContext" />
       <varInfo nodeId="7263499363580700577" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="43" startPosition="88" endLine="58" endPosition="22">
-      <varInfo nodeId="7263499363580700633" varName="attributeConcept" />
-      <varInfo nodeId="7263499363580700633" varName="attributeKind" />
-      <varInfo nodeId="7263499363580700633" varName="editorCell" />
-      <varInfo nodeId="7263499363580700633" varName="provider" />
+    <scopeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="43" startPosition="88" endLine="58" endPosition="22">
+      <varInfo nodeId="6638345083847400938" varName="attributeConcept" />
+      <varInfo nodeId="6638345083847400938" varName="attributeKind" />
+      <varInfo nodeId="6638345083847400938" varName="editorCell" />
+      <varInfo nodeId="6638345083847400938" varName="provider" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700633" fileName="ChartStyle_Editor.java" startLine="43" startPosition="0" endLine="60" endPosition="0">
-      <varInfo nodeId="7263499363580700633" varName="editorContext" />
-      <varInfo nodeId="7263499363580700633" varName="node" />
+    <scopeInfo nodeId="6638345083847400938" fileName="ChartStyle_Editor.java" startLine="43" startPosition="0" endLine="60" endPosition="0">
+      <varInfo nodeId="6638345083847400938" varName="editorContext" />
+      <varInfo nodeId="6638345083847400938" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="113" startPosition="89" endLine="131" endPosition="22">
-      <varInfo nodeId="7263499363580700643" varName="attributeConcept" />
-      <varInfo nodeId="7263499363580700643" varName="attributeKind" />
-      <varInfo nodeId="7263499363580700643" varName="editorCell" />
-      <varInfo nodeId="7263499363580700643" varName="provider" />
-      <varInfo nodeId="7263499363580700643" varName="style" />
+    <scopeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="116" startPosition="89" endLine="134" endPosition="22">
+      <varInfo nodeId="6638345083847400948" varName="attributeConcept" />
+      <varInfo nodeId="6638345083847400948" varName="attributeKind" />
+      <varInfo nodeId="6638345083847400948" varName="editorCell" />
+      <varInfo nodeId="6638345083847400948" varName="provider" />
+      <varInfo nodeId="6638345083847400948" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="151" startPosition="89" endLine="169" endPosition="22">
-      <varInfo nodeId="7263499363580700648" varName="attributeConcept" />
-      <varInfo nodeId="7263499363580700648" varName="attributeKind" />
-      <varInfo nodeId="7263499363580700648" varName="editorCell" />
-      <varInfo nodeId="7263499363580700648" varName="provider" />
-      <varInfo nodeId="7263499363580700648" varName="style" />
+    <scopeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="154" startPosition="89" endLine="172" endPosition="22">
+      <varInfo nodeId="6638345083847400953" varName="attributeConcept" />
+      <varInfo nodeId="6638345083847400953" varName="attributeKind" />
+      <varInfo nodeId="6638345083847400953" varName="editorCell" />
+      <varInfo nodeId="6638345083847400953" varName="provider" />
+      <varInfo nodeId="6638345083847400953" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="189" startPosition="89" endLine="207" endPosition="22">
-      <varInfo nodeId="7263499363580700653" varName="attributeConcept" />
-      <varInfo nodeId="7263499363580700653" varName="attributeKind" />
-      <varInfo nodeId="7263499363580700653" varName="editorCell" />
-      <varInfo nodeId="7263499363580700653" varName="provider" />
-      <varInfo nodeId="7263499363580700653" varName="style" />
+    <scopeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="192" startPosition="89" endLine="210" endPosition="22">
+      <varInfo nodeId="6638345083847400958" varName="attributeConcept" />
+      <varInfo nodeId="6638345083847400958" varName="attributeKind" />
+      <varInfo nodeId="6638345083847400958" varName="editorCell" />
+      <varInfo nodeId="6638345083847400958" varName="provider" />
+      <varInfo nodeId="6638345083847400958" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="227" startPosition="89" endLine="245" endPosition="22">
-      <varInfo nodeId="7263499363580700658" varName="attributeConcept" />
-      <varInfo nodeId="7263499363580700658" varName="attributeKind" />
-      <varInfo nodeId="7263499363580700658" varName="editorCell" />
-      <varInfo nodeId="7263499363580700658" varName="provider" />
-      <varInfo nodeId="7263499363580700658" varName="style" />
+    <scopeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="230" startPosition="89" endLine="248" endPosition="22">
+      <varInfo nodeId="6638345083847400963" varName="attributeConcept" />
+      <varInfo nodeId="6638345083847400963" varName="attributeKind" />
+      <varInfo nodeId="6638345083847400963" varName="editorCell" />
+      <varInfo nodeId="6638345083847400963" varName="provider" />
+      <varInfo nodeId="6638345083847400963" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="265" startPosition="89" endLine="283" endPosition="22">
-      <varInfo nodeId="7263499363580700663" varName="attributeConcept" />
-      <varInfo nodeId="7263499363580700663" varName="attributeKind" />
-      <varInfo nodeId="7263499363580700663" varName="editorCell" />
-      <varInfo nodeId="7263499363580700663" varName="provider" />
-      <varInfo nodeId="7263499363580700663" varName="style" />
+    <scopeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="268" startPosition="89" endLine="286" endPosition="22">
+      <varInfo nodeId="6638345083847400968" varName="attributeConcept" />
+      <varInfo nodeId="6638345083847400968" varName="attributeKind" />
+      <varInfo nodeId="6638345083847400968" varName="editorCell" />
+      <varInfo nodeId="6638345083847400968" varName="provider" />
+      <varInfo nodeId="6638345083847400968" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700643" fileName="ChartStyle_Editor.java" startLine="113" startPosition="0" endLine="133" endPosition="0">
-      <varInfo nodeId="7263499363580700643" varName="editorContext" />
-      <varInfo nodeId="7263499363580700643" varName="node" />
+    <scopeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="306" startPosition="89" endLine="324" endPosition="22">
+      <varInfo nodeId="6638345083847400973" varName="attributeConcept" />
+      <varInfo nodeId="6638345083847400973" varName="attributeKind" />
+      <varInfo nodeId="6638345083847400973" varName="editorCell" />
+      <varInfo nodeId="6638345083847400973" varName="provider" />
+      <varInfo nodeId="6638345083847400973" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700648" fileName="ChartStyle_Editor.java" startLine="151" startPosition="0" endLine="171" endPosition="0">
-      <varInfo nodeId="7263499363580700648" varName="editorContext" />
-      <varInfo nodeId="7263499363580700648" varName="node" />
+    <scopeInfo nodeId="6638345083847400948" fileName="ChartStyle_Editor.java" startLine="116" startPosition="0" endLine="136" endPosition="0">
+      <varInfo nodeId="6638345083847400948" varName="editorContext" />
+      <varInfo nodeId="6638345083847400948" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700653" fileName="ChartStyle_Editor.java" startLine="189" startPosition="0" endLine="209" endPosition="0">
-      <varInfo nodeId="7263499363580700653" varName="editorContext" />
-      <varInfo nodeId="7263499363580700653" varName="node" />
+    <scopeInfo nodeId="6638345083847400953" fileName="ChartStyle_Editor.java" startLine="154" startPosition="0" endLine="174" endPosition="0">
+      <varInfo nodeId="6638345083847400953" varName="editorContext" />
+      <varInfo nodeId="6638345083847400953" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700658" fileName="ChartStyle_Editor.java" startLine="227" startPosition="0" endLine="247" endPosition="0">
-      <varInfo nodeId="7263499363580700658" varName="editorContext" />
-      <varInfo nodeId="7263499363580700658" varName="node" />
+    <scopeInfo nodeId="6638345083847400958" fileName="ChartStyle_Editor.java" startLine="192" startPosition="0" endLine="212" endPosition="0">
+      <varInfo nodeId="6638345083847400958" varName="editorContext" />
+      <varInfo nodeId="6638345083847400958" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700663" fileName="ChartStyle_Editor.java" startLine="265" startPosition="0" endLine="285" endPosition="0">
-      <varInfo nodeId="7263499363580700663" varName="editorContext" />
-      <varInfo nodeId="7263499363580700663" varName="node" />
+    <scopeInfo nodeId="6638345083847400963" fileName="ChartStyle_Editor.java" startLine="230" startPosition="0" endLine="250" endPosition="0">
+      <varInfo nodeId="6638345083847400963" varName="editorContext" />
+      <varInfo nodeId="6638345083847400963" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="72" startPosition="90" endLine="93" endPosition="22">
+    <scopeInfo nodeId="6638345083847400968" fileName="ChartStyle_Editor.java" startLine="268" startPosition="0" endLine="288" endPosition="0">
+      <varInfo nodeId="6638345083847400968" varName="editorContext" />
+      <varInfo nodeId="6638345083847400968" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6638345083847400973" fileName="ChartStyle_Editor.java" startLine="306" startPosition="0" endLine="326" endPosition="0">
+      <varInfo nodeId="6638345083847400973" varName="editorContext" />
+      <varInfo nodeId="6638345083847400973" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="72" startPosition="90" endLine="96" endPosition="22">
       <varInfo nodeId="7263499363580700577" varName="editorCell" />
       <varInfo nodeId="7263499363580700577" varName="style" />
     </scopeInfo>
-    <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="72" startPosition="0" endLine="95" endPosition="0">
+    <scopeInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="72" startPosition="0" endLine="98" endPosition="0">
       <varInfo nodeId="7263499363580700577" varName="editorContext" />
       <varInfo nodeId="7263499363580700577" varName="node" />
     </scopeInfo>
-    <unitInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="19" startPosition="0" endLine="296" endPosition="0" unitName="org.campagnelab.mps.XChart.editor.ChartStyle_Editor" />
+    <unitInfo nodeId="7263499363580700577" fileName="ChartStyle_Editor.java" startLine="19" startPosition="0" endLine="337" endPosition="0" unitName="org.campagnelab.mps.XChart.editor.ChartStyle_Editor" />
   </root>
 </debugInfo>
 

@@ -17,6 +17,11 @@ import jetbrains.mps.smodel.runtime.base.BaseScopeProvider;
 import jetbrains.mps.smodel.runtime.ReferencePresentationContext;
 import java.io.File;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import org.jetbrains.mps.openapi.model.SNodeReference;
+import jetbrains.mps.scope.Scope;
+import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
+import jetbrains.mps.scope.ListScope;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class ColumnToDoubles_Constraints extends BaseConstraintsDescriptor {
@@ -59,6 +64,11 @@ public class ColumnToDoubles_Constraints extends BaseConstraintsDescriptor {
         SPropertyOperations.set(referenceNode, "name", SPropertyOperations.getString(newReferentNode, "name"));
       }
 
+      @Override
+      public boolean hasOwnScopeProvider() {
+        return true;
+      }
+
       @Nullable
       @Override
       public ReferenceScopeProvider getScopeProvider() {
@@ -73,6 +83,16 @@ public class ColumnToDoubles_Constraints extends BaseConstraintsDescriptor {
             File f = new File(SPropertyOperations.getString(SNodeOperations.getAncestor(_context.getParameterNode(), "org.campagnelab.mps.XChart.structure.DataFile", false, false), "path"));
             return SPropertyOperations.getString(_context.getParameterNode(), "name") + " in " + f.getName();
           }
+
+          @Override
+          public SNodeReference getSearchScopeValidatorNode() {
+            return breakingNode_szm7s4_a0a2a0a0a4a0b0a1a3;
+          }
+
+          @Override
+          public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
+            return ListScope.forNamedElements(SLinkOperations.getTargets(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getContextNode(), "org.campagnelab.mps.XChart.structure.FileRef", true, false), "file", false), "columns", true));
+          }
         };
       }
     });
@@ -84,4 +104,5 @@ public class ColumnToDoubles_Constraints extends BaseConstraintsDescriptor {
   }
 
   private static SNodePointer canBeChildBreakingPoint = new SNodePointer("r:7546b2ca-c35b-4f89-867f-8a418d6edf81(org.campagnelab.mps.XChart.constraints)", "3552713013257620451");
+  private static SNodePointer breakingNode_szm7s4_a0a2a0a0a4a0b0a1a3 = new SNodePointer("r:7546b2ca-c35b-4f89-867f-8a418d6edf81(org.campagnelab.mps.XChart.constraints)", "6638345083847163041");
 }

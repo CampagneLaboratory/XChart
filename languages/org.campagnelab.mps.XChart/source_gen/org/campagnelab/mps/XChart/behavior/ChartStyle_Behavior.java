@@ -10,6 +10,7 @@ public class ChartStyle_Behavior {
   public static void init(SNode thisNode) {
     SPropertyOperations.set(thisNode, "width", "" + (400));
     SPropertyOperations.set(thisNode, "height", "" + (400));
+    SPropertyOperations.set(thisNode, "title", "");
   }
 
   public static StyleManager.ChartTheme call_getTheme_7263499363580278109(SNode thisNode) {

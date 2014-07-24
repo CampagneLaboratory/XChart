@@ -32,19 +32,22 @@ public class DelimitedFile_Constraints extends BaseConstraintsDescriptor {
       @Override
       public void setValue(SNode node, String propertyValue) {
         String propertyName = "path";
-        if (!(new File((SPropertyOperations.getString(propertyValue))).exists())) {
-          return;
-        }
-        SPropertyOperations.set(node, "path", (SPropertyOperations.getString(propertyValue)));
-
-        ListSequence.fromList(SLinkOperations.getTargets(node, "columns", true)).clear();
-        for (String col : DelimitedFile_Behavior.call_parseColumns_3597430320022539917(node)) {
-          if (col == null) {
-            continue;
+        {
+          File file = new File((SPropertyOperations.getString(propertyValue)));
+          if (!(file.exists())) {
+            return;
           }
-          SNode c = SConceptOperations.createNewNode("org.campagnelab.mps.XChart.structure.Column", null);
-          SPropertyOperations.set(c, "name", col);
-          ListSequence.fromList(SLinkOperations.getTargets(node, "columns", true)).addElement(c);
+          SPropertyOperations.set(node, "path", (SPropertyOperations.getString(propertyValue)));
+          SPropertyOperations.set(node, "name", file.getName());
+          ListSequence.fromList(SLinkOperations.getTargets(node, "columns", true)).clear();
+          for (String col : DelimitedFile_Behavior.call_parseColumns_3597430320022539917(node)) {
+            if (col == null) {
+              continue;
+            }
+            SNode c = SConceptOperations.createNewNode("org.campagnelab.mps.XChart.structure.Column", null);
+            SPropertyOperations.set(c, "name", col);
+            ListSequence.fromList(SLinkOperations.getTargets(node, "columns", true)).addElement(c);
+          }
         }
       }
     });

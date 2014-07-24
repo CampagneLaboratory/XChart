@@ -90,6 +90,9 @@ public class ChartStyle_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_intf8c_m3a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_intf8c_n3a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_intf8c_o3a(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_intf8c_p3a(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_intf8c_q3a(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_intf8c_r3a(editorContext, node));
     return editorCell;
   }
 
@@ -269,6 +272,44 @@ public class ChartStyle_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_theme");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createConstant_intf8c_p3a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "title");
+    editorCell.setCellId("Constant_intf8c_p3a");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_intf8c_q3a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
+    editorCell.setCellId("Constant_intf8c_q3a");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createProperty_intf8c_r3a(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("title");
+    provider.setNoTargetText("<no title>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_title");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     editorCell.getStyle().putAll(style);
