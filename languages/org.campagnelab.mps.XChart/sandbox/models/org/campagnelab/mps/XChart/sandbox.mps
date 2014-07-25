@@ -3,6 +3,14 @@
   <persistence version="8" />
   <language namespace="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
+  <language namespace="798100da-4f0a-421a-b991-71f8c50ce5d2(jetbrains.mps.build)" />
+  <language namespace="479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.core.xml)" />
+  <language namespace="58f98fef-90ad-4b72-a390-fad66ec7005a(jetbrains.mps.core.properties)" />
+  <language namespace="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" />
+  <language namespace="698a8d22-a104-47a0-ba8d-10e3ec237f13(jetbrains.mps.build.workflow)" />
+  <language-engaged-on-generation namespace="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)" />
+  <import index="bfeh" modelUID="f:java_stub#65ac5108-9e74-4e5d-bdf6-e376b3ce0a4d#com.xeiam.xchart(org.campagnelab.mps.xchart.lib/com.xeiam.xchart@java_stub)" version="-1" />
+  <import index="ahfk" modelUID="r:7ed4de75-3f01-4ba7-a57c-7f0f3ae36f1d(org.campagnelab.mps.xchart.helpers.HelperClasses)" version="-1" />
   <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="5" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="ztlb.Tsvfile" typeId="ztlb.3597430320022583657" id="7263499363577631635" nodeInfo="ng">
@@ -95,6 +103,9 @@
         <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="6638345083846547227" resolveInfo="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
         <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="6638345083846648259" resolveInfo="read-index" />
       </node>
+      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="9178698721098102290" nodeInfo="ng">
+        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="6638345083846547227" resolveInfo="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+      </node>
     </node>
     <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.BarChart" typeId="ztlb.6638345083846214530" id="6638345083853653990" nodeInfo="ng">
       <node role="style" roleId="ztlb.7263499363579346634" type="ztlb.ChartStyle" typeId="ztlb.7263499363579346599" id="6638345083853653991" nodeInfo="ng">
@@ -112,28 +123,6 @@
           <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648274" resolveInfo="read-index" />
         </node>
         <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="6638345083853653994" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="heights" />
-          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648276" resolveInfo="count-variation-bases" />
-        </node>
-      </node>
-      <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="6638345083853654068" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="second" />
-        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="6638345083853654077" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="x" />
-          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648274" resolveInfo="read-index" />
-        </node>
-        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="6638345083853654080" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="heights" />
-          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648276" resolveInfo="count-variation-bases" />
-        </node>
-      </node>
-      <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="6638345083854011822" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="third" />
-        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="6638345083854011823" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="x" />
-          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648274" resolveInfo="read-index" />
-        </node>
-        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="6638345083854011824" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="heights" />
           <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648276" resolveInfo="count-variation-bases" />
         </node>
