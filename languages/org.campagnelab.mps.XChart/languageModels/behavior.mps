@@ -12,14 +12,13 @@
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="dbrf" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" version="-1" />
-  <import index="bfeh" modelUID="f:java_stub#65ac5108-9e74-4e5d-bdf6-e376b3ce0a4d#com.xeiam.xchart(testSolution/com.xeiam.xchart@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <import index="mij1" modelUID="r:64bc9cc9-8a3c-4162-8593-f9690fd5918f(org.campagnelab.mps.xchart.lib.HelperClasses)" version="-1" />
-  <import index="bfei" modelUID="f:java_stub#65ac5108-9e74-4e5d-bdf6-e376b3ce0a4d#com.xeiam.xchart(org.campagnelab.mps.xchart.lib/com.xeiam.xchart@java_stub)" version="-1" />
+  <import index="bfeh" modelUID="f:java_stub#65ac5108-9e74-4e5d-bdf6-e376b3ce0a4d#com.xeiam.xchart(org.campagnelab.mps.xchart.lib/com.xeiam.xchart@java_stub)" version="-1" />
   <import index="ec5l" modelUID="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" version="-1" />
   <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" />
   <import index="o8zo" modelUID="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" version="-1" />
+  <import index="ahfk" modelUID="r:7ed4de75-3f01-4ba7-a57c-7f0f3ae36f1d(org.campagnelab.mps.xchart.helpers.HelperClasses)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="1i04" modelUID="r:3270011d-8b2d-4938-8dff-d256a759e017(jetbrains.mps.lang.behavior.structure)" version="-1" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
@@ -181,8 +180,8 @@
               <node role="componentType" roleId="tpee.1070534760952" type="tpee.DoubleType" typeId="tpee.1070534513062" id="6638345083849638420" nodeInfo="in" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083849626734" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6638345083849617980" resolveInfo="load" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6638345083849553367" resolveInfo="ColumnLoader" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101740" resolveInfo="load" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101739" resolveInfo="ColumnLoader" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083849629567" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083849627790" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="6638345083849627613" nodeInfo="nn" />
@@ -449,7 +448,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="7263499363579542684" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="component" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7263499363579542685" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~XChartPanel" resolveInfo="XChartPanel" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~XChartPanel" resolveInfo="XChartPanel" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="1i04.LocalBehaviorMethodCall" typeId="1i04.6496299201655527393" id="7263499363579618193" nodeInfo="nn">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7263499363579573717" resolveInfo="getComponentInternal" />
@@ -577,8 +576,8 @@
                 </node>
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7263499363578990733" nodeInfo="nn">
                   <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7263499363579099317" nodeInfo="nn">
-                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.7263499363578872611" resolveInfo="BinHelper" />
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.7263499363579007157" resolveInfo="bin" />
+                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101544" resolveInfo="BinHelper" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101642" resolveInfo="bin" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7263499363579099318" nodeInfo="nn">
                       <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="7263499363579099322" nodeInfo="nn">
                         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2202909375770410262" resolveInfo="getDoubles" />
@@ -601,7 +600,7 @@
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7263499363579542684" resolveInfo="component" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083854527945" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~XChartPanel%dupdateSeries(java%dlang%dString,java%dutil%dCollection,java%dutil%dList)%ccom%dxeiam%dxchart%dSeries" resolveInfo="updateSeries" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~XChartPanel%dupdateSeries(java%dlang%dString,java%dutil%dCollection,java%dutil%dList)%ccom%dxeiam%dxchart%dSeries" resolveInfo="updateSeries" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083854527946" nodeInfo="nn">
                         <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="6638345083854527947" nodeInfo="nn">
                           <link role="variable" roleId="tp2q.1153944258490" targetNodeId="6638345083854527895" resolveInfo="series" />
@@ -639,7 +638,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6638345083854527964" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="chart" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6638345083854527965" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~Chart" resolveInfo="Chart" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~Chart" resolveInfo="Chart" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083854527966" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083854527967" nodeInfo="nn">
@@ -651,8 +650,8 @@
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6638345083854527970" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6638345083848028113" resolveInfo="buildChart" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="6638345083854527971" nodeInfo="nn">
-                  <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfei.~StyleManager$ChartType%dBar" resolveInfo="Bar" />
-                  <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfei.~StyleManager$ChartType" resolveInfo="StyleManager.ChartType" />
+                  <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfeh.~StyleManager$ChartType%dBar" resolveInfo="Bar" />
+                  <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfeh.~StyleManager$ChartType" resolveInfo="StyleManager.ChartType" />
                 </node>
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083854527972" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083854527973" nodeInfo="nn">
@@ -782,8 +781,8 @@
             </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6638345083854589051" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083854589052" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.7263499363579007157" resolveInfo="bin" />
-                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.7263499363578872611" resolveInfo="BinHelper" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101642" resolveInfo="bin" />
+                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101544" resolveInfo="BinHelper" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083854617295" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083854617126" nodeInfo="nn">
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083854589017" resolveInfo="x" />
@@ -806,7 +805,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083854527964" resolveInfo="chart" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083854589063" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~Chart%daddSeries(java%dlang%dString,java%dutil%dCollection,java%dutil%dCollection)%ccom%dxeiam%dxchart%dSeries" resolveInfo="addSeries" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~Chart%daddSeries(java%dlang%dString,java%dutil%dCollection,java%dutil%dCollection)%ccom%dxeiam%dxchart%dSeries" resolveInfo="addSeries" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083854589064" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="6638345083854589065" nodeInfo="nn">
                       <link role="variable" roleId="tp2q.1153944258490" targetNodeId="6638345083854589011" resolveInfo="series" />
@@ -834,14 +833,14 @@
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083854527964" resolveInfo="chart" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5270176140464540201" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~Chart%dgetStyleManager()%ccom%dxeiam%dxchart%dStyleManager" resolveInfo="getStyleManager" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~Chart%dgetStyleManager()%ccom%dxeiam%dxchart%dStyleManager" resolveInfo="getStyleManager" />
               </node>
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5270176140464540202" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~StyleManager%dsetLegendPosition(com%dxeiam%dxchart%dStyleManager$LegendPosition)%cvoid" resolveInfo="setLegendPosition" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~StyleManager%dsetLegendPosition(com%dxeiam%dxchart%dStyleManager$LegendPosition)%cvoid" resolveInfo="setLegendPosition" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="5270176140464540203" nodeInfo="nn">
-                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfei.~StyleManager$LegendPosition" resolveInfo="StyleManager.LegendPosition" />
-                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfei.~StyleManager$LegendPosition%dInsideNE" resolveInfo="InsideNE" />
+                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfeh.~StyleManager$LegendPosition" resolveInfo="StyleManager.LegendPosition" />
+                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfeh.~StyleManager$LegendPosition%dInsideNE" resolveInfo="InsideNE" />
               </node>
             </node>
           </node>
@@ -853,7 +852,7 @@
             </node>
             <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="5270176140464540205" nodeInfo="nn">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="5270176140464540206" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~XChartPanel%d&lt;init&gt;(com%dxeiam%dxchart%dChart)" resolveInfo="XChartPanel" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~XChartPanel%d&lt;init&gt;(com%dxeiam%dxchart%dChart)" resolveInfo="XChartPanel" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5270176140464540207" nodeInfo="nn">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083854527964" resolveInfo="chart" />
                 </node>
@@ -895,7 +894,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="7335187880077476483" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068581517676" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="7335187880077476500" nodeInfo="nn">
             <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="7335187880077480864" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.7335187880077420492" resolveInfo="ChartPanel" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101719" resolveInfo="ChartPanel" />
             </node>
           </node>
         </node>
@@ -1118,14 +1117,14 @@
       <property name="name" nameId="tpck.1169194664001" value="getComponentInternal" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="7263499363579573718" nodeInfo="nn" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7263499363579636603" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~XChartPanel" resolveInfo="XChartPanel" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~XChartPanel" resolveInfo="XChartPanel" />
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="7263499363579573720" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="7263499363579577913" nodeInfo="nn">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="7263499363579577914" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="component" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7263499363579577915" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~XChartPanel" resolveInfo="XChartPanel" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~XChartPanel" resolveInfo="XChartPanel" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="7263499363579577916" nodeInfo="nn" />
           </node>
@@ -1151,7 +1150,7 @@
                     </node>
                   </node>
                   <node role="type" roleId="tpee.1070534934091" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7263499363579577929" nodeInfo="in">
-                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~XChartPanel" resolveInfo="XChartPanel" />
+                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~XChartPanel" resolveInfo="XChartPanel" />
                   </node>
                 </node>
               </node>
@@ -1224,7 +1223,7 @@
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="7263499363579770029" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="component" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7263499363579770028" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~XChartPanel" resolveInfo="XChartPanel" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~XChartPanel" resolveInfo="XChartPanel" />
         </node>
       </node>
     </node>
@@ -1357,7 +1356,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6638345083855080405" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="component" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6638345083855080406" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~XChartPanel" resolveInfo="XChartPanel" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~XChartPanel" resolveInfo="XChartPanel" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="1i04.LocalBehaviorMethodCall" typeId="1i04.6496299201655527393" id="6638345083855080407" nodeInfo="nn">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7263499363579573717" resolveInfo="getComponentInternal" />
@@ -1502,7 +1501,7 @@
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083855080405" resolveInfo="component" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083855067406" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~XChartPanel%dupdateSeries(java%dlang%dString,java%dutil%dCollection,java%dutil%dList)%ccom%dxeiam%dxchart%dSeries" resolveInfo="updateSeries" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~XChartPanel%dupdateSeries(java%dlang%dString,java%dutil%dCollection,java%dutil%dList)%ccom%dxeiam%dxchart%dSeries" resolveInfo="updateSeries" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083855067407" nodeInfo="nn">
                         <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="6638345083855067408" nodeInfo="nn">
                           <link role="variable" roleId="tp2q.1153944258490" targetNodeId="6638345083855067356" resolveInfo="series" />
@@ -1512,8 +1511,8 @@
                         </node>
                       </node>
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083855067410" nodeInfo="nn">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6243283334560928130" resolveInfo="toCollection" />
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6243283334560928091" resolveInfo="DoublesToCollection" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101917" resolveInfo="toCollection" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101916" resolveInfo="DoublesToCollection" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083855067411" nodeInfo="nn">
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6638345083855067412" nodeInfo="nn">
                             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2202909375770410262" resolveInfo="getDoubles" />
@@ -1524,8 +1523,8 @@
                         </node>
                       </node>
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083855067414" nodeInfo="nn">
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6243283334560928091" resolveInfo="DoublesToCollection" />
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6243283334560928130" resolveInfo="toCollection" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101916" resolveInfo="DoublesToCollection" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101917" resolveInfo="toCollection" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083855067415" nodeInfo="nn">
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6638345083855067416" nodeInfo="nn">
                             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2202909375770410262" resolveInfo="getDoubles" />
@@ -1558,7 +1557,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6638345083855114889" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="chart" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6638345083855114890" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~Chart" resolveInfo="Chart" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~Chart" resolveInfo="Chart" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083855114891" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083855114892" nodeInfo="nn">
@@ -1570,8 +1569,8 @@
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6638345083855114895" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6638345083848028113" resolveInfo="buildChart" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="6638345083855418620" nodeInfo="nn">
-                  <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfei.~StyleManager$ChartType%dScatter" resolveInfo="Scatter" />
-                  <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfei.~StyleManager$ChartType" resolveInfo="StyleManager.ChartType" />
+                  <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfeh.~StyleManager$ChartType%dScatter" resolveInfo="Scatter" />
+                  <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfeh.~StyleManager$ChartType" resolveInfo="StyleManager.ChartType" />
                 </node>
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083855114897" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083855114898" nodeInfo="nn">
@@ -1718,7 +1717,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083855114889" resolveInfo="chart" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083855114958" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~Chart%daddSeries(java%dlang%dString,java%dutil%dCollection,java%dutil%dCollection)%ccom%dxeiam%dxchart%dSeries" resolveInfo="addSeries" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~Chart%daddSeries(java%dlang%dString,java%dutil%dCollection,java%dutil%dCollection)%ccom%dxeiam%dxchart%dSeries" resolveInfo="addSeries" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083855114959" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="6638345083855114960" nodeInfo="nn">
                       <link role="variable" roleId="tp2q.1153944258490" targetNodeId="6638345083855114908" resolveInfo="series" />
@@ -1728,8 +1727,8 @@
                     </node>
                   </node>
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083855114962" nodeInfo="nn">
-                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6243283334560928091" resolveInfo="DoublesToCollection" />
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6243283334560928130" resolveInfo="toCollection" />
+                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101916" resolveInfo="DoublesToCollection" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101917" resolveInfo="toCollection" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083855114963" nodeInfo="nn">
                       <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6638345083855114964" nodeInfo="nn">
                         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2202909375770410262" resolveInfo="getDoubles" />
@@ -1740,8 +1739,8 @@
                     </node>
                   </node>
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083855114966" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6243283334560928130" resolveInfo="toCollection" />
-                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6243283334560928091" resolveInfo="DoublesToCollection" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101917" resolveInfo="toCollection" />
+                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101916" resolveInfo="DoublesToCollection" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083855114967" nodeInfo="nn">
                       <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6638345083855114968" nodeInfo="nn">
                         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2202909375770410262" resolveInfo="getDoubles" />
@@ -1763,14 +1762,14 @@
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083855114889" resolveInfo="chart" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083855114974" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~Chart%dgetStyleManager()%ccom%dxeiam%dxchart%dStyleManager" resolveInfo="getStyleManager" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~Chart%dgetStyleManager()%ccom%dxeiam%dxchart%dStyleManager" resolveInfo="getStyleManager" />
               </node>
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083855114975" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~StyleManager%dsetLegendPosition(com%dxeiam%dxchart%dStyleManager$LegendPosition)%cvoid" resolveInfo="setLegendPosition" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~StyleManager%dsetLegendPosition(com%dxeiam%dxchart%dStyleManager$LegendPosition)%cvoid" resolveInfo="setLegendPosition" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="6638345083855114976" nodeInfo="nn">
-                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfei.~StyleManager$LegendPosition%dInsideNE" resolveInfo="InsideNE" />
-                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfei.~StyleManager$LegendPosition" resolveInfo="StyleManager.LegendPosition" />
+                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfeh.~StyleManager$LegendPosition%dInsideNE" resolveInfo="InsideNE" />
+                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfeh.~StyleManager$LegendPosition" resolveInfo="StyleManager.LegendPosition" />
               </node>
             </node>
           </node>
@@ -1782,7 +1781,7 @@
             </node>
             <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="6243283334560167665" nodeInfo="nn">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="6243283334560224460" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~XChartPanel%d&lt;init&gt;(com%dxeiam%dxchart%dChart)" resolveInfo="XChartPanel" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~XChartPanel%d&lt;init&gt;(com%dxeiam%dxchart%dChart)" resolveInfo="XChartPanel" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083855121080" nodeInfo="nn">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083855114889" resolveInfo="chart" />
                 </node>
@@ -1823,15 +1822,15 @@
       <property name="name" nameId="tpck.1169194664001" value="getTheme" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="7263499363580278110" nodeInfo="nn" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7263499363580278202" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~StyleManager$ChartTheme" resolveInfo="StyleManager.ChartTheme" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~StyleManager$ChartTheme" resolveInfo="StyleManager.ChartTheme" />
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="7263499363580278112" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="7263499363581072981" nodeInfo="nn">
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="7263499363581072984" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="7263499363581079760" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068581517676" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="7263499363581080857" nodeInfo="nn">
-                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfei.~StyleManager$ChartTheme%dGGPlot2" resolveInfo="GGPlot2" />
-                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfei.~StyleManager$ChartTheme" resolveInfo="StyleManager.ChartTheme" />
+                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfeh.~StyleManager$ChartTheme%dGGPlot2" resolveInfo="GGPlot2" />
+                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfeh.~StyleManager$ChartTheme" resolveInfo="StyleManager.ChartTheme" />
               </node>
             </node>
           </node>
@@ -1860,8 +1859,8 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="7263499363581084036" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="7263499363581084037" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068581517676" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="7263499363581087015" nodeInfo="nn">
-                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfei.~StyleManager$ChartTheme%dMatlab" resolveInfo="Matlab" />
-                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfei.~StyleManager$ChartTheme" resolveInfo="StyleManager.ChartTheme" />
+                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfeh.~StyleManager$ChartTheme%dMatlab" resolveInfo="Matlab" />
+                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfeh.~StyleManager$ChartTheme" resolveInfo="StyleManager.ChartTheme" />
               </node>
             </node>
           </node>
@@ -1890,8 +1889,8 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="7263499363581085322" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="7263499363581085323" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068581517676" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="7263499363581088319" nodeInfo="nn">
-                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfei.~StyleManager$ChartTheme%dXChart" resolveInfo="XChart" />
-                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfei.~StyleManager$ChartTheme" resolveInfo="StyleManager.ChartTheme" />
+                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfeh.~StyleManager$ChartTheme%dXChart" resolveInfo="XChart" />
+                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfeh.~StyleManager$ChartTheme" resolveInfo="StyleManager.ChartTheme" />
               </node>
             </node>
           </node>
@@ -1918,8 +1917,8 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="7263499363581091027" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068581517676" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="7263499363581092146" nodeInfo="nn">
-            <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfei.~StyleManager$ChartTheme%dXChart" resolveInfo="XChart" />
-            <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfei.~StyleManager$ChartTheme" resolveInfo="StyleManager.ChartTheme" />
+            <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfeh.~StyleManager$ChartTheme%dXChart" resolveInfo="XChart" />
+            <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfeh.~StyleManager$ChartTheme" resolveInfo="StyleManager.ChartTheme" />
           </node>
         </node>
       </node>
@@ -1929,7 +1928,7 @@
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="6638345083848079419" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="chartType" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6638345083848080520" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~StyleManager$ChartType" resolveInfo="StyleManager.ChartType" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~StyleManager$ChartType" resolveInfo="StyleManager.ChartType" />
         </node>
       </node>
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="6638345083848053342" nodeInfo="ir">
@@ -1942,7 +1941,7 @@
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6638345083848028114" nodeInfo="nn" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6638345083848028303" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~Chart" resolveInfo="Chart" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~Chart" resolveInfo="Chart" />
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6638345083848028116" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="6638345083848057288" nodeInfo="nn">
@@ -2002,7 +2001,7 @@
             <property name="isFinal" nameId="tpee.1176718929932" value="false" />
             <property name="name" nameId="tpck.1169194664001" value="chart" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6638345083848032748" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~Chart" resolveInfo="Chart" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~Chart" resolveInfo="Chart" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083848032749" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083848032750" nodeInfo="nn">
@@ -2014,18 +2013,18 @@
                           <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083848032756" nodeInfo="nn">
                             <node role="operand" roleId="tpee.1197027771414" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="6638345083848032757" nodeInfo="nn">
                               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="6638345083848032758" nodeInfo="nn">
-                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~ChartBuilder%d&lt;init&gt;()" resolveInfo="ChartBuilder" />
+                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~ChartBuilder%d&lt;init&gt;()" resolveInfo="ChartBuilder" />
                               </node>
                             </node>
                             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083848032759" nodeInfo="nn">
-                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~ChartBuilder%dchartType(com%dxeiam%dxchart%dStyleManager$ChartType)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="chartType" />
+                              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~ChartBuilder%dchartType(com%dxeiam%dxchart%dStyleManager$ChartType)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="chartType" />
                               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083848080540" nodeInfo="nn">
                                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083848079419" resolveInfo="chartType" />
                               </node>
                             </node>
                           </node>
                           <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083848032761" nodeInfo="nn">
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~ChartBuilder%dwidth(int)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="width" />
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~ChartBuilder%dwidth(int)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="width" />
                             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083848042936" nodeInfo="nn">
                               <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="6638345083848042763" nodeInfo="nn" />
                               <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6638345083848044211" nodeInfo="nn">
@@ -2035,7 +2034,7 @@
                           </node>
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083848032763" nodeInfo="nn">
-                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~ChartBuilder%dheight(int)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="height" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~ChartBuilder%dheight(int)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="height" />
                           <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083848044550" nodeInfo="nn">
                             <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="6638345083848044353" nodeInfo="nn" />
                             <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6638345083848045950" nodeInfo="nn">
@@ -2045,7 +2044,7 @@
                         </node>
                       </node>
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083848032765" nodeInfo="nn">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~ChartBuilder%dtheme(com%dxeiam%dxchart%dStyleManager$ChartTheme)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="theme" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~ChartBuilder%dtheme(com%dxeiam%dxchart%dStyleManager$ChartTheme)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="theme" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083848032767" nodeInfo="nn">
                           <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="6638345083848032768" nodeInfo="nn" />
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6638345083848050615" nodeInfo="nn">
@@ -2055,7 +2054,7 @@
                       </node>
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083848032771" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~ChartBuilder%dtitle(java%dlang%dString)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="title" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~ChartBuilder%dtitle(java%dlang%dString)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="title" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083848051670" nodeInfo="nn">
                         <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="6638345083848051372" nodeInfo="nn" />
                         <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6638345083848053135" nodeInfo="nn">
@@ -2065,21 +2064,21 @@
                     </node>
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083848032773" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~ChartBuilder%dxAxisTitle(java%dlang%dString)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="xAxisTitle" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~ChartBuilder%dxAxisTitle(java%dlang%dString)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="xAxisTitle" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083848075167" nodeInfo="nn">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083848053342" resolveInfo="xColumnName" />
                     </node>
                   </node>
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083848032779" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~ChartBuilder%dyAxisTitle(java%dlang%dString)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="yAxisTitle" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~ChartBuilder%dyAxisTitle(java%dlang%dString)%ccom%dxeiam%dxchart%dChartBuilder" resolveInfo="yAxisTitle" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083848076140" nodeInfo="nn">
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083848054162" resolveInfo="yColumnName" />
                   </node>
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083848032785" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~ChartBuilder%dbuild()%ccom%dxeiam%dxchart%dChart" resolveInfo="build" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~ChartBuilder%dbuild()%ccom%dxeiam%dxchart%dChart" resolveInfo="build" />
               </node>
             </node>
           </node>
@@ -2122,7 +2121,7 @@
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="6638345083848911113" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="panel" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6638345083848911112" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~XChartPanel" resolveInfo="XChartPanel" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~XChartPanel" resolveInfo="XChartPanel" />
         </node>
       </node>
     </node>
@@ -2205,7 +2204,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6638345083846362532" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="component" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6638345083846362533" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~XChartPanel" resolveInfo="XChartPanel" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~XChartPanel" resolveInfo="XChartPanel" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="1i04.LocalBehaviorMethodCall" typeId="1i04.6496299201655527393" id="6638345083846362534" nodeInfo="nn">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7263499363579573717" resolveInfo="getComponentInternal" />
@@ -2350,7 +2349,7 @@
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083846362532" resolveInfo="component" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083846424048" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~XChartPanel%dupdateSeries(java%dlang%dString,java%dutil%dCollection,java%dutil%dList)%ccom%dxeiam%dxchart%dSeries" resolveInfo="updateSeries" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~XChartPanel%dupdateSeries(java%dlang%dString,java%dutil%dCollection,java%dutil%dList)%ccom%dxeiam%dxchart%dSeries" resolveInfo="updateSeries" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083853680342" nodeInfo="nn">
                         <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="6638345083853679649" nodeInfo="nn">
                           <link role="variable" roleId="tp2q.1153944258490" targetNodeId="6638345083851196476" resolveInfo="series" />
@@ -2360,8 +2359,8 @@
                         </node>
                       </node>
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083846424050" nodeInfo="nn">
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6243283334560928091" resolveInfo="DoublesToCollection" />
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6243283334560928130" resolveInfo="toCollection" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101916" resolveInfo="DoublesToCollection" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101917" resolveInfo="toCollection" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083846424051" nodeInfo="nn">
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6638345083846424055" nodeInfo="nn">
                             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2202909375770410262" resolveInfo="getDoubles" />
@@ -2372,8 +2371,8 @@
                         </node>
                       </node>
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083846424056" nodeInfo="nn">
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6243283334560928091" resolveInfo="DoublesToCollection" />
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6243283334560928130" resolveInfo="toCollection" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101916" resolveInfo="DoublesToCollection" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101917" resolveInfo="toCollection" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083846424057" nodeInfo="nn">
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6638345083846424061" nodeInfo="nn">
                             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2202909375770410262" resolveInfo="getDoubles" />
@@ -2406,7 +2405,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6638345083848093456" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="chart" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6638345083848093457" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfei.~Chart" resolveInfo="Chart" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="bfeh.~Chart" resolveInfo="Chart" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083848098493" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083848096382" nodeInfo="nn">
@@ -2418,8 +2417,8 @@
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6638345083848100088" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6638345083848028113" resolveInfo="buildChart" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="6638345083848032760" nodeInfo="nn">
-                  <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfei.~StyleManager$ChartType%dBar" resolveInfo="Bar" />
-                  <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfei.~StyleManager$ChartType" resolveInfo="StyleManager.ChartType" />
+                  <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfeh.~StyleManager$ChartType%dBar" resolveInfo="Bar" />
+                  <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfeh.~StyleManager$ChartType" resolveInfo="StyleManager.ChartType" />
                 </node>
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083851319925" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083851313010" nodeInfo="nn">
@@ -2566,7 +2565,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083848093456" resolveInfo="chart" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083851264066" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~Chart%daddSeries(java%dlang%dString,java%dutil%dCollection,java%dutil%dCollection)%ccom%dxeiam%dxchart%dSeries" resolveInfo="addSeries" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~Chart%daddSeries(java%dlang%dString,java%dutil%dCollection,java%dutil%dCollection)%ccom%dxeiam%dxchart%dSeries" resolveInfo="addSeries" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083851282132" nodeInfo="nn">
                     <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="6638345083851280396" nodeInfo="nn">
                       <link role="variable" roleId="tp2q.1153944258490" targetNodeId="6638345083851264016" resolveInfo="series" />
@@ -2576,8 +2575,8 @@
                     </node>
                   </node>
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083851264068" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6243283334560928130" resolveInfo="toCollection" />
-                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6243283334560928091" resolveInfo="DoublesToCollection" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101917" resolveInfo="toCollection" />
+                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101916" resolveInfo="DoublesToCollection" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083851264069" nodeInfo="nn">
                       <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6638345083851264070" nodeInfo="nn">
                         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2202909375770410262" resolveInfo="getDoubles" />
@@ -2588,8 +2587,8 @@
                     </node>
                   </node>
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083851264072" nodeInfo="nn">
-                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6243283334560928091" resolveInfo="DoublesToCollection" />
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6243283334560928130" resolveInfo="toCollection" />
+                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101916" resolveInfo="DoublesToCollection" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101917" resolveInfo="toCollection" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083851264073" nodeInfo="nn">
                       <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="6638345083851264074" nodeInfo="nn">
                         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2202909375770410262" resolveInfo="getDoubles" />
@@ -2611,14 +2610,14 @@
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083848093456" resolveInfo="chart" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083846362630" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~Chart%dgetStyleManager()%ccom%dxeiam%dxchart%dStyleManager" resolveInfo="getStyleManager" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~Chart%dgetStyleManager()%ccom%dxeiam%dxchart%dStyleManager" resolveInfo="getStyleManager" />
               </node>
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6638345083846362631" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~StyleManager%dsetLegendPosition(com%dxeiam%dxchart%dStyleManager$LegendPosition)%cvoid" resolveInfo="setLegendPosition" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~StyleManager%dsetLegendPosition(com%dxeiam%dxchart%dStyleManager$LegendPosition)%cvoid" resolveInfo="setLegendPosition" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="6638345083846362632" nodeInfo="nn">
-                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfei.~StyleManager$LegendPosition" resolveInfo="StyleManager.LegendPosition" />
-                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfei.~StyleManager$LegendPosition%dInsideNE" resolveInfo="InsideNE" />
+                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="bfeh.~StyleManager$LegendPosition" resolveInfo="StyleManager.LegendPosition" />
+                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="bfeh.~StyleManager$LegendPosition%dInsideNE" resolveInfo="InsideNE" />
               </node>
             </node>
           </node>
@@ -2630,7 +2629,7 @@
             </node>
             <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="6638345083846362636" nodeInfo="nn">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="6638345083846362637" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfei.~XChartPanel%d&lt;init&gt;(com%dxeiam%dxchart%dChart)" resolveInfo="XChartPanel" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="bfeh.~XChartPanel%d&lt;init&gt;(com%dxeiam%dxchart%dChart)" resolveInfo="XChartPanel" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083846362638" nodeInfo="nn">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083848093456" resolveInfo="chart" />
                 </node>

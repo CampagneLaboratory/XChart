@@ -32,7 +32,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 8:
         return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.Doubles").interface_().create();
       case 9:
-        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.DoublesReference").super_("jetbrains.mps.baseLanguage.structure.Expression").parents("jetbrains.mps.baseLanguage.structure.Expression", "jetbrains.mps.lang.core.structure.INamedConcept").references("doubles").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.DoublesReference").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.INamedConcept").references("doubles").create();
       case 10:
         return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.FileRef").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.ScopeProvider").references("file").children(new String[]{"selectedColumns"}, new boolean[]{true}).create();
       case 11:

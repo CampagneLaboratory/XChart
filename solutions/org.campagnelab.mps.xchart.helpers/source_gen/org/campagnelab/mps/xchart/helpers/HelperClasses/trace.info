@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeRef="r:7ed4de75-3f01-4ba7-a57c-7f0f3ae36f1d(org.campagnelab.mps.xchart.helpers.HelperClasses)/9178698721095101544">
+    <nodeInfo nodeId="9178698721095101559" fileName="BinHelper.java" startLine="8" startPosition="110" endLine="9" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101568" fileName="BinHelper.java" startLine="9" startPosition="42" endLine="10" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101579" fileName="BinHelper.java" startLine="11" startPosition="51" endLine="12" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101601" fileName="BinHelper.java" startLine="14" startPosition="27" endLine="15" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101613" fileName="BinHelper.java" startLine="15" startPosition="44" endLine="16" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="9178698721095101635" fileName="BinHelper.java" startLine="17" startPosition="20" endLine="18" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="9178698721095101632" fileName="BinHelper.java" startLine="20" startPosition="27" endLine="21" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="9178698721095101625" fileName="BinHelper.java" startLine="22" startPosition="14" endLine="23" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101637" fileName="BinHelper.java" startLine="25" startPosition="5" endLine="26" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9178698721095101644" fileName="BinHelper.java" startLine="29" startPosition="83" endLine="30" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101648" fileName="BinHelper.java" startLine="30" startPosition="34" endLine="31" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101652" fileName="BinHelper.java" startLine="31" startPosition="34" endLine="32" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="9178698721095101655" fileName="BinHelper.java" startLine="33" startPosition="33" endLine="34" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101661" fileName="BinHelper.java" startLine="34" startPosition="35" endLine="35" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101670" fileName="BinHelper.java" startLine="36" startPosition="5" endLine="37" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101674" fileName="BinHelper.java" startLine="37" startPosition="22" endLine="38" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101678" fileName="BinHelper.java" startLine="38" startPosition="14" endLine="39" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101687" fileName="BinHelper.java" startLine="39" startPosition="55" endLine="40" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101693" fileName="BinHelper.java" startLine="41" startPosition="31" endLine="42" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101623" fileName="BinHelper.java" startLine="22" startPosition="12" endLine="24" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="9178698721095101577" fileName="BinHelper.java" startLine="10" startPosition="49" endLine="13" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForStatement" />
+    <nodeInfo nodeId="9178698721095101691" fileName="BinHelper.java" startLine="40" startPosition="14" endLine="43" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="9178698721095101653" fileName="BinHelper.java" startLine="32" startPosition="0" endLine="36" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="9178698721095101619" fileName="BinHelper.java" startLine="19" startPosition="12" endLine="24" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="9178698721095101615" fileName="BinHelper.java" startLine="16" startPosition="35" endLine="24" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="9178698721095101596" fileName="BinHelper.java" startLine="13" startPosition="5" endLine="25" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="9178698721095101642" fileName="BinHelper.java" startLine="29" startPosition="0" endLine="45" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="bin#([DLjava/util/ArrayList;Ljava/util/ArrayList;)V" />
+    <nodeInfo nodeId="9178698721095101545" fileName="BinHelper.java" startLine="8" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="calcHistogram#([DDDILjava/util/ArrayList;)[I" />
+    <scopeInfo nodeId="9178698721095101578" fileName="BinHelper.java" startLine="11" startPosition="51" endLine="12" endPosition="35" />
+    <scopeInfo nodeId="9178698721095101634" fileName="BinHelper.java" startLine="17" startPosition="20" endLine="18" endPosition="42" />
+    <scopeInfo nodeId="9178698721095101631" fileName="BinHelper.java" startLine="20" startPosition="27" endLine="21" endPosition="47" />
+    <scopeInfo nodeId="9178698721095101624" fileName="BinHelper.java" startLine="22" startPosition="14" endLine="23" endPosition="25" />
+    <scopeInfo nodeId="9178698721095101692" fileName="BinHelper.java" startLine="41" startPosition="31" endLine="42" endPosition="26" />
+    <scopeInfo nodeId="9178698721095101654" fileName="BinHelper.java" startLine="33" startPosition="33" endLine="35" endPosition="35" />
+    <scopeInfo nodeId="9178698721095101577" fileName="BinHelper.java" startLine="10" startPosition="49" endLine="13" endPosition="5">
+      <varInfo nodeId="9178698721095101588" varName="index" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101691" fileName="BinHelper.java" startLine="40" startPosition="14" endLine="43" endPosition="5">
+      <varInfo nodeId="9178698721095101701" varName="f" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101653" fileName="BinHelper.java" startLine="32" startPosition="0" endLine="36" endPosition="5">
+      <varInfo nodeId="9178698721095101667" varName="element" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101600" fileName="BinHelper.java" startLine="14" startPosition="27" endLine="24" endPosition="7">
+      <varInfo nodeId="9178698721095101602" varName="bin" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101596" fileName="BinHelper.java" startLine="13" startPosition="5" endLine="25" endPosition="5">
+      <varInfo nodeId="9178698721095101598" varName="d" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101643" fileName="BinHelper.java" startLine="29" startPosition="83" endLine="43" endPosition="5">
+      <varInfo nodeId="9178698721095101671" varName="frequencies" />
+      <varInfo nodeId="9178698721095101649" varName="max" />
+      <varInfo nodeId="9178698721095101645" varName="min" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101642" fileName="BinHelper.java" startLine="29" startPosition="0" endLine="45" endPosition="0">
+      <varInfo nodeId="9178698721095101704" varName="data" />
+      <varInfo nodeId="9178698721095101707" varName="x" />
+      <varInfo nodeId="9178698721095101710" varName="y" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101558" fileName="BinHelper.java" startLine="8" startPosition="110" endLine="26" endPosition="18">
+      <varInfo nodeId="9178698721095101569" varName="binSize" />
+      <varInfo nodeId="9178698721095101560" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101545" fileName="BinHelper.java" startLine="8" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="9178698721095101546" varName="data" />
+      <varInfo nodeId="9178698721095101551" varName="max" />
+      <varInfo nodeId="9178698721095101549" varName="min" />
+      <varInfo nodeId="9178698721095101553" varName="numBins" />
+      <varInfo nodeId="9178698721095101555" varName="x" />
+    </scopeInfo>
+    <unitInfo nodeId="9178698721095101544" fileName="BinHelper.java" startLine="7" startPosition="0" endLine="46" endPosition="0" unitName="org.campagnelab.mps.xchart.helpers.HelperClasses.BinHelper" />
+  </root>
+  <root nodeRef="r:7ed4de75-3f01-4ba7-a57c-7f0f3ae36f1d(org.campagnelab.mps.xchart.helpers.HelperClasses)/9178698721095101716">
+    <nodeInfo nodeId="9178698721095101717" fileName="ChartPanel.java" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="chartPanel" />
+    <nodeInfo nodeId="9178698721095101724" fileName="ChartPanel.java" startLine="12" startPosition="34" endLine="13" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101730" fileName="ChartPanel.java" startLine="13" startPosition="40" endLine="14" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101719" fileName="ChartPanel.java" startLine="12" startPosition="0" endLine="16" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="ChartPanel#(Lcom/xeiam/xchart/Chart;)V" />
+    <scopeInfo nodeId="9178698721095101723" fileName="ChartPanel.java" startLine="12" startPosition="34" endLine="14" endPosition="25" />
+    <scopeInfo nodeId="9178698721095101719" fileName="ChartPanel.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
+      <varInfo nodeId="9178698721095101720" varName="chart" />
+    </scopeInfo>
+    <unitInfo nodeId="9178698721095101716" fileName="ChartPanel.java" startLine="9" startPosition="0" endLine="19" endPosition="0" unitName="org.campagnelab.mps.xchart.helpers.HelperClasses.ChartPanel" />
+  </root>
+  <root nodeRef="r:7ed4de75-3f01-4ba7-a57c-7f0f3ae36f1d(org.campagnelab.mps.xchart.helpers.HelperClasses)/9178698721095101739">
+    <nodeInfo nodeId="9178698721095101742" fileName="ColumnLoader.java" startLine="12" startPosition="85" endLine="13" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101748" fileName="ColumnLoader.java" startLine="14" startPosition="27" endLine="15" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9178698721095101759" fileName="ColumnLoader.java" startLine="17" startPosition="9" endLine="18" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101769" fileName="ColumnLoader.java" startLine="18" startPosition="70" endLine="19" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101775" fileName="ColumnLoader.java" startLine="19" startPosition="40" endLine="20" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101783" fileName="ColumnLoader.java" startLine="20" startPosition="49" endLine="21" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101791" fileName="ColumnLoader.java" startLine="22" startPosition="34" endLine="23" endPosition="19" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101797" fileName="ColumnLoader.java" startLine="24" startPosition="47" endLine="25" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.BreakStatement" />
+    <nodeInfo nodeId="9178698721095101804" fileName="ColumnLoader.java" startLine="28" startPosition="24" endLine="29" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9178698721095101813" fileName="ColumnLoader.java" startLine="30" startPosition="7" endLine="31" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101817" fileName="ColumnLoader.java" startLine="31" startPosition="25" endLine="32" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101824" fileName="ColumnLoader.java" startLine="32" startPosition="55" endLine="33" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="9178698721095101827" fileName="ColumnLoader.java" startLine="34" startPosition="50" endLine="35" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101835" fileName="ColumnLoader.java" startLine="35" startPosition="48" endLine="36" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101850" fileName="ColumnLoader.java" startLine="37" startPosition="7" endLine="38" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101861" fileName="ColumnLoader.java" startLine="38" startPosition="48" endLine="39" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101867" fileName="ColumnLoader.java" startLine="40" startPosition="35" endLine="41" endPosition="50" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101878" fileName="ColumnLoader.java" startLine="42" startPosition="7" endLine="43" endPosition="20" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9178698721095101884" fileName="ColumnLoader.java" startLine="44" startPosition="37" endLine="45" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9178698721095101895" fileName="ColumnLoader.java" startLine="48" startPosition="29" endLine="49" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101746" fileName="ColumnLoader.java" startLine="13" startPosition="33" endLine="16" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="9178698721095101795" fileName="ColumnLoader.java" startLine="23" startPosition="19" endLine="26" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="9178698721095101802" fileName="ColumnLoader.java" startLine="27" startPosition="7" endLine="30" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="9178698721095101865" fileName="ColumnLoader.java" startLine="39" startPosition="16" endLine="42" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="9178698721095101893" fileName="ColumnLoader.java" startLine="47" startPosition="11" endLine="50" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="9178698721095101825" fileName="ColumnLoader.java" startLine="33" startPosition="0" endLine="37" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+    <nodeInfo nodeId="9178698721095101787" fileName="ColumnLoader.java" startLine="21" startPosition="21" endLine="27" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="9178698721095101891" fileName="ColumnLoader.java" startLine="46" startPosition="15" endLine="52" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.TryCatchStatement" />
+    <nodeInfo nodeId="9178698721095101757" fileName="ColumnLoader.java" startLine="16" startPosition="5" endLine="53" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.TryStatement" />
+    <nodeInfo nodeId="9178698721095101740" fileName="ColumnLoader.java" startLine="12" startPosition="0" endLine="55" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="load#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)[D" />
+    <scopeInfo nodeId="9178698721095101902" fileName="ColumnLoader.java" startLine="51" startPosition="0" endLine="51" endPosition="31">
+      <varInfo nodeId="9178698721095101903" varName="e" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101905" fileName="ColumnLoader.java" startLine="51" startPosition="31" endLine="51" endPosition="31" />
+    <scopeInfo nodeId="9178698721095101747" fileName="ColumnLoader.java" startLine="14" startPosition="27" endLine="15" endPosition="27" />
+    <scopeInfo nodeId="9178698721095101796" fileName="ColumnLoader.java" startLine="24" startPosition="47" endLine="25" endPosition="16" />
+    <scopeInfo nodeId="9178698721095101803" fileName="ColumnLoader.java" startLine="28" startPosition="24" endLine="29" endPosition="29" />
+    <scopeInfo nodeId="9178698721095101866" fileName="ColumnLoader.java" startLine="40" startPosition="35" endLine="41" endPosition="50" />
+    <scopeInfo nodeId="9178698721095101880" fileName="ColumnLoader.java" startLine="44" startPosition="0" endLine="45" endPosition="27">
+      <varInfo nodeId="9178698721095101881" varName="exception" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101883" fileName="ColumnLoader.java" startLine="44" startPosition="37" endLine="45" endPosition="27" />
+    <scopeInfo nodeId="9178698721095101894" fileName="ColumnLoader.java" startLine="48" startPosition="29" endLine="49" endPosition="25" />
+    <scopeInfo nodeId="9178698721095101826" fileName="ColumnLoader.java" startLine="34" startPosition="50" endLine="36" endPosition="32">
+      <varInfo nodeId="9178698721095101828" varName="values" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101865" fileName="ColumnLoader.java" startLine="39" startPosition="16" endLine="42" endPosition="7">
+      <varInfo nodeId="9178698721095101875" varName="element" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101892" fileName="ColumnLoader.java" startLine="47" startPosition="11" endLine="50" endPosition="9" />
+    <scopeInfo nodeId="9178698721095101790" fileName="ColumnLoader.java" startLine="22" startPosition="34" endLine="26" endPosition="9" />
+    <scopeInfo nodeId="9178698721095101787" fileName="ColumnLoader.java" startLine="21" startPosition="21" endLine="27" endPosition="7">
+      <varInfo nodeId="9178698721095101788" varName="col" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101890" fileName="ColumnLoader.java" startLine="46" startPosition="15" endLine="52" endPosition="7" />
+    <scopeInfo nodeId="9178698721095101758" fileName="ColumnLoader.java" startLine="17" startPosition="9" endLine="43" endPosition="20">
+      <varInfo nodeId="9178698721095101776" varName="columns" />
+      <varInfo nodeId="9178698721095101770" varName="header" />
+      <varInfo nodeId="9178698721095101862" varName="i" />
+      <varInfo nodeId="9178698721095101784" varName="index" />
+      <varInfo nodeId="9178698721095101814" varName="line" />
+      <varInfo nodeId="9178698721095101818" varName="list" />
+      <varInfo nodeId="9178698721095101851" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101741" fileName="ColumnLoader.java" startLine="12" startPosition="85" endLine="53" endPosition="5">
+      <varInfo nodeId="9178698721095101743" varName="reader" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101740" fileName="ColumnLoader.java" startLine="12" startPosition="0" endLine="55" endPosition="0">
+      <varInfo nodeId="9178698721095101908" varName="columnName" />
+      <varInfo nodeId="9178698721095101910" varName="delimiter" />
+      <varInfo nodeId="9178698721095101906" varName="filename" />
+    </scopeInfo>
+    <unitInfo nodeId="9178698721095101739" fileName="ColumnLoader.java" startLine="11" startPosition="0" endLine="56" endPosition="0" unitName="org.campagnelab.mps.xchart.helpers.HelperClasses.ColumnLoader" />
+  </root>
+  <root nodeRef="r:7ed4de75-3f01-4ba7-a57c-7f0f3ae36f1d(org.campagnelab.mps.xchart.helpers.HelperClasses)/9178698721095101916">
+    <nodeInfo nodeId="9178698721095101922" fileName="DoublesToCollection.java" startLine="8" startPosition="63" endLine="9" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101932" fileName="DoublesToCollection.java" startLine="9" startPosition="66" endLine="10" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9178698721095101938" fileName="DoublesToCollection.java" startLine="11" startPosition="33" endLine="12" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721095101943" fileName="DoublesToCollection.java" startLine="12" startPosition="26" endLine="13" endPosition="16" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="9178698721095101955" fileName="DoublesToCollection.java" startLine="14" startPosition="5" endLine="15" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9178698721095101936" fileName="DoublesToCollection.java" startLine="10" startPosition="14" endLine="14" endPosition="5" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="9178698721095101917" fileName="DoublesToCollection.java" startLine="8" startPosition="0" endLine="17" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="toCollection#([D)Ljava/util/ArrayList;" />
+    <scopeInfo nodeId="9178698721095101937" fileName="DoublesToCollection.java" startLine="11" startPosition="33" endLine="13" endPosition="16" />
+    <scopeInfo nodeId="9178698721095101936" fileName="DoublesToCollection.java" startLine="10" startPosition="14" endLine="14" endPosition="5">
+      <varInfo nodeId="9178698721095101952" varName="element" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101921" fileName="DoublesToCollection.java" startLine="8" startPosition="63" endLine="15" endPosition="18">
+      <varInfo nodeId="9178698721095101933" varName="i" />
+      <varInfo nodeId="9178698721095101923" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="9178698721095101917" fileName="DoublesToCollection.java" startLine="8" startPosition="0" endLine="17" endPosition="0">
+      <varInfo nodeId="9178698721095101957" varName="data" />
+    </scopeInfo>
+    <unitInfo nodeId="9178698721095101916" fileName="DoublesToCollection.java" startLine="7" startPosition="0" endLine="18" endPosition="0" unitName="org.campagnelab.mps.xchart.helpers.HelperClasses.DoublesToCollection" />
+  </root>
+</debugInfo>
+

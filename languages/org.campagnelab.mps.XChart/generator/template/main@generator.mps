@@ -10,11 +10,11 @@
   <import index="bfeh" modelUID="f:java_stub#65ac5108-9e74-4e5d-bdf6-e376b3ce0a4d#com.xeiam.xchart(org.campagnelab.mps.xchart.lib/com.xeiam.xchart@java_stub)" version="-1" />
   <import index="zlf9" modelUID="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)" version="-1" />
   <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="5" />
-  <import index="mij1" modelUID="r:64bc9cc9-8a3c-4162-8593-f9690fd5918f(org.campagnelab.mps.xchart.lib.HelperClasses)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
+  <import index="ahfk" modelUID="r:7ed4de75-3f01-4ba7-a57c-7f0f3ae36f1d(org.campagnelab.mps.xchart.helpers.HelperClasses)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
@@ -136,6 +136,12 @@
               <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="6638345083849249071" nodeInfo="nn" />
             </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="6638345083849245334" nodeInfo="nn">
+              <node role="condition" roleId="tpee.1068580123160" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="6638345083849245753" nodeInfo="nn">
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="6638345083849245792" nodeInfo="nn" />
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083849245699" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083849154383" resolveInfo="chart" />
+                </node>
+              </node>
               <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="6638345083849245337" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6638345083849209299" nodeInfo="nn">
                   <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6638345083849210666" nodeInfo="nn">
@@ -149,12 +155,6 @@
                       </node>
                     </node>
                   </node>
-                </node>
-              </node>
-              <node role="condition" roleId="tpee.1068580123160" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="6638345083849245753" nodeInfo="nn">
-                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="6638345083849245792" nodeInfo="nn" />
-                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083849245699" nodeInfo="nn">
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083849154383" resolveInfo="chart" />
                 </node>
               </node>
             </node>
@@ -553,11 +553,11 @@
                       </node>
                     </node>
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083855818199" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6243283334560928130" resolveInfo="toCollection" />
-                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6243283334560928091" resolveInfo="DoublesToCollection" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101917" resolveInfo="toCollection" />
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101916" resolveInfo="DoublesToCollection" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083855882227" nodeInfo="nn">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6638345083849617980" resolveInfo="load" />
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6638345083849553367" resolveInfo="ColumnLoader" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101740" resolveInfo="load" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101739" resolveInfo="ColumnLoader" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083855884311" nodeInfo="nn">
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083849904975" resolveInfo="filename" />
                         </node>
@@ -602,11 +602,11 @@
                       </node>
                     </node>
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083855985420" nodeInfo="nn">
-                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6243283334560928091" resolveInfo="DoublesToCollection" />
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6243283334560928130" resolveInfo="toCollection" />
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101916" resolveInfo="DoublesToCollection" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101917" resolveInfo="toCollection" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083855985421" nodeInfo="nn">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6638345083849617980" resolveInfo="load" />
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6638345083849553367" resolveInfo="ColumnLoader" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101740" resolveInfo="load" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101739" resolveInfo="ColumnLoader" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083855985422" nodeInfo="nn">
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083849904975" resolveInfo="filename" />
                         </node>
@@ -701,11 +701,11 @@
                       </node>
                     </node>
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083856041180" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6243283334560928130" resolveInfo="toCollection" />
-                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6243283334560928091" resolveInfo="DoublesToCollection" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101917" resolveInfo="toCollection" />
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101916" resolveInfo="DoublesToCollection" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083856041181" nodeInfo="nn">
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6638345083849553367" resolveInfo="ColumnLoader" />
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6638345083849617980" resolveInfo="load" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101739" resolveInfo="ColumnLoader" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101740" resolveInfo="load" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083856041182" nodeInfo="nn">
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083849904975" resolveInfo="filename" />
                         </node>
@@ -750,11 +750,11 @@
                       </node>
                     </node>
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083856041197" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6243283334560928130" resolveInfo="toCollection" />
-                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6243283334560928091" resolveInfo="DoublesToCollection" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101917" resolveInfo="toCollection" />
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101916" resolveInfo="DoublesToCollection" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083856041198" nodeInfo="nn">
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6638345083849553367" resolveInfo="ColumnLoader" />
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6638345083849617980" resolveInfo="load" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101739" resolveInfo="ColumnLoader" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101740" resolveInfo="load" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083856041199" nodeInfo="nn">
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083849904975" resolveInfo="filename" />
                         </node>
@@ -799,11 +799,11 @@
                       </node>
                     </node>
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083856053749" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6243283334560928130" resolveInfo="toCollection" />
-                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6243283334560928091" resolveInfo="DoublesToCollection" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101917" resolveInfo="toCollection" />
+                      <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101916" resolveInfo="DoublesToCollection" />
                       <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6638345083856053750" nodeInfo="nn">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.6638345083849617980" resolveInfo="load" />
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.6638345083849553367" resolveInfo="ColumnLoader" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101740" resolveInfo="load" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101739" resolveInfo="ColumnLoader" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083856053751" nodeInfo="nn">
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083849904975" resolveInfo="filename" />
                         </node>
@@ -1206,8 +1206,8 @@
           </node>
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7263499363578990733" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7263499363579099317" nodeInfo="nn">
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="mij1.7263499363578872611" resolveInfo="BinHelper" />
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="mij1.7263499363579007157" resolveInfo="bin" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="ahfk.9178698721095101544" resolveInfo="BinHelper" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="ahfk.9178698721095101642" resolveInfo="bin" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6638345083849454072" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6638345083849446925" resolveInfo="doubles" />
               </node>

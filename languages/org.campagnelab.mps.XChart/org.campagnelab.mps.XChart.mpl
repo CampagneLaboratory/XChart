@@ -6,7 +6,7 @@
     </modelRoot>
   </models>
   <accessoryModels>
-    <model modelUID="f:java_stub#e733e8d4-b1be-453d-b53d-274ac3e791ae#com.xeiam.xchart(org.campagnelab.mps.xchart.lib/com.xeiam.xchart@java_stub)" />
+    <model modelUID="f:java_stub#65ac5108-9e74-4e5d-bdf6-e376b3ce0a4d#com.xeiam.xchart(org.campagnelab.mps.xchart.lib/com.xeiam.xchart@java_stub)" />
   </accessoryModels>
   <generators>
     <generator name="" generatorUID="org.campagnelab.mps.XChart#2202909375769974311" uuid="fc03d545-e591-43a1-9f8a-eb731c443080">
@@ -19,6 +19,7 @@
       <dependencies>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
         <dependency reexport="false">5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</dependency>
+        <dependency reexport="false">a5ff7a3c-b9de-4f71-8688-b594f5e1a304(org.campagnelab.mps.xchart.helpers)</dependency>
         <dependency reexport="false">65ac5108-9e74-4e5d-bdf6-e376b3ce0a4d(org.campagnelab.mps.xchart.lib)</dependency>
       </dependencies>
       <usedLanguages>
@@ -38,12 +39,13 @@
   </stubModelEntries>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="true">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
     <dependency reexport="false">4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
     <dependency reexport="false">d8f591ec-4d86-4af2-9f92-a9e93c803ffa(jetbrains.mps.lang.scopes)</dependency>
     <dependency reexport="false">d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)</dependency>
+    <dependency reexport="false">a5ff7a3c-b9de-4f71-8688-b594f5e1a304(org.campagnelab.mps.xchart.helpers)</dependency>
     <dependency reexport="false">65ac5108-9e74-4e5d-bdf6-e376b3ce0a4d(org.campagnelab.mps.xchart.lib)</dependency>
   </dependencies>
   <usedLanguages>
@@ -67,12 +69,11 @@
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
   <runtime>
-    <dependency reexport="false">df91de62-e629-43c9-be8b-dd5ba1205066(org.campagnelab.mps.icb-utils.lib)</dependency>
-    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">65ac5108-9e74-4e5d-bdf6-e376b3ce0a4d(org.campagnelab.mps.xchart.lib)</dependency>
   </runtime>
   <extendedLanguages>
     <extendedLanguage>4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</extendedLanguage>
+    <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
   </extendedLanguages>
 </language>
 

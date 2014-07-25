@@ -9,7 +9,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.campagnelab.mps.xchart.lib.HelperClasses.DoublesToCollection;
+import org.campagnelab.mps.xchart.helpers.HelperClasses.DoublesToCollection;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import com.xeiam.xchart.Chart;
 import com.xeiam.xchart.StyleManager;
