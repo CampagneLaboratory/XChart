@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import com.xeiam.xchart.Chart;
 import com.xeiam.xchart.ChartBuilder;
 import com.xeiam.xchart.StyleManager;
-import org.campagnelab.mps.xchart.helpers.HelperClasses.DoublesToCollection;
-import org.campagnelab.mps.xchart.helpers.HelperClasses.ColumnLoader;
+import org.campagnelab.mps.XChart.helpers.DoublesToCollection;
+import org.campagnelab.mps.XChart.helpers.ColumnLoader;
 import com.xeiam.xchart.SwingWrapper;
 
 public class ChartViewer_A {

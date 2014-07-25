@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <root nodeRef="r:7ed4de75-3f01-4ba7-a57c-7f0f3ae36f1d(org.campagnelab.mps.xchart.helpers.HelperClasses)/9178698721095101544">
+  <root nodeRef="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/9178698721095101544">
     <nodeInfo nodeId="9178698721095101559" fileName="BinHelper.java" startLine="8" startPosition="110" endLine="9" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="9178698721095101568" fileName="BinHelper.java" startLine="9" startPosition="42" endLine="10" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="9178698721095101579" fileName="BinHelper.java" startLine="11" startPosition="51" endLine="12" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -71,9 +71,9 @@
       <varInfo nodeId="9178698721095101553" varName="numBins" />
       <varInfo nodeId="9178698721095101555" varName="x" />
     </scopeInfo>
-    <unitInfo nodeId="9178698721095101544" fileName="BinHelper.java" startLine="7" startPosition="0" endLine="46" endPosition="0" unitName="org.campagnelab.mps.xchart.helpers.HelperClasses.BinHelper" />
+    <unitInfo nodeId="9178698721095101544" fileName="BinHelper.java" startLine="7" startPosition="0" endLine="46" endPosition="0" unitName="org.campagnelab.mps.XChart.helpers.BinHelper" />
   </root>
-  <root nodeRef="r:7ed4de75-3f01-4ba7-a57c-7f0f3ae36f1d(org.campagnelab.mps.xchart.helpers.HelperClasses)/9178698721095101716">
+  <root nodeRef="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/9178698721095101716">
     <nodeInfo nodeId="9178698721095101717" fileName="ChartPanel.java" startLine="10" startPosition="0" endLine="11" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="chartPanel" />
     <nodeInfo nodeId="9178698721095101724" fileName="ChartPanel.java" startLine="12" startPosition="34" endLine="13" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="9178698721095101730" fileName="ChartPanel.java" startLine="13" startPosition="40" endLine="14" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -82,9 +82,9 @@
     <scopeInfo nodeId="9178698721095101719" fileName="ChartPanel.java" startLine="12" startPosition="0" endLine="16" endPosition="0">
       <varInfo nodeId="9178698721095101720" varName="chart" />
     </scopeInfo>
-    <unitInfo nodeId="9178698721095101716" fileName="ChartPanel.java" startLine="9" startPosition="0" endLine="19" endPosition="0" unitName="org.campagnelab.mps.xchart.helpers.HelperClasses.ChartPanel" />
+    <unitInfo nodeId="9178698721095101716" fileName="ChartPanel.java" startLine="9" startPosition="0" endLine="19" endPosition="0" unitName="org.campagnelab.mps.XChart.helpers.ChartPanel" />
   </root>
-  <root nodeRef="r:7ed4de75-3f01-4ba7-a57c-7f0f3ae36f1d(org.campagnelab.mps.xchart.helpers.HelperClasses)/9178698721095101739">
+  <root nodeRef="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/9178698721095101739">
     <nodeInfo nodeId="9178698721095101742" fileName="ColumnLoader.java" startLine="12" startPosition="85" endLine="13" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="9178698721095101748" fileName="ColumnLoader.java" startLine="14" startPosition="27" endLine="15" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="9178698721095101759" fileName="ColumnLoader.java" startLine="17" startPosition="9" endLine="18" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -157,9 +157,9 @@
       <varInfo nodeId="9178698721095101910" varName="delimiter" />
       <varInfo nodeId="9178698721095101906" varName="filename" />
     </scopeInfo>
-    <unitInfo nodeId="9178698721095101739" fileName="ColumnLoader.java" startLine="11" startPosition="0" endLine="56" endPosition="0" unitName="org.campagnelab.mps.xchart.helpers.HelperClasses.ColumnLoader" />
+    <unitInfo nodeId="9178698721095101739" fileName="ColumnLoader.java" startLine="11" startPosition="0" endLine="56" endPosition="0" unitName="org.campagnelab.mps.XChart.helpers.ColumnLoader" />
   </root>
-  <root nodeRef="r:7ed4de75-3f01-4ba7-a57c-7f0f3ae36f1d(org.campagnelab.mps.xchart.helpers.HelperClasses)/9178698721095101916">
+  <root nodeRef="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/9178698721095101916">
     <nodeInfo nodeId="9178698721095101922" fileName="DoublesToCollection.java" startLine="8" startPosition="63" endLine="9" endPosition="66" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="9178698721095101932" fileName="DoublesToCollection.java" startLine="9" startPosition="66" endLine="10" endPosition="14" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="9178698721095101938" fileName="DoublesToCollection.java" startLine="11" startPosition="33" endLine="12" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
@@ -178,7 +178,7 @@
     <scopeInfo nodeId="9178698721095101917" fileName="DoublesToCollection.java" startLine="8" startPosition="0" endLine="17" endPosition="0">
       <varInfo nodeId="9178698721095101957" varName="data" />
     </scopeInfo>
-    <unitInfo nodeId="9178698721095101916" fileName="DoublesToCollection.java" startLine="7" startPosition="0" endLine="18" endPosition="0" unitName="org.campagnelab.mps.xchart.helpers.HelperClasses.DoublesToCollection" />
+    <unitInfo nodeId="9178698721095101916" fileName="DoublesToCollection.java" startLine="7" startPosition="0" endLine="18" endPosition="0" unitName="org.campagnelab.mps.XChart.helpers.DoublesToCollection" />
   </root>
 </debugInfo>
 

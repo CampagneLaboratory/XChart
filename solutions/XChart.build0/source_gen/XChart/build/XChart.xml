@@ -50,20 +50,16 @@
           <module ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" />
           <module ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)" />
           <module ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" />
-          <module ref="86441d7a-e194-42da-81a5-2161ec62a379(MPS.Workbench)" />
           <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
           <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
           <module ref="a3e4657f-a76c-45bb-bbda-c764596ecc65(jetbrains.mps.baseLanguage.logging.runtime)" />
           <module ref="d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)" />
           <module ref="2af156ab-65c1-4a62-bd0d-ea734f71eab6(jetbrains.mps.dataFlow.runtime)" />
-          <module ref="cc7da2f6-419f-4133-a811-31fcd3295a85(jetbrains.mps.debugger.api.api)" />
-          <module ref="36c11d2d-1875-4a95-8bdb-70ea1ac63222(jetbrains.mps.execution.api)" />
-          <module ref="365fb593-3c1a-40a0-a7d7-c98144281283(jetbrains.mps.execution.impl)" />
-          <module ref="2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)" />
           <module ref="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" />
           <module ref="8fe4c62a-2020-4ff4-8eda-f322a55bdc9f(jetbrains.mps.refactoring.runtime)" />
           <module ref="9a4afe51-f114-4595-b5df-048ce3c596be(jetbrains.mps.runtime)" />
         </dependencies>
+        <library jar="../../lib/xchart-2.4.0.jar" />
         <sources jar="org.campagnelab.mps.XChart-src.jar" descriptor="org.campagnelab.mps.XChart.mpl" />
       </module>
     </echoxml>
@@ -78,6 +74,9 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart-generator-template">
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart/generator/template" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart-languageAccessories">
+      <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart/languageAccessories" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
@@ -86,72 +85,11 @@
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart/source_gen" />
       <zipfileset file="${basedir}/languages/org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart-generator-template" prefix="module/generator/template" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart-languageAccessories" prefix="module/languageAccessories" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart-languageModels" prefix="module/languageModels" />
     </jar>
-    <mkdir dir="${build.tmp}/default/org.campagnelab.mps.xchart.lib.jar" />
-    <mkdir dir="${build.tmp}/default/org.campagnelab.mps.xchart.lib.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/org.campagnelab.mps.xchart.lib.jar/META-INF/module.xml">
-      <module namespace="org.campagnelab.mps.xchart.lib" type="solution" uuid="e733e8d4-b1be-453d-b53d-274ac3e791ae">
-        <dependencies />
-        <library jar="../../lib/xchart-2.4.0.jar" />
-        <sources jar="org.campagnelab.mps.xchart.lib-src.jar" descriptor="org.campagnelab.mps.xchart.lib.msd" />
-      </module>
-    </echoxml>
-    <jar destfile="${build.tmp}/default/XChart.zip/XChart/languages/XChart/org.campagnelab.mps.xchart.lib.jar">
-      <fileset dir="${basedir}/solutions/org.campagnelab.mps.xchart.lib" includes="icons/**, resources/**" />
-      <fileset dir="${build.tmp}/default/org.campagnelab.mps.xchart.lib.jar" />
-    </jar>
-    <jar destfile="${build.tmp}/default/XChart.zip/XChart/languages/XChart/org.campagnelab.mps.xchart.lib-src.jar">
-      <zipfileset file="${basedir}/solutions/org.campagnelab.mps.xchart.lib/org.campagnelab.mps.xchart.lib.msd" prefix="module" />
-    </jar>
-    <mkdir dir="${build.tmp}/default/org.campagnelab.mps.icb-utils.lib.jar" />
-    <mkdir dir="${build.tmp}/default/org.campagnelab.mps.icb-utils.lib.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/org.campagnelab.mps.icb-utils.lib.jar/META-INF/module.xml">
-      <module namespace="org.campagnelab.mps.icb-utils.lib" type="solution" uuid="df91de62-e629-43c9-be8b-dd5ba1205066">
-        <dependencies />
-        <sources jar="org.campagnelab.mps.icb-utils.lib-src.jar" descriptor="org.campagnelab.mps.icb-utils.lib.msd" />
-      </module>
-    </echoxml>
-    <jar destfile="${build.tmp}/default/XChart.zip/XChart/languages/XChart/org.campagnelab.mps.icb-utils.lib.jar">
-      <fileset dir="${build.tmp}/java/out/org.campagnelab.mps.icb-utils.lib" />
-      <fileset dir="${basedir}/solutions/org.campagnelab.mps.icb-utils.lib" includes="icons/**, resources/**" />
-      <fileset dir="${build.tmp}/default/org.campagnelab.mps.icb-utils.lib.jar" />
-    </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.mps.icb-utils.lib-models">
-      <fileset dir="${basedir}/solutions/org.campagnelab.mps.icb-utils.lib/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
-    </copyModels>
-    <jar destfile="${build.tmp}/default/XChart.zip/XChart/languages/XChart/org.campagnelab.mps.icb-utils.lib-src.jar">
-      <fileset dir="${basedir}/solutions/org.campagnelab.mps.icb-utils.lib/source_gen" />
-      <zipfileset file="${basedir}/solutions/org.campagnelab.mps.icb-utils.lib/org.campagnelab.mps.icb-utils.lib.msd" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.mps.icb-utils.lib-models" prefix="module/models" />
-    </jar>
-    <mkdir dir="${build.tmp}/default/org.campagnelab.mps.xchart.helpers.jar" />
-    <mkdir dir="${build.tmp}/default/org.campagnelab.mps.xchart.helpers.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/org.campagnelab.mps.xchart.helpers.jar/META-INF/module.xml">
-      <module namespace="org.campagnelab.mps.xchart.helpers" type="solution" uuid="a5ff7a3c-b9de-4f71-8688-b594f5e1a304">
-        <dependencies>
-          <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" />
-          <module ref="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" />
-          <module ref="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" />
-        </dependencies>
-        <sources jar="org.campagnelab.mps.xchart.helpers-src.jar" descriptor="org.campagnelab.mps.xchart.helpers.msd" />
-      </module>
-    </echoxml>
-    <jar destfile="${build.tmp}/default/XChart.zip/XChart/languages/XChart/org.campagnelab.mps.xchart.helpers.jar">
-      <fileset dir="${build.tmp}/java/out/org.campagnelab.mps.xchart.helpers" />
-      <fileset dir="${basedir}/solutions/org.campagnelab.mps.xchart.helpers" includes="icons/**, resources/**" />
-      <fileset dir="${build.tmp}/default/org.campagnelab.mps.xchart.helpers.jar" />
-    </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.mps.xchart.helpers-models">
-      <fileset dir="${basedir}/solutions/org.campagnelab.mps.xchart.helpers/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
-    </copyModels>
-    <jar destfile="${build.tmp}/default/XChart.zip/XChart/languages/XChart/org.campagnelab.mps.xchart.helpers-src.jar">
-      <fileset dir="${basedir}/solutions/org.campagnelab.mps.xchart.helpers/source_gen" />
-      <zipfileset file="${basedir}/solutions/org.campagnelab.mps.xchart.helpers/org.campagnelab.mps.xchart.helpers.msd" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-org.campagnelab.mps.xchart.helpers-models" prefix="module/models" />
-    </jar>
     <zip destfile="${build.layout}/XChart.zip">
-      <zipfileset file="${basedir}/solutions/org.campagnelab.mps.xchart.lib/xchart-2.4.0.jar" prefix="XChart/lib" />
+      <zipfileset file="${basedir}/languages/org.campagnelab.mps.XChart/xchart-2.4.0.jar" prefix="XChart/lib" />
       <fileset dir="${build.tmp}/default/XChart.zip" />
     </zip>
     <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
@@ -168,7 +106,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.org.campagnelab.mps.XChart, java.compile.org.campagnelab.mps.XChart#2202909375769974311, java.compile.org.campagnelab.mps.icb-utils.lib, java.compile.org.campagnelab.mps.xchart.helpers" />
+  <target name="compileJava" depends="java.compile.org.campagnelab.mps.XChart, java.compile.org.campagnelab.mps.XChart#2202909375769974311" />
   
   <target name="processResources" />
   
@@ -192,11 +130,8 @@
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.jdk7.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
-      <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.jar" />
-      <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.regexp.runtime.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.jar" />
-      <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/jetbrains.mps.baseLanguage.unitTest.libs.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguageInternal.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.bootstrap-languages.devkit" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.general-purpose.devkit" />
@@ -230,7 +165,6 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.typesystem.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.execution.util.jar" />
-      <library file="${artifacts.mps}/languages/workbench/jetbrains.mps.lang.plugin.standalone.jar" />
       <library file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
       <library file="${artifacts.mps}/lib/mps-closures.jar" />
       <library file="${artifacts.mps}/lib/mps-collections.jar" />
@@ -238,24 +172,9 @@
       <library file="${artifacts.mps}/lib/mps-editor.jar" />
       <library file="${artifacts.mps}/lib/mps-openapi.jar" />
       <library file="${artifacts.mps}/lib/mps-platform.jar" />
-      <library file="${artifacts.mps}/lib/mps-test.jar" />
-      <library file="${artifacts.mps}/lib/mps-tool.jar" />
       <library file="${artifacts.mps}/lib/mps-tuples.jar" />
-      <library file="${artifacts.mps}/lib/mps-workbench.jar" />
-      <library file="${artifacts.mps}/plugins/mps-debugger-api/languages/mps-debugger-api/jetbrains.mps.debugger.api.lang.jar" />
-      <library file="${artifacts.mps}/plugins/mps-debugger-api/lib/debugger-api.jar" />
-      <library file="${artifacts.mps}/plugins/mps-execution-api/languages/mps-execution-api/jetbrains.mps.execution.common.jar" />
-      <library file="${artifacts.mps}/plugins/mps-execution-api/languages/mps-execution-api/jetbrains.mps.execution.settings.jar" />
-      <library file="${artifacts.mps}/plugins/mps-execution-api/lib/execution-api.jar" />
-      <library file="${artifacts.mps}/plugins/mps-execution-languages/languages/mps-execution-languages/jetbrains.mps.execution.commands.jar" />
-      <library file="${artifacts.mps}/plugins/mps-execution-languages/languages/mps-execution-languages/jetbrains.mps.execution.configurations.jar" />
-      <library file="${artifacts.mps}/plugins/mps-execution-languages/lib/execution-languages.jar" />
-      <library file="${artifacts.mps}/plugins/mps-testing/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.jar" />
       <chunk>
         <module file="${basedir}/languages/org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.mpl" />
-        <module file="${basedir}/solutions/org.campagnelab.mps.icb-utils.lib/org.campagnelab.mps.icb-utils.lib.msd" />
-        <module file="${basedir}/solutions/org.campagnelab.mps.xchart.helpers/org.campagnelab.mps.xchart.helpers.msd" />
-        <module file="${basedir}/solutions/org.campagnelab.mps.xchart.lib/org.campagnelab.mps.xchart.lib.msd" />
       </chunk>
       <chunk />
       <jvmargs>
@@ -274,7 +193,7 @@
   
   <target name="makeDependents" />
   
-  <target name="java.compile.org.campagnelab.mps.XChart" depends="java.compile.org.campagnelab.mps.xchart.helpers, fetchDependencies">
+  <target name="java.compile.org.campagnelab.mps.XChart" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.mps.XChart/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.XChart" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart" fork="true" includeantruntime="false">
@@ -283,21 +202,16 @@
         <path location="${basedir}/languages/org.campagnelab.mps.XChart/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.mps.xchart.helpers" />
         <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
         <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-execution-api/lib/execution-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-debugger-api/lib/debugger-api.jar" />
-        <fileset file="${basedir}/solutions/org.campagnelab.mps.xchart.lib/xchart-2.4.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.mps.XChart/xchart-2.4.0.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -314,7 +228,6 @@
         <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/util/jetbrains.mps.execution.util.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.structure.jar" />
         <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
@@ -322,7 +235,7 @@
     </javac>
   </target>
   
-  <target name="java.compile.org.campagnelab.mps.XChart#2202909375769974311" depends="java.compile.org.campagnelab.mps.XChart, java.compile.org.campagnelab.mps.xchart.helpers, fetchDependencies">
+  <target name="java.compile.org.campagnelab.mps.XChart#2202909375769974311" depends="java.compile.org.campagnelab.mps.XChart, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.mps.XChart/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.XChart#2202909375769974311" />
     <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart#2202909375769974311" fork="true" includeantruntime="false">
@@ -340,13 +253,8 @@
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-execution-api/lib/execution-api.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-icons.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-workbench.jar" />
-        <fileset file="${artifacts.mps}/plugins/mps-debugger-api/lib/debugger-api.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.mps.XChart" />
-        <pathelement path="${build.tmp}/java/out/org.campagnelab.mps.xchart.helpers" />
-        <fileset file="${basedir}/solutions/org.campagnelab.mps.xchart.lib/xchart-2.4.0.jar" />
+        <fileset file="${basedir}/languages/org.campagnelab.mps.XChart/xchart-2.4.0.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
         <fileset file="${artifacts.mps}/lib/jdom.jar" />
@@ -369,38 +277,8 @@
     </javac>
   </target>
   
-  <target name="java.compile.org.campagnelab.mps.icb-utils.lib">
-    <mkdir dir="${basedir}/solutions/org.campagnelab.mps.icb-utils.lib/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.icb-utils.lib" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.icb-utils.lib" fork="true" includeantruntime="false">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${basedir}/solutions/org.campagnelab.mps.icb-utils.lib/source_gen" />
-      </src>
-      <classpath />
-    </javac>
-  </target>
-  
-  <target name="java.compile.org.campagnelab.mps.xchart.helpers" depends="fetchDependencies">
-    <mkdir dir="${basedir}/solutions/org.campagnelab.mps.xchart.helpers/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.xchart.helpers" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.xchart.helpers" fork="true" includeantruntime="false">
-      <compilerarg value="-Xlint:none" />
-      <src>
-        <path location="${basedir}/solutions/org.campagnelab.mps.xchart.helpers/source_gen" />
-      </src>
-      <classpath>
-        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
-        <fileset file="${basedir}/solutions/org.campagnelab.mps.xchart.lib/xchart-2.4.0.jar" />
-      </classpath>
-    </javac>
-  </target>
-  
   <target name="cleanSources">
     <delete dir="${basedir}/languages/org.campagnelab.mps.XChart/source_gen" />
-    <delete dir="${basedir}/solutions/org.campagnelab.mps.icb-utils.lib/source_gen" />
-    <delete dir="${basedir}/solutions/org.campagnelab.mps.xchart.helpers/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.mps.XChart/generator/source_gen" />
   </target>
 </project>

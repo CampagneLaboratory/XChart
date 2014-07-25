@@ -10,7 +10,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.ArrayList;
-import org.campagnelab.mps.xchart.helpers.HelperClasses.BinHelper;
+import org.campagnelab.mps.XChart.helpers.BinHelper;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import com.xeiam.xchart.Chart;
 import com.xeiam.xchart.StyleManager;

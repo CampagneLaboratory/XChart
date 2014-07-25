@@ -14,7 +14,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.ChartStyle_Behavior" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Chart_Behavior" />
-    <classNode dependClassName="org.campagnelab.mps.xchart.helpers.HelperClasses.DoublesToCollection" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.helpers.DoublesToCollection" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.BarChart_BehaviorDescriptor" file="BarChart_BehaviorDescriptor.java">
@@ -104,7 +104,7 @@
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
-    <classNode dependClassName="org.campagnelab.mps.xchart.helpers.HelperClasses.ColumnLoader" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.helpers.ColumnLoader" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.ColumnToDoubles_BehaviorDescriptor" file="ColumnToDoubles_BehaviorDescriptor.java">
@@ -234,7 +234,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.ChartStyle_Behavior" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Chart_Behavior" />
-    <classNode dependClassName="org.campagnelab.mps.xchart.helpers.HelperClasses.BinHelper" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.helpers.BinHelper" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Histogram_BehaviorDescriptor" file="Histogram_BehaviorDescriptor.java">
@@ -282,7 +282,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorReflection" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.ChartStyle_Behavior" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Chart_Behavior" />
-    <classNode dependClassName="org.campagnelab.mps.xchart.helpers.HelperClasses.DoublesToCollection" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.helpers.DoublesToCollection" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.ScatterPlot_BehaviorDescriptor" file="ScatterPlot_BehaviorDescriptor.java">
