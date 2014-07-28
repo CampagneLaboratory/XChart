@@ -7,6 +7,8 @@
     <classNode dependClassName="com.xeiam.xchart.SwingWrapper" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="javax.swing.JFrame" />
+    <classNode dependClassName="javax.swing.WindowConstants" />
     <classNode dependClassName="org.campagnelab.mps.XChart.helpers.ColumnLoader" />
     <classNode dependClassName="org.campagnelab.mps.XChart.helpers.DoublesToCollection" />
   </dependency>

@@ -8,7 +8,9 @@ import com.xeiam.xchart.ChartBuilder;
 import com.xeiam.xchart.StyleManager;
 import org.campagnelab.mps.XChart.helpers.DoublesToCollection;
 import org.campagnelab.mps.XChart.helpers.ColumnLoader;
+import javax.swing.JFrame;
 import com.xeiam.xchart.SwingWrapper;
+import javax.swing.WindowConstants;
 
 public class ChartViewer_SequenceVariations {
   public static void view(String... filenames) {
@@ -33,8 +35,9 @@ public class ChartViewer_SequenceVariations {
         filenameIndex = 0;
       }
     }
+    JFrame jFrame = new SwingWrapper(charts).displayChart();
+    jFrame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 
-    new SwingWrapper(charts).displayChart();
   }
 
   public static void main(String[] args) {
