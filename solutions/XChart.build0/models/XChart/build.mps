@@ -71,10 +71,11 @@
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="9178698721097033462" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="9178698721097033463" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="1.0" />
+          <property name="text" nameId="3ior.4903714810883755350" value="1.0.1" />
         </node>
       </node>
       <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginGroup" typeId="kdzh.6592112598314586625" id="9178698721097033464" nodeInfo="ng">
+        <property name="right_transform_hint" value="true" />
         <link role="group" roleId="kdzh.6592112598314586626" targetNodeId="9178698721097033458" resolveInfo="XChart" />
       </node>
       <node role="dependencies" roleId="kdzh.6592112598314499028" type="kdzh.BuildMps_IdeaPluginDependency" typeId="kdzh.6592112598314499027" id="9178698721097033465" nodeInfo="ng">
@@ -84,6 +85,10 @@
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="9178698721097033467" nodeInfo="ng">
           <property name="text" nameId="3ior.4903714810883755350" value="XChart" />
         </node>
+      </node>
+      <node role="vendor" roleId="kdzh.7832771629084912518" type="kdzh.BuildMps_IdeaPluginVendor" typeId="kdzh.7832771629084799699" id="4418629618317946471" nodeInfo="ng">
+        <property name="name" nameId="kdzh.7832771629084799702" value="Campagne Laboratory" />
+        <property name="url" nameId="kdzh.7832771629084799701" value="http://campagnelab.org" />
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Group" typeId="kdzh.1500819558095907805" id="9178698721097033458" nodeInfo="ng">
