@@ -31,7 +31,8 @@
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>XChart</id>
         <name>XChart</name>
-        <version>1.0</version>
+        <version>1.0.2</version>
+        <vendor url="http://campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
         
         <extensions defaultExtensionNs="com.intellij">

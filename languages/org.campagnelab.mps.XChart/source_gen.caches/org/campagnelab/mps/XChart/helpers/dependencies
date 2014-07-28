@@ -19,6 +19,19 @@
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.ArrayList" />
   </dependency>
+  <dependency className="org.campagnelab.mps.XChart.helpers.CustomSwingWrapper" file="CustomSwingWrapper.java">
+    <classNode dependClassName="com.xeiam.xchart.Chart" />
+    <classNode dependClassName="com.xeiam.xchart.XChartPanel" />
+    <classNode dependClassName="java.awt.GridLayout" />
+    <classNode dependClassName="java.lang.Math" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.Runnable" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="javax.swing.JFrame" />
+    <classNode dependClassName="javax.swing.JPanel" />
+    <classNode dependClassName="javax.swing.SwingUtilities" />
+  </dependency>
   <dependency className="org.campagnelab.mps.XChart.helpers.DoublesToCollection" file="DoublesToCollection.java">
     <classNode dependClassName="java.lang.Double" />
     <classNode dependClassName="java.util.ArrayList" />

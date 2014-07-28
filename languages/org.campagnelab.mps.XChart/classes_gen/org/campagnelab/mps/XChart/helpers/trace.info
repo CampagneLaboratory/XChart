@@ -180,5 +180,117 @@
     </scopeInfo>
     <unitInfo nodeId="9178698721095101916" fileName="DoublesToCollection.java" startLine="7" startPosition="0" endLine="18" endPosition="0" unitName="org.campagnelab.mps.XChart.helpers.DoublesToCollection" />
   </root>
+  <root nodeRef="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/9202420309691338864">
+    <nodeInfo nodeId="9202420309691338867" fileName="CustomSwingWrapper.java" startLine="19" startPosition="0" endLine="20" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="windowTitle" />
+    <nodeInfo nodeId="9202420309691338872" fileName="CustomSwingWrapper.java" startLine="20" startPosition="0" endLine="21" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="charts" />
+    <nodeInfo nodeId="9202420309691338879" fileName="CustomSwingWrapper.java" startLine="21" startPosition="0" endLine="22" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="numRows" />
+    <nodeInfo nodeId="9202420309691338883" fileName="CustomSwingWrapper.java" startLine="22" startPosition="0" endLine="23" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="numColumns" />
+    <nodeInfo nodeId="9202420309691591565" fileName="CustomSwingWrapper.java" startLine="23" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="onClose" />
+    <nodeInfo nodeId="9202420309691751857" fileName="CustomSwingWrapper.java" startLine="25" startPosition="39" endLine="26" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691338892" fileName="CustomSwingWrapper.java" startLine="34" startPosition="42" endLine="35" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691338907" fileName="CustomSwingWrapper.java" startLine="43" startPosition="54" endLine="44" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691338913" fileName="CustomSwingWrapper.java" startLine="44" startPosition="25" endLine="45" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691338925" fileName="CustomSwingWrapper.java" startLine="45" startPosition="58" endLine="46" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691338954" fileName="CustomSwingWrapper.java" startLine="56" startPosition="83" endLine="57" endPosition="25" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691338960" fileName="CustomSwingWrapper.java" startLine="57" startPosition="25" endLine="58" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691338966" fileName="CustomSwingWrapper.java" startLine="58" startPosition="27" endLine="59" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691338978" fileName="CustomSwingWrapper.java" startLine="67" startPosition="50" endLine="68" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691338984" fileName="CustomSwingWrapper.java" startLine="68" startPosition="35" endLine="69" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9202420309691339153" fileName="CustomSwingWrapper.java" startLine="75" startPosition="32" endLine="76" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="9202420309691338992" fileName="CustomSwingWrapper.java" startLine="76" startPosition="37" endLine="77" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9202420309691339155" fileName="CustomSwingWrapper.java" startLine="77" startPosition="49" endLine="78" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="9202420309691339157" fileName="CustomSwingWrapper.java" startLine="78" startPosition="56" endLine="79" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="9202420309691390330" fileName="CustomSwingWrapper.java" startLine="82" startPosition="25" endLine="83" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691390335" fileName="CustomSwingWrapper.java" startLine="83" startPosition="48" endLine="84" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9202420309691390342" fileName="CustomSwingWrapper.java" startLine="84" startPosition="59" endLine="85" endPosition="30" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691390345" fileName="CustomSwingWrapper.java" startLine="85" startPosition="30" endLine="86" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="9202420309691390347" fileName="CustomSwingWrapper.java" startLine="86" startPosition="31" endLine="87" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691390351" fileName="CustomSwingWrapper.java" startLine="87" startPosition="21" endLine="88" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691339024" fileName="CustomSwingWrapper.java" startLine="90" startPosition="7" endLine="91" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9202420309691339033" fileName="CustomSwingWrapper.java" startLine="100" startPosition="56" endLine="101" endPosition="35" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691339039" fileName="CustomSwingWrapper.java" startLine="101" startPosition="35" endLine="102" endPosition="32" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9202420309691339171" fileName="CustomSwingWrapper.java" startLine="108" startPosition="38" endLine="109" endPosition="37" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="9202420309691339047" fileName="CustomSwingWrapper.java" startLine="109" startPosition="37" endLine="110" endPosition="49" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9202420309691339173" fileName="CustomSwingWrapper.java" startLine="110" startPosition="49" endLine="111" endPosition="56" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="9202420309691339175" fileName="CustomSwingWrapper.java" startLine="111" startPosition="56" endLine="112" endPosition="52" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="9202420309691384479" fileName="CustomSwingWrapper.java" startLine="115" startPosition="25" endLine="116" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691384484" fileName="CustomSwingWrapper.java" startLine="116" startPosition="48" endLine="117" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691384516" fileName="CustomSwingWrapper.java" startLine="119" startPosition="30" endLine="120" endPosition="55" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9202420309691384521" fileName="CustomSwingWrapper.java" startLine="120" startPosition="55" endLine="121" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691384504" fileName="CustomSwingWrapper.java" startLine="122" startPosition="18" endLine="123" endPosition="45" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="9202420309691384508" fileName="CustomSwingWrapper.java" startLine="123" startPosition="45" endLine="124" endPosition="51" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691384524" fileName="CustomSwingWrapper.java" startLine="126" startPosition="9" endLine="127" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.SingleLineComment" />
+    <nodeInfo nodeId="9202420309691384526" fileName="CustomSwingWrapper.java" startLine="127" startPosition="31" endLine="128" endPosition="21" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691384528" fileName="CustomSwingWrapper.java" startLine="128" startPosition="21" endLine="129" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691339109" fileName="CustomSwingWrapper.java" startLine="131" startPosition="7" endLine="132" endPosition="17" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="9202420309691658811" fileName="CustomSwingWrapper.java" startLine="25" startPosition="0" endLine="28" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="setOnClose#(I)V" />
+    <nodeInfo nodeId="9202420309691384502" fileName="CustomSwingWrapper.java" startLine="122" startPosition="16" endLine="125" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="9202420309691384498" fileName="CustomSwingWrapper.java" startLine="118" startPosition="36" endLine="125" endPosition="11" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="9202420309691338887" fileName="CustomSwingWrapper.java" startLine="29" startPosition="0" endLine="37" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CustomSwingWrapper#(Lcom/xeiam/xchart/Chart;)V" />
+    <nodeInfo nodeId="9202420309691338974" fileName="CustomSwingWrapper.java" startLine="62" startPosition="0" endLine="71" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="displayChart#(Ljava/lang/String;)Ljavax/swing/JFrame;" />
+    <nodeInfo nodeId="9202420309691390327" fileName="CustomSwingWrapper.java" startLine="81" startPosition="0" endLine="90" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
+    <nodeInfo nodeId="9202420309691384493" fileName="CustomSwingWrapper.java" startLine="117" startPosition="78" endLine="126" endPosition="9" conceptFqName="jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+    <nodeInfo nodeId="9202420309691338901" fileName="CustomSwingWrapper.java" startLine="38" startPosition="0" endLine="48" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CustomSwingWrapper#(Ljava/util/ArrayList;)V" />
+    <nodeInfo nodeId="9202420309691339029" fileName="CustomSwingWrapper.java" startLine="94" startPosition="0" endLine="104" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="displayChartMatrix#(Ljava/lang/String;)Ljavax/swing/JFrame;" />
+    <nodeInfo nodeId="9202420309691338996" fileName="CustomSwingWrapper.java" startLine="79" startPosition="52" endLine="90" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691338944" fileName="CustomSwingWrapper.java" startLine="49" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" propertyString="CustomSwingWrapper#(Ljava/util/ArrayList;II)V" />
+    <nodeInfo nodeId="9202420309691384476" fileName="CustomSwingWrapper.java" startLine="114" startPosition="0" endLine="131" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="run#()V" />
+    <nodeInfo nodeId="9202420309691339051" fileName="CustomSwingWrapper.java" startLine="112" startPosition="52" endLine="131" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9202420309691338989" fileName="CustomSwingWrapper.java" startLine="72" startPosition="0" endLine="93" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="displayChart#()Ljavax/swing/JFrame;" />
+    <nodeInfo nodeId="9202420309691339044" fileName="CustomSwingWrapper.java" startLine="105" startPosition="0" endLine="134" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="displayChartMatrix#()Ljavax/swing/JFrame;" />
+    <scopeInfo nodeId="9202420309691658814" fileName="CustomSwingWrapper.java" startLine="25" startPosition="39" endLine="26" endPosition="27" />
+    <scopeInfo nodeId="9202420309691338891" fileName="CustomSwingWrapper.java" startLine="34" startPosition="42" endLine="35" endPosition="27" />
+    <scopeInfo nodeId="9202420309691338977" fileName="CustomSwingWrapper.java" startLine="67" startPosition="50" endLine="69" endPosition="26" />
+    <scopeInfo nodeId="9202420309691339032" fileName="CustomSwingWrapper.java" startLine="100" startPosition="56" endLine="102" endPosition="32" />
+    <scopeInfo nodeId="9202420309691384515" fileName="CustomSwingWrapper.java" startLine="119" startPosition="30" endLine="121" endPosition="34">
+      <varInfo nodeId="9202420309691384517" varName="chartPanel" />
+    </scopeInfo>
+    <scopeInfo nodeId="9202420309691384503" fileName="CustomSwingWrapper.java" startLine="122" startPosition="18" endLine="124" endPosition="51">
+      <varInfo nodeId="9202420309691384505" varName="chartPanel" />
+    </scopeInfo>
+    <scopeInfo nodeId="9202420309691658811" fileName="CustomSwingWrapper.java" startLine="25" startPosition="0" endLine="28" endPosition="0">
+      <varInfo nodeId="9202420309691670571" varName="onClose" />
+    </scopeInfo>
+    <scopeInfo nodeId="9202420309691338906" fileName="CustomSwingWrapper.java" startLine="43" startPosition="54" endLine="46" endPosition="72" />
+    <scopeInfo nodeId="9202420309691338953" fileName="CustomSwingWrapper.java" startLine="56" startPosition="83" endLine="59" endPosition="33" />
+    <scopeInfo nodeId="9202420309691390329" fileName="CustomSwingWrapper.java" startLine="82" startPosition="25" endLine="88" endPosition="31">
+      <varInfo nodeId="9202420309691390336" varName="chartPanel" />
+    </scopeInfo>
+    <scopeInfo nodeId="9202420309691384497" fileName="CustomSwingWrapper.java" startLine="118" startPosition="36" endLine="125" endPosition="11" />
+    <scopeInfo nodeId="9202420309691338887" fileName="CustomSwingWrapper.java" startLine="29" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="9202420309691338889" varName="chart" />
+    </scopeInfo>
+    <scopeInfo nodeId="9202420309691338974" fileName="CustomSwingWrapper.java" startLine="62" startPosition="0" endLine="71" endPosition="0">
+      <varInfo nodeId="9202420309691338975" varName="windowTitle" />
+    </scopeInfo>
+    <scopeInfo nodeId="9202420309691390327" fileName="CustomSwingWrapper.java" startLine="81" startPosition="0" endLine="90" endPosition="0" />
+    <scopeInfo nodeId="9202420309691384493" fileName="CustomSwingWrapper.java" startLine="117" startPosition="78" endLine="126" endPosition="9">
+      <varInfo nodeId="9202420309691384495" varName="chart" />
+    </scopeInfo>
+    <scopeInfo nodeId="9202420309691338901" fileName="CustomSwingWrapper.java" startLine="38" startPosition="0" endLine="48" endPosition="0">
+      <varInfo nodeId="9202420309691338903" varName="charts" />
+    </scopeInfo>
+    <scopeInfo nodeId="9202420309691339029" fileName="CustomSwingWrapper.java" startLine="94" startPosition="0" endLine="104" endPosition="0">
+      <varInfo nodeId="9202420309691339030" varName="windowTitle" />
+    </scopeInfo>
+    <scopeInfo nodeId="9202420309691338944" fileName="CustomSwingWrapper.java" startLine="49" startPosition="0" endLine="61" endPosition="0">
+      <varInfo nodeId="9202420309691338946" varName="charts" />
+      <varInfo nodeId="9202420309691338951" varName="numColumns" />
+      <varInfo nodeId="9202420309691338949" varName="numRows" />
+    </scopeInfo>
+    <scopeInfo nodeId="9202420309691384478" fileName="CustomSwingWrapper.java" startLine="115" startPosition="25" endLine="129" endPosition="31" />
+    <scopeInfo nodeId="9202420309691338990" fileName="CustomSwingWrapper.java" startLine="75" startPosition="32" endLine="91" endPosition="17">
+      <varInfo nodeId="9202420309691338991" varName="frame" />
+    </scopeInfo>
+    <scopeInfo nodeId="9202420309691384476" fileName="CustomSwingWrapper.java" startLine="114" startPosition="0" endLine="131" endPosition="0" />
+    <scopeInfo nodeId="9202420309691338989" fileName="CustomSwingWrapper.java" startLine="72" startPosition="0" endLine="93" endPosition="0" />
+    <scopeInfo nodeId="9202420309691339045" fileName="CustomSwingWrapper.java" startLine="108" startPosition="38" endLine="132" endPosition="17">
+      <varInfo nodeId="9202420309691339046" varName="frame" />
+    </scopeInfo>
+    <scopeInfo nodeId="9202420309691339044" fileName="CustomSwingWrapper.java" startLine="105" startPosition="0" endLine="134" endPosition="0" />
+    <unitInfo nodeId="9202420309691390325" fileName="CustomSwingWrapper.java" startLine="80" startPosition="35" endLine="90" endPosition="5" unitName="org.campagnelab.mps.XChart.helpers.CustomSwingWrapper$1" />
+    <unitInfo nodeId="9202420309691384474" fileName="CustomSwingWrapper.java" startLine="113" startPosition="35" endLine="131" endPosition="5" unitName="org.campagnelab.mps.XChart.helpers.CustomSwingWrapper$2" />
+    <unitInfo nodeId="9202420309691338864" fileName="CustomSwingWrapper.java" startLine="13" startPosition="0" endLine="135" endPosition="0" unitName="org.campagnelab.mps.XChart.helpers.CustomSwingWrapper" />
+  </root>
 </debugInfo>
 
