@@ -111,9 +111,14 @@
         <property name="width" nameId="ztlb.5270176140465640105" value="800" />
         <property name="height" nameId="ztlb.5270176140465640107" value="400" />
         <property name="title" nameId="ztlb.6638345083846441451" value="Title" />
-        <property name="xAxisLabel" nameId="ztlb.7263499363579462027" value="XXX" />
-        <property name="yAxisLabel" nameId="ztlb.7263499363579462031" value="YYY" />
+        <property name="xAxisLabel" nameId="ztlb.7263499363579462027" value="The X Axis, scaled with max X=200" />
+        <property name="yAxisLabel" nameId="ztlb.7263499363579462031" value="Y" />
         <property name="name" nameId="tpck.1169194664001" value="SequenceVariation" />
+        <property name="minX" nameId="ztlb.3189972890129319231" value="50" />
+        <property name="maxX" nameId="ztlb.3189972890129336893" value="100" />
+        <node role="legend" roleId="ztlb.3189972890131725464" type="ztlb.Legend" typeId="ztlb.3189972890131712628" id="3189972890133419566" nodeInfo="ng">
+          <property name="position" nameId="ztlb.3189972890131712707" value="OutsideE" />
+        </node>
       </node>
       <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="6638345083853653992" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="data" />

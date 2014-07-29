@@ -54,7 +54,6 @@ public class BarChart_Behavior {
       }), "doubles", false);
       chart.addSeries(SPropertyOperations.getString(series, "name"), DoublesToCollection.toCollection(BehaviorReflection.invokeVirtual((Class<double[]>) ((Class) Object.class), x, "virtual_getDoubles_2202909375770410262", new Object[]{})), DoublesToCollection.toCollection(BehaviorReflection.invokeVirtual((Class<double[]>) ((Class) Object.class), heights, "virtual_getDoubles_2202909375770410262", new Object[]{})));
     }
-    chart.getStyleManager().setLegendPosition(StyleManager.LegendPosition.InsideNE);
     component = new XChartPanel(chart);
     Chart_Behavior.call_putComponentInternal_7263499363579768301(thisNode, component);
     return component;

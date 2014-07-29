@@ -24,7 +24,6 @@ public class ChartViewer_A {
         chart = new ChartBuilder().chartType(StyleManager.ChartType.Bar).width(400).height(400).theme(StyleManager.ChartTheme.GGPlot2).title("Title").xAxisTitle("x").yAxisTitle("y").build();
         chart.addSeries("data", DoublesToCollection.toCollection(ColumnLoader.load(filename, "read-index", "\t")), DoublesToCollection.toCollection(ColumnLoader.load(filename, "count-variation-bases", "\t")));
 
-        chart.getStyleManager().setLegendPosition(StyleManager.LegendPosition.InsideNE);
       }
       if (chart != null) {
         charts.add(chart);

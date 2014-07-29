@@ -178,6 +178,11 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="charts" />
     <property name="name" nameId="tpck.1169194664001" value="ChartStyle" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3189972890131725464" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="legend" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3189972890131712628" resolveInfo="Legend" />
+    </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5270176140465640105" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="width" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
@@ -200,6 +205,22 @@
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6638345083846441451" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="title" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3189972890129319231" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="minX" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3189972890129336893" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="maxX" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3189972890129336902" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="minY" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3189972890129336912" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="maxY" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7263499363579346630" nodeInfo="ig">
@@ -256,6 +277,44 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6638345083851040978" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3189972890131712628" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="charts" />
+    <property name="name" nameId="tpck.1169194664001" value="Legend" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3189972890131712707" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="position" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="3189972890131712780" resolveInfo="LegendPosition" />
+    </node>
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="3189972890131712780" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="charts" />
+    <property name="name" nameId="tpck.1169194664001" value="LegendPosition" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3189972890131712809" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="InsideNorth" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="InsideN" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3189972890131717516" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="InsideSE" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="InsideSouthEast" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3189972890131794675" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="InsideSouthWest" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="InsideSW" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3189972890131719895" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="InsideNorthEast" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="InsideNE" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3189972890131719894" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="InsideNW" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="InsideNorthWest" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3189972890131719888" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="OutsideEast" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="OutsideE" />
     </node>
   </root>
 </model>

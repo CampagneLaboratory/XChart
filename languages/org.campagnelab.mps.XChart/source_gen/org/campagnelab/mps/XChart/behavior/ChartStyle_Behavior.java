@@ -7,6 +7,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import com.xeiam.xchart.StyleManager;
 import com.xeiam.xchart.Chart;
 import com.xeiam.xchart.ChartBuilder;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import com.xeiam.xchart.XChartPanel;
 
 public class ChartStyle_Behavior {
@@ -30,17 +31,49 @@ public class ChartStyle_Behavior {
   }
 
   public static Chart call_buildChart_6638345083848028113(SNode thisNode, StyleManager.ChartType chartType, String xColumnName, String yColumnName) {
+
     if (SPropertyOperations.getString(thisNode, "xAxisLabel") != null) {
       xColumnName = SPropertyOperations.getString(thisNode, "xAxisLabel");
     }
     if (SPropertyOperations.getString(thisNode, "yAxisLabel") != null) {
       yColumnName = SPropertyOperations.getString(thisNode, "yAxisLabel");
     }
-    Chart chart = new ChartBuilder().chartType(chartType).width(SPropertyOperations.getInteger(thisNode, "width")).height(SPropertyOperations.getInteger(thisNode, "height")).theme(ChartStyle_Behavior.call_getTheme_7263499363580278109(thisNode)).title(SPropertyOperations.getString(thisNode, "title")).xAxisTitle(xColumnName).yAxisTitle(yColumnName).build();
+    ChartBuilder builder = new ChartBuilder();
+    builder.chartType(chartType);
+    builder.width(SPropertyOperations.getInteger(thisNode, "width")).height(SPropertyOperations.getInteger(thisNode, "height")).theme(ChartStyle_Behavior.call_getTheme_7263499363580278109(thisNode));
+    builder.title(SPropertyOperations.getString(thisNode, "title"));
+    builder.xAxisTitle(xColumnName);
+    builder.yAxisTitle(yColumnName);
+    Chart chart = builder.build();
+    /*
+      // Currently disabled because of an issue with scaling the X axis: see https://github.com/timmolter/XChart/issues/74 
+      chart.getStyleManager().setXAxisMin((SPropertyOperations.getString(thisNode, "minX") != null ? Double.parseDouble(SPropertyOperations.getString(thisNode, "minX")) : null));
+      chart.getStyleManager().setXAxisMax((SPropertyOperations.getString(thisNode, "maxX") != null ? Double.parseDouble(SPropertyOperations.getString(thisNode, "maxX")) : null));
+    */
+    if (isNotEmptyString(SPropertyOperations.getString(thisNode, "minY"))) {
+      chart.getStyleManager().setYAxisMin(Double.parseDouble(SPropertyOperations.getString(thisNode, "minY")));
+    }
+    if (isNotEmptyString(SPropertyOperations.getString(thisNode, "maxY"))) {
+      chart.getStyleManager().setYAxisMax(Double.parseDouble(SPropertyOperations.getString(thisNode, "maxY")));
+    }
+    ChartStyle_Behavior.call_updateLegend_3189972890133475467(thisNode, chart);
     return chart;
+  }
+
+  public static void call_updateLegend_3189972890133475467(SNode thisNode, Chart chart) {
+    if ((SLinkOperations.getTarget(thisNode, "legend", true) != null)) {
+      chart.getStyleManager().setLegendVisible(true);
+      chart.getStyleManager().setLegendPosition(Legend_Behavior.call_getPosition_3189972890131779785(SLinkOperations.getTarget(thisNode, "legend", true)));
+    } else {
+      chart.getStyleManager().setLegendVisible(false);
+    }
   }
 
   public static void call_updateStyleItems_6638345083848910007(SNode thisNode, XChartPanel panel) {
     panel.resize(SPropertyOperations.getInteger(thisNode, "width"), SPropertyOperations.getInteger(thisNode, "height"));
+  }
+
+  private static boolean isNotEmptyString(String str) {
+    return str != null && str.length() > 0;
   }
 }

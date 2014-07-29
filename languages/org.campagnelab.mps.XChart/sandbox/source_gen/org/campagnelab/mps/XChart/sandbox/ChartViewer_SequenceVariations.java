@@ -21,10 +21,9 @@ public class ChartViewer_SequenceVariations {
       String filename = filenames[filenameIndex];
       {
         double[] xs = null;
-        chart = new ChartBuilder().chartType(StyleManager.ChartType.Bar).width(800).height(400).theme(StyleManager.ChartTheme.GGPlot2).title("Title").xAxisTitle("XXX").yAxisTitle("YYY").build();
+        chart = new ChartBuilder().chartType(StyleManager.ChartType.Bar).width(800).height(400).theme(StyleManager.ChartTheme.GGPlot2).title("Title").xAxisTitle("The X Axis, scaled with max X=200").yAxisTitle("Y").build();
         chart.addSeries("data", DoublesToCollection.toCollection(ColumnLoader.load(filename, "read-index", "\t")), DoublesToCollection.toCollection(ColumnLoader.load(filename, "count-variation-bases", "\t")));
 
-        chart.getStyleManager().setLegendPosition(StyleManager.LegendPosition.InsideNE);
       }
       if (chart != null) {
         charts.add(chart);
