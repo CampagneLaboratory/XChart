@@ -71,7 +71,7 @@
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="9178698721097033462" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="9178698721097033463" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="1.0.3" />
+          <property name="text" nameId="3ior.4903714810883755350" value="1.0.4" />
         </node>
       </node>
       <node role="content" roleId="kdzh.6592112598314499050" type="kdzh.BuildMps_IdeaPluginGroup" typeId="kdzh.6592112598314586625" id="4418629618317988009" nodeInfo="ng">
