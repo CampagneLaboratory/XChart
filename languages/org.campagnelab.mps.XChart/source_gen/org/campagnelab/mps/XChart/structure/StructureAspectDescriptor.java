@@ -36,7 +36,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 10:
         return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.FileRef").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept", "jetbrains.mps.lang.core.structure.ScopeProvider").references("file").children(new String[]{"selectedColumns"}, new boolean[]{true}).create();
       case 11:
-        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.Histogram").super_("org.campagnelab.mps.XChart.structure.Chart").parents("org.campagnelab.mps.XChart.structure.Chart").references("x").alias("Histogram", "").create();
+        return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.Histogram").super_("org.campagnelab.mps.XChart.structure.Chart").parents("org.campagnelab.mps.XChart.structure.Chart").alias("Histogram", "").create();
       case 12:
         return new ConceptDescriptorBuilder("org.campagnelab.mps.XChart.structure.Legend").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("position").create();
       case 13:

@@ -159,5 +159,55 @@
       <property name="name" nameId="tpck.1169194664001" value="count-reference-bases-at-index" />
     </node>
   </root>
+  <root type="ztlb.Page" typeId="ztlb.5270176140464602975" id="568598610957314614" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="ScatterPlotTest" />
+    <node role="columns" roleId="ztlb.5270176140465128127" type="ztlb.FileRef" typeId="ztlb.5270176140465521300" id="568598610957358675" nodeInfo="ng">
+      <link role="file" roleId="ztlb.5270176140465524721" targetNodeId="6638345083846547227" resolveInfo="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="568598610957358683" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="count-reference-bases-at-index" />
+        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="6638345083846547227" resolveInfo="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="6638345083846648264" resolveInfo="count-reference-bases-at-index" />
+      </node>
+      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="568598610957358681" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="read-index" />
+        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="6638345083846547227" resolveInfo="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="6638345083846648259" resolveInfo="read-index" />
+      </node>
+    </node>
+    <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.Histogram" typeId="ztlb.2202909375770410339" id="568598610958081578" nodeInfo="ng">
+      <node role="style" roleId="ztlb.7263499363579346634" type="ztlb.ChartStyle" typeId="ztlb.7263499363579346599" id="568598610958081579" nodeInfo="ng">
+        <property name="width" nameId="ztlb.5270176140465640105" value="400" />
+        <property name="height" nameId="ztlb.5270176140465640107" value="400" />
+        <property name="title" nameId="ztlb.6638345083846441451" value="Title" />
+        <property name="xAxisLabel" nameId="ztlb.7263499363579462027" value="x" />
+        <property name="yAxisLabel" nameId="ztlb.7263499363579462031" value="y" />
+      </node>
+      <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="568598610958081580" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="data" />
+        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="568598610958081581" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="x" />
+          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648276" resolveInfo="count-variation-bases" />
+        </node>
+      </node>
+    </node>
+    <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.ScatterPlot" typeId="ztlb.5270176140464883847" id="568598610957358686" nodeInfo="ng">
+      <node role="style" roleId="ztlb.7263499363579346634" type="ztlb.ChartStyle" typeId="ztlb.7263499363579346599" id="568598610957358687" nodeInfo="ng">
+        <property name="width" nameId="ztlb.5270176140465640105" value="400" />
+        <property name="height" nameId="ztlb.5270176140465640107" value="400" />
+        <property name="title" nameId="ztlb.6638345083846441451" value="Title" />
+      </node>
+      <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="568598610957358688" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="data" />
+        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="568598610957358689" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="x" />
+          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648274" resolveInfo="read-index" />
+        </node>
+        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="568598610957358690" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="y" />
+          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648276" resolveInfo="count-variation-bases" />
+        </node>
+      </node>
+    </node>
+  </root>
 </model>
 

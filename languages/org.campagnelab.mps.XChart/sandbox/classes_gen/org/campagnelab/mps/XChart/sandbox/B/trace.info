@@ -18,9 +18,9 @@
     <nodeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="35" startPosition="39" endLine="36" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="38" startPosition="5" endLine="39" endPosition="64" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
     <nodeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="39" startPosition="64" endLine="40" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="40" startPosition="48" endLine="41" endPosition="27" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
-    <nodeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="41" startPosition="27" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
-    <nodeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="45" startPosition="42" endLine="46" endPosition="18" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="40" startPosition="48" endLine="41" endPosition="33" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="41" startPosition="33" endLine="42" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.Statement" />
+    <nodeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="45" startPosition="42" endLine="46" endPosition="15" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
     <nodeInfo nodeId="9178698721098102276" fileName="ChartViewer_A.java" startLine="25" startPosition="190" endLine="27" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="9178698721098102275" fileName="ChartViewer_A.java" startLine="27" startPosition="87" endLine="29" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
     <nodeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="30" startPosition="7" endLine="33" endPosition="7" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
@@ -31,7 +31,7 @@
     <nodeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="15" startPosition="0" endLine="44" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" propertyString="view#(null)V" />
     <scopeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="31" startPosition="26" endLine="32" endPosition="26" />
     <scopeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="35" startPosition="39" endLine="36" endPosition="26" />
-    <scopeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="45" startPosition="42" endLine="46" endPosition="18" />
+    <scopeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="45" startPosition="42" endLine="46" endPosition="15" />
     <scopeInfo nodeId="9178698721098102276" fileName="ChartViewer_A.java" startLine="25" startPosition="190" endLine="27" endPosition="87" />
     <scopeInfo nodeId="9178698721098102275" fileName="ChartViewer_A.java" startLine="27" startPosition="87" endLine="29" endPosition="0" />
     <scopeInfo nodeId="9178698721098102113" fileName="ChartViewer_A.java" startLine="45" startPosition="0" endLine="48" endPosition="0">

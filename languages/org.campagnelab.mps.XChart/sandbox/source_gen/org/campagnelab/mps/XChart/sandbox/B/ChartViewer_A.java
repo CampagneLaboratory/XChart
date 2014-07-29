@@ -38,12 +38,12 @@ public class ChartViewer_A {
     }
     CustomSwingWrapper wrapper = new CustomSwingWrapper(charts);
     wrapper.setOnClose(JFrame.DISPOSE_ON_CLOSE);
-    wrapper.displayChart();
+    wrapper.displayChartMatrix();
 
   }
 
   public static void main(String[] args) {
-    view(args[0]);
+    view(args);
   }
 
 

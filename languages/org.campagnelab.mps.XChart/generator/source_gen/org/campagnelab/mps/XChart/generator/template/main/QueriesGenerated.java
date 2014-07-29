@@ -8,9 +8,11 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import jetbrains.mps.internal.collections.runtime.ITranslator2;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.generator.template.IfMacroContext;
-import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
@@ -92,6 +94,18 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_6638345083849388161(final PropertyMacroContext _context) {
     return (SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "style", true), "yAxisLabel") != null ? SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "style", true), "yAxisLabel") : "y");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_568598610958112950(final PropertyMacroContext _context) {
+    return BehaviorReflection.invokeVirtual(String.class, SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "dataSeries", true)).translate(new ITranslator2<SNode, SNode>() {
+      public Iterable<SNode> translate(SNode it) {
+        return SLinkOperations.getTargets(it, "values", true);
+      }
+    }).findFirst(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SPropertyOperations.getString(it, "name").equals("x");
+      }
+    }), "doubles", false), "virtual_getColumnName_7335187880077215104", new Object[]{});
   }
 
   public static Object propertyMacro_GetPropertyValue_3670852936026355534(final PropertyMacroContext _context) {
@@ -188,10 +202,6 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_3670852936027012712(final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "style", true);
-  }
-
-  public static SNode sourceNodeQuery_6638345083849451749(final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "x", false);
   }
 
   public static SNode sourceNodeQuery_3670852936026703138(final SourceSubstituteMacroNodeContext _context) {

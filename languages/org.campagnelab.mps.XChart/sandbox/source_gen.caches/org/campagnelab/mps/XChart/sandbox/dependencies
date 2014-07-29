@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="org.campagnelab.mps.XChart.sandbox.ChartViewer_ScatterPlotTest" file="ChartViewer_ScatterPlotTest.java">
+    <classNode dependClassName="com.xeiam.xchart.Chart" />
+    <classNode dependClassName="com.xeiam.xchart.ChartBuilder" />
+    <classNode dependClassName="com.xeiam.xchart.StyleManager" />
+    <classNode dependClassName="java.lang.Double" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="javax.swing.JFrame" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.helpers.BinHelper" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.helpers.ColumnLoader" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.helpers.CustomSwingWrapper" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.helpers.DoublesToCollection" />
+  </dependency>
   <dependency className="org.campagnelab.mps.XChart.sandbox.ChartViewer_SequenceVariations" file="ChartViewer_SequenceVariations.java">
     <classNode dependClassName="com.xeiam.xchart.Chart" />
     <classNode dependClassName="com.xeiam.xchart.ChartBuilder" />
