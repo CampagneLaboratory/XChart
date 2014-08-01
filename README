@@ -1,0 +1,4 @@
+  
+Language wrapping XChart (https://github.com/timmolter/XChart). Makes it possible to preview charts constructed from data in TSV and other delimited text files, and to produce an implementation of the charts that can display the content of new files with similar columns. 
+
+See https://github.com/CampagneLaboratory/XChart  
