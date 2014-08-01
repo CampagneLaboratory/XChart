@@ -102,6 +102,12 @@ public class ChartStyle_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_intf8c_v3a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_intf8c_w3a(editorContext, node));
     editorCell.addEditorCell(this.createProperty_intf8c_x3a(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_intf8c_y3a(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_intf8c_z3a(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_intf8c_ab3a(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_intf8c_bb3a(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_intf8c_cb3a(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_intf8c_db3a(editorContext, node));
     return editorCell;
   }
 
@@ -334,7 +340,7 @@ public class ChartStyle_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_intf8c_s3a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "min Y");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "min X");
     editorCell.setCellId("Constant_intf8c_s3a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -351,6 +357,84 @@ public class ChartStyle_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createProperty_intf8c_u3a(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("minX");
+    provider.setNoTargetText("<not specified>");
+    provider.setAllowsEmptyTarget(true);
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_minX");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createConstant_intf8c_v3a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "max X");
+    editorCell.setCellId("Constant_intf8c_v3a");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_intf8c_w3a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
+    editorCell.setCellId("Constant_intf8c_w3a");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createProperty_intf8c_x3a(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("maxX");
+    provider.setNoTargetText("<not specified>");
+    provider.setAllowsEmptyTarget(true);
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_maxX");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createNodeRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createConstant_intf8c_y3a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "min Y");
+    editorCell.setCellId("Constant_intf8c_y3a");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_intf8c_z3a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
+    editorCell.setCellId("Constant_intf8c_z3a");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createProperty_intf8c_ab3a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("minY");
     provider.setNoTargetText("<not specified>");
@@ -372,16 +456,16 @@ public class ChartStyle_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_intf8c_v3a(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_intf8c_bb3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "max Y");
-    editorCell.setCellId("Constant_intf8c_v3a");
+    editorCell.setCellId("Constant_intf8c_bb3a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_intf8c_w3a(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_intf8c_cb3a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
-    editorCell.setCellId("Constant_intf8c_w3a");
+    editorCell.setCellId("Constant_intf8c_cb3a");
     Style style = new StyleImpl();
     style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     editorCell.getStyle().putAll(style);
@@ -389,7 +473,7 @@ public class ChartStyle_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_intf8c_x3a(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_intf8c_db3a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("maxY");
     provider.setNoTargetText("<not specified>");

@@ -9,6 +9,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import com.xeiam.xchart.XChartPanel;
+import jetbrains.mps.openapi.editor.EditorContext;
 import javax.swing.JComponent;
 import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
@@ -67,6 +68,11 @@ public class Chart_Behavior {
   public static int call_getHeight_7263499363579587829(SNode thisNode) {
     int height = Math.max(150, SPropertyOperations.getInteger(SLinkOperations.getTarget(thisNode, "style", true), "height"));
     return height;
+  }
+
+  public static void call_refresh_1507870905442172858(SNode thisNode, EditorContext editorContext) {
+    Chart_Behavior.call_putComponentInternal_7263499363579768301(thisNode, null);
+    editorContext.getEditorComponent().rebuildEditorContent();
   }
 
   @Deprecated

@@ -164,6 +164,14 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "maxY");
   }
 
+  public static Object propertyMacro_GetPropertyValue_6642819616966908686(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "minX");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6642819616966911688(final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "maxX");
+  }
+
   public static Object propertyMacro_GetPropertyValue_3670852936026972124(final PropertyMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "legend", true) != null);
   }
@@ -194,6 +202,14 @@ public class QueriesGenerated {
 
   public static boolean ifMacro_Condition_3670852936026476539(final IfMacroContext _context) {
     return isNotEmptyString(SPropertyOperations.getString(_context.getNode(), "maxY"));
+  }
+
+  public static boolean ifMacro_Condition_6642819616966908693(final IfMacroContext _context) {
+    return isNotEmptyString(SPropertyOperations.getString(_context.getNode(), "minX"));
+  }
+
+  public static boolean ifMacro_Condition_6642819616966911695(final IfMacroContext _context) {
+    return isNotEmptyString(SPropertyOperations.getString(_context.getNode(), "maxX"));
   }
 
   public static SNode sourceNodeQuery_3670852936026821849(final SourceSubstituteMacroNodeContext _context) {

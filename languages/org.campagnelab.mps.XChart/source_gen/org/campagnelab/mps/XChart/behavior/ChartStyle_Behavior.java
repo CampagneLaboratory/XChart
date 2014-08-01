@@ -47,9 +47,13 @@ public class ChartStyle_Behavior {
     Chart chart = builder.build();
     /*
       // Currently disabled because of an issue with scaling the X axis: see https://github.com/timmolter/XChart/issues/74 
-      chart.getStyleManager().setXAxisMin((SPropertyOperations.getString(thisNode, "minX") != null ? Double.parseDouble(SPropertyOperations.getString(thisNode, "minX")) : null));
-      chart.getStyleManager().setXAxisMax((SPropertyOperations.getString(thisNode, "maxX") != null ? Double.parseDouble(SPropertyOperations.getString(thisNode, "maxX")) : null));
     */
+    if (isNotEmptyString(SPropertyOperations.getString(thisNode, "minX"))) {
+      chart.getStyleManager().setXAxisMin(Double.parseDouble(SPropertyOperations.getString(thisNode, "minX")));
+    }
+    if (isNotEmptyString(SPropertyOperations.getString(thisNode, "maxX"))) {
+      chart.getStyleManager().setXAxisMax(Double.parseDouble(SPropertyOperations.getString(thisNode, "maxX")));
+    }
     if (isNotEmptyString(SPropertyOperations.getString(thisNode, "minY"))) {
       chart.getStyleManager().setYAxisMin(Double.parseDouble(SPropertyOperations.getString(thisNode, "minY")));
     }

@@ -2,7 +2,7 @@
 <language namespace="org.campagnelab.mps.XChart" uuid="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25">
   <models>
     <modelRoot contentPath="${module}" type="java_classes">
-      <sourceRoot location="xchart-2.4.0.jar" />
+      <sourceRoot location="xchart-2.4.1-SNAPSHOT.jar" />
     </modelRoot>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
@@ -41,7 +41,7 @@
     </generator>
   </generators>
   <stubModelEntries>
-    <stubModelEntry path="${module}/xchart-2.4.0.jar" />
+    <stubModelEntry path="${module}/xchart-2.4.1-SNAPSHOT.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
@@ -52,8 +52,11 @@
   </dependencies>
   <usedLanguages>
     <usedLanguage>ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</usedLanguage>
+    <usedLanguage>443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)</usedLanguage>
     <usedLanguage>3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1(jetbrains.mps.lang.constraints)</usedLanguage>
+    <usedLanguage>d7a92d38-f7db-40d0-8431-763b0c3c9f20(jetbrains.mps.lang.intentions)</usedLanguage>
     <usedLanguage>d8f591ec-4d86-4af2-9f92-a9e93c803ffa(jetbrains.mps.lang.scopes)</usedLanguage>
+    <usedLanguage>13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)</usedLanguage>
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
