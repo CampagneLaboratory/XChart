@@ -83,7 +83,7 @@
       </node>
       <node role="name" roleId="kdzh.6592112598314499021" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="9178698721097033460" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="9178698721097033461" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="XChart" />
+          <property name="text" nameId="3ior.4903714810883755350" value="org.campagnelab.mps.XChart" />
         </node>
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="9178698721097033462" nodeInfo="ng">
@@ -105,6 +105,11 @@
       <node role="vendor" roleId="kdzh.7832771629084912518" type="kdzh.BuildMps_IdeaPluginVendor" typeId="kdzh.7832771629084799699" id="4418629618317946471" nodeInfo="ng">
         <property name="name" nameId="kdzh.7832771629084799702" value="Campagne Laboratory" />
         <property name="url" nameId="kdzh.7832771629084799701" value="http://campagnelab.org" />
+      </node>
+      <node role="description" roleId="kdzh.2172791612906637490" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="1507870905444127795" nodeInfo="ng">
+        <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="1507870905444127864" nodeInfo="ng">
+          <property name="text" nameId="3ior.4903714810883755350" value="Language wrapping XChart (https://github.com/timmolter/XChart). Makes it possible to preview charts constructed from data in TSV and other delimited text files, and to produce an implementation of the charts that can display the content of new files with similar columns. This version is bundled with XChart 2.4.1-SNAPSHOT. " />
+        </node>
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Group" typeId="kdzh.1500819558095907805" id="9178698721097033458" nodeInfo="ng">

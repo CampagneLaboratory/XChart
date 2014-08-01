@@ -30,10 +30,12 @@
     <echoxml file="${build.tmp}/default/XChart.zip/XChart/META-INF/plugin.xml">
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>XChart</id>
-        <name>XChart</name>
+        <name>org.campagnelab.mps.XChart</name>
+        <description>Language wrapping XChart (https://github.com/timmolter/XChart). Makes it possible to preview charts constructed from data in TSV and other delimited text files, and to produce an implementation of the charts that can display the content of new files with similar columns. This version is bundled with XChart 2.4.1-SNAPSHOT. </description>
         <version>1.0.6</version>
         <vendor url="http://campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
+        <idea-version until-build="136.1" since-build="135.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
