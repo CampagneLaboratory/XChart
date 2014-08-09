@@ -1,0 +1,50 @@
+Compact Alignment basename = /zenodotus/campagnelab/scratch/data/gobyweb/dev/GOBYWEB_SGE_JOBS/lmesd/C/CWSWOFK/results/CWSWOFK/CWSWOFK-exome-S1-Donor-ACR
+Info from header:
+Alignment written with Goby version=development (20140509162023) 
+Alignment produced by aligner= version= 
+Sorted: true
+Indexed: true
+Number of target sequences = 84
+Number of target length entries = 84
+smallestSplitQueryIndex = 0
+largestSplitQueryIndex = 32579997
+Min target length = 0
+Max target length = 249,250,621
+Mean target length = 36,923,131.60
+
+Number of query sequences = 32,579,997
+Query lengths stored in entries = true
+Constant query lengths = true
+Has query identifiers = false
+Has target identifiers = true
+Has query index permutation = false
+Has query index occurrences = true
+Has all read quality scores = false
+Has ambiguity = true
+
+Alignment has no Read Origin Info/Read Groups
+TMH: aligner threshold = 2
+TMH: number of ambiguous matches = 0
+TMH: %ambiguous matches = 0.000000 %
+num query indices = 32,579,997
+num target indices = 84
+Number of alignment entries = 27,699,802
+Number of query indices that matched = 27,699,802
+Percent matched = 85.0 % 
+Avg query alignment length = 100.422030
+Avg score alignment = 593.007325
+Avg number of variations per query sequence = 0.32 
+Average bytes per entry = 10.863620
+Min query length = 101
+Max query length = 101
+Mean query length = 101.00
+Average bits per read base, assuming average read length 101 = 0.107561
+Percent paired reads = 0.00 % 
+Percent properly paired reads = 0.00 % 
+Percent first in pair = 0.00 % 
+Percent second in pair = 0.00 % 
+Aligment entries have some softClips: false 
+
+Total number of files processed = 1
+All Compact-Reads files were paired-end = false
+
