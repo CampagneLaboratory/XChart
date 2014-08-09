@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debugInfo>
+<debug-info>
   <root nodeRef="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/9178698721097033425">
-    <unitInfo nodeId="9178698721097033425" fileName="XChart.xml" startLine="1" startPosition="0" endLine="287" endPosition="10" unitName="XChart.build.XChart" />
+    <file name="XChart.xml">
+      <unit id="9178698721097033425" at="1,0,295,10" name="XChart.build.XChart" />
+    </file>
   </root>
-</debugInfo>
+</debug-info>
 
