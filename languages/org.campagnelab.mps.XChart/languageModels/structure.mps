@@ -123,7 +123,6 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2202909375770356843" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Chart" />
-    <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="chart" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="A Chart" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
