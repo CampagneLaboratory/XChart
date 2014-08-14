@@ -7,7 +7,7 @@
   <property name="org.campagnelab.gobyweb.pluginRepo" location="" />
   <property name="org.campagnelab.goby.workbench.home" location="" />
   <property name="org.campagnelab.bdval.home" location="" />
-  <property name="XChart_version" value="1.1.1" />
+  <property name="XChart_version" value="1.1.2" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
