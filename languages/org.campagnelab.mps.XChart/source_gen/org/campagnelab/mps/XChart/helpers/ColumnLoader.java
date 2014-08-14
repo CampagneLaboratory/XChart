@@ -43,7 +43,8 @@ public class ColumnLoader {
           value = Double.parseDouble(element);
 
         } catch (NumberFormatException e) {
-          value = Double.NaN;
+          // replace NaNs with zero because XChart cannot deal with them. 
+          value = 0.0;
         }
         result[i++] = value;
       }

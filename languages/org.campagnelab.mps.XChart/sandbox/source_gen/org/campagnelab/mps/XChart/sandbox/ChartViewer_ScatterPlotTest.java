@@ -11,9 +11,10 @@ import org.campagnelab.mps.XChart.helpers.BinHelper;
 import org.campagnelab.mps.XChart.helpers.DoublesToCollection;
 import org.campagnelab.mps.XChart.helpers.CustomSwingWrapper;
 import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 public class ChartViewer_ScatterPlotTest {
-  public static void view(String... filenames) {
+  public static ArrayList<Chart> buildCharts(String... filenames) {
     ArrayList<Chart> charts = new ArrayList<Chart>();
     int filenameIndex = 0;
     int numCharts = 2;
@@ -65,10 +66,29 @@ public class ChartViewer_ScatterPlotTest {
         filenameIndex = 0;
       }
     }
+    return charts;
+  }
+
+
+
+  /**
+   * Returns a JFrame with the charts that display the content of the files.
+   */
+  public static void view(String... filenames) {
+    ArrayList<Chart> charts = buildCharts(filenames);
     CustomSwingWrapper wrapper = new CustomSwingWrapper(charts);
     wrapper.setOnClose(JFrame.DISPOSE_ON_CLOSE);
     wrapper.displayChartMatrix();
 
+  }
+
+  /**
+   * Returns a JPanel with the charts that display the content of the files.
+   */
+  public static JPanel panel(String... filenames) {
+    ArrayList<Chart> charts = buildCharts(filenames);
+    CustomSwingWrapper wrapper = new CustomSwingWrapper(charts);
+    return wrapper.getChartMatrixPanel();
   }
 
   public static void main(String[] args) {

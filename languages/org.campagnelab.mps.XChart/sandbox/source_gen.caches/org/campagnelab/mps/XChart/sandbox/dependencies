@@ -8,6 +8,7 @@
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="javax.swing.JFrame" />
+    <classNode dependClassName="javax.swing.JPanel" />
     <classNode dependClassName="org.campagnelab.mps.XChart.helpers.BinHelper" />
     <classNode dependClassName="org.campagnelab.mps.XChart.helpers.ColumnLoader" />
     <classNode dependClassName="org.campagnelab.mps.XChart.helpers.CustomSwingWrapper" />
@@ -21,6 +22,7 @@
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="javax.swing.JFrame" />
+    <classNode dependClassName="javax.swing.JPanel" />
     <classNode dependClassName="org.campagnelab.mps.XChart.helpers.ColumnLoader" />
     <classNode dependClassName="org.campagnelab.mps.XChart.helpers.CustomSwingWrapper" />
     <classNode dependClassName="org.campagnelab.mps.XChart.helpers.DoublesToCollection" />
