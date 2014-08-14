@@ -7,6 +7,7 @@
   <property name="org.campagnelab.gobyweb.pluginRepo" location="" />
   <property name="org.campagnelab.goby.workbench.home" location="" />
   <property name="org.campagnelab.bdval.home" location="" />
+  <property name="XChart_version" value="1.0.7" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
@@ -24,15 +25,15 @@
   
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.tmp}/default/XChart.zip" />
-    <mkdir dir="${build.tmp}/default/XChart.zip/XChart" />
-    <mkdir dir="${build.tmp}/default/XChart.zip/XChart/META-INF" />
-    <echoxml file="${build.tmp}/default/XChart.zip/XChart/META-INF/plugin.xml">
+    <mkdir dir="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
+    <mkdir dir="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart" />
+    <mkdir dir="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/META-INF" />
+    <echoxml file="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/META-INF/plugin.xml">
       <idea-plugin version="2" xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>XChart</id>
         <name>org.campagnelab.mps.XChart</name>
         <description>Language wrapping XChart (https://github.com/timmolter/XChart). Makes it possible to preview charts constructed from data in TSV and other delimited text files, and to produce an implementation of the charts that can display the content of new files with similar columns. This version is bundled with XChart 2.4.1-SNAPSHOT. </description>
-        <version>1.0.6</version>
+        <version>${XChart_version}</version>
         <vendor url="http://campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
         <idea-version until-build="136.1" since-build="135.1" />
@@ -42,8 +43,8 @@
         </extensions>
       </idea-plugin>
     </echoxml>
-    <mkdir dir="${build.tmp}/default/XChart.zip/XChart/languages" />
-    <mkdir dir="${build.tmp}/default/XChart.zip/XChart/languages/XChart" />
+    <mkdir dir="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages" />
+    <mkdir dir="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.mps.XChart.jar" />
     <mkdir dir="${build.tmp}/default/org.campagnelab.mps.XChart.jar/META-INF" />
     <echoxml file="${build.tmp}/default/org.campagnelab.mps.XChart.jar/META-INF/module.xml">
@@ -66,12 +67,12 @@
         <sources jar="org.campagnelab.mps.XChart-src.jar" descriptor="org.campagnelab.mps.XChart.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/XChart.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar">
+    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.mps.XChart" />
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart" includes="icons/**, resources/**" />
       <fileset dir="${build.tmp}/default/org.campagnelab.mps.XChart.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/XChart.zip/XChart/languages/XChart/org.campagnelab.mps.XChart-generator.jar">
+    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart-generator.jar">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.mps.XChart#2202909375769974311" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart-generator-template">
@@ -83,7 +84,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/XChart.zip/XChart/languages/XChart/org.campagnelab.mps.XChart-src.jar">
+    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart-src.jar">
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart/generator/source_gen" />
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart/source_gen" />
       <zipfileset file="${basedir}/languages/org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.mpl" prefix="module" />
@@ -91,11 +92,11 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart-languageAccessories" prefix="module/languageAccessories" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart-languageModels" prefix="module/languageModels" />
     </jar>
-    <zip destfile="${build.layout}/XChart.zip">
+    <zip destfile="${build.layout}/XChart_${XChart_version}.zip">
       <zipfileset file="${basedir}/languages/org.campagnelab.mps.XChart/xchart-2.4.1-SNAPSHOT.jar" prefix="XChart/lib" />
-      <fileset dir="${build.tmp}/default/XChart.zip" />
+      <fileset dir="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
+    <echo file="${build.layout}/build.properties">XChart.XChart_version=${XChart_version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
   
   <target name="buildDependents" />

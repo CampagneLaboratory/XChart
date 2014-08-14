@@ -17,10 +17,45 @@
     </breakpoint>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="018d456a-d391-4635-ba93-c9ea1b0a7842" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/XChart.build0/XChart.build.msd" afterPath="$PROJECT_DIR$/solutions/XChart.build0/XChart.build.msd" />
+    <list default="true" id="018d456a-d391-4635-ba93-c9ea1b0a7842" name="Default" comment="Remove dependency on multiline and richtext projects.">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/classes_gen/org/campagnelab/mps/XChart/actions/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/classes_gen/org/campagnelab/mps/XChart/behavior/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/classes_gen/org/campagnelab/mps/XChart/constraints/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/classes_gen/org/campagnelab/mps/XChart/editor/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/classes_gen/org/campagnelab/mps/XChart/helpers/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/classes_gen/org/campagnelab/mps/XChart/intentions/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/classes_gen/org/campagnelab/mps/XChart/structure/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/classes_gen/org/campagnelab/mps/XChart/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/classes_gen/org/campagnelab/mps/XChart/typesystem/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/generator/classes_gen/org/campagnelab/mps/XChart/generator/template/main/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/generator/source_gen/org/campagnelab/mps/XChart/generator/template/main/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen/org/campagnelab/mps/XChart/actions/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen/org/campagnelab/mps/XChart/behavior/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen/org/campagnelab/mps/XChart/constraints/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen/org/campagnelab/mps/XChart/editor/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen/org/campagnelab/mps/XChart/helpers/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen/org/campagnelab/mps/XChart/intentions/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen/org/campagnelab/mps/XChart/structure/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen/org/campagnelab/mps/XChart/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen/org/campagnelab/mps/XChart/typesystem/trace.info" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solutions/XChart.build0/source_gen/XChart/build/trace.info" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/classes_gen/org/campagnelab/mps/XChart/helpers/CustomSwingWrapper.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/classes_gen/org/campagnelab/mps/XChart/helpers/CustomSwingWrapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/generator/classes_gen/org/campagnelab/mps/XChart/generator/template/main/QueriesGenerated.class" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/generator/classes_gen/org/campagnelab/mps/XChart/generator/template/main/QueriesGenerated.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen/org/campagnelab/mps/XChart/helpers/ColumnLoader.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen/org/campagnelab/mps/XChart/helpers/ColumnLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen/org/campagnelab/mps/XChart/helpers/CustomSwingWrapper.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen/org/campagnelab/mps/XChart/helpers/CustomSwingWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/generator/source_gen/org/campagnelab/mps/XChart/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/generator/source_gen/org/campagnelab/mps/XChart/generator/template/main/QueriesGenerated.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/XChart.build0/classes_gen/XChart/build/XChart.xml" afterPath="$PROJECT_DIR$/solutions/XChart.build0/classes_gen/XChart/build/XChart.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/XChart.build0/source_gen/XChart/build/XChart.xml" afterPath="$PROJECT_DIR$/solutions/XChart.build0/source_gen/XChart/build/XChart.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/XChart.build0/models/XChart/build.mps" afterPath="$PROJECT_DIR$/solutions/XChart.build0/models/XChart/build.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/helpers/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/helpers/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/generator/source_gen.caches/org/campagnelab/mps/XChart/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/generator/source_gen.caches/org/campagnelab/mps/XChart/generator/template/main/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/helpers/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/helpers/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/XChart.build0/source_gen.caches/XChart/build/generated" afterPath="$PROJECT_DIR$/solutions/XChart.build0/source_gen.caches/XChart/build/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/languageAccessories/org/campagnelab/mps/XChart/helpers.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/languageAccessories/org/campagnelab/mps/XChart/helpers.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.mpl" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.mpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <list id="55b6849a-a6e6-4921-8925-e27bd437e866" name="New changelist" comment="" />
@@ -38,7 +73,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;model modelUID=&quot;r:9be7810f-0fb0-4924-8cbc-07dd48d95609(TempModel_1407774414900892000)&quot;&gt;&#10;  &lt;persistence version=&quot;8&quot; /&gt;&#10;  &lt;language namespace=&quot;de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)&quot; /&gt;&#10;  &lt;language namespace=&quot;f26691d2-0def-4c06-aec6-2cb90c4af0a4(jetbrains.mps.console.scripts)&quot; /&gt;&#10;  &lt;language namespace=&quot;1a8554c4-eb84-43ba-8c34-6f0d90c6e75a(jetbrains.mps.console.blCommand)&quot; /&gt;&#10;  &lt;language namespace=&quot;a5e4de53-46a3-44da-aab3-68fdf1c34ed0(jetbrains.mps.console.ideCommands)&quot; /&gt;&#10;  &lt;language namespace=&quot;995a7394-7f76-4b8b-a929-c53448708106(jetbrains.mps.console.internalCommands)&quot; /&gt;&#10;  &lt;devkit namespace=&quot;fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)&quot; /&gt;&#10;  &lt;import index=&quot;eynw&quot; modelUID=&quot;r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)&quot; version=&quot;1&quot; /&gt;&#10;  &lt;import index=&quot;z2sp&quot; modelUID=&quot;r:e712f353-5c3c-4288-adce-87c956a52ffb(jetbrains.mps.console.scripts.structure)&quot; version=&quot;0&quot; /&gt;&#10;  &lt;import index=&quot;3xdn&quot; modelUID=&quot;r:935ba0ee-7291-4caa-a807-d76e8fc69391(jetbrains.mps.console.blCommand.structure)&quot; version=&quot;3&quot; /&gt;&#10;  &lt;import index=&quot;caxt&quot; modelUID=&quot;r:135a606f-0376-4c5c-9ab8-4030f051a062(jetbrains.mps.console.ideCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;wns9&quot; modelUID=&quot;r:90445206-a973-4c1d-b760-30e5c77b7497(jetbrains.mps.console.internalCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;tpck&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)&quot; version=&quot;0&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;root type=&quot;eynw.ConsoleRoot&quot; typeId=&quot;eynw.1583916890557930028&quot; id=&quot;9182949410601642512&quot; nodeInfo=&quot;ng&quot;&gt;&#10;    &lt;node role=&quot;history&quot; roleId=&quot;eynw.1583916890557930415&quot; type=&quot;eynw.History&quot; typeId=&quot;eynw.757553790980850366&quot; id=&quot;6638345083842581395&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;9178698721095320611&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;9178698721095320612&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;9178698721095320613&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;9178698721095320614&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;    &lt;/node&gt;&#10;    &lt;node role=&quot;commandHolder&quot; roleId=&quot;eynw.1583916890557930417&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;9182949410601642513&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;    &lt;/node&gt;&#10;  &lt;/root&gt;&#10;&lt;/model&gt;&#10;&#10;" />
+          <option name="history" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;model modelUID=&quot;r:1c7fb83b-80c2-4ad1-a956-c7b2a83b81ad(TempModel_1408052982798603000)&quot;&gt;&#10;  &lt;persistence version=&quot;8&quot; /&gt;&#10;  &lt;language namespace=&quot;de1ad86d-6e50-4a02-b306-d4d17f64c375(jetbrains.mps.console.base)&quot; /&gt;&#10;  &lt;language namespace=&quot;f26691d2-0def-4c06-aec6-2cb90c4af0a4(jetbrains.mps.console.scripts)&quot; /&gt;&#10;  &lt;language namespace=&quot;1a8554c4-eb84-43ba-8c34-6f0d90c6e75a(jetbrains.mps.console.blCommand)&quot; /&gt;&#10;  &lt;language namespace=&quot;a5e4de53-46a3-44da-aab3-68fdf1c34ed0(jetbrains.mps.console.ideCommands)&quot; /&gt;&#10;  &lt;language namespace=&quot;995a7394-7f76-4b8b-a929-c53448708106(jetbrains.mps.console.internalCommands)&quot; /&gt;&#10;  &lt;devkit namespace=&quot;fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)&quot; /&gt;&#10;  &lt;import index=&quot;eynw&quot; modelUID=&quot;r:359b1d2b-77c4-46df-9bf2-b25cbea32254(jetbrains.mps.console.base.structure)&quot; version=&quot;1&quot; /&gt;&#10;  &lt;import index=&quot;z2sp&quot; modelUID=&quot;r:e712f353-5c3c-4288-adce-87c956a52ffb(jetbrains.mps.console.scripts.structure)&quot; version=&quot;0&quot; /&gt;&#10;  &lt;import index=&quot;3xdn&quot; modelUID=&quot;r:935ba0ee-7291-4caa-a807-d76e8fc69391(jetbrains.mps.console.blCommand.structure)&quot; version=&quot;3&quot; /&gt;&#10;  &lt;import index=&quot;caxt&quot; modelUID=&quot;r:135a606f-0376-4c5c-9ab8-4030f051a062(jetbrains.mps.console.ideCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;wns9&quot; modelUID=&quot;r:90445206-a973-4c1d-b760-30e5c77b7497(jetbrains.mps.console.internalCommands.structure)&quot; version=&quot;-1&quot; /&gt;&#10;  &lt;import index=&quot;tpck&quot; modelUID=&quot;r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)&quot; version=&quot;0&quot; implicit=&quot;yes&quot; /&gt;&#10;  &lt;root type=&quot;eynw.ConsoleRoot&quot; typeId=&quot;eynw.1583916890557930028&quot; id=&quot;6970150958621614169&quot; nodeInfo=&quot;ng&quot;&gt;&#10;    &lt;node role=&quot;history&quot; roleId=&quot;eynw.1583916890557930415&quot; type=&quot;eynw.History&quot; typeId=&quot;eynw.757553790980850366&quot; id=&quot;6638345083842581395&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;node role=&quot;item&quot; roleId=&quot;eynw.7195119950189425818&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;9178698721095320611&quot; nodeInfo=&quot;ng&quot;&gt;&#10;        &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;        &lt;node role=&quot;command&quot; roleId=&quot;eynw.351968380916615460&quot; type=&quot;3xdn.BLExpression&quot; typeId=&quot;3xdn.7656298970878093785&quot; id=&quot;9178698721095320612&quot; nodeInfo=&quot;ng&quot;&gt;&#10;          &lt;node role=&quot;expression&quot; roleId=&quot;3xdn.7656298970878093890&quot; type=&quot;caxt.Clean&quot; typeId=&quot;caxt.2840424593938220297&quot; id=&quot;9178698721095320613&quot; nodeInfo=&quot;ng&quot;&gt;&#10;            &lt;node role=&quot;parameter&quot; roleId=&quot;3xdn.4307205004132279624&quot; type=&quot;3xdn.QueryParameterList&quot; typeId=&quot;3xdn.4307205004132277753&quot; id=&quot;9178698721095320614&quot; nodeInfo=&quot;ng&quot; /&gt;&#10;          &lt;/node&gt;&#10;        &lt;/node&gt;&#10;      &lt;/node&gt;&#10;    &lt;/node&gt;&#10;    &lt;node role=&quot;commandHolder&quot; roleId=&quot;eynw.1583916890557930417&quot; type=&quot;eynw.CommandHolder&quot; typeId=&quot;eynw.351968380916615243&quot; id=&quot;6970150958621614170&quot; nodeInfo=&quot;ng&quot;&gt;&#10;      &lt;property name=&quot;name&quot; nameId=&quot;tpck.1169194664001&quot; value=&quot;CommandHolder&quot; /&gt;&#10;    &lt;/node&gt;&#10;  &lt;/root&gt;&#10;&lt;/model&gt;&#10;&#10;" />
         </TabState>
       </list>
     </option>
@@ -59,19 +94,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BXUJDPK-WT-310-s1.ann-counts.tsv" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.mps.XChart.sandbox/org.campagnelab.mps.XChart.sandbox/BXUJDPK-WT-310-s1.ann-counts.tsv">
+      <file leaf-file-name="main" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.mps.XChart#2202909375769974311/org.campagnelab.mps.XChart.generator.template.main@generator/main">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="75" />
+                    <property name="caretXRelative" value="56" />
+                    <property name="caretX" value="441" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:3fa3a072-a2b5-4f5f-8976-f2c292a9b866(org.campagnelab.mps.XChart.sandbox)/7263499363577631635" />
+                    <cellInfo cellId="property_name_2" cellNumber="0" isInList="false">
+                      <node node_reference="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)/6638345083849235003" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -79,7 +114,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -93,15 +128,15 @@
         <entry file="mps://node://XChart.build/XChart.build/XChart">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
+              <memento viewPositionX="120" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="112" />
-                    <property name="caretX" value="247" />
+                    <property name="caretXRelative" value="40" />
+                    <property name="caretX" value="235" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484488366" />
+                    <cellInfo cellId="property_text_3" cellNumber="0" isInList="false">
+                      <node node_reference="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -109,7 +144,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -119,8 +154,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.mps.XChart.sandbox/org.campagnelab.mps.XChart.sandbox.B/A">
+      <file leaf-file-name="DoublesToCollection" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.helpers/DoublesToCollection">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
@@ -130,8 +165,8 @@
                     <property name="caretXRelative" value="0" />
                     <property name="caretX" value="15" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:e71068a7-db8a-4675-839b-f214a0a2051d(org.campagnelab.mps.XChart.sandbox.B)/9178698721098102113" />
+                    <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
+                      <node node_reference="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/9178698721095101960" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -139,7 +174,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -149,103 +184,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.mps.XChart.sandbox/org.campagnelab.mps.XChart.sandbox.B/CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="75" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:e71068a7-db8a-4675-839b-f214a0a2051d(org.campagnelab.mps.XChart.sandbox.B)/6638345083849127064" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScatterPlotTest" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.mps.XChart.sandbox/org.campagnelab.mps.XChart.sandbox/ScatterPlotTest">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="144" />
-                    <property name="caretX" value="159" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_twirny_c0" cellNumber="0" isInList="false">
-                      <node node_reference="r:3fa3a072-a2b5-4f5f-8976-f2c292a9b866(org.campagnelab.mps.XChart.sandbox)/568598610957314614" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.mps.XChart.sandbox/org.campagnelab.mps.XChart.sandbox/CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Histogram" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.structure/Histogram">
+      <file leaf-file-name="ColumnToDoubles" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.structure/ColumnToDoubles">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="24" />
+                    <property name="caretX" value="319" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name_1" cellNumber="0" isInList="false">
+                      <node node_reference="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/6638345083849626734" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:7546b2ca-c35b-4f89-867f-8a418d6edf81(org.campagnelab.mps.XChart.constraints)/7335187880077124624" />
+              <node node_ref="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/2202909375770436533" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColumnLoader" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.helpers/ColumnLoader">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="40" />
+                    <property name="caretX" value="171" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="VDNCC_property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/6970150958623022070" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
             </state>
           </provider>
         </entry>
@@ -255,18 +250,89 @@
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="568" />
+                    <property name="caretX" value="615" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="ModelAccess_x1gmbt_a0" cellNumber="0" isInList="false">
+                      <node node_reference="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)/6970150958622684055" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:7546b2ca-c35b-4f89-867f-8a418d6edf81(org.campagnelab.mps.XChart.constraints)/5270176140465444960" />
+              <node node_ref="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)/6638345083849127425" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XChartPanel" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.mps.XChart/com.xeiam.xchart@java_stub/XChartPanel">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                    <property name="caretXRelative" value="-31" />
+                    <property name="caretX" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Collection_1x071y_a" cellNumber="0" isInList="false">
+                      <node node_reference="f:java_stub#5ec1cd3d-0a50-4049-a8fa-ae768d7baa25#com.xeiam.xchart(org.campagnelab.mps.XChart/com.xeiam.xchart@java_stub)/~XChartPanel.&lt;init&gt;%28com.xeiam.xchart.Chart%29" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomSwingWrapper" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.helpers/CustomSwingWrapper">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento viewPositionX="0" viewPositionY="964">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="selectionEnd" value="19" />
+                    <property name="hasNonTrivialSelection" value="true" />
+                    <property name="caretXRelative" value="96" />
+                    <property name="selectionStart" value="0" />
+                    <property name="caretX" value="235" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="BMDNCC_property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/6970150958622039606" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorLabels />
+                <folded />
+                <enabledHints />
+              </inspectorMemento>
             </state>
           </provider>
         </entry>
@@ -281,13 +347,13 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:7546b2ca-c35b-4f89-867f-8a418d6edf81(org.campagnelab.mps.XChart.constraints)/3597430320022615563" />
+              <node node_ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)/2202909375770430354" />
             </state>
           </provider>
         </entry>
@@ -302,13 +368,13 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:7546b2ca-c35b-4f89-867f-8a418d6edf81(org.campagnelab.mps.XChart.constraints)/6243283334561962175" />
+              <node node_ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)/2202909375770435047" />
             </state>
           </provider>
         </entry>
@@ -456,6 +522,156 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.XChart">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="all models">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="stubs">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.xeiam.xchart">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.XChart">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="all models">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.XChart">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.XChart">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.XChart#2202909375769974311">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.XChart.generator.template.main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.XChart">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="accessories">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.XChart.helpers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.XChart">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.XChart.structure">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.XChart">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="org.campagnelab.mps.XChart.structure">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="data">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Empty">
@@ -515,8 +731,6 @@
           <option name="myAntOptions" />
         </MyState>
       </mySettings>
-      <RunnerSettings RunnerId="Default Runner" />
-      <ConfigurationWrapper RunnerId="Default Runner" />
       <method />
     </configuration>
     <configuration default="false" name="Tests in 'XChart'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
@@ -775,7 +989,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.4997367" order="7" side_tool="false" content_ui="tabs" />
@@ -788,8 +1002,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25065824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.4997367" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25065824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277487" sideWeight="0.4997367" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.4997367" order="7" side_tool="false" content_ui="tabs" />
@@ -887,115 +1101,10 @@
     <MESSAGE value="Add missing files to git. Specify idea version in plugin." />
     <MESSAGE value="Enter project description in language plugin." />
     <MESSAGE value="Charts must not be rootable because they require a parent page to find the TSV and columns. Increment plugin version to 1.0.7." />
-    <option name="LAST_COMMIT_MESSAGE" value="Charts must not be rootable because they require a parent page to find the TSV and columns. Increment plugin version to 1.0.7." />
+    <MESSAGE value="Remove dependency on multiline and richtext projects." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove dependency on multiline and richtext projects." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://jetbrains.mps.build/jetbrains.mps.build.structure/BuildLayout_CompileOutputOf">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="48" />
-                <property name="caretX" value="303" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:5076fdb3-19c3-4563-aa26-7ace7591e78d(jetbrains.mps.build.constraints)/2591537044435952578" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="-4">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:5076fdb3-19c3-4563-aa26-7ace7591e78d(jetbrains.mps.build.constraints)/2591537044435952571" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://jetbrains.mps.build/jetbrains.mps.build.structure/BuildLayout_Jar">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="15" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build.structure)/7389400916848050074" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="-4">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:e9081cad-d8c3-45f2-b4ad-1dabd5ff82af(jetbrains.mps.build.structure)/7389400916848050074" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://jetbrains.mps.build/jetbrains.mps.build.structure/BuildLayout_JarManifest">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="179" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:5076fdb3-19c3-4563-aa26-7ace7591e78d(jetbrains.mps.build.constraints)/7471276865246011486" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="-4">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:5076fdb3-19c3-4563-aa26-7ace7591e78d(jetbrains.mps.build.constraints)/7471276865246011486" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://jetbrains.mps.build.workflow/jetbrains.mps.build.workflow.structure/BwfSubTaskDependency">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="-4">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:ed179f4d-7cf2-479d-8348-50c1fc63b96a(jetbrains.mps.build.workflow.structure)/2769948622284605880" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://jetbrains.mps.build.workflow/jetbrains.mps.build.workflow.structure/BwfSubTask">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -1344,46 +1453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.helpers/CustomSwingWrapper">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="979">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionEnd" value="18" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretXRelative" value="64" />
-                <property name="selectionStart" value="0" />
-                <property name="caretX" value="203" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="BMDNCC_property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/9202420309691339044" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="8" />
-                <property name="caretX" value="517" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_zedcwq_b0" cellNumber="0" isInList="false">
-                  <node node_reference="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)/568598610958802568" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.structure/DataSeries">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -1483,25 +1552,6 @@
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/3597430320022539914" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.structure/ColumnToDoubles">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/2202909375770436533" />
         </state>
       </provider>
     </entry>
@@ -1658,35 +1708,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://XChart.build/XChart.build/XChart">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="112" />
-                <property name="caretX" value="247" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484488366" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1710,11 +1732,21 @@
                 </cellInfo>
               </stackElement>
             </selectionStack>
-            <errorLabels />
+            <errorLabels>
+              <errorLabel errorText="" cellId="property_xAxisLabel" cellNumber="0" isInList="false">
+                <node node_reference="r:e71068a7-db8a-4675-839b-f214a0a2051d(org.campagnelab.mps.XChart.sandbox.B)/9178698721098102276" />
+              </errorLabel>
+              <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
+                <node node_reference="r:e71068a7-db8a-4675-839b-f214a0a2051d(org.campagnelab.mps.XChart.sandbox.B)/9178698721098102276" />
+              </errorLabel>
+              <errorLabel errorText="" cellId="property_yAxisLabel" cellNumber="0" isInList="false">
+                <node node_reference="r:e71068a7-db8a-4675-839b-f214a0a2051d(org.campagnelab.mps.XChart.sandbox.B)/9178698721098102276" />
+              </errorLabel>
+            </errorLabels>
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)/6970150958621911813" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1742,7 +1774,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)/6970150958622684055" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1766,11 +1798,21 @@
                 </cellInfo>
               </stackElement>
             </selectionStack>
-            <errorLabels />
+            <errorLabels>
+              <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
+                <node node_reference="r:3fa3a072-a2b5-4f5f-8976-f2c292a9b866(org.campagnelab.mps.XChart.sandbox)/568598610957358687" />
+              </errorLabel>
+              <errorLabel errorText="" cellId="property_xAxisLabel" cellNumber="0" isInList="false">
+                <node node_reference="r:3fa3a072-a2b5-4f5f-8976-f2c292a9b866(org.campagnelab.mps.XChart.sandbox)/568598610957358687" />
+              </errorLabel>
+              <errorLabel errorText="" cellId="property_yAxisLabel" cellNumber="0" isInList="false">
+                <node node_reference="r:3fa3a072-a2b5-4f5f-8976-f2c292a9b866(org.campagnelab.mps.XChart.sandbox)/568598610957358687" />
+              </errorLabel>
+            </errorLabels>
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492477" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1788,7 +1830,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/9178698721095101960" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1806,13 +1848,13 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/6638345083849626734" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:7546b2ca-c35b-4f89-867f-8a418d6edf81(org.campagnelab.mps.XChart.constraints)/7335187880077124624" />
+          <node node_ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)/2202909375770410339" />
         </state>
       </provider>
     </entry>
@@ -1820,18 +1862,28 @@
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
           <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="568" />
+                <property name="caretX" value="615" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ModelAccess_x1gmbt_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)/6970150958622684055" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorLabels />
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:7546b2ca-c35b-4f89-867f-8a418d6edf81(org.campagnelab.mps.XChart.constraints)/5270176140465444960" />
+          <node node_ref="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)/6638345083849127425" />
         </state>
       </provider>
     </entry>
@@ -1844,13 +1896,13 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:7546b2ca-c35b-4f89-867f-8a418d6edf81(org.campagnelab.mps.XChart.constraints)/3597430320022615563" />
+          <node node_ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)/2202909375770430354" />
         </state>
       </provider>
     </entry>
@@ -1863,13 +1915,211 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:7546b2ca-c35b-4f89-867f-8a418d6edf81(org.campagnelab.mps.XChart.constraints)/6243283334561962175" />
+          <node node_ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)/2202909375770435047" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.mps.XChart#2202909375769974311/org.campagnelab.mps.XChart.generator.template.main@generator/main">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="56" />
+                <property name="caretX" value="441" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name_2" cellNumber="0" isInList="false">
+                  <node node_reference="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)/6638345083849235003" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.helpers/CustomSwingWrapper">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="964">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="selectionEnd" value="19" />
+                <property name="hasNonTrivialSelection" value="true" />
+                <property name="caretXRelative" value="96" />
+                <property name="selectionStart" value="0" />
+                <property name="caretX" value="235" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="BMDNCC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/6970150958622039606" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.mps.XChart/com.xeiam.xchart@java_stub/XChartPanel">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretXRelative" value="-31" />
+                <property name="caretX" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_1x071y_a" cellNumber="0" isInList="false">
+                  <node node_reference="f:java_stub#5ec1cd3d-0a50-4049-a8fa-ae768d7baa25#com.xeiam.xchart(org.campagnelab.mps.XChart/com.xeiam.xchart@java_stub)/~XChartPanel.&lt;init&gt;%28com.xeiam.xchart.Chart%29" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://XChart.build/XChart.build/XChart">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="120" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="40" />
+                <property name="caretX" value="235" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_text_3" cellNumber="0" isInList="false">
+                  <node node_reference="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.helpers/DoublesToCollection">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
+                  <node node_reference="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/9178698721095101960" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.structure/ColumnToDoubles">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="24" />
+                <property name="caretX" value="319" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name_1" cellNumber="0" isInList="false">
+                  <node node_reference="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/6638345083849626734" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)/2202909375770436533" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.helpers/ColumnLoader">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="40" />
+                <property name="caretX" value="171" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="VDNCC_property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/6970150958623022070" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
         </state>
       </provider>
     </entry>

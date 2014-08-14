@@ -38,7 +38,14 @@ public class ColumnLoader {
       double[] result = new double[list.size()];
       int i = 0;
       for (String element : list) {
-        result[i++] = Double.parseDouble(element);
+        double value;
+        try {
+          value = Double.parseDouble(element);
+
+        } catch (NumberFormatException e) {
+          value = Double.NaN;
+        }
+        result[i++] = value;
       }
       return result;
     } catch (IOException exception) {

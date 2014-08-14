@@ -20,7 +20,7 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 public class QueriesGenerated {
   public final boolean NEEDS_OPCONTEXT = false;
 
-  public static Object propertyMacro_GetPropertyValue_6638345083856263985(final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_6970150958622649122(final PropertyMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "charts", true)).count();
   }
 
@@ -224,7 +224,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "style", true);
   }
 
-  public static Iterable<SNode> sourceNodesQuery_6638345083849206800(final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable<SNode> sourceNodesQuery_6970150958622649170(final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "charts", true);
   }
 

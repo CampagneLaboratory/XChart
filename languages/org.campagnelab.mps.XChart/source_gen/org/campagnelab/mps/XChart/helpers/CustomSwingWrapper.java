@@ -131,4 +131,23 @@ public class CustomSwingWrapper {
     });
     return frame;
   }
+
+  /**
+   * Display the chart in a Swing JFrame
+   */
+  public JPanel getChartMatrixPanel() {
+    // Create and set up the main panel 
+    final JPanel mainPanel = new JPanel(new GridLayout(numRows, numColumns));
+    for (Chart chart : charts) {
+      if (chart != null) {
+        JPanel chartPanel = new XChartPanel(chart);
+        mainPanel.add(chartPanel);
+      } else {
+        JPanel chartPanel = new JPanel();
+        mainPanel.add(chartPanel);
+      }
+    }
+
+    return mainPanel;
+  }
 }
