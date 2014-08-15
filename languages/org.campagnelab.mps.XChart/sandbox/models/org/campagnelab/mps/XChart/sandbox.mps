@@ -8,8 +8,10 @@
   <language namespace="58f98fef-90ad-4b72-a390-fad66ec7005a(jetbrains.mps.core.properties)" />
   <language namespace="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" />
   <language namespace="698a8d22-a104-47a0-ba8d-10e3ec237f13(jetbrains.mps.build.workflow)" />
+  <language namespace="73c1a490-99fa-4d0d-8292-b8985697c74b(jetbrains.mps.execution.common)" />
   <language-engaged-on-generation namespace="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)" />
   <import index="r80k" modelUID="f:java_stub#5ec1cd3d-0a50-4049-a8fa-ae768d7baa25#com.xeiam.xchart(org.campagnelab.mps.XChart/com.xeiam.xchart@java_stub)" version="-1" />
+  <import index="f96a" modelUID="r:dfb02a61-30b8-47c5-be63-6bf600844860(model)" version="-1" />
   <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="5" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="ztlb.Tsvfile" typeId="ztlb.3597430320022583657" id="7263499363577631635" nodeInfo="ng">
@@ -207,6 +209,31 @@
           <property name="name" nameId="tpck.1169194664001" value="y" />
           <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648276" resolveInfo="count-variation-bases" />
         </node>
+      </node>
+    </node>
+  </root>
+  <root type="ztlb.Page" typeId="ztlb.5270176140464602975" id="2791395657285644994" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="TestNaNs" />
+    <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.Histogram" typeId="ztlb.2202909375770410339" id="2791395657285832739" nodeInfo="ng">
+      <node role="style" roleId="ztlb.7263499363579346634" type="ztlb.ChartStyle" typeId="ztlb.7263499363579346599" id="2791395657285832740" nodeInfo="ng">
+        <property name="width" nameId="ztlb.5270176140465640105" value="400" />
+        <property name="height" nameId="ztlb.5270176140465640107" value="400" />
+        <property name="title" nameId="ztlb.6638345083846441451" value="Title" />
+      </node>
+      <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="2791395657285832741" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="data" />
+        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="2791395657285832742" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="x" />
+          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="2791395657285673809" resolveInfo="MCC" />
+        </node>
+      </node>
+    </node>
+    <node role="columns" roleId="ztlb.5270176140465128127" type="ztlb.FileRef" typeId="ztlb.5270176140465521300" id="2791395657285673806" nodeInfo="ng">
+      <link role="file" roleId="ztlb.5270176140465524721" targetNodeId="f96a.3907958143449570734" resolveInfo="20140815-1051-restat-maqcii-submission.tsv" />
+      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="2791395657285673809" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="MCC" />
+        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="f96a.3907958143449570734" resolveInfo="20140815-1051-restat-maqcii-submission.tsv" />
+        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="f96a.3907958143449570739" resolveInfo="MCC" />
       </node>
     </node>
   </root>

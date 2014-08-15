@@ -17,15 +17,6 @@
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="9178698721097033428" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="mps_home" />
     </node>
-    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="9178698721097033431" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.gobyweb.pluginRepo" />
-    </node>
-    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="9178698721097033432" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.goby.workbench.home" />
-    </node>
-    <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="9178698721097033433" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.bdval.home" />
-    </node>
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildVariableMacro" typeId="3ior.3767587139141066978" id="3797805458484492477" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="XChart_version" />
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="3797805458484492593" nodeInfo="ng">

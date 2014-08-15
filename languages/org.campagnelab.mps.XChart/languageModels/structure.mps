@@ -9,7 +9,6 @@
   <import index="4fqr" modelUID="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" version="-1" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2202909375770410339" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Histogram" />
-    <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="charts" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Histogram" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="2202909375770356843" resolveInfo="Chart" />

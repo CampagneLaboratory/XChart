@@ -41,7 +41,9 @@ public class ColumnLoader {
         double value;
         try {
           value = Double.parseDouble(element);
-
+          if (value != value) {
+            value = 0;
+          }
         } catch (NumberFormatException e) {
           // replace NaNs with zero because XChart cannot deal with them. 
           value = 0.0;

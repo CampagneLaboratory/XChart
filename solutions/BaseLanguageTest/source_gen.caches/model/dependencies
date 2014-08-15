@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="model.ChartViewer_TestNaNs" file="ChartViewer_TestNaNs.java">
+    <classNode dependClassName="com.xeiam.xchart.Chart" />
+    <classNode dependClassName="com.xeiam.xchart.ChartBuilder" />
+    <classNode dependClassName="com.xeiam.xchart.StyleManager" />
+    <classNode dependClassName="java.lang.Double" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="javax.swing.JFrame" />
+    <classNode dependClassName="javax.swing.JPanel" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.helpers.BinHelper" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.helpers.ColumnLoader" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.helpers.CustomSwingWrapper" />
+  </dependency>
+  <dependency className="model.UsingChart" file="UsingChart.java">
+    <classNode dependClassName="java.lang.String" />
+  </dependency>
+</dependenciesRoot>
+
