@@ -5,5 +5,6 @@ package model;
 
 public class UsingChart {
   public static void main(String[] args) {
+
   }
 }
