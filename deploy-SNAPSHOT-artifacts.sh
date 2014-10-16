@@ -5,7 +5,7 @@ filename="${filename%.*}"
 version=$(echo ${filename} | cut -d"_" -f2)
 echo "detected version: ${version}"
 
-mvn deploy:deploy-file -DgroupId=org.campagnelab.mps \
+$1mvn deploy:deploy-file -DgroupId=org.campagnelab.mps \
   -DartifactId=xchart \
   -Dversion="$version"-SNAPSHOT \
   -Dpackaging=zip \
