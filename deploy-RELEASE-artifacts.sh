@@ -12,7 +12,7 @@ echo "detected version: ${version}"
 
 #if build number is defined, we use it as minor version
 if [ -n "$BUILD_NUMBER" ]; then
-	version=$(echo ${version} | cut -d"." -f1 -f2).${BUILD_NUMBER}
+	version=$(echo ${version} | cut -d"." -f1,2).${BUILD_NUMBER}
 	mv ${ARTIFACT_FOLDER}/${original_filename} ${ARTIFACT_FOLDER}/XChart_${version}.zip
 	echo "version with build: ${version}"
 fi
