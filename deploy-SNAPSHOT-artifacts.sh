@@ -20,3 +20,6 @@ $1mvn deploy:deploy-file -DgroupId=org.campagnelab.mps \
   -Dfile=${ARTIFACT_FOLDER}/XChart_"${version}".zip \
   -DrepositoryId=repository-SNAPSHOT.campagnelab.org \
   -Durl=http://repository.campagnelab.org/artifactory/CampagneLab-SNAPSHOT/
+
+NOW=$(date +"%m-%d-%Y %T")
+echo "${artifact_id} ${BUILD_NUMBER} ${GIT_COMMIT} ${NOW}" >> ../builds-to-commits.tsv

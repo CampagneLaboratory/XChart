@@ -26,7 +26,7 @@
     </breakpoint>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="018d456a-d391-4635-ba93-c9ea1b0a7842" name="Default" comment="handle NaNs better.">
+    <list default="true" id="018d456a-d391-4635-ba93-c9ea1b0a7842" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy-RELEASE-artifacts.sh" afterPath="$PROJECT_DIR$/deploy-RELEASE-artifacts.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy-SNAPSHOT-artifacts.sh" afterPath="$PROJECT_DIR$/deploy-SNAPSHOT-artifacts.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
@@ -97,20 +97,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy-SNAPSHOT-artifacts.sh" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="deploy-SNAPSHOT-artifacts.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deploy-SNAPSHOT-artifacts.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.4330254" vertical-offset="0" max-vertical-offset="866">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy-RELEASE-artifacts.sh" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy-RELEASE-artifacts.sh" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy-RELEASE-artifacts.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31177828" vertical-offset="0" max-vertical-offset="866">
-              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <caret line="25" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
             </state>
           </provider>
         </entry>
@@ -316,8 +316,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/deploy-SNAPSHOT-artifacts.sh" />
         <option value="$PROJECT_DIR$/deploy-RELEASE-artifacts.sh" />
+        <option value="$PROJECT_DIR$/deploy-SNAPSHOT-artifacts.sh" />
       </list>
     </option>
   </component>
@@ -788,7 +788,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1330" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.4997367" order="7" side_tool="false" content_ui="tabs" />
@@ -801,7 +801,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2524616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2524616" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32740742" sideWeight="0.49946752" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -905,7 +905,8 @@
     <MESSAGE value="Replace NaNs with zero because the XChart library has trouble with those:&#10;&#10;java.lang.NumberFormatException&#10;at java.math.BigDecimal.&lt;init&gt;(BigDecimal.java:459)&#10;at java.math.BigDecimal.&lt;init&gt;(BigDecimal.java:728)&#10;at java.math.BigDecimal.valueOf(BigDecimal.java:1054)&#10;at com.xeiam.xchart.internal.chartpart.AxisTickBarChartCalculator.calculate(AxisTickBarChartCalculator.java:122)&#10;at com.xeiam.xchart.internal.chartpart.AxisTickBarChartCalculator.&lt;init&gt;(AxisTickBarChartCalculator.java:48)&#10;at com.xeiam.xchart.internal.chartpart.AxisTick.paint(AxisTick.java:77)&#10;at com.xeiam.xchart.internal.chartpart.Axis.paint(Axis.java:240)&#10;at com.xeiam.xchart.internal.chartpart.AxisPair.paint(AxisPair.java:147)&#10;at com.xeiam.xchart.internal.chartpart.ChartPainter.paint(ChartPainter.java:110)&#10;at com.xeiam.xchart.internal.chartpart.ChartPainter.paint(ChartPainter.java:70)&#10;at com.xeiam.xchart.Chart.paint(Chart.java:94)&#10;at com.xeiam.xchart.XChartPanel.paintComponent(XChartPanel.java:89)" />
     <MESSAGE value="Increase version number and rebuild." />
     <MESSAGE value="handle NaNs better." />
-    <option name="LAST_COMMIT_MESSAGE" value="handle NaNs better." />
+    <MESSAGE value="Set the plugin version in the build script. Add git commit and build number to the POM." />
+    <option name="LAST_COMMIT_MESSAGE" value="Set the plugin version in the build script. Add git commit and build number to the POM." />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.874036" />
   </component>
   <component name="editorHistoryManager">
@@ -1868,15 +1869,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy-SNAPSHOT-artifacts.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.4330254" vertical-offset="0" max-vertical-offset="866">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy-RELEASE-artifacts.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31177828" vertical-offset="0" max-vertical-offset="866">
-          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="25" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
