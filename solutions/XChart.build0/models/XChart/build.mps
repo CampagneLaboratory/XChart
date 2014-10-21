@@ -25,10 +25,7 @@
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="3797805458484492593" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="3797805458484492592" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3797805458484492591" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="1.1." />
-          </node>
-          <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildVarRefStringPart" typeId="3ior.4903714810883702017" id="2310423895811967149" nodeInfo="ng">
-            <link role="macro" roleId="3ior.4903714810883702018" targetNodeId="2310423895811967067" resolveInfo="build_number" />
+            <property name="text" nameId="3ior.4903714810883755350" value="1.1.3" />
           </node>
         </node>
       </node>
