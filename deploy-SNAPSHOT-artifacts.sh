@@ -22,4 +22,4 @@ $1mvn deploy:deploy-file -DgroupId=org.campagnelab.mps \
   -Durl=http://repository.campagnelab.org/artifactory/CampagneLab-SNAPSHOT/
 
 NOW=$(date +"%m-%d-%Y %T")
-echo "xchart ${BUILD_NUMBER} ${GIT_COMMIT} ${NOW}" >> ../builds-to-commits.tsv
+echo "${BUILD_NUMBER} xchart ${GIT_COMMIT} ${GIT_BRANCH} ${NOW}" >> ../builds-to-commits.tsv
