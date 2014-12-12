@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="20ko0qh15y0vzpru2iy8mixvkchxa1k">
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
+  <dep model="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)" hash="35wd1z6uqae4zy9hsmq3yf45l78720k" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
+  <dep model="r:dfb02a61-30b8-47c5-be63-6bf600844860(model)" hash="-4tsi77u0z6jw2xsghzajzlwqf37jlcc" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
+  <common hash="-2u2ffp1yo89gviiljx9ijc3g4n310g3" dependsOnNodes="true">
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  </common>
+  <source id="7263499363577631635" name="BXUJDPK-WT-310-s1.ann-counts.tsv" hash="3yfk87hg36cddmfxoxf3efma4x4mc6r">
+    <file name="BXUJDPK-WT-310-s1.ann-counts.tsv" />
+  </source>
+  <source id="6638345083846547227" name="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" hash="-40nddv5iia4h7v8fybr3vud6eik6urq">
+    <file name="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+  </source>
+  <source id="6638345083846547277" name="SequenceVariations" hash="-ao2j5fgni3gd8mqfnju8kaau6dbh6x7">
+    <dep root="6638345083846547227" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="ChartViewer_SequenceVariations.java" />
+  </source>
+  <source id="6638345083849127064" name="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" hash="-3yuuqp3e1cndio6eraypm3gb845ep3e">
+    <file name="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+  </source>
+  <source id="568598610957314614" name="ScatterPlotTest" hash="4fbpd22jkbrcknmbzo64xcws4ehyb3l">
+    <dep root="6638345083846547227" />
+    <dep root="6638345083846547277" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="ChartViewer_ScatterPlotTest.java" />
+  </source>
+  <source id="2791395657285644994" name="TestNaNs" hash="6oqxfvf2807zgpvwfwuburq8skfl0fd">
+    <dep model="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)" />
+    <dep model="r:dfb02a61-30b8-47c5-be63-6bf600844860(model)" />
+    <file name="ChartViewer_TestNaNs.java" />
+  </source>
+</dependencies>
+
