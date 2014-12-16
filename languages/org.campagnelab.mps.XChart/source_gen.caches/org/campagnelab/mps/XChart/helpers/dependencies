@@ -45,6 +45,17 @@
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.ArrayList" />
   </dependency>
+  <dependency className="org.campagnelab.mps.XChart.helpers.ColumnTypeGuesser" file="ColumnTypeGuesser.java">
+    <classNode dependClassName="java.io.BufferedReader" />
+    <classNode dependClassName="java.io.File" />
+    <classNode dependClassName="java.io.FileReader" />
+    <classNode dependClassName="java.io.IOException" />
+    <classNode dependClassName="java.lang.Double" />
+    <classNode dependClassName="java.lang.NumberFormatException" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.helpers.Types" />
+  </dependency>
   <dependency className="org.campagnelab.mps.XChart.helpers.CustomSwingWrapper" file="CustomSwingWrapper.java">
     <classNode dependClassName="com.xeiam.xchart.Chart" />
     <classNode dependClassName="com.xeiam.xchart.XChartPanel" />
@@ -93,5 +104,6 @@
     <classNode dependClassName="java.util.Collection" />
     <classNode extendsClassName="org.campagnelab.mps.XChart.helpers.DataSeries" />
   </dependency>
+  <dependency className="org.campagnelab.mps.XChart.helpers.Types" file="Types.java" />
 </dependenciesRoot>
 

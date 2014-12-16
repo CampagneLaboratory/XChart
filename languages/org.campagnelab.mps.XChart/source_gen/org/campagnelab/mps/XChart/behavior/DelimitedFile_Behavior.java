@@ -8,6 +8,12 @@ import java.io.FileReader;
 import java.io.File;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.io.IOException;
+import org.campagnelab.mps.XChart.helpers.Types;
+import org.campagnelab.mps.XChart.helpers.ColumnTypeGuesser;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 
 public class DelimitedFile_Behavior {
   public static void init(SNode thisNode) {
@@ -22,6 +28,31 @@ public class DelimitedFile_Behavior {
       return columns;
     } catch (IOException e) {
       return null;
+    } finally {
+      try {
+        if (reader != null) {
+          reader.close();
+        }
+      } catch (IOException e) {
+      }
     }
+  }
+
+  public static SNode call_guessColumnType_5010237105647900617(SNode thisNode, String columnName) {
+    Types type = ColumnTypeGuesser.determineType(SPropertyOperations.getString(thisNode, "path"), columnName, SPropertyOperations.getString(thisNode, "delimitor"));
+    switch (type) {
+      case STRING:
+        return ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnStringType")).first();
+      case BOOLEAN:
+        return ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnBooleanType")).first();
+      case CATEGORY:
+        return ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnCategoryType")).where(new IWhereFilter<SNode>() {
+          public boolean accept(SNode it) {
+            return SPropertyOperations.getString(it, "name").equals("Category");
+          }
+        }).first();
+      default:
+    }
+    return ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnNumericType")).first();
   }
 }

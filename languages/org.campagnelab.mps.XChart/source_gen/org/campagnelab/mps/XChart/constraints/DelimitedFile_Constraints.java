@@ -46,6 +46,7 @@ public class DelimitedFile_Constraints extends BaseConstraintsDescriptor {
             }
             SNode c = SConceptOperations.createNewNode("org.campagnelab.mps.XChart.structure.Column", null);
             SPropertyOperations.set(c, "name", col);
+            SLinkOperations.setTarget(c, "type", DelimitedFile_Behavior.call_guessColumnType_5010237105647900617(node, col), false);
             ListSequence.fromList(SLinkOperations.getTargets(node, "columns", true)).addElement(c);
           }
         }
