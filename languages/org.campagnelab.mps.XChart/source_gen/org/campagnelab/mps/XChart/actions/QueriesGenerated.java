@@ -25,4 +25,7 @@ public class QueriesGenerated {
       ListSequence.fromList(SLinkOperations.getTargets(_context.getNewNode(), "values", true)).addElement(SNodeOperations.copyNode(v));
     }
   }
+
+  public static void nodeFactory_NodeSetup_Column_3328299660870365549(final IOperationContext operationContext, final NodeSetupContext _context) {
+  }
 }

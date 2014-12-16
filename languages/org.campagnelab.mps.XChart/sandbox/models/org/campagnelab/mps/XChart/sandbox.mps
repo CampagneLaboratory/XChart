@@ -191,6 +191,13 @@
           <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648276" resolveInfo="count-variation-bases" />
         </node>
       </node>
+      <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="3328299660870273618" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="data" />
+        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="3328299660870273619" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="x" />
+          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648276" resolveInfo="count-variation-bases" />
+        </node>
+      </node>
     </node>
     <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.ScatterPlot" typeId="ztlb.5270176140464883847" id="568598610957358686" nodeInfo="ng">
       <node role="style" roleId="ztlb.7263499363579346634" type="ztlb.ChartStyle" typeId="ztlb.7263499363579346599" id="568598610957358687" nodeInfo="ng">
