@@ -21,7 +21,9 @@ import org.jetbrains.mps.openapi.model.SNodeReference;
 import jetbrains.mps.scope.Scope;
 import jetbrains.mps.smodel.runtime.ReferenceConstraintsContext;
 import jetbrains.mps.scope.ListScope;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.smodel.SNodePointer;
 
 public class ColumnToDoubles_Constraints extends BaseConstraintsDescriptor {
@@ -91,7 +93,12 @@ public class ColumnToDoubles_Constraints extends BaseConstraintsDescriptor {
 
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return ListScope.forNamedElements(SLinkOperations.getTargets(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getContextNode(), "org.campagnelab.mps.XChart.structure.FileRef", true, false), "file", false), "columns", true));
+            return ListScope.forNamedElements(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getContextNode(), "org.campagnelab.mps.XChart.structure.FileRef", true, false), "file", false), "columns", true)).where(new IWhereFilter<SNode>() {
+              public boolean accept(SNode it) {
+                return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, "type", false), "org.campagnelab.mps.XChart.structure.ColumnNumericType");
+              }
+            }));
+
           }
         };
       }

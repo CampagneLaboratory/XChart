@@ -8,20 +8,29 @@
   <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="11" implicit="yes" />
   <root type="ztlb.Page" typeId="ztlb.5270176140464602975" id="3328299660870233516" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TestPage" />
-    <node role="columns" roleId="ztlb.5270176140465128127" type="ztlb.FileRef" typeId="ztlb.5270176140465521300" id="7804146352590297888" nodeInfo="ng">
-      <link role="file" roleId="ztlb.5270176140465524721" targetNodeId="7804146352588364125" resolveInfo="QVPQVDV-stats.txt" />
-    </node>
     <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.Histogram" typeId="ztlb.2202909375770410339" id="3328299660870288362" nodeInfo="ng">
       <node role="style" roleId="ztlb.7263499363579346634" type="ztlb.ChartStyle" typeId="ztlb.7263499363579346599" id="3328299660870288363" nodeInfo="ng">
         <property name="width" nameId="ztlb.5270176140465640105" value="400" />
         <property name="height" nameId="ztlb.5270176140465640107" value="400" />
-        <property name="title" nameId="ztlb.6638345083846441451" value="Title" />
+        <property name="title" nameId="ztlb.6638345083846441451" value="Titlef" />
+        <property name="name" nameId="tpck.1169194664001" value="test" />
+        <property name="xAxisLabel" nameId="ztlb.7263499363579462027" value="sdd" />
+        <property name="yAxisLabel" nameId="ztlb.7263499363579462031" value="ddd" />
       </node>
       <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="3328299660870288364" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="data" />
         <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="3328299660870288365" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="x" />
+          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="7804146352592174096" resolveInfo="FDR" />
         </node>
+      </node>
+    </node>
+    <node role="columns" roleId="ztlb.5270176140465128127" type="ztlb.FileRef" typeId="ztlb.5270176140465521300" id="7804146352590665220" nodeInfo="ng">
+      <link role="file" roleId="ztlb.5270176140465524721" targetNodeId="7804146352590616117" resolveInfo="QVPQVDV-stats.txt" />
+      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="7804146352592174096" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="FDR" />
+        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="7804146352590616117" resolveInfo="QVPQVDV-stats.txt" />
+        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="7804146352590616167" resolveInfo="FDR" />
       </node>
     </node>
   </root>
@@ -130,6 +139,49 @@
         </node>
         <node role="members" roleId="ztlb.8908363177680448679" type="ztlb.CategoryValue" typeId="ztlb.8908363177680448596" id="7804146352590616172" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="ValueOne" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="ztlb.Page" typeId="ztlb.5270176140464602975" id="7804146352592174176" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="dfs" />
+    <node role="columns" roleId="ztlb.5270176140465128127" type="ztlb.FileRef" typeId="ztlb.5270176140465521300" id="7804146352592174204" nodeInfo="ng">
+      <link role="file" roleId="ztlb.5270176140465524721" targetNodeId="7804146352590616117" resolveInfo="QVPQVDV-stats.txt" />
+      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="7804146352592174218" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="ACR_RB_cmm" />
+        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="7804146352590616117" resolveInfo="QVPQVDV-stats.txt" />
+        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="7804146352590616162" resolveInfo="ACR_RB_cmm" />
+      </node>
+      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="7804146352592174216" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="FDR" />
+        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="7804146352590616117" resolveInfo="QVPQVDV-stats.txt" />
+        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="7804146352590616167" resolveInfo="FDR" />
+      </node>
+      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="7804146352592174268" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="FQBZSJE-ACR-S13-2-Muthu_RB" />
+        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="7804146352590616117" resolveInfo="QVPQVDV-stats.txt" />
+        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="7804146352590616157" resolveInfo="FQBZSJE-ACR-S13-2-Muthu_RB" />
+      </node>
+    </node>
+    <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.BarChart" typeId="ztlb.6638345083846214530" id="7804146352592174206" nodeInfo="ng">
+      <node role="style" roleId="ztlb.7263499363579346634" type="ztlb.ChartStyle" typeId="ztlb.7263499363579346599" id="7804146352592174207" nodeInfo="ng">
+        <property name="width" nameId="ztlb.5270176140465640105" value="400" />
+        <property name="height" nameId="ztlb.5270176140465640107" value="400" />
+        <property name="title" nameId="ztlb.6638345083846441451" value="Title" />
+      </node>
+      <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="7804146352592174208" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="data" />
+        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="7804146352592174209" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="x" />
+          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="7804146352592174096" resolveInfo="FDR" />
+        </node>
+        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="7804146352592174210" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="heights" />
+          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="7804146352592174218" resolveInfo="ACR_RB_cmm" />
+        </node>
+        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="7804146352592174272" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="dsfs" />
+          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="7804146352592174268" resolveInfo="FQBZSJE-ACR-S13-2-Muthu_RB" />
         </node>
       </node>
     </node>
