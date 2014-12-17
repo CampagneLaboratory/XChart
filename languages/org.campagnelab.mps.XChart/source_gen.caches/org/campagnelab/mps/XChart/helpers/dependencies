@@ -31,6 +31,8 @@
     <classNode dependClassName="java.util.HashSet" />
     <classNode dependClassName="java.util.Set" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
+    <classNode dependClassName="org.apache.log4j.LogManager" />
+    <classNode dependClassName="org.apache.log4j.Logger" />
     <classNode dependClassName="org.campagnelab.mps.XChart.helpers.Types" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.helpers.CustomSwingWrapper" file="CustomSwingWrapper.java">
