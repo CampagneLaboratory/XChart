@@ -60,6 +60,7 @@ public class DelimitedFile_Behavior {
           SPropertyOperations.set(newMember, "name", value);
           ListSequence.fromList(SLinkOperations.getTargets(category, "members", true)).addElement(newMember);
         }
+        SPropertyOperations.set(category, "name", "Categories from " + SPropertyOperations.getString(column, "name"));
         SLinkOperations.setTarget(column, "category", category, true);
         SLinkOperations.setTarget(column, "type", category, false);
         break;
