@@ -13,7 +13,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.campagnelab.mps.XChart.behavior.DelimitedFile_Behavior;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class DelimitedFile_Constraints extends BaseConstraintsDescriptor {
   public DelimitedFile_Constraints() {
@@ -44,9 +45,9 @@ public class DelimitedFile_Constraints extends BaseConstraintsDescriptor {
             if (col == null) {
               continue;
             }
-            SNode c = SConceptOperations.createNewNode("org.campagnelab.mps.XChart.structure.Column", null);
+            SNode c = SModelOperations.createNewNode(SNodeOperations.getModel(node), null, "org.campagnelab.mps.XChart.structure.Column");
             SPropertyOperations.set(c, "name", col);
-            SLinkOperations.setTarget(c, "type", DelimitedFile_Behavior.call_guessColumnType_5010237105647900617(node, col), false);
+            DelimitedFile_Behavior.call_assignColumnType_5010237105647900617(node, c);
             ListSequence.fromList(SLinkOperations.getTargets(node, "columns", true)).addElement(c);
           }
         }

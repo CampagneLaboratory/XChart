@@ -10,10 +10,10 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.io.IOException;
 import org.campagnelab.mps.XChart.helpers.ColumnTypeGuesser;
 import org.campagnelab.mps.XChart.helpers.Types;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 
@@ -40,26 +40,32 @@ public class DelimitedFile_Behavior {
     }
   }
 
-  public static SNode call_guessColumnType_5010237105647900617(SNode thisNode, String columnName) {
-    ColumnTypeGuesser guesser = new ColumnTypeGuesser(SPropertyOperations.getString(thisNode, "path"), columnName, SPropertyOperations.getString(thisNode, "delimitor"));
+  public static void call_assignColumnType_5010237105647900617(SNode thisNode, SNode column) {
+    ColumnTypeGuesser guesser = new ColumnTypeGuesser(SPropertyOperations.getString(thisNode, "path"), SPropertyOperations.getString(column, "name"), SPropertyOperations.getString(thisNode, "delimitor"));
     Types type = guesser.guessValuesType();
     if (LOG.isInfoEnabled()) {
       LOG.info("returned type from guesser " + type.toString());
     }
     switch (type) {
       case STRING:
-        return ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnStringType")).first();
+        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnStringType")).first(), false);
+        break;
       case BOOLEAN:
-        return ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnBooleanType")).first();
+        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnBooleanType")).first(), false);
+        break;
       case CATEGORY:
-        return ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnCategoryType")).where(new IWhereFilter<SNode>() {
-          public boolean accept(SNode it) {
-            return SPropertyOperations.getString(it, "name").equals("Category");
-          }
-        }).first();
+        SNode category = SModelOperations.createNewNode(SNodeOperations.getModel(thisNode), null, "org.campagnelab.mps.XChart.structure.ColumnCategoryType");
+        for (String value : guesser.getColumnUniqueValues()) {
+          SNode newMember = SModelOperations.createNewNode(SNodeOperations.getModel(thisNode), null, "org.campagnelab.mps.XChart.structure.CategoryValue");
+          SPropertyOperations.set(newMember, "name", value);
+          ListSequence.fromList(SLinkOperations.getTargets(category, "members", true)).addElement(newMember);
+        }
+        SLinkOperations.setTarget(column, "category", category, true);
+        SLinkOperations.setTarget(column, "type", category, false);
+        break;
       default:
+        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnStringType")).first(), false);
     }
-    return ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnNumericType")).first();
   }
 
   protected static Logger LOG = LogManager.getLogger(DelimitedFile_Behavior.class);
