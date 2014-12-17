@@ -727,7 +727,7 @@
                       <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="7902233595852359607" nodeInfo="nn" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_RootsIncludingImportedOperation" typeId="tp25.1176109685393" id="7902233595852359608" nodeInfo="nn">
-                      <link role="concept" roleId="tp25.1176109685394" targetNodeId="ztlb.1229772424348822533" resolveInfo="ColumnStringType" />
+                      <link role="concept" roleId="tp25.1176109685394" targetNodeId="ztlb.1229772424348544726" resolveInfo="ColumnNumericType" />
                     </node>
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="7902233595852359609" nodeInfo="nn" />

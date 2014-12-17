@@ -65,7 +65,7 @@ public class DelimitedFile_Behavior {
         SLinkOperations.setTarget(column, "type", category, false);
         break;
       default:
-        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnStringType")).first(), false);
+        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnNumericType")).first(), false);
     }
   }
 
