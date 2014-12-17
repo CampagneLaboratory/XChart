@@ -31,7 +31,7 @@
     <property name="name" nameId="tpck.1169194664001" value="QVPQVDV-stats.txt" />
     <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="7804146352588364127" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Feature ID" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="4aap.3328299660864950269" resolveInfo="String" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="4aap.3328299660864950204" resolveInfo="Numeric" />
     </node>
     <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="7804146352588364128" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="PXTLYAI-ACR-S7-2-Muthu_RB" />
@@ -52,8 +52,8 @@
         <node role="members" roleId="ztlb.8908363177680448679" type="ztlb.CategoryValue" typeId="ztlb.8908363177680448596" id="7804146352588364219" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="ValueThree" />
         </node>
-        <node role="members" roleId="ztlb.8908363177680448679" type="ztlb.CategoryValue" typeId="ztlb.8908363177680448596" id="7804146352588364220" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="ValueOne" />
+        <node role="members" roleId="ztlb.8908363177680448679" type="ztlb.CategoryValue" typeId="ztlb.8908363177680448596" id="7804146352590297835" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="hghhhh" />
         </node>
       </node>
     </node>
@@ -99,8 +99,8 @@
     </node>
     <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="7804146352588364141" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="HHTMDIW-AMR-S27-4-Muthu_RB" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="7804146352588364201" resolveInfo="Categories from HHTMDIW-AMR-S27-4-Muthu_RB" />
-      <node role="category" roleId="ztlb.3328299660867457798" type="ztlb.ColumnCategoryType" typeId="ztlb.1229772424349224909" id="7804146352588364201" nodeInfo="ng">
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="7804146352589391992" resolveInfo="Categories from HHTMDIW-AMR-S27-4-Muthu_RB" />
+      <node role="category" roleId="ztlb.3328299660867457798" type="ztlb.ColumnCategoryType" typeId="ztlb.1229772424349224909" id="7804146352589391992" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="Categories from HHTMDIW-AMR-S27-4-Muthu_RB" />
       </node>
     </node>
