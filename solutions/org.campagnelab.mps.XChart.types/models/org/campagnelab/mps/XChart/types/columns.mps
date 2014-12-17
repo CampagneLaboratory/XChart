@@ -15,11 +15,12 @@
   <root type="ztlb.ColumnStringType" typeId="ztlb.1229772424348822533" id="3328299660864950269" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="String" />
   </root>
-  <root type="ztlb.ColumnCategoryType" typeId="ztlb.1229772424349224909" id="3777104793350730140" nodeInfo="ng">
+  <root type="ztlb.ColumnCategoryType" typeId="ztlb.1229772424349224909" id="6158849449134699278" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Category" />
-    <node role="value" roleId="ztlb.1229772424350239209" type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="3777104793350730141" nodeInfo="ng">
-      <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="Categories from PXTLYAI-ACR-S7-2-Muthu_RB" />
-      <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="3777104793350730142" nodeInfo="ig" />
+    <node role="value" roleId="ztlb.1229772424350239209" type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6158849449134699279" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="default" />
+      <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+      <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6158849449134699280" nodeInfo="ig" />
     </node>
   </root>
 </model>

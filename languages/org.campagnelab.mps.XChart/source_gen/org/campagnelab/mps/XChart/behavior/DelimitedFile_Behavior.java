@@ -8,12 +8,14 @@ import java.io.FileReader;
 import java.io.File;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.io.IOException;
-import org.campagnelab.mps.XChart.helpers.Types;
 import org.campagnelab.mps.XChart.helpers.ColumnTypeGuesser;
+import org.campagnelab.mps.XChart.helpers.Types;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import org.apache.log4j.Logger;
+import org.apache.log4j.LogManager;
 
 public class DelimitedFile_Behavior {
   public static void init(SNode thisNode) {
@@ -39,7 +41,11 @@ public class DelimitedFile_Behavior {
   }
 
   public static SNode call_guessColumnType_5010237105647900617(SNode thisNode, String columnName) {
-    Types type = ColumnTypeGuesser.determineType(SPropertyOperations.getString(thisNode, "path"), columnName, SPropertyOperations.getString(thisNode, "delimitor"));
+    ColumnTypeGuesser guesser = new ColumnTypeGuesser(SPropertyOperations.getString(thisNode, "path"), columnName, SPropertyOperations.getString(thisNode, "delimitor"));
+    Types type = guesser.guessValuesType();
+    if (LOG.isInfoEnabled()) {
+      LOG.info("returned type from guesser " + type.toString());
+    }
     switch (type) {
       case STRING:
         return ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnStringType")).first();
@@ -55,4 +61,6 @@ public class DelimitedFile_Behavior {
     }
     return ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnNumericType")).first();
   }
+
+  protected static Logger LOG = LogManager.getLogger(DelimitedFile_Behavior.class);
 }
