@@ -28,7 +28,7 @@ public class ChartViewer_TestPage {
         chart.getStyleManager().setLegendPosition(StyleManager.LegendPosition.InsideN);
         ArrayList<Double> x = new ArrayList<Double>();
         ArrayList<Double> y = new ArrayList<Double>();
-        double[] doubles = ColumnLoader.load(filename, "FDR", "\t");
+        double[] doubles = ColumnLoader.load(filename, "PValue", "\t");
         BinHelper.bin(doubles, x, y);
         chart.addSeries("series", x, y);
 
