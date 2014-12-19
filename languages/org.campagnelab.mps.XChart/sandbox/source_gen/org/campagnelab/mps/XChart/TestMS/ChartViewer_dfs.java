@@ -6,13 +6,13 @@ import java.util.ArrayList;
 import com.xeiam.xchart.Chart;
 import com.xeiam.xchart.ChartBuilder;
 import com.xeiam.xchart.StyleManager;
+import org.campagnelab.mps.XChart.helpers.DoublesToCollection;
 import org.campagnelab.mps.XChart.helpers.ColumnLoader;
-import org.campagnelab.mps.XChart.helpers.BinHelper;
 import org.campagnelab.mps.XChart.helpers.CustomSwingWrapper;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class ChartViewer_TestPage {
+public class ChartViewer_dfs {
   public static ArrayList<Chart> buildCharts(String... filenames) {
     ArrayList<Chart> charts = new ArrayList<Chart>();
     int filenameIndex = 0;
@@ -21,17 +21,12 @@ public class ChartViewer_TestPage {
       Chart chart = null;
       String filename = filenames[filenameIndex];
       {
-        // Histogram BarChart 
-
-        chart = new ChartBuilder().chartType(StyleManager.ChartType.Bar).width(400).height(400).theme(StyleManager.ChartTheme.GGPlot2).title("Titlef").xAxisTitle("sdd").yAxisTitle("ddd").build();
+        // BarChart 
+        double[] xs = null;
+        chart = new ChartBuilder().chartType(StyleManager.ChartType.Bar).width(400).height(400).theme(StyleManager.ChartTheme.GGPlot2).title("Title").xAxisTitle("x").yAxisTitle("y").build();
         chart.getStyleManager().setLegendVisible(false);
         chart.getStyleManager().setLegendPosition(StyleManager.LegendPosition.InsideN);
-        ArrayList<Double> x = new ArrayList<Double>();
-        ArrayList<Double> y = new ArrayList<Double>();
-        double[] doubles = ColumnLoader.load(filename, "FDR", "\t");
-        BinHelper.bin(doubles, x, y);
-        chart.addSeries("series", x, y);
-
+        chart.addSeries("data", DoublesToCollection.toCollection(ColumnLoader.load(filename, "FDR", "\t")), DoublesToCollection.toCollection(ColumnLoader.load(filename, "ACR_RB_cmm", "\t")), DoublesToCollection.toCollection(ColumnLoader.load(filename, "FQBZSJE-ACR-S13-2-Muthu_RB", "\t")));
 
       }
       if (chart != null) {
