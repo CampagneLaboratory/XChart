@@ -18,7 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="018d456a-d391-4635-ba93-c9ea1b0a7842" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/BaseLanguageTest/BaseLanguageTest.msd" afterPath="$PROJECT_DIR$/solutions/BaseLanguageTest/BaseLanguageTest.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/BaseLanguageTest/models/model.mps" afterPath="$PROJECT_DIR$/solutions/BaseLanguageTest/models/model.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <list id="55b6849a-a6e6-4921-8925-e27bd437e866" name="New changelist" comment="" />
@@ -646,7 +646,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Set the plugin version in the build script. Add git commit and build number to the POM." />
     <MESSAGE value="Create build to commit history." />
     <MESSAGE value="Set the plugin version in the build script (previous attempt did not work)." />
     <MESSAGE value=" Add which branch was built in the builds-to-commits history." />
@@ -671,7 +670,8 @@
     <MESSAGE value="Add  migration script to assign a numeric type to untyped columns." />
     <MESSAGE value="Apply migration script to existing delimited files." />
     <MESSAGE value="Move root column types into an accessory model. Remove solution XChart/types." />
-    <option name="LAST_COMMIT_MESSAGE" value="Move root column types into an accessory model. Remove solution XChart/types." />
+    <MESSAGE value="Remove solution XChart/types from BaseLanguage solution." />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove solution XChart/types from BaseLanguage solution." />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.874036" />
   </component>
   <component name="editorHistoryManager">
