@@ -9,7 +9,6 @@
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">b30efbe0-d6f6-4cf7-9421-19f920e2bfa6(org.campagnelab.mps.XChart.sandbox)</dependency>
-    <dependency reexport="false">c3590302-cb6d-4c80-96b0-5b4ffc9094e9(org.campagnelab.mps.XChart.types)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
