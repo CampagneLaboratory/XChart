@@ -9,7 +9,6 @@
   <dependencies>
     <dependency reexport="false">e92b2c0a-544e-4b42-9791-60400b5568b9(BaseLanguageTest)</dependency>
     <dependency reexport="false">5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</dependency>
-    <dependency reexport="false">c3590302-cb6d-4c80-96b0-5b4ffc9094e9(org.campagnelab.mps.XChart.types)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>

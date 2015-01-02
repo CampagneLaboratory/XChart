@@ -6,7 +6,6 @@
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/sandbox/org.campagnelab.mps.XChart.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/BaseLanguageTest/BaseLanguageTest.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/XChart.build0/XChart.build.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.mps.XChart.types/org.campagnelab.mps.XChart.types.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.campagnelab.mps.icb-utils.lib/org.campagnelab.mps.icb-utils.lib.msd" folder="" />
     </projectModules>
   </component>

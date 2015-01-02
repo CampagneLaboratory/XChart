@@ -28,10 +28,7 @@
   <source id="568598610957314614" name="ScatterPlotTest" hash="1orzzjr0qt9y1qdobcqgi3ez6krtds">
     <dep root="6638345083846547227" />
     <dep root="6638345083846547277" />
-    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
     <dep model="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)" />
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="ChartViewer_ScatterPlotTest.java" />
   </source>
   <source id="2791395657285644994" name="TestNaNs" hash="6oqxfvf2807zgpvwfwuburq8skfl0fd">
