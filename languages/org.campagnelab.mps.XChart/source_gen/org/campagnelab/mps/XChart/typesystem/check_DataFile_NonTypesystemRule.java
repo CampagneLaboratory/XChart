@@ -19,7 +19,11 @@ public class check_DataFile_NonTypesystemRule extends AbstractNonTypesystemRule_
   }
 
   public void applyRule(final SNode dataFile, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (!(new File(SPropertyOperations.getString(dataFile, "path")).exists())) {
+    File file = new File(SPropertyOperations.getString(dataFile, "path"));
+    if (file == null) {
+      return;
+    }
+    if (!(file.exists())) {
       {
         MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportWarning(dataFile, "File not found", "r:4a32eeec-6ab1-43b8-be93-bebaf91a504e(org.campagnelab.mps.XChart.typesystem)", "6638345083846646214", null, errorTarget);

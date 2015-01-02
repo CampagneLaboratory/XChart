@@ -44,6 +44,7 @@
   </source>
   <source id="6638345083849127425" name="ChartViewer" hash="-2b3boa8pilfck3f6sn1uj3fb9nrxz2d">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
   <source id="6638345083849250048" name="BarChart_Statements" hash="-a3dv48yhrqwnt2p59fsli6ofx3ora4n" />
   <source id="6638345083849388076" name="Histogram_Statements" hash="8zftxqa6ncgz2r7n5jh4th18nk3aqjn" />
