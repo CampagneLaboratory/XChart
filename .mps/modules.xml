@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart.types/org.campagnelab.mps.XChart.types.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/sandbox/org.campagnelab.mps.XChart.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/BaseLanguageTest/BaseLanguageTest.msd" folder="" />
