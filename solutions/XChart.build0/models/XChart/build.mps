@@ -12,6 +12,9 @@
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="9178698721097033425" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="XChart" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../../" />
+    <node role="aspects" roleId="3ior.3542413272732620719" type="kdzh.BuildMpsAspect" typeId="kdzh.6503355885715333289" id="8882561231657802611" nodeInfo="ng">
+      <property name="bootstrap" nameId="kdzh.6503355885715353788" value="true" />
+    </node>
     <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="9178698721097033426" nodeInfo="ng" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="kdzh.BuildMPSPlugin" typeId="kdzh.868032131020265945" id="9178698721097033427" nodeInfo="ng" />
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="9178698721097033428" nodeInfo="ng">
@@ -211,6 +214,28 @@
           <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyExtendLanguage" typeId="kdzh.4278635856200794926" id="123091803271254357" nodeInfo="ng">
             <link role="language" roleId="kdzh.4278635856200794928" targetNodeId="ffeo.8939513996048536244" resolveInfo="jetbrains.mps.lang.structure" />
           </node>
+        </node>
+      </node>
+      <node role="modules" roleId="kdzh.1500819558095907806" type="kdzh.BuildMps_Language" typeId="kdzh.3189788309731840248" id="8882561231657598169" nodeInfo="ng">
+        <property name="compact" nameId="kdzh.8369506495128725901" value="false" />
+        <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.mps.XChart.types" />
+        <property name="uuid" nameId="kdzh.322010710375892619" value="ecf91126-e504-4aae-8ee7-3192d64e77f6" />
+        <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
+        <node role="path" roleId="kdzh.322010710375956261" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="8882561231657598507" nodeInfo="ng">
+          <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8882561231657598618" nodeInfo="nn">
+            <property name="head" nameId="3ior.8618885170173601779" value="languages" />
+            <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8882561231657598694" nodeInfo="nn">
+              <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.mps.XChart.types" />
+              <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8882561231657598770" nodeInfo="nn">
+                <property name="head" nameId="3ior.8618885170173601779" value="org.campagnelab.mps.XChart.types.mpl" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="generator" roleId="kdzh.9200313594498201639" type="kdzh.BuildMps_Generator" typeId="kdzh.5507251971038816436" id="8882561231657598825" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="org.campagnelab.mps.XChart.types#9080041854839272070" />
+          <property name="uuid" nameId="kdzh.322010710375892619" value="348a2fa5-a1e1-4a5c-9edb-816eff4cdfd9" />
+          <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
         </node>
       </node>
     </node>
