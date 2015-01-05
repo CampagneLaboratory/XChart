@@ -20,7 +20,7 @@
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="e5zswcvgdspmt039m3gg97emcadi0ez" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
   <dep model="r:f8afdbad-6ef4-4231-b44c-0ecacaf32d43(org.campagnelab.mps.XChart.types.behavior)" hash="-dthtvfz0c06ibzox7j0nowgn37oxofu" />
-  <dep model="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)" hash="d9fqbtyrx0rc1giee3wy561x3ldriso" />
+  <dep model="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)" hash="-ag7wa6d9rt2cko8nbeja72ow3lcsegc" />
   <common hash="beg1mya3bova2k3b04g71s25q51lxda" dependsOnNodes="true">
     <dep root="1229772424348862953" />
     <dep root="3189972890132561345" />

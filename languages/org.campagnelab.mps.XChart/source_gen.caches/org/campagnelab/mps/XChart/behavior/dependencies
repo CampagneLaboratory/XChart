@@ -178,6 +178,7 @@
     <classNode dependClassName="org.apache.log4j.LogManager" />
     <classNode dependClassName="org.apache.log4j.Logger" />
     <classNode dependClassName="org.campagnelab.mps.XChart.helpers.ColumnTypeGuesser" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.helpers.TypeInstanceFinder" />
     <classNode dependClassName="org.campagnelab.mps.XChart.helpers.Types" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
