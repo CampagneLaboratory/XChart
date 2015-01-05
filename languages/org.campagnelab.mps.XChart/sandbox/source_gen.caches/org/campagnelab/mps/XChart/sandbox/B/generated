@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="395x8av2lidauyx9ia1dos5r6r9qdtu">
+<dependencies version="2" modelHash="eokig9upt780ixw9ky9s6nq85s6s8th">
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
-  <dep model="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)" hash="-94jc11d72mymp65p62bh6lxghgojr1e" />
+  <dep model="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)" hash="b2gphcq9gi1c3rcaehggd9l7pahq0a3" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
-  <common hash="4okk4k6620d2t9yaiqgb42rcan15nz3" dependsOnNodes="true">
+  <common hash="5ui1zhk2i4xcghtn0kuooussfpy19dy" dependsOnNodes="true">
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
   </common>
   <source id="9178698721098102113" name="A" hash="3lnhoj0a0l2vr0btid7uk7kpy9l40da">
@@ -15,7 +15,7 @@
     <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="ChartViewer_A.java" />
   </source>
-  <source id="6638345083849127064" name="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" hash="8xivoi0pqz0e3aegparwcsiqrxp4qsl">
+  <source id="6638345083849127064" name="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" hash="-egdd0rctxajf4hoi2feekwih8q1nvju">
     <file name="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
   </source>
 </dependencies>
