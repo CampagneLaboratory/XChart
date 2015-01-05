@@ -48,15 +48,15 @@ public class DelimitedFile_Behavior {
     }
     switch (type) {
       case STRING:
-        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnStringType")).first(), false);
+        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.types.structure.ColumnStringType")).first(), false);
         break;
       case BOOLEAN:
-        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnBooleanType")).first(), false);
+        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.types.structure.ColumnBooleanType")).first(), false);
         break;
       case CATEGORY:
-        SNode category = SModelOperations.createNewNode(SNodeOperations.getModel(thisNode), null, "org.campagnelab.mps.XChart.structure.ColumnCategoryType");
+        SNode category = SModelOperations.createNewNode(SNodeOperations.getModel(thisNode), null, "org.campagnelab.mps.XChart.types.structure.ColumnCategoryType");
         for (String value : guesser.getColumnUniqueValues()) {
-          SNode newMember = SModelOperations.createNewNode(SNodeOperations.getModel(thisNode), null, "org.campagnelab.mps.XChart.structure.CategoryValue");
+          SNode newMember = SModelOperations.createNewNode(SNodeOperations.getModel(thisNode), null, "org.campagnelab.mps.XChart.types.structure.CategoryValue");
           SPropertyOperations.set(newMember, "name", value);
           ListSequence.fromList(SLinkOperations.getTargets(category, "members", true)).addElement(newMember);
         }
@@ -65,7 +65,7 @@ public class DelimitedFile_Behavior {
         SLinkOperations.setTarget(column, "type", category, false);
         break;
       default:
-        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.structure.ColumnNumericType")).first(), false);
+        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.types.structure.ColumnNumericType")).first(), false);
     }
   }
 

@@ -6,9 +6,7 @@
       <sourceRoot location="languageAccessories" />
     </modelRoot>
   </models>
-  <accessoryModels>
-    <model modelUID="r:feab7770-8f08-479e-8205-b222aad7d69e(org.campagnelab.mps.XChart.types.roots)" />
-  </accessoryModels>
+  <accessoryModels />
   <generators>
     <generator name="" generatorUID="org.campagnelab.mps.XChart.types#9080041854839272070" uuid="348a2fa5-a1e1-4a5c-9edb-816eff4cdfd9">
       <models>
@@ -28,12 +26,6 @@
     </generator>
   </generators>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</dependency>
-  </dependencies>
-  <usedLanguages>
-    <usedLanguage>5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)</usedLanguage>
-  </usedLanguages>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>

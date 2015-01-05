@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-40t4growktzyesp1vc2i178w9dy7yd1">
+<dependencies version="2" modelHash="1uw7z6rn6off7imxzslldf9chfpat59">
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
-  <dep model="r:4a32eeec-6ab1-43b8-be93-bebaf91a504e(org.campagnelab.mps.XChart.typesystem)" hash="-12ydfg63lluacq17derkpoogw0nyz65" />
+  <dep model="r:4a32eeec-6ab1-43b8-be93-bebaf91a504e(org.campagnelab.mps.XChart.typesystem)" hash="-3fcuqfd65do1zahisug14rhj32juuv6" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
-  <dep model="r:cfb31b41-ab7a-42c8-913f-b1491325cb39(org.campagnelab.mps.XChart.editor)" hash="-3vs3iyf3ozp608gu42a7v68lhzvtdfe" />
+  <dep model="r:cfb31b41-ab7a-42c8-913f-b1491325cb39(org.campagnelab.mps.XChart.editor)" hash="edvcxb2y19umnu8a4hx3csta28m7p0x" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
   <common dependsOnNodes="true">
     <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />

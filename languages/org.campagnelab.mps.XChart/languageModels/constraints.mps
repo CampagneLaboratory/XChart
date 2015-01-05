@@ -14,6 +14,7 @@
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
+  <import index="r8sq" modelUID="r:255861a3-240e-44f9-891d-2d789f4b6268(org.campagnelab.mps.XChart.types.structure)" version="-1" implicit="yes" />
   <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="3597430320022615563" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="files" />
     <link role="concept" roleId="tp1t.1213093996982" targetNodeId="ztlb.2202909375770430354" resolveInfo="DelimitedFile" />
@@ -303,7 +304,7 @@
                           </node>
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsInstanceOfOperation" typeId="tp25.1139621453865" id="7804146352591279414" nodeInfo="nn">
                             <node role="conceptArgument" roleId="tp25.1177027386292" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="7804146352591280066" nodeInfo="nn">
-                              <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="ztlb.1229772424348544726" resolveInfo="ColumnNumericType" />
+                              <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="r8sq.1229772424348544726" resolveInfo="ColumnNumericType" />
                             </node>
                           </node>
                         </node>
@@ -394,11 +395,11 @@
                       <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="7804146352587751398" nodeInfo="nr">
                         <property name="name" nameId="tpck.1169194664001" value="newCategory" />
                         <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="7804146352587751394" nodeInfo="in">
-                          <link role="concept" roleId="tp25.1138405853777" targetNodeId="ztlb.1229772424349224909" resolveInfo="ColumnCategoryType" />
+                          <link role="concept" roleId="tp25.1138405853777" targetNodeId="r8sq.1229772424349224909" resolveInfo="ColumnCategoryType" />
                         </node>
                         <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7804146352587751953" nodeInfo="nn">
                           <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="7804146352587751698" nodeInfo="nn">
-                            <link role="concept" roleId="tp25.1140138128738" targetNodeId="ztlb.1229772424349224909" resolveInfo="ColumnCategoryType" />
+                            <link role="concept" roleId="tp25.1140138128738" targetNodeId="r8sq.1229772424349224909" resolveInfo="ColumnCategoryType" />
                             <node role="leftExpression" roleId="tp25.1140138123956" type="tp1t.ConstraintFunctionParameter_newReferentNode" typeId="tp1t.1163202640154" id="7804146352587751457" nodeInfo="nn" />
                           </node>
                           <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_CopyOperation" typeId="tp25.1144146199828" id="7804146352587755633" nodeInfo="nn" />
@@ -461,8 +462,8 @@
             <node role="condition" roleId="tpee.1068580123160" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7804146352588073714" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tp1t.ConstraintFunctionParameter_newReferentNode" typeId="tp1t.1163202640154" id="7804146352588073283" nodeInfo="nn" />
               <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsInstanceOfOperation" typeId="tp25.1139621453865" id="7804146352588075104" nodeInfo="nn">
-                <node role="conceptArgument" roleId="tp25.1177027386292" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="7804146352588075201" nodeInfo="nn">
-                  <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="ztlb.1229772424349224909" resolveInfo="ColumnCategoryType" />
+                <node role="conceptArgument" roleId="tp25.1177027386292" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="3941572349329378135" nodeInfo="nn">
+                  <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="r8sq.1229772424349224909" resolveInfo="ColumnCategoryType" />
                 </node>
               </node>
             </node>

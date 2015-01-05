@@ -12,6 +12,7 @@
   <accessoryModels>
     <model modelUID="f:java_stub#ae5ecb97-e2f9-4f79-a34d-94c5e9c5c35d#com.xeiam.xchart(org.campagnelab.mps.xchart.lib/com.xeiam.xchart@java_stub)" />
     <model modelUID="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" />
+    <model modelUID="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" />
   </accessoryModels>
   <generators>
     <generator name="" generatorUID="org.campagnelab.mps.XChart#2202909375769974311" uuid="fc03d545-e591-43a1-9f8a-eb731c443080">
@@ -46,6 +47,7 @@
     <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
     <dependency reexport="false">4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
+    <dependency reexport="false">ecf91126-e504-4aae-8ee7-3192d64e77f6(org.campagnelab.mps.XChart.types)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>f2801650-65d5-424e-bb1b-463a8781b786(jetbrains.mps.baseLanguage.javadoc)</usedLanguage>

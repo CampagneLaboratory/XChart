@@ -9,6 +9,7 @@
   <import index="tp33" modelUID="r:00000000-0000-4000-0000-011c89590323(jetbrains.mps.lang.script.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
+  <import index="r8sq" modelUID="r:255861a3-240e-44f9-891d-2d789f4b6268(org.campagnelab.mps.XChart.types.structure)" version="-1" implicit="yes" />
   <root type="tp33.MigrationScript" typeId="tp33.1177457067821" id="6106414325995112841" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="AddDefaultColumnType" />
     <property name="title" nameId="tp33.1177457669450" value="Assign numeric type to untyped columns" />
@@ -21,7 +22,7 @@
             <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6106414325995113193" nodeInfo="nr">
               <property name="name" nameId="tpck.1169194664001" value="refType" />
               <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6106414325995113189" nodeInfo="in">
-                <link role="concept" roleId="tp25.1138405853777" targetNodeId="ztlb.1229772424348544726" resolveInfo="ColumnNumericType" />
+                <link role="concept" roleId="tp25.1138405853777" targetNodeId="r8sq.1229772424348544726" resolveInfo="ColumnNumericType" />
               </node>
               <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6106414325995123104" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6106414325995115176" nodeInfo="nn">
@@ -30,7 +31,7 @@
                     <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetModelOperation" typeId="tp25.1143234257716" id="6106414325995114546" nodeInfo="nn" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Model_RootsIncludingImportedOperation" typeId="tp25.1176109685393" id="6106414325995117006" nodeInfo="nn">
-                    <link role="concept" roleId="tp25.1176109685394" targetNodeId="ztlb.1229772424348544726" resolveInfo="ColumnNumericType" />
+                    <link role="concept" roleId="tp25.1176109685394" targetNodeId="r8sq.1229772424348544726" resolveInfo="ColumnNumericType" />
                   </node>
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="6106414325995147091" nodeInfo="nn" />

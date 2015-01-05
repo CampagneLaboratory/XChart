@@ -95,7 +95,7 @@ public class ColumnToDoubles_Constraints extends BaseConstraintsDescriptor {
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
             return ListScope.forNamedElements(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getContextNode(), "org.campagnelab.mps.XChart.structure.FileRef", true, false), "file", false), "columns", true)).where(new IWhereFilter<SNode>() {
               public boolean accept(SNode it) {
-                return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, "type", false), "org.campagnelab.mps.XChart.structure.ColumnNumericType");
+                return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, "type", false), "org.campagnelab.mps.XChart.types.structure.ColumnNumericType");
               }
             }));
 
