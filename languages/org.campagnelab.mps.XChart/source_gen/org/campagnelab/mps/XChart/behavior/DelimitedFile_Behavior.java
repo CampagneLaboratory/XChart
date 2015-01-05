@@ -10,10 +10,11 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.io.IOException;
 import org.campagnelab.mps.XChart.helpers.ColumnTypeGuesser;
 import org.campagnelab.mps.XChart.helpers.Types;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import org.campagnelab.mps.XChart.helpers.TypeInstanceFinder;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 
@@ -27,6 +28,11 @@ public class DelimitedFile_Behavior {
       reader = new BufferedReader(new FileReader(new File(SPropertyOperations.getString(thisNode, "path"))));
       String header = reader.readLine();
       String[] columns = header.split(SPropertyOperations.getString(thisNode, "delimitor"));
+      int index = 0;
+      while (index < columns.length) {
+        columns[index] = DelimitedFile_Behavior.call_stripDoubleQuotes_6334792873828094316(thisNode, columns[index]);
+        index++;
+      }
       return columns;
     } catch (IOException e) {
       return null;
@@ -40,33 +46,28 @@ public class DelimitedFile_Behavior {
     }
   }
 
+  public static String call_stripDoubleQuotes_6334792873828094316(SNode thisNode, String str) {
+    return str.replaceAll("^\"", "").replaceAll("\"$", "");
+  }
+
   public static void call_assignColumnType_5010237105647900617(SNode thisNode, SNode column) {
     ColumnTypeGuesser guesser = new ColumnTypeGuesser(SPropertyOperations.getString(thisNode, "path"), SPropertyOperations.getString(column, "name"), SPropertyOperations.getString(thisNode, "delimitor"));
     Types type = guesser.guessValuesType();
     if (LOG.isInfoEnabled()) {
       LOG.info("returned type from guesser " + type.toString());
     }
-    switch (type) {
-      case STRING:
-        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.types.structure.ColumnStringType")).first(), false);
-        break;
-      case BOOLEAN:
-        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.types.structure.ColumnBooleanType")).first(), false);
-        break;
-      case CATEGORY:
-        SNode category = SModelOperations.createNewNode(SNodeOperations.getModel(thisNode), null, "org.campagnelab.mps.XChart.types.structure.ColumnCategoryType");
-        for (String value : guesser.getColumnUniqueValues()) {
-          SNode newMember = SModelOperations.createNewNode(SNodeOperations.getModel(thisNode), null, "org.campagnelab.mps.XChart.types.structure.CategoryValue");
-          SPropertyOperations.set(newMember, "name", value);
-          ListSequence.fromList(SLinkOperations.getTargets(category, "members", true)).addElement(newMember);
-        }
-        SPropertyOperations.set(category, "name", "Categories from " + SPropertyOperations.getString(column, "name"));
-        SLinkOperations.setTarget(column, "category", category, true);
-        SLinkOperations.setTarget(column, "type", category, false);
-        break;
-      default:
-        SLinkOperations.setTarget(column, "type", ListSequence.fromList(SModelOperations.getRootsIncludingImported(SNodeOperations.getModel(thisNode), "org.campagnelab.mps.XChart.types.structure.ColumnNumericType")).first(), false);
+    SNode typeRef = TypeInstanceFinder.lookup(type, SNodeOperations.getModel(thisNode));
+    // for category, we need also to populate the members 
+    if (type == Types.CATEGORY) {
+      for (String value : guesser.getColumnUniqueValues()) {
+        SNode newMember = SModelOperations.createNewNode(SNodeOperations.getModel(thisNode), null, "org.campagnelab.mps.XChart.types.structure.CategoryValue");
+        SPropertyOperations.set(newMember, "name", value);
+        ListSequence.fromList(SLinkOperations.getTargets(SNodeOperations.cast(typeRef, "org.campagnelab.mps.XChart.types.structure.ColumnCategoryType"), "members", true)).addElement(newMember);
+      }
+      SPropertyOperations.set(typeRef, "name", "Categories from " + SPropertyOperations.getString(column, "name"));
+      SLinkOperations.setTarget(column, "category", SNodeOperations.cast(typeRef, "org.campagnelab.mps.XChart.types.structure.ColumnCategoryType"), true);
     }
+    SLinkOperations.setTarget(column, "type", typeRef, false);
   }
 
   protected static Logger LOG = LogManager.getLogger(DelimitedFile_Behavior.class);
