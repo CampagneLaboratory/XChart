@@ -17,20 +17,9 @@
     </breakpoint>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="018d456a-d391-4635-ba93-c9ea1b0a7842" name="Default" comment="Fix ArrayO">
+    <list default="true" id="018d456a-d391-4635-ba93-c9ea1b0a7842" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/sandbox/models/org/campagnelab/mps/XChart/TestMS.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/sandbox/models/org/campagnelab/mps/XChart/TestMS.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/XChart.build0/classes_gen/XChart/build/XChart.xml" afterPath="$PROJECT_DIR$/solutions/XChart.build0/classes_gen/XChart/build/XChart.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/helpers/dependencies" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/helpers/dependencies" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/generator/source_gen.caches/org/campagnelab/mps/XChart/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/generator/source_gen.caches/org/campagnelab/mps/XChart/generator/template/main/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/actions/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/actions/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/behavior/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/behavior/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/constraints/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/constraints/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/editor/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/editor/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/helpers/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/helpers/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/intentions/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/intentions/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/structure/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/structure/generated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/typesystem/generated" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/source_gen.caches/org/campagnelab/mps/XChart/typesystem/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/languageAccessories/org/campagnelab/mps/XChart/helpers.mps" afterPath="$PROJECT_DIR$/languages/org.campagnelab.mps.XChart/languageAccessories/org/campagnelab/mps/XChart/helpers.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
@@ -80,7 +69,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" viewPositionX="0" viewPositionY="-5">
+              <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" viewPositionX="0" viewPositionY="-5">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -100,7 +89,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" viewPositionX="0" viewPositionY="-5">
+              <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" viewPositionX="0" viewPositionY="-5">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -131,7 +120,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" viewPositionX="0" viewPositionY="-5">
+              <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" viewPositionX="0" viewPositionY="-5">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -163,7 +152,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" viewPositionX="0" viewPositionY="-5">
+              <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" viewPositionX="0" viewPositionY="-5">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -180,14 +169,12 @@
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionEnd" value="17" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretXRelative" value="104" />
-                    <property name="selectionStart" value="7" />
-                    <property name="caretX" value="151" />
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="356" />
+                    <property name="caretX" value="439" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" />
+                    <cellInfo cellId="property_path" cellNumber="0" isInList="false">
+                      <node node_reference="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -195,7 +182,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" viewPositionX="0" viewPositionY="-5">
+              <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" viewPositionX="0" viewPositionY="-5">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -209,15 +196,15 @@
         <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.helpers/ColumnTypeGuesser">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
+              <memento viewPositionX="0" viewPositionY="660">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
                     <property name="caretXRelative" value="8" />
-                    <property name="caretX" value="488" />
+                    <property name="caretX" value="55" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_xuwwk0_d0" cellNumber="0" isInList="false">
-                      <node node_reference="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/6334792873826660139" />
+                    <cellInfo cellId="Constant_m61dlm_g0" cellNumber="0" isInList="false">
+                      <node node_reference="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/6158849449135134068" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -225,7 +212,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" viewPositionX="0" viewPositionY="-5">
+              <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" viewPositionX="0" viewPositionY="-5">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -810,13 +797,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="2560" height="1330" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SomeTool" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43704304" sideWeight="0.4986215" order="24" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2437043" sideWeight="0.5013785" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2437043" sideWeight="0.5013785" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.49946752" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46791226" sideWeight="0.4997367" order="12" side_tool="false" content_ui="tabs" />
@@ -885,7 +872,258 @@
   </component>
   <component name="UsagesViewTool">
     <version id="0.9997" />
-    <tabs />
+    <tabs>
+      <tab>
+        <usage_view>
+          <buttons rerun="true" rebuild="true" close="true" />
+          <result_provider class_name="jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.UnionNode">
+            <children>
+              <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+                <children />
+                <generated_finder class_name="jetbrains.mps.baseLanguage.findUsages.BaseMethodUsages_Finder" />
+              </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+              <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+                <children />
+                <generated_finder class_name="jetbrains.mps.baseLanguage.findUsages.ExactMethodUsages_Finder" />
+              </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+              <jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+                <children />
+                <generated_finder class_name="jetbrains.mps.lang.structure.findUsages.NodeUsages_Finder" />
+              </jetbrains.mps.ide.findusages.findalgorithm.resultproviders.treenodes.FinderNode>
+            </children>
+          </result_provider>
+          <query>
+            <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.ProjectScope" />
+            <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
+              <node>
+                <node model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" id="8665807756908549463" />
+              </node>
+            </holder>
+          </query>
+          <tree_wrapper>
+            <node_representator />
+            <view_options>
+              <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+            </view_options>
+            <contents>
+              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.MainNodeData" caption="" info="" excluded="false" expanded="true" isresult="false" results_section="false">
+                <role name="main root" />
+              </data>
+              <children>
+                <child>
+                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.SearchedNodesNodeData" caption="Searched nodes" info="" excluded="false" expanded="true" isresult="false" results_section="false">
+                    <role name="searched nodes" />
+                  </data>
+                  <children>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Searched nodes&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="false" category="Searched nodes" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="org.campagnelab.mps.XChart" info="" excluded="false" expanded="true" isresult="false" results_section="false" module_ref="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.mps.XChart.helpers" info="" excluded="false" expanded="false" isresult="false" results_section="false">
+                                <role name="model" />
+                                <model uid="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="ColumnTypeGuesser" info="" excluded="false" expanded="true" isresult="false" results_section="false">
+                                    <role name="root" />
+                                    <node>
+                                      <node model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" id="5010237105647535823" />
+                                    </node>
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="isCategory():boolean" info="role: &lt;i&gt;member&lt;/i&gt;; in: &lt;i&gt;ColumnTypeGuesser&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="false">
+                                        <role name="target" />
+                                        <node>
+                                          <node model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" id="8665807756908549463" />
+                                        </node>
+                                      </data>
+                                      <children />
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                  </children>
+                </child>
+                <child>
+                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ResultsNodeData" caption="results" info="" excluded="false" expanded="true" isresult="false" results_section="false">
+                    <role name="results" />
+                  </data>
+                  <children>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Base method usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Base method usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="org.campagnelab.mps.XChart" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.mps.XChart.helpers" info="" excluded="false" expanded="true" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="ColumnTypeGuesser" info="" excluded="false" expanded="true" isresult="false" results_section="true">
+                                    <role name="root" />
+                                    <node>
+                                      <node model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" id="5010237105647535823" />
+                                    </node>
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="guessValuesType():Types" info="role: &lt;i&gt;member&lt;/i&gt;; in: &lt;i&gt;ColumnTypeGuesser&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
+                                        <role name="root to target" />
+                                        <node>
+                                          <node model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" id="8665807756908520790" />
+                                        </node>
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="isCategory():boolean" info="role: &lt;i&gt;condition&lt;/i&gt;; in: &lt;i&gt;ElsifClause&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                            <role name="target" />
+                                            <node>
+                                              <node model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" id="6158849449135136713" />
+                                            </node>
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Exact Mathod Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Exact Mathod Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="org.campagnelab.mps.XChart" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.mps.XChart.helpers" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="ColumnTypeGuesser" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                    <role name="root" />
+                                    <node>
+                                      <node model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" id="5010237105647535823" />
+                                    </node>
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="guessValuesType():Types" info="role: &lt;i&gt;member&lt;/i&gt;; in: &lt;i&gt;ColumnTypeGuesser&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
+                                        <role name="root to target" />
+                                        <node>
+                                          <node model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" id="8665807756908520790" />
+                                        </node>
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="isCategory():boolean" info="role: &lt;i&gt;condition&lt;/i&gt;; in: &lt;i&gt;ElsifClause&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                            <role name="target" />
+                                            <node>
+                                              <node model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" id="6158849449135136713" />
+                                            </node>
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="org.campagnelab.mps.XChart" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="org.campagnelab.mps.XChart.helpers" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="ColumnTypeGuesser" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                    <role name="root" />
+                                    <node>
+                                      <node model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" id="5010237105647535823" />
+                                    </node>
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="guessValuesType():Types" info="role: &lt;i&gt;member&lt;/i&gt;; in: &lt;i&gt;ColumnTypeGuesser&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true">
+                                        <role name="root to target" />
+                                        <node>
+                                          <node model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" id="8665807756908520790" />
+                                        </node>
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="isCategory():boolean" info="role: &lt;i&gt;condition&lt;/i&gt;; in: &lt;i&gt;ElsifClause&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true">
+                                            <role name="target" />
+                                            <node>
+                                              <node model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" id="6158849449135136713" />
+                                            </node>
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                  </children>
+                </child>
+              </children>
+            </contents>
+          </tree_wrapper>
+        </usage_view>
+      </tab>
+    </tabs>
     <default_view_options>
       <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
     </default_view_options>
@@ -905,7 +1143,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Assign to category column the same type of the child enum." />
     <MESSAGE value="Rebuild work again." />
     <MESSAGE value="Close the reader after parsing the columns' names." />
     <MESSAGE value="Framwork around ColumnTypeGuesser." />
@@ -930,7 +1167,8 @@
     <MESSAGE value="Add XChart.types language to XChart plugin. Add mps settings aspect with bootstrap set to true." />
     <MESSAGE value="Move types' concepts in the XChart.types language. Move the types' instances in the XChart language. Relink solutions." />
     <MESSAGE value="Makr column types dark blue." />
-    <option name="LAST_COMMIT_MESSAGE" value="Makr column types dark blue." />
+    <MESSAGE value="Fix ArrayIndexOutOfBoundsException in ColumnTypeGuesser." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix ArrayIndexOutOfBoundsException in ColumnTypeGuesser." />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.874036" />
   </component>
   <component name="editorHistoryManager">
@@ -1845,7 +2083,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" viewPositionX="0" viewPositionY="-5">
+          <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" viewPositionX="0" viewPositionY="-5">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1863,7 +2101,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" viewPositionX="0" viewPositionY="-5">
+          <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" viewPositionX="0" viewPositionY="-5">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1892,7 +2130,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" viewPositionX="0" viewPositionY="-5">
+          <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" viewPositionX="0" viewPositionY="-5">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1922,7 +2160,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" viewPositionX="0" viewPositionY="-5">
+          <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" viewPositionX="0" viewPositionY="-5">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1937,14 +2175,12 @@
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionEnd" value="17" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretXRelative" value="104" />
-                <property name="selectionStart" value="7" />
-                <property name="caretX" value="151" />
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="356" />
+                <property name="caretX" value="439" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" />
+                <cellInfo cellId="property_path" cellNumber="0" isInList="false">
+                  <node node_reference="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1952,7 +2188,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" viewPositionX="0" viewPositionY="-5">
+          <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" viewPositionX="0" viewPositionY="-5">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1964,15 +2200,15 @@
     <entry file="mps://node://org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.helpers/ColumnTypeGuesser">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
+          <memento viewPositionX="0" viewPositionY="660">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
                 <property name="caretXRelative" value="8" />
-                <property name="caretX" value="488" />
+                <property name="caretX" value="55" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_xuwwk0_d0" cellNumber="0" isInList="false">
-                  <node node_reference="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/6334792873826660139" />
+                <cellInfo cellId="Constant_m61dlm_g0" cellNumber="0" isInList="false">
+                  <node node_reference="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)/6158849449135134068" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1980,7 +2216,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873827080487" viewPositionX="0" viewPositionY="-5">
+          <inspectorMemento currentlyEditedNode="r:3e007350-271b-4f4f-87e3-38270e9a7a46(org.campagnelab.mps.XChart.TestMS)/6334792873826442141" viewPositionX="0" viewPositionY="-5">
             <selectionStack />
             <errorLabels />
             <folded />

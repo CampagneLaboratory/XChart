@@ -2648,6 +2648,19 @@
           <node role="condition" roleId="tpee.1068580123160" type="tpee.LocalMethodCall" typeId="tpee.7812454656619025412" id="6158849449135123256" nodeInfo="nn">
             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8665807756908532180" resolveInfo="isBoolean" />
           </node>
+          <node role="elsifClauses" roleId="tpee.1206060520071" type="tpee.ElsifClause" typeId="tpee.1206060495898" id="6334792873827090421" nodeInfo="ng">
+            <node role="statementList" roleId="tpee.1206060644605" type="tpee.StatementList" typeId="tpee.1068580123136" id="6334792873827090423" nodeInfo="sn">
+              <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="6158849449135148925" nodeInfo="nn">
+                <node role="expression" roleId="tpee.1068581517676" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="6158849449135476408" nodeInfo="nn">
+                  <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="5010237105647915464" resolveInfo="NUMERIC" />
+                  <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="5010237105647915312" resolveInfo="Types" />
+                </node>
+              </node>
+            </node>
+            <node role="condition" roleId="tpee.1206060619838" type="tpee.LocalMethodCall" typeId="tpee.7812454656619025412" id="6334792873827101442" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8665807756908543461" resolveInfo="isNumeric" />
+            </node>
+          </node>
           <node role="elsifClauses" roleId="tpee.1206060520071" type="tpee.ElsifClause" typeId="tpee.1206060495898" id="6158849449135134068" nodeInfo="ng">
             <node role="condition" roleId="tpee.1206060619838" type="tpee.LocalMethodCall" typeId="tpee.7812454656619025412" id="6158849449135136713" nodeInfo="nn">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8665807756908549463" resolveInfo="isCategory" />
@@ -2656,19 +2669,6 @@
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="6158849449135137364" nodeInfo="nn">
                 <node role="expression" roleId="tpee.1068581517676" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="6158849449135142822" nodeInfo="nn">
                   <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="5010237105648006156" resolveInfo="CATEGORY" />
-                  <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="5010237105647915312" resolveInfo="Types" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="elsifClauses" roleId="tpee.1206060520071" type="tpee.ElsifClause" typeId="tpee.1206060495898" id="6158849449135145539" nodeInfo="ng">
-            <node role="condition" roleId="tpee.1206060619838" type="tpee.LocalMethodCall" typeId="tpee.7812454656619025412" id="6158849449135148274" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8665807756908543461" resolveInfo="isNumeric" />
-            </node>
-            <node role="statementList" roleId="tpee.1206060644605" type="tpee.StatementList" typeId="tpee.1068580123136" id="6158849449135145541" nodeInfo="sn">
-              <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="6158849449135148925" nodeInfo="nn">
-                <node role="expression" roleId="tpee.1068581517676" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="6158849449135476408" nodeInfo="nn">
-                  <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="5010237105647915464" resolveInfo="NUMERIC" />
                   <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="5010237105647915312" resolveInfo="Types" />
                 </node>
               </node>
