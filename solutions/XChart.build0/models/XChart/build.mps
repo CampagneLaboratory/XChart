@@ -12,9 +12,7 @@
   <root type="3ior.BuildProject" typeId="3ior.5617550519002745363" id="9178698721097033425" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="XChart" />
     <property name="internalBaseDirectory" nameId="3ior.5204048710541015587" value="../../" />
-    <node role="aspects" roleId="3ior.3542413272732620719" type="kdzh.BuildMpsAspect" typeId="kdzh.6503355885715333289" id="8882561231657802611" nodeInfo="ng">
-      <property name="bootstrap" nameId="kdzh.6503355885715353788" value="true" />
-    </node>
+    <node role="aspects" roleId="3ior.3542413272732620719" type="kdzh.BuildMpsAspect" typeId="kdzh.6503355885715333289" id="8882561231657802611" nodeInfo="ng" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="3ior.BuildJavaPlugin" typeId="3ior.6647099934206700647" id="9178698721097033426" nodeInfo="ng" />
     <node role="plugins" roleId="3ior.6647099934206700656" type="kdzh.BuildMPSPlugin" typeId="kdzh.868032131020265945" id="9178698721097033427" nodeInfo="ng" />
     <node role="macros" roleId="3ior.5617550519002745378" type="3ior.BuildFolderMacro" typeId="3ior.7389400916848136194" id="9178698721097033428" nodeInfo="ng">
@@ -28,7 +26,7 @@
       <node role="initialValue" roleId="3ior.2755237150521975432" type="3ior.BuildVariableMacroInitWithString" typeId="3ior.2755237150521975431" id="3797805458484492593" nodeInfo="ng">
         <node role="value" roleId="3ior.2755237150521975437" type="3ior.BuildString" typeId="3ior.4380385936562003279" id="3797805458484492592" nodeInfo="ng">
           <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="3797805458484492591" nodeInfo="ng">
-            <property name="text" nameId="3ior.4903714810883755350" value="1.1.7" />
+            <property name="text" nameId="3ior.4903714810883755350" value="1.1.8" />
           </node>
         </node>
       </node>
