@@ -644,5 +644,167 @@
       <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
     </node>
   </root>
+  <root type="ztlb.Tsvfile" typeId="ztlb.3597430320022583657" id="6334792873828041431" nodeInfo="ng">
+    <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
+    <property name="path" nameId="ztlb.2202909375770434162" value="/Users/mas2182/Lab/Projects/GobyWeb/data/GSE59364_DC_all.csv" />
+    <property name="name" nameId="tpck.1169194664001" value="GSE59364_DC_all.csv" />
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240305" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="gene" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240306" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="mRNA len" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240307" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="genomic span" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240308" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DC_normal" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240309" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DC_treated" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240310" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DC0904" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240311" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DC0907" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240312" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DCLPS0910" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240313" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DCLPS0913" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240314" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="A_DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240315" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="A_DC_LPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240316" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="B_DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240317" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="B_DC_LPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240318" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C_DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240319" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C_DC_LPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240320" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C2DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240321" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C2DCLPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240322" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C3DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240323" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C3DCLPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+  </root>
+  <root type="ztlb.Tsvfile" typeId="ztlb.3597430320022583657" id="6334792873828240763" nodeInfo="ng">
+    <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
+    <property name="path" nameId="ztlb.2202909375770434162" value="/Users/mas2182/Lab/Projects/GobyWeb/data/GSE59364_DC_all.csv" />
+    <property name="name" nameId="tpck.1169194664001" value="GSE59364_DC_all.csv" />
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240767" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="gene" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240768" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="mRNA len" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240769" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="genomic span" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240770" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DC_normal" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240771" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DC_treated" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240772" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DC0904" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240773" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DC0907" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240774" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DCLPS0910" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240775" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DCLPS0913" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240776" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="A_DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240777" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="A_DC_LPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240778" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="B_DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240779" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="B_DC_LPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240780" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C_DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240781" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C_DC_LPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240782" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C2DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240783" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C2DCLPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240784" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C3DC" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6334792873828240785" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="C3DCLPS" />
+      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    </node>
+  </root>
 </model>
 
