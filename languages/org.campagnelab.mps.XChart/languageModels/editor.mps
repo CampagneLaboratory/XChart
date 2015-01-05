@@ -52,7 +52,7 @@
           <property name="style" nameId="tpc2.1186403771423" value="ITALIC" />
         </node>
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.ForegroundColorStyleClassItem" typeId="tpc2.1186404549998" id="7804146352588369405" nodeInfo="nn">
-          <property name="color" nameId="tpc2.1186403713874" value="LIGHT_BLUE" />
+          <property name="color" nameId="tpc2.1186403713874" value="DARK_BLUE" />
         </node>
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.EditableStyleClassItem" typeId="tpc2.1186414860679" id="7804146352589394499" nodeInfo="nn">
           <property name="flag" nameId="tpc2.1186414551515" value="false" />
