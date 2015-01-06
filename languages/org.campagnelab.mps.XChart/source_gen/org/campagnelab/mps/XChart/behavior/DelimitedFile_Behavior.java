@@ -7,6 +7,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.File;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import org.campagnelab.mps.XChart.helpers.ColumnLoader;
 import java.io.IOException;
 import org.campagnelab.mps.XChart.helpers.ColumnTypeGuesser;
 import org.campagnelab.mps.XChart.helpers.Types;
@@ -28,11 +29,7 @@ public class DelimitedFile_Behavior {
       reader = new BufferedReader(new FileReader(new File(SPropertyOperations.getString(thisNode, "path"))));
       String header = reader.readLine();
       String[] columns = header.split(SPropertyOperations.getString(thisNode, "delimitor"));
-      int index = 0;
-      while (index < columns.length) {
-        columns[index] = DelimitedFile_Behavior.call_stripDoubleQuotes_6334792873828094316(thisNode, columns[index]);
-        index++;
-      }
+      ColumnLoader.stripDoubleQuotes(columns);
       return columns;
     } catch (IOException e) {
       return null;
@@ -44,10 +41,6 @@ public class DelimitedFile_Behavior {
       } catch (IOException e) {
       }
     }
-  }
-
-  public static String call_stripDoubleQuotes_6334792873828094316(SNode thisNode, String str) {
-    return str.replaceAll("^\"", "").replaceAll("\"$", "");
   }
 
   public static void call_assignColumnType_5010237105647900617(SNode thisNode, SNode column) {

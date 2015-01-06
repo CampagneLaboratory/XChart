@@ -62,4 +62,15 @@ public class ColumnLoader {
       }
     }
   }
+
+  public static void stripDoubleQuotes(String[] columnNames) {
+    int index = 0;
+    while (index < columnNames.length) {
+      columnNames[index] = columnNames[index].replaceAll("^\"", "").replaceAll("\"$", "");
+      index++;
+    }
+  }
+
+
+
 }
