@@ -10,11 +10,14 @@ import jetbrains.mps.smodel.runtime.base.BasePropertyConstraintsDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.io.File;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.campagnelab.mps.XChart.behavior.DelimitedFile_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorReflection;
 
 public class DelimitedFile_Constraints extends BaseConstraintsDescriptor {
   public DelimitedFile_Constraints() {
@@ -40,6 +43,8 @@ public class DelimitedFile_Constraints extends BaseConstraintsDescriptor {
           }
           SPropertyOperations.set(node, "path", (SPropertyOperations.getString(propertyValue)));
           SPropertyOperations.set(node, "name", file.getName());
+          List<SNode> previousColumns = ListSequence.fromList(new ArrayList<SNode>());
+          ListSequence.fromList(previousColumns).addSequence(ListSequence.fromList(SLinkOperations.getTargets(node, "columns", true)));
           ListSequence.fromList(SLinkOperations.getTargets(node, "columns", true)).clear();
           for (String col : DelimitedFile_Behavior.call_parseColumns_3597430320022539917(node)) {
             if (col == null) {
@@ -48,6 +53,9 @@ public class DelimitedFile_Constraints extends BaseConstraintsDescriptor {
             SNode c = SModelOperations.createNewNode(SNodeOperations.getModel(node), null, "org.campagnelab.mps.XChart.structure.Column");
             SPropertyOperations.set(c, "name", col);
             DelimitedFile_Behavior.call_assignColumnType_5010237105647900617(node, c);
+            if (SNodeOperations.isInstanceOf(node, "org.campagnelab.mps.XChart.structure.HasDataToPreserve")) {
+              BehaviorReflection.invokeVirtual(Void.class, SNodeOperations.cast(node, "org.campagnelab.mps.XChart.structure.HasDataToPreserve"), "virtual_newColumAdded_2172361557619401878", new Object[]{c, previousColumns});
+            }
             ListSequence.fromList(SLinkOperations.getTargets(node, "columns", true)).addElement(c);
           }
         }

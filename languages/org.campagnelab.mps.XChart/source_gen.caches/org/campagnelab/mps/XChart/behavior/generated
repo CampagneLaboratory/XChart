@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="9p9tkc7pgbh2ixrxi0hudkfh9tclffw">
+<dependencies version="2" modelHash="2zou57x0vw9tfbpevndwso2z6xtswza">
   <dep model="f:java_stub#5ec1cd3d-0a50-4049-a8fa-ae768d7baa25#com.xeiam.xchart(org.campagnelab.mps.XChart/com.xeiam.xchart@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
@@ -24,7 +24,7 @@
   <dep model="r:255861a3-240e-44f9-891d-2d789f4b6268(org.campagnelab.mps.XChart.types.structure)" hash="2fazwn1a78ydwq4gadsbou185y8ud20" />
   <dep model="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" hash="-b6mpqybnuok6zagtggmbp0m5ppennrs" />
   <dep model="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" hash="e6vkk9xsk643zv63k7dfh9op5eultxb" />
-  <dep model="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" hash="-3t68g5zdj2v3f99ywugf3t8m03noq0k" />
+  <dep model="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" hash="49avtx7cqxmcvim9wba9pn9o2pm377j" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="e5zswcvgdspmt039m3gg97emcadi0ez" />
   <dep model="r:d1558b8f-fc9e-4ca7-bb90-70ac789f336e(jetbrains.mps.baseLanguage.collections.generator.baseLanguage.template.post@generator)" hash="npgvdfpnhgphsd6ic5xuzipg1hn1j4" />
@@ -32,7 +32,8 @@
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
   <dep model="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" hash="efpygk1iagsrvh0j1nroncwiyw07vp1" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="-8chtguhcvj45cjy0bx3xiqekte2lox7" />
-  <common hash="2i1qais8j0kuvodenvbepko82hzm2ui" dependsOnNodes="true">
+  <common hash="ewzfaaodwoqbwyb1djgjiaaosqjc47i" dependsOnNodes="true">
+    <dep root="2172361557619146160" />
     <dep root="2202909375770435121" />
     <dep root="2202909375770436533" />
     <dep root="3189972890131779755" />
@@ -47,6 +48,7 @@
     <dep root="6638345083846694859" />
     <dep root="7263499363579449689" />
     <dep root="7335187880077203157" />
+    <dep model="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <dep model="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <dep model="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
@@ -70,6 +72,7 @@
     <file name="DoublesReference_BehaviorDescriptor.java" />
     <file name="Doubles_BehaviorDescriptor.java" />
     <file name="FileRef_BehaviorDescriptor.java" />
+    <file name="HasDataToPreserve_BehaviorDescriptor.java" />
     <file name="Histogram_BehaviorDescriptor.java" />
     <file name="Legend_BehaviorDescriptor.java" />
     <file name="Page_BehaviorDescriptor.java" />
@@ -242,6 +245,13 @@
   <source id="3328299660867458218" name="Column_Behavior" hash="-8n2mjg6cpflvsq96l5ue3bc3gmzb4os">
     <dep model="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
     <file name="Column_Behavior.java" />
+  </source>
+  <source id="2172361557619146160" name="HasDataToPreserve_Behavior" hash="1ds7pgy91y8z1tvy270a1l9yzwy81gw">
+    <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <dep model="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
+    <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" />
+    <dep model="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
+    <file name="HasDataToPreserve_Behavior.java" />
   </source>
 </dependencies>
 

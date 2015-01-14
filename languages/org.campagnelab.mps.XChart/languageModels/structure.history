@@ -72,5 +72,11 @@
     </dependencies>
     <rename id="ztlb.8908363177680448679" type="CHILD" from="C" to="members" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="11" />
+    </dependencies>
+    <rename id="ztlb.2172361557619118055" type="CONCEPT" from="WantTobeNotified" to="HasDataToPreserve" />
+  </StructureModification>
 </history>
 
