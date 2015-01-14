@@ -17,7 +17,8 @@
     </breakpoint>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="018d456a-d391-4635-ba93-c9ea1b0a7842" name="Default" comment="">
+    <list default="true" id="018d456a-d391-4635-ba93-c9ea1b0a7842" name="Default" comment="Advance version to 1.1.10.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/XChart.build0/classes_gen/XChart/build/XChart.xml" afterPath="$PROJECT_DIR$/solutions/XChart.build0/classes_gen/XChart/build/XChart.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/XChart.build0/source_gen/XChart/build/XChart.xml" afterPath="$PROJECT_DIR$/solutions/XChart.build0/source_gen/XChart/build/XChart.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/XChart.build0/models/XChart/build.mps" afterPath="$PROJECT_DIR$/solutions/XChart.build0/models/XChart/build.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
@@ -1055,7 +1056,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Show column type next to the colum in the editor. For categories, show the list of allowed values extracted from the data file." />
     <MESSAGE value="Fix default type assigned to a column." />
     <MESSAGE value="Restrict the selectable columns for charts to the ones with a numeric type." />
     <MESSAGE value="Remove empty values from the column. Test and fix boolean column type." />
@@ -1080,7 +1080,8 @@
     <MESSAGE value="Change the ColumnTypeGuesser algorithm to manage the cases when 1) a column is not found and 2) columns are double quoted." />
     <MESSAGE value="Increase version to 1.1.9." />
     <MESSAGE value="Add HasDataToPreserve interface. Sub-concepts of DelimitedFile implementing the interface are notified about changes in the list of columns." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add HasDataToPreserve interface. Sub-concepts of DelimitedFile implementing the interface are notified about changes in the list of columns." />
+    <MESSAGE value="Advance version to 1.1.10." />
+    <option name="LAST_COMMIT_MESSAGE" value="Advance version to 1.1.10." />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.874036" />
   </component>
   <component name="editorHistoryManager">
