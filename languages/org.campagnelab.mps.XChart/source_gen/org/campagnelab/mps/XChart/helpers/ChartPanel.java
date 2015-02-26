@@ -8,11 +8,9 @@ import com.xeiam.xchart.Chart;
 
 public class ChartPanel extends JPanel {
   /*package*/ XChartPanel chartPanel;
-
   public ChartPanel(Chart chart) {
     chartPanel = new XChartPanel(chart);
     this.add(chartPanel);
   }
-
 
 }

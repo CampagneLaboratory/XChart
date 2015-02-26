@@ -4,6 +4,7 @@ package org.campagnelab.mps.XChart.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import com.xeiam.xchart.StyleManager;
 import com.xeiam.xchart.Chart;
 import com.xeiam.xchart.ChartBuilder;
@@ -12,71 +13,66 @@ import com.xeiam.xchart.XChartPanel;
 
 public class ChartStyle_Behavior {
   public static void init(SNode thisNode) {
-    SPropertyOperations.set(thisNode, "width", "" + (400));
-    SPropertyOperations.set(thisNode, "height", "" + (400));
-    SPropertyOperations.set(thisNode, "title", "Title");
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x49236d46f43192a9L, "width"), "" + (400));
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x49236d46f43192abL, "height"), "" + (400));
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x5c2023aeab20b9ebL, "title"), "Title");
   }
-
   public static StyleManager.ChartTheme call_getTheme_7263499363580278109(SNode thisNode) {
-    if (SPropertyOperations.getString_def(thisNode, "theme", "XChart").equals("GGPlot2".toString())) {
+    if (SPropertyOperations.getString_def(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x64cd223000783d87L, "theme"), "XChart").equals("GGPlot2".toString())) {
       return StyleManager.ChartTheme.GGPlot2;
     }
-    if (SPropertyOperations.getString_def(thisNode, "theme", "XChart").equals("MatLab".toString())) {
+    if (SPropertyOperations.getString_def(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x64cd223000783d87L, "theme"), "XChart").equals("MatLab".toString())) {
       return StyleManager.ChartTheme.Matlab;
     }
-    if (SPropertyOperations.getString_def(thisNode, "theme", "XChart").equals("XChart".toString())) {
+    if (SPropertyOperations.getString_def(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x64cd223000783d87L, "theme"), "XChart").equals("XChart".toString())) {
       return StyleManager.ChartTheme.XChart;
     }
     return StyleManager.ChartTheme.XChart;
   }
-
   public static Chart call_buildChart_6638345083848028113(SNode thisNode, StyleManager.ChartType chartType, String xColumnName, String yColumnName) {
 
-    if (SPropertyOperations.getString(thisNode, "xAxisLabel") != null) {
-      xColumnName = SPropertyOperations.getString(thisNode, "xAxisLabel");
+    if (SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x64cd2230006e018bL, "xAxisLabel")) != null) {
+      xColumnName = SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x64cd2230006e018bL, "xAxisLabel"));
     }
-    if (SPropertyOperations.getString(thisNode, "yAxisLabel") != null) {
-      yColumnName = SPropertyOperations.getString(thisNode, "yAxisLabel");
+    if (SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x64cd2230006e018fL, "yAxisLabel")) != null) {
+      yColumnName = SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x64cd2230006e018fL, "yAxisLabel"));
     }
     ChartBuilder builder = new ChartBuilder();
     builder.chartType(chartType);
-    builder.width(SPropertyOperations.getInteger(thisNode, "width")).height(SPropertyOperations.getInteger(thisNode, "height")).theme(ChartStyle_Behavior.call_getTheme_7263499363580278109(thisNode));
-    builder.title(SPropertyOperations.getString(thisNode, "title"));
+    builder.width(SPropertyOperations.getInteger(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x49236d46f43192a9L, "width"))).height(SPropertyOperations.getInteger(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x49236d46f43192abL, "height"))).theme(ChartStyle_Behavior.call_getTheme_7263499363580278109(thisNode));
+    builder.title(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x5c2023aeab20b9ebL, "title")));
     builder.xAxisTitle(xColumnName);
     builder.yAxisTitle(yColumnName);
     Chart chart = builder.build();
     /*
       // Currently disabled because of an issue with scaling the X axis: see https://github.com/timmolter/XChart/issues/74 
     */
-    if (isNotEmptyString(SPropertyOperations.getString(thisNode, "minX"))) {
-      chart.getStyleManager().setXAxisMin(Double.parseDouble(SPropertyOperations.getString(thisNode, "minX")));
+    if (isNotEmptyString(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x2c450f713f48c53fL, "minX")))) {
+      chart.getStyleManager().setXAxisMin(Double.parseDouble(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x2c450f713f48c53fL, "minX"))));
     }
-    if (isNotEmptyString(SPropertyOperations.getString(thisNode, "maxX"))) {
-      chart.getStyleManager().setXAxisMax(Double.parseDouble(SPropertyOperations.getString(thisNode, "maxX")));
+    if (isNotEmptyString(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x2c450f713f490a3dL, "maxX")))) {
+      chart.getStyleManager().setXAxisMax(Double.parseDouble(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x2c450f713f490a3dL, "maxX"))));
     }
-    if (isNotEmptyString(SPropertyOperations.getString(thisNode, "minY"))) {
-      chart.getStyleManager().setYAxisMin(Double.parseDouble(SPropertyOperations.getString(thisNode, "minY")));
+    if (isNotEmptyString(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x2c450f713f490a46L, "minY")))) {
+      chart.getStyleManager().setYAxisMin(Double.parseDouble(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x2c450f713f490a46L, "minY"))));
     }
-    if (isNotEmptyString(SPropertyOperations.getString(thisNode, "maxY"))) {
-      chart.getStyleManager().setYAxisMax(Double.parseDouble(SPropertyOperations.getString(thisNode, "maxY")));
+    if (isNotEmptyString(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x2c450f713f490a50L, "maxY")))) {
+      chart.getStyleManager().setYAxisMax(Double.parseDouble(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x2c450f713f490a50L, "maxY"))));
     }
     ChartStyle_Behavior.call_updateLegend_3189972890133475467(thisNode, chart);
     return chart;
   }
-
   public static void call_updateLegend_3189972890133475467(SNode thisNode, Chart chart) {
-    if ((SLinkOperations.getTarget(thisNode, "legend", true) != null)) {
+    if ((SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x2c450f713f6d7c98L, "legend")) != null)) {
       chart.getStyleManager().setLegendVisible(true);
-      chart.getStyleManager().setLegendPosition(Legend_Behavior.call_getPosition_3189972890131779785(SLinkOperations.getTarget(thisNode, "legend", true)));
+      chart.getStyleManager().setLegendPosition(Legend_Behavior.call_getPosition_3189972890131779785(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x2c450f713f6d7c98L, "legend"))));
     } else {
       chart.getStyleManager().setLegendVisible(false);
     }
   }
-
   public static void call_updateStyleItems_6638345083848910007(SNode thisNode, XChartPanel panel) {
-    panel.resize(SPropertyOperations.getInteger(thisNode, "width"), SPropertyOperations.getInteger(thisNode, "height"));
+    panel.resize(SPropertyOperations.getInteger(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x49236d46f43192a9L, "width")), SPropertyOperations.getInteger(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x49236d46f43192abL, "height")));
   }
-
   private static boolean isNotEmptyString(String str) {
     return str != null && str.length() > 0;
   }

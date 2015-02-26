@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)">
-  <persistence version="8" />
-  <language namespace="ecf91126-e504-4aae-8ee7-3192d64e77f6(org.campagnelab.mps.XChart.types)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="r8sq" modelUID="r:255861a3-240e-44f9-891d-2d789f4b6268(org.campagnelab.mps.XChart.types.structure)" version="-1" implicit="yes" />
-  <root type="r8sq.ColumnBooleanType" typeId="r8sq.1229772424348822701" id="1993150283055516391" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Boolean" />
-  </root>
-  <root type="r8sq.ColumnNumericType" typeId="r8sq.1229772424348544726" id="1993150283055518188" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Numeric" />
-  </root>
-  <root type="r8sq.ColumnStringType" typeId="r8sq.1229772424348822533" id="1993150283055518321" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="String" />
-  </root>
-  <root type="r8sq.ColumnCategoryType" typeId="r8sq.1229772424349224909" id="1993150283055518328" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Category" />
-  </root>
+<model ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)">
+  <persistence version="9" />
+  <languages>
+    <use id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types" version="-1" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  </languages>
+  <imports />
+  <registry>
+    <language id="ecf91126-e504-4aae-8ee7-3192d64e77f6" name="org.campagnelab.mps.XChart.types">
+      <concept id="1229772424348544726" name="org.campagnelab.mps.XChart.types.structure.ColumnNumericType" flags="ng" index="aNa_n" />
+      <concept id="1229772424348822701" name="org.campagnelab.mps.XChart.types.structure.ColumnBooleanType" flags="ng" index="aWeGG" />
+      <concept id="1229772424348822533" name="org.campagnelab.mps.XChart.types.structure.ColumnStringType" flags="ng" index="aWeI4" />
+      <concept id="1229772424349224909" name="org.campagnelab.mps.XChart.types.structure.ColumnCategoryType" flags="ng" index="aYgxc" />
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="aWeGG" id="1ID5TXdv$FB">
+    <property role="TrG5h" value="Boolean" />
+  </node>
+  <node concept="aNa_n" id="1ID5TXdv_7G">
+    <property role="TrG5h" value="Numeric" />
+  </node>
+  <node concept="aWeI4" id="1ID5TXdv_9L">
+    <property role="TrG5h" value="String" />
+  </node>
+  <node concept="aYgxc" id="1ID5TXdv_9S">
+    <property role="TrG5h" value="Category" />
+  </node>
 </model>
 

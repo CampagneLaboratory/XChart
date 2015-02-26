@@ -10,15 +10,12 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class FileRef_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements ScopeProvider_BehaviorDescriptor {
   public FileRef_BehaviorDescriptor() {
   }
-
   public Scope virtual_getScope_3734116213129936182(SNode thisNode, SNode kind, SNode child) {
     return FileRef_Behavior.virtual_getScope_3734116213129936182(thisNode, kind, child);
   }
-
   public Scope virtual_getScope_7722139651431880752(SNode thisNode, SNode kind, String role, int index) {
     return FileRef_Behavior.virtual_getScope_7722139651431880752(thisNode, kind, role, index);
   }
-
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.mps.XChart.structure.FileRef";

@@ -1,279 +1,337 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:3fa3a072-a2b5-4f5f-8976-f2c292a9b866(org.campagnelab.mps.XChart.sandbox)">
-  <persistence version="8" />
-  <language namespace="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)" />
-  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-  <language namespace="798100da-4f0a-421a-b991-71f8c50ce5d2(jetbrains.mps.build)" />
-  <language namespace="479c7a8c-02f9-43b5-9139-d910cb22f298(jetbrains.mps.core.xml)" />
-  <language namespace="58f98fef-90ad-4b72-a390-fad66ec7005a(jetbrains.mps.core.properties)" />
-  <language namespace="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" />
-  <language namespace="698a8d22-a104-47a0-ba8d-10e3ec237f13(jetbrains.mps.build.workflow)" />
-  <language namespace="73c1a490-99fa-4d0d-8292-b8985697c74b(jetbrains.mps.execution.common)" />
-  <language namespace="ecf91126-e504-4aae-8ee7-3192d64e77f6(org.campagnelab.mps.XChart.types)" />
-  <language-engaged-on-generation namespace="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)" />
-  <import index="r80k" modelUID="f:java_stub#5ec1cd3d-0a50-4049-a8fa-ae768d7baa25#com.xeiam.xchart(org.campagnelab.mps.XChart/com.xeiam.xchart@java_stub)" version="-1" />
-  <import index="f96a" modelUID="r:dfb02a61-30b8-47c5-be63-6bf600844860(model)" version="-1" />
-  <import index="ztlb" modelUID="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" version="11" implicit="yes" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="9nc5" modelUID="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" version="-1" implicit="yes" />
-  <root type="ztlb.Tsvfile" typeId="ztlb.3597430320022583657" id="7263499363577631635" nodeInfo="ng">
-    <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
-    <property name="path" nameId="ztlb.2202909375770434162" value="/Users/fac2003/Dropbox/projects/CALHM1_KO/BXUJDPK-WT-310-s1.ann-counts.tsv" />
-    <property name="name" nameId="tpck.1169194664001" value="BXUJDPK-WT-310-s1.ann-counts.tsv" />
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648214" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="basename" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+<model ref="r:3fa3a072-a2b5-4f5f-8976-f2c292a9b866(org.campagnelab.mps.XChart.sandbox)">
+  <persistence version="9" />
+  <languages>
+    <use id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart" version="-1" />
+    <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="-1" />
+    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="-1" />
+    <use id="58f98fef-90ad-4b72-a390-fad66ec7005a" name="jetbrains.mps.core.properties" version="-1" />
+    <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="-1" />
+    <use id="698a8d22-a104-47a0-ba8d-10e3ec237f13" name="jetbrains.mps.build.workflow" version="-1" />
+    <use id="73c1a490-99fa-4d0d-8292-b8985697c74b" name="jetbrains.mps.execution.common" version="-1" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <generationPart ref="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25(org.campagnelab.mps.XChart)" />
+  </languages>
+  <imports>
+    <import index="r80k" ref="f:java_stub#5ec1cd3d-0a50-4049-a8fa-ae768d7baa25#com.xeiam.xchart(org.campagnelab.mps.XChart/com.xeiam.xchart@java_stub)" />
+    <import index="f96a" ref="r:dfb02a61-30b8-47c5-be63-6bf600844860(model)" />
+    <import index="9nc5" ref="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25" name="org.campagnelab.mps.XChart">
+      <concept id="3189972890131712628" name="org.campagnelab.mps.XChart.structure.Legend" flags="ng" index="ja4k5">
+        <property id="3189972890131712707" name="position" index="ja4mM" />
+      </concept>
+      <concept id="5270176140464602975" name="org.campagnelab.mps.XChart.structure.Page" flags="ng" index="2X0H8p">
+        <child id="5270176140464602976" name="charts" index="2X0H8A" />
+        <child id="5270176140465128127" name="columns" index="2X2EZT" />
+      </concept>
+      <concept id="5270176140464883847" name="org.campagnelab.mps.XChart.structure.ScatterPlot" flags="ng" index="2X1mn1" />
+      <concept id="5270176140465521300" name="org.campagnelab.mps.XChart.structure.FileRef" flags="ng" index="2X3aZi">
+        <reference id="5270176140465524721" name="file" index="2X3aaR" />
+        <child id="5270176140464602978" name="selectedColumns" index="2X0H8$" />
+      </concept>
+      <concept id="2202909375770356843" name="org.campagnelab.mps.XChart.structure.Chart" flags="ng" index="31Ii8c">
+        <child id="7263499363579346634" name="style" index="1$ChNU" />
+        <child id="6638345083849920387" name="dataSeries" index="3RtuKH" />
+      </concept>
+      <concept id="2202909375770410339" name="org.campagnelab.mps.XChart.structure.Histogram" flags="ng" index="31JBc4" />
+      <concept id="2202909375770430359" name="org.campagnelab.mps.XChart.structure.DataFile" flags="ng" index="31JGnK">
+        <property id="2202909375770434162" name="path" index="31JHgl" />
+        <child id="2202909375770434164" name="columns" index="31JHgj" />
+      </concept>
+      <concept id="2202909375770430354" name="org.campagnelab.mps.XChart.structure.DelimitedFile" flags="ng" index="31JGnP">
+        <property id="2202909375770898234" name="delimitor" index="31Cu5t" />
+      </concept>
+      <concept id="2202909375770435040" name="org.campagnelab.mps.XChart.structure.ColumnToDoubles" flags="ng" index="31JHe7">
+        <reference id="2202909375770435043" name="column" index="31JHe4" />
+        <reference id="2202909375770440403" name="file" index="31JJMO" />
+      </concept>
+      <concept id="2202909375770434159" name="org.campagnelab.mps.XChart.structure.Column" flags="ng" index="31JHg8">
+        <reference id="3328299660867197501" name="type" index="1YeEjl" />
+      </concept>
+      <concept id="3597430320022583657" name="org.campagnelab.mps.XChart.structure.Tsvfile" flags="ng" index="3oLHET" />
+      <concept id="7263499363579346599" name="org.campagnelab.mps.XChart.structure.ChartStyle" flags="ng" index="1$ChMn">
+        <property id="3189972890129336893" name="maxX" index="j30lc" />
+        <property id="5270176140465640107" name="height" index="2X4JZH" />
+        <property id="5270176140465640105" name="width" index="2X4JZJ" />
+        <property id="7263499363579462027" name="xAxisLabel" index="1$CMeV" />
+        <property id="7263499363579462031" name="yAxisLabel" index="1$CMeZ" />
+        <property id="6638345083846441451" name="title" index="3R09D5" />
+        <child id="3189972890131725464" name="legend" index="ja7fD" />
+      </concept>
+      <concept id="6638345083846214530" name="org.campagnelab.mps.XChart.structure.BarChart" flags="ng" index="3Rfm0G" />
+      <concept id="6638345083850864456" name="org.campagnelab.mps.XChart.structure.DoublesReference" flags="ng" index="3Rh1jA">
+        <reference id="6638345083850864457" name="doubles" index="3Rh1jB" />
+      </concept>
+      <concept id="6638345083849920489" name="org.campagnelab.mps.XChart.structure.DataSeries" flags="ng" index="3RtuL7">
+        <child id="6638345083850864451" name="values" index="3Rh1jH" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="3oLHET" id="6jd8z00kxej">
+    <property role="31Cu5t" value="&#9;" />
+    <property role="31JHgl" value="/Users/fac2003/Dropbox/projects/CALHM1_KO/BXUJDPK-WT-310-s1.ann-counts.tsv" />
+    <property role="TrG5h" value="BXUJDPK-WT-310-s1.ann-counts.tsv" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6m" role="31JHgj">
+      <property role="TrG5h" value="basename" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648215" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="main-id" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6n" role="31JHgj">
+      <property role="TrG5h" value="main-id" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648216" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="secondary-id" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6o" role="31JHgj">
+      <property role="TrG5h" value="secondary-id" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648217" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="type" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6p" role="31JHgj">
+      <property role="TrG5h" value="type" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648218" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="chro" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6q" role="31JHgj">
+      <property role="TrG5h" value="chro" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648219" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="strand" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6r" role="31JHgj">
+      <property role="TrG5h" value="strand" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648220" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="length" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6s" role="31JHgj">
+      <property role="TrG5h" value="length" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648221" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="start" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6t" role="31JHgj">
+      <property role="TrG5h" value="start" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648222" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="end" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6u" role="31JHgj">
+      <property role="TrG5h" value="end" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648223" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="in-count" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6v" role="31JHgj">
+      <property role="TrG5h" value="in-count" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648224" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="over-count" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6w" role="31JHgj">
+      <property role="TrG5h" value="over-count" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648225" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="RPKM" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6x" role="31JHgj">
+      <property role="TrG5h" value="RPKM" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648226" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="log2(PRKM+1)" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6y" role="31JHgj">
+      <property role="TrG5h" value="log2(PRKM+1)" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648227" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="expression" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6z" role="31JHgj">
+      <property role="TrG5h" value="expression" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648228" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="num-exons" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y6$" role="31JHgj">
+      <property role="TrG5h" value="num-exons" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-  </root>
-  <root type="ztlb.Tsvfile" typeId="ztlb.3597430320022583657" id="6638345083846547227" nodeInfo="ng">
-    <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
-    <property name="path" nameId="ztlb.2202909375770434162" value="/Users/fac2003/MPSProjects/XChart/CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
-    <property name="name" nameId="tpck.1169194664001" value="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648258" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="basename" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+  </node>
+  <node concept="3oLHET" id="5Kw8UUF8_sr">
+    <property role="31Cu5t" value="&#9;" />
+    <property role="31JHgl" value="/Users/fac2003/MPSProjects/XChart/CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+    <property role="TrG5h" value="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+    <node concept="31JHg8" id="5Kw8UUF8Y72" role="31JHgj">
+      <property role="TrG5h" value="basename" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648259" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="read-index" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y73" role="31JHgj">
+      <property role="TrG5h" value="read-index" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648260" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="count-variation-bases" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y74" role="31JHgj">
+      <property role="TrG5h" value="count-variation-bases" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648261" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="bases-at-index/all-variations-bases" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y75" role="31JHgj">
+      <property role="TrG5h" value="bases-at-index/all-variations-bases" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648262" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="bases-at-index/all-reference-bases" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y76" role="31JHgj">
+      <property role="TrG5h" value="bases-at-index/all-reference-bases" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648263" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="count-reference-bases" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y77" role="31JHgj">
+      <property role="TrG5h" value="count-reference-bases" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083846648264" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="count-reference-bases-at-index" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
+    <node concept="31JHg8" id="5Kw8UUF8Y78" role="31JHgj">
+      <property role="TrG5h" value="count-reference-bases-at-index" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-  </root>
-  <root type="ztlb.Page" typeId="ztlb.5270176140464602975" id="6638345083846547277" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="SequenceVariations" />
-    <node role="columns" roleId="ztlb.5270176140465128127" type="ztlb.FileRef" typeId="ztlb.5270176140465521300" id="6638345083846648272" nodeInfo="ng">
-      <link role="file" roleId="ztlb.5270176140465524721" targetNodeId="6638345083846547227" resolveInfo="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
-      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="6638345083846648276" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="count-variation-bases" />
-        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="6638345083846547227" resolveInfo="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
-        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="6638345083846648260" resolveInfo="count-variation-bases" />
+  </node>
+  <node concept="2X0H8p" id="5Kw8UUF8_td">
+    <property role="TrG5h" value="SequenceVariations" />
+    <node concept="2X3aZi" id="5Kw8UUF8Y7g" role="2X2EZT">
+      <ref role="2X3aaR" node="5Kw8UUF8_sr" resolve="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+      <node concept="31JHe7" id="5Kw8UUF8Y7k" role="2X0H8$">
+        <property role="TrG5h" value="count-variation-bases" />
+        <ref role="31JJMO" node="5Kw8UUF8_sr" resolve="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+        <ref role="31JHe4" node="5Kw8UUF8Y74" resolve="count-variation-bases" />
       </node>
-      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="6638345083846648274" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="read-index" />
-        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="6638345083846547227" resolveInfo="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
-        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="6638345083846648259" resolveInfo="read-index" />
+      <node concept="31JHe7" id="5Kw8UUF8Y7i" role="2X0H8$">
+        <property role="TrG5h" value="read-index" />
+        <ref role="31JJMO" node="5Kw8UUF8_sr" resolve="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+        <ref role="31JHe4" node="5Kw8UUF8Y73" resolve="read-index" />
       </node>
-      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="9178698721098102290" nodeInfo="ng">
-        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="6638345083846547227" resolveInfo="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+      <node concept="31JHe7" id="7XxitGzoBoi" role="2X0H8$">
+        <ref role="31JJMO" node="5Kw8UUF8_sr" resolve="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
       </node>
     </node>
-    <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.BarChart" typeId="ztlb.6638345083846214530" id="6638345083853653990" nodeInfo="ng">
-      <node role="style" roleId="ztlb.7263499363579346634" type="ztlb.ChartStyle" typeId="ztlb.7263499363579346599" id="6638345083853653991" nodeInfo="ng">
-        <property name="width" nameId="ztlb.5270176140465640105" value="800" />
-        <property name="height" nameId="ztlb.5270176140465640107" value="400" />
-        <property name="title" nameId="ztlb.6638345083846441451" value="Title" />
-        <property name="xAxisLabel" nameId="ztlb.7263499363579462027" value="The X Axis, scaled with max X=200" />
-        <property name="yAxisLabel" nameId="ztlb.7263499363579462031" value="Y" />
-        <property name="name" nameId="tpck.1169194664001" value="SequenceVariation" />
-        <property name="maxX" nameId="ztlb.3189972890129336893" value="200" />
-        <node role="legend" roleId="ztlb.3189972890131725464" type="ztlb.Legend" typeId="ztlb.3189972890131712628" id="3189972890133419566" nodeInfo="ng">
-          <property name="position" nameId="ztlb.3189972890131712707" value="InsideSW" />
+    <node concept="3Rfm0G" id="5Kw8UUFzGvA" role="2X0H8A">
+      <node concept="1$ChMn" id="5Kw8UUFzGvB" role="1$ChNU">
+        <property role="2X4JZJ" value="800" />
+        <property role="2X4JZH" value="400" />
+        <property role="3R09D5" value="Title" />
+        <property role="1$CMeV" value="The X Axis, scaled with max X=200" />
+        <property role="1$CMeZ" value="Y" />
+        <property role="TrG5h" value="SequenceVariation" />
+        <property role="j30lc" value="200" />
+        <node concept="ja4k5" id="2L53R4ZxPoI" role="ja7fD">
+          <property role="ja4mM" value="InsideSW" />
         </node>
       </node>
-      <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="6638345083853653992" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="data" />
-        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="6638345083853653993" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="x" />
-          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648274" resolveInfo="read-index" />
+      <node concept="3RtuL7" id="5Kw8UUFzGvC" role="3RtuKH">
+        <property role="TrG5h" value="data" />
+        <node concept="3Rh1jA" id="5Kw8UUFzGvD" role="3Rh1jH">
+          <property role="TrG5h" value="x" />
+          <ref role="3Rh1jB" node="5Kw8UUF8Y7i" resolve="read-index" />
         </node>
-        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="6638345083853653994" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="heights" />
-          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648276" resolveInfo="count-variation-bases" />
-        </node>
-      </node>
-    </node>
-  </root>
-  <root type="ztlb.Tsvfile" typeId="ztlb.3597430320022583657" id="6638345083849127064" nodeInfo="ng">
-    <property name="delimitor" nameId="ztlb.2202909375770898234" value="&#9;" />
-    <property name="name" nameId="tpck.1169194664001" value="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
-    <property name="path" nameId="ztlb.2202909375770434162" value="/Users/fac2003/MPSProjects/XChart/CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083849127161" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="basename" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
-    </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083849127162" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="read-index" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
-    </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083849127163" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="count-variation-bases" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
-    </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083849127164" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="bases-at-index/all-variations-bases" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
-    </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083849127165" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="bases-at-index/all-reference-bases" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
-    </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083849127166" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="count-reference-bases" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
-    </node>
-    <node role="columns" roleId="ztlb.2202909375770434164" type="ztlb.Column" typeId="ztlb.2202909375770434159" id="6638345083849127167" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="count-reference-bases-at-index" />
-      <link role="type" roleId="ztlb.3328299660867197501" targetNodeId="9nc5.1993150283055518188" resolveInfo="Numeric" />
-    </node>
-  </root>
-  <root type="ztlb.Page" typeId="ztlb.5270176140464602975" id="568598610957314614" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="ScatterPlotTest" />
-    <node role="columns" roleId="ztlb.5270176140465128127" type="ztlb.FileRef" typeId="ztlb.5270176140465521300" id="568598610957358675" nodeInfo="ng">
-      <link role="file" roleId="ztlb.5270176140465524721" targetNodeId="6638345083846547227" resolveInfo="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
-      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="568598610957358683" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="count-reference-bases-at-index" />
-        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="6638345083846547227" resolveInfo="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
-        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="6638345083846648264" resolveInfo="count-reference-bases-at-index" />
-      </node>
-      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="568598610957358681" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="read-index" />
-        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="6638345083846547227" resolveInfo="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
-        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="6638345083846648259" resolveInfo="read-index" />
-      </node>
-    </node>
-    <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.Histogram" typeId="ztlb.2202909375770410339" id="568598610958081578" nodeInfo="ng">
-      <node role="style" roleId="ztlb.7263499363579346634" type="ztlb.ChartStyle" typeId="ztlb.7263499363579346599" id="568598610958081579" nodeInfo="ng">
-        <property name="width" nameId="ztlb.5270176140465640105" value="400" />
-        <property name="height" nameId="ztlb.5270176140465640107" value="400" />
-        <property name="title" nameId="ztlb.6638345083846441451" value="Title" />
-        <property name="xAxisLabel" nameId="ztlb.7263499363579462027" value="x" />
-        <property name="yAxisLabel" nameId="ztlb.7263499363579462031" value="y" />
-        <property name="maxX" nameId="ztlb.3189972890129336893" value="200" />
-      </node>
-      <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="568598610958081580" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="data" />
-        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="568598610958081581" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="x" />
-          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648276" resolveInfo="count-variation-bases" />
-        </node>
-      </node>
-      <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="3328299660870273618" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="data" />
-        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="3328299660870273619" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="x" />
-          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648276" resolveInfo="count-variation-bases" />
+        <node concept="3Rh1jA" id="5Kw8UUFzGvE" role="3Rh1jH">
+          <property role="TrG5h" value="heights" />
+          <ref role="3Rh1jB" node="5Kw8UUF8Y7k" resolve="count-variation-bases" />
         </node>
       </node>
     </node>
-    <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.ScatterPlot" typeId="ztlb.5270176140464883847" id="568598610957358686" nodeInfo="ng">
-      <node role="style" roleId="ztlb.7263499363579346634" type="ztlb.ChartStyle" typeId="ztlb.7263499363579346599" id="568598610957358687" nodeInfo="ng">
-        <property name="width" nameId="ztlb.5270176140465640105" value="400" />
-        <property name="height" nameId="ztlb.5270176140465640107" value="400" />
-        <property name="title" nameId="ztlb.6638345083846441451" value="Title" />
-        <property name="maxX" nameId="ztlb.3189972890129336893" value="200" />
+  </node>
+  <node concept="3oLHET" id="5Kw8UUFirio">
+    <property role="31Cu5t" value="&#9;" />
+    <property role="TrG5h" value="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+    <property role="31JHgl" value="/Users/fac2003/MPSProjects/XChart/CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+    <node concept="31JHg8" id="5Kw8UUFirjT" role="31JHgj">
+      <property role="TrG5h" value="basename" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+    </node>
+    <node concept="31JHg8" id="5Kw8UUFirjU" role="31JHgj">
+      <property role="TrG5h" value="read-index" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+    </node>
+    <node concept="31JHg8" id="5Kw8UUFirjV" role="31JHgj">
+      <property role="TrG5h" value="count-variation-bases" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+    </node>
+    <node concept="31JHg8" id="5Kw8UUFirjW" role="31JHgj">
+      <property role="TrG5h" value="bases-at-index/all-variations-bases" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+    </node>
+    <node concept="31JHg8" id="5Kw8UUFirjX" role="31JHgj">
+      <property role="TrG5h" value="bases-at-index/all-reference-bases" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+    </node>
+    <node concept="31JHg8" id="5Kw8UUFirjY" role="31JHgj">
+      <property role="TrG5h" value="count-reference-bases" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+    </node>
+    <node concept="31JHg8" id="5Kw8UUFirjZ" role="31JHgj">
+      <property role="TrG5h" value="count-reference-bases-at-index" />
+      <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
+    </node>
+  </node>
+  <node concept="2X0H8p" id="v$4mMhT2CQ">
+    <property role="TrG5h" value="ScatterPlotTest" />
+    <node concept="2X3aZi" id="v$4mMhTdpj" role="2X2EZT">
+      <ref role="2X3aaR" node="5Kw8UUF8_sr" resolve="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+      <node concept="31JHe7" id="v$4mMhTdpr" role="2X0H8$">
+        <property role="TrG5h" value="count-reference-bases-at-index" />
+        <ref role="31JJMO" node="5Kw8UUF8_sr" resolve="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+        <ref role="31JHe4" node="5Kw8UUF8Y78" resolve="count-reference-bases-at-index" />
       </node>
-      <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="568598610957358688" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="data" />
-        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="568598610957358689" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="x" />
-          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648274" resolveInfo="read-index" />
+      <node concept="31JHe7" id="v$4mMhTdpp" role="2X0H8$">
+        <property role="TrG5h" value="read-index" />
+        <ref role="31JJMO" node="5Kw8UUF8_sr" resolve="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+        <ref role="31JHe4" node="5Kw8UUF8Y73" resolve="read-index" />
+      </node>
+    </node>
+    <node concept="31JBc4" id="v$4mMhVXSE" role="2X0H8A">
+      <node concept="1$ChMn" id="v$4mMhVXSF" role="1$ChNU">
+        <property role="2X4JZJ" value="400" />
+        <property role="2X4JZH" value="400" />
+        <property role="3R09D5" value="Title" />
+        <property role="1$CMeV" value="x" />
+        <property role="1$CMeZ" value="y" />
+        <property role="j30lc" value="200" />
+      </node>
+      <node concept="3RtuL7" id="v$4mMhVXSG" role="3RtuKH">
+        <property role="TrG5h" value="data" />
+        <node concept="3Rh1jA" id="v$4mMhVXSH" role="3Rh1jH">
+          <property role="TrG5h" value="x" />
+          <ref role="3Rh1jB" node="5Kw8UUF8Y7k" resolve="count-variation-bases" />
         </node>
-        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="568598610957358690" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="y" />
-          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="6638345083846648276" resolveInfo="count-variation-bases" />
+      </node>
+      <node concept="3RtuL7" id="2SKvIxgesDi" role="3RtuKH">
+        <property role="TrG5h" value="data" />
+        <node concept="3Rh1jA" id="2SKvIxgesDj" role="3Rh1jH">
+          <property role="TrG5h" value="x" />
+          <ref role="3Rh1jB" node="5Kw8UUF8Y7k" resolve="count-variation-bases" />
         </node>
       </node>
     </node>
-  </root>
-  <root type="ztlb.Page" typeId="ztlb.5270176140464602975" id="2791395657285644994" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="TestNaNs" />
-    <node role="charts" roleId="ztlb.5270176140464602976" type="ztlb.Histogram" typeId="ztlb.2202909375770410339" id="2791395657285832739" nodeInfo="ng">
-      <node role="style" roleId="ztlb.7263499363579346634" type="ztlb.ChartStyle" typeId="ztlb.7263499363579346599" id="2791395657285832740" nodeInfo="ng">
-        <property name="width" nameId="ztlb.5270176140465640105" value="400" />
-        <property name="height" nameId="ztlb.5270176140465640107" value="400" />
-        <property name="title" nameId="ztlb.6638345083846441451" value="Title" />
+    <node concept="2X1mn1" id="v$4mMhTdpu" role="2X0H8A">
+      <node concept="1$ChMn" id="v$4mMhTdpv" role="1$ChNU">
+        <property role="2X4JZJ" value="400" />
+        <property role="2X4JZH" value="400" />
+        <property role="3R09D5" value="Title" />
+        <property role="j30lc" value="200" />
       </node>
-      <node role="dataSeries" roleId="ztlb.6638345083849920387" type="ztlb.DataSeries" typeId="ztlb.6638345083849920489" id="2791395657285832741" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="data" />
-        <node role="values" roleId="ztlb.6638345083850864451" type="ztlb.DoublesReference" typeId="ztlb.6638345083850864456" id="2791395657285832742" nodeInfo="ng">
-          <property name="name" nameId="tpck.1169194664001" value="x" />
-          <link role="doubles" roleId="ztlb.6638345083850864457" targetNodeId="2791395657285673809" resolveInfo="MCC" />
+      <node concept="3RtuL7" id="v$4mMhTdpw" role="3RtuKH">
+        <property role="TrG5h" value="data" />
+        <node concept="3Rh1jA" id="v$4mMhTdpx" role="3Rh1jH">
+          <property role="TrG5h" value="x" />
+          <ref role="3Rh1jB" node="5Kw8UUF8Y7i" resolve="read-index" />
+        </node>
+        <node concept="3Rh1jA" id="v$4mMhTdpy" role="3Rh1jH">
+          <property role="TrG5h" value="y" />
+          <ref role="3Rh1jB" node="5Kw8UUF8Y7k" resolve="count-variation-bases" />
         </node>
       </node>
     </node>
-    <node role="columns" roleId="ztlb.5270176140465128127" type="ztlb.FileRef" typeId="ztlb.5270176140465521300" id="2791395657285673806" nodeInfo="ng">
-      <link role="file" roleId="ztlb.5270176140465524721" targetNodeId="f96a.3907958143449570734" resolveInfo="20140815-1051-restat-maqcii-submission.tsv" />
-      <node role="selectedColumns" roleId="ztlb.5270176140464602978" type="ztlb.ColumnToDoubles" typeId="ztlb.2202909375770435040" id="2791395657285673809" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="MCC" />
-        <link role="file" roleId="ztlb.2202909375770440403" targetNodeId="f96a.3907958143449570734" resolveInfo="20140815-1051-restat-maqcii-submission.tsv" />
-        <link role="column" roleId="ztlb.2202909375770435043" targetNodeId="f96a.3907958143449570739" resolveInfo="MCC" />
+  </node>
+  <node concept="2X0H8p" id="2qX1SYk53b2">
+    <property role="TrG5h" value="TestNaNs" />
+    <node concept="31JBc4" id="2qX1SYk5L0z" role="2X0H8A">
+      <node concept="1$ChMn" id="2qX1SYk5L0$" role="1$ChNU">
+        <property role="2X4JZJ" value="400" />
+        <property role="2X4JZH" value="400" />
+        <property role="3R09D5" value="Title" />
+      </node>
+      <node concept="3RtuL7" id="2qX1SYk5L0_" role="3RtuKH">
+        <property role="TrG5h" value="data" />
+        <node concept="3Rh1jA" id="2qX1SYk5L0A" role="3Rh1jH">
+          <property role="TrG5h" value="x" />
+          <ref role="3Rh1jB" node="2qX1SYk5adh" resolve="MCC" />
+        </node>
       </node>
     </node>
-  </root>
+    <node concept="2X3aZi" id="2qX1SYk5ade" role="2X2EZT">
+      <ref role="2X3aaR" to="f96a:3oVQNBDq1QI" resolve="20140815-1051-restat-maqcii-submission.tsv" />
+      <node concept="31JHe7" id="2qX1SYk5adh" role="2X0H8$">
+        <property role="TrG5h" value="MCC" />
+        <ref role="31JJMO" to="f96a:3oVQNBDq1QI" resolve="20140815-1051-restat-maqcii-submission.tsv" />
+        <ref role="31JHe4" to="f96a:3oVQNBDq1QN" resolve="MCC" />
+      </node>
+    </node>
+  </node>
 </model>
 

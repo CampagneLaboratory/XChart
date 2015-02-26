@@ -6,7 +6,6 @@ package org.campagnelab.mps.XChart.behavior;
 public class DelimitedFile_BehaviorDescriptor extends DataFile_BehaviorDescriptor {
   public DelimitedFile_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.mps.XChart.structure.DelimitedFile";

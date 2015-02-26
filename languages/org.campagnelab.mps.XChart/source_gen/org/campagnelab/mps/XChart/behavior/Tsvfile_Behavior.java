@@ -4,9 +4,10 @@ package org.campagnelab.mps.XChart.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class Tsvfile_Behavior {
   public static void init(SNode thisNode) {
-    SPropertyOperations.set(thisNode, "delimitor", "\t");
+    SPropertyOperations.set(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b92L, 0x1e924e67df33af3aL, "delimitor"), "\t");
   }
 }

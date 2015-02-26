@@ -6,7 +6,6 @@ package org.campagnelab.mps.XChart.behavior;
 public class Tsvfile_BehaviorDescriptor extends DelimitedFile_BehaviorDescriptor {
   public Tsvfile_BehaviorDescriptor() {
   }
-
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.mps.XChart.structure.Tsvfile";

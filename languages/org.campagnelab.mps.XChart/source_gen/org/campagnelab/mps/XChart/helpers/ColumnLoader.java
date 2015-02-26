@@ -62,7 +62,6 @@ public class ColumnLoader {
       }
     }
   }
-
   public static void stripDoubleQuotes(String[] columnNames) {
     int index = 0;
     while (index < columnNames.length) {
@@ -70,7 +69,6 @@ public class ColumnLoader {
       index++;
     }
   }
-
 
 
 }

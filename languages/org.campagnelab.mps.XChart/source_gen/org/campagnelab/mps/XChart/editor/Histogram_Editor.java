@@ -17,11 +17,9 @@ public class Histogram_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_dnpd9w_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createComponent_dnpd9w_a(editorContext, node);
   }
-
   private EditorCell createCollection_dnpd9w_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_dnpd9w_a");
@@ -32,36 +30,30 @@ public class Histogram_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createJComponent_dnpd9w_d0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_dnpd9w_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "histogram of ");
     editorCell.setCellId("Constant_dnpd9w_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createComponent_dnpd9w_b0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "org.campagnelab.mps.XChart.editor.DataSeriesComponent");
     return editorCell;
   }
-
   private EditorCell createConstant_dnpd9w_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_dnpd9w_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createJComponent_dnpd9w_d0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, Histogram_Editor._QueryFunction_JComponent_dnpd9w_a3a(node, editorContext), "_dnpd9w_d0");
     editorCell.setCellId("JComponent_dnpd9w_d0");
     return editorCell;
   }
-
   private static JComponent _QueryFunction_JComponent_dnpd9w_a3a(final SNode node, final EditorContext editorContext) {
     return BehaviorReflection.invokeVirtual(JComponent.class, node, "virtual_getJComponent_5455899477603853704", new Object[]{});
   }
-
   private EditorCell createComponent_dnpd9w_a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "org.campagnelab.mps.XChart.editor.ChartDimensions");
     EditorCell bigCell = BigCellUtil.findBigCell(editorCell, node);

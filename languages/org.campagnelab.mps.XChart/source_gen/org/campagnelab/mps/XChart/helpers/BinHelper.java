@@ -25,7 +25,6 @@ public class BinHelper {
     }
     return result;
   }
-
   public static void bin(double[] data, ArrayList<Double> x, ArrayList<Double> y) {
     double min = Double.MAX_VALUE;
     double max = Double.MIN_VALUE;

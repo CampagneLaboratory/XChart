@@ -20,11 +20,9 @@ public class ScatterPlot_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_1j0lna_a(editorContext, node);
   }
-
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
     return this.createComponent_1j0lna_a(editorContext, node);
   }
-
   private EditorCell createCollection_1j0lna_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_1j0lna_a");
@@ -36,46 +34,39 @@ public class ScatterPlot_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_1j0lna_e0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createConstant_1j0lna_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Scatter Plot");
     editorCell.setCellId("Constant_1j0lna_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createComponent_1j0lna_b0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "org.campagnelab.mps.XChart.editor.DataSeriesComponent");
     return editorCell;
   }
-
   private EditorCell createConstant_1j0lna_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_1j0lna_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createJComponent_1j0lna_d0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, ScatterPlot_Editor._QueryFunction_JComponent_1j0lna_a3a(node, editorContext), "_1j0lna_d0");
     editorCell.setCellId("JComponent_1j0lna_d0");
     Style style = new StyleImpl();
-    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, 0, true);
     editorCell.getStyle().putAll(style);
     return editorCell;
   }
-
   private static JComponent _QueryFunction_JComponent_1j0lna_a3a(final SNode node, final EditorContext editorContext) {
     return BehaviorReflection.invokeVirtual(JComponent.class, node, "virtual_getJComponent_5455899477603853704", new Object[]{});
   }
-
   private EditorCell createConstant_1j0lna_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_1j0lna_e0");
     editorCell.setDefaultText("");
     return editorCell;
   }
-
   private EditorCell createComponent_1j0lna_a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "org.campagnelab.mps.XChart.editor.ChartDimensions");
     EditorCell bigCell = BigCellUtil.findBigCell(editorCell, node);

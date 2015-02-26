@@ -5,29 +5,29 @@ package org.campagnelab.mps.XChart.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import com.xeiam.xchart.StyleManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 
 public class Legend_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static StyleManager.LegendPosition call_getPosition_3189972890131779785(SNode thisNode) {
 
-    if (SPropertyOperations.getString_def(thisNode, "position", "InsideN").equals("InsideN".toString())) {
+    if (SPropertyOperations.getString_def(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x2c450f713f6d4a74L, 0x2c450f713f6d4ac3L, "position"), "InsideN").equals("InsideN".toString())) {
       return StyleManager.LegendPosition.InsideN;
     }
-    if (SPropertyOperations.getString_def(thisNode, "position", "InsideN").equals("InsideNE".toString())) {
+    if (SPropertyOperations.getString_def(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x2c450f713f6d4a74L, 0x2c450f713f6d4ac3L, "position"), "InsideN").equals("InsideNE".toString())) {
       return StyleManager.LegendPosition.InsideNE;
     }
-    if (SPropertyOperations.getString_def(thisNode, "position", "InsideN").equals("InsideNW".toString())) {
+    if (SPropertyOperations.getString_def(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x2c450f713f6d4a74L, 0x2c450f713f6d4ac3L, "position"), "InsideN").equals("InsideNW".toString())) {
       return StyleManager.LegendPosition.InsideNW;
     }
-    if (SPropertyOperations.getString_def(thisNode, "position", "InsideN").equals("InsideSE".toString())) {
+    if (SPropertyOperations.getString_def(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x2c450f713f6d4a74L, 0x2c450f713f6d4ac3L, "position"), "InsideN").equals("InsideSE".toString())) {
       return StyleManager.LegendPosition.InsideSE;
     }
-    if (SPropertyOperations.getString_def(thisNode, "position", "InsideN").equals("InsideSW".toString())) {
+    if (SPropertyOperations.getString_def(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x2c450f713f6d4a74L, 0x2c450f713f6d4ac3L, "position"), "InsideN").equals("InsideSW".toString())) {
       return StyleManager.LegendPosition.InsideSW;
     }
-    if (SPropertyOperations.getString_def(thisNode, "position", "InsideN").equals("OutsideE".toString())) {
+    if (SPropertyOperations.getString_def(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x2c450f713f6d4a74L, 0x2c450f713f6d4ac3L, "position"), "InsideN").equals("OutsideE".toString())) {
       return StyleManager.LegendPosition.OutsideE;
     }
     return StyleManager.LegendPosition.InsideSW;

@@ -17,7 +17,6 @@ public class Doubles_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_980cth_a(editorContext, node);
   }
-
   private EditorCell createCollection_980cth_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_980cth_a");
@@ -25,16 +24,13 @@ public class Doubles_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createModelAccess_980cth_a0(editorContext, node));
     return editorCell;
   }
-
   private EditorCell createModelAccess_980cth_a0(final EditorContext editorContext, final SNode node) {
     ModelAccessor modelAccessor = new ModelAccessor() {
       public String getText() {
         return BehaviorReflection.invokeVirtual(String.class, node, "virtual_getColumnName_7335187880077215104", new Object[]{});
       }
-
       public void setText(String text) {
       }
-
       public boolean isValidText(String text) {
         return true;
       }

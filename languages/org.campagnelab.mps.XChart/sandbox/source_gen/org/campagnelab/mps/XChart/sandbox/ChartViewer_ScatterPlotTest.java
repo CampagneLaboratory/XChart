@@ -69,8 +69,6 @@ public class ChartViewer_ScatterPlotTest {
     return charts;
   }
 
-
-
   /**
    * Returns a JFrame with the charts that display the content of the files.
    */
@@ -81,7 +79,6 @@ public class ChartViewer_ScatterPlotTest {
     wrapper.displayChartMatrix();
 
   }
-
   /**
    * Returns a JPanel with the charts that display the content of the files.
    */
@@ -90,10 +87,8 @@ public class ChartViewer_ScatterPlotTest {
     CustomSwingWrapper wrapper = new CustomSwingWrapper(charts);
     return wrapper.getChartMatrixPanel();
   }
-
   public static void main(String[] args) {
     view(args);
   }
-
 
 }

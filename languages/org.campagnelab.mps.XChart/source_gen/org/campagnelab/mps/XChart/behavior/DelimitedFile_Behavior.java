@@ -7,6 +7,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.File;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.campagnelab.mps.XChart.helpers.ColumnLoader;
 import java.io.IOException;
 import org.campagnelab.mps.XChart.helpers.ColumnTypeGuesser;
@@ -22,13 +23,12 @@ import org.apache.log4j.LogManager;
 public class DelimitedFile_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static String[] call_parseColumns_3597430320022539917(SNode thisNode) {
     BufferedReader reader = null;
     try {
-      reader = new BufferedReader(new FileReader(new File(SPropertyOperations.getString(thisNode, "path"))));
+      reader = new BufferedReader(new FileReader(new File(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a72L, "path")))));
       String header = reader.readLine();
-      String[] columns = header.split(SPropertyOperations.getString(thisNode, "delimitor"));
+      String[] columns = header.split(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b92L, 0x1e924e67df33af3aL, "delimitor")));
       ColumnLoader.stripDoubleQuotes(columns);
       return columns;
     } catch (IOException e) {
@@ -42,9 +42,8 @@ public class DelimitedFile_Behavior {
       }
     }
   }
-
   public static void call_assignColumnType_5010237105647900617(SNode thisNode, SNode column) {
-    ColumnTypeGuesser guesser = new ColumnTypeGuesser(SPropertyOperations.getString(thisNode, "path"), SPropertyOperations.getString(column, "name"), SPropertyOperations.getString(thisNode, "delimitor"));
+    ColumnTypeGuesser guesser = new ColumnTypeGuesser(SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a72L, "path")), SPropertyOperations.getString(column, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), SPropertyOperations.getString(thisNode, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b92L, 0x1e924e67df33af3aL, "delimitor")));
     Types type = guesser.guessValuesType();
     if (LOG.isInfoEnabled()) {
       LOG.info("returned type from guesser " + type.toString());
@@ -53,15 +52,14 @@ public class DelimitedFile_Behavior {
     // for category, we need also to populate the members 
     if (type == Types.CATEGORY) {
       for (String value : guesser.getColumnUniqueValues()) {
-        SNode newMember = SModelOperations.createNewNode(SNodeOperations.getModel(thisNode), null, "org.campagnelab.mps.XChart.types.structure.CategoryValue");
-        SPropertyOperations.set(newMember, "name", value);
-        ListSequence.fromList(SLinkOperations.getTargets(SNodeOperations.cast(typeRef, "org.campagnelab.mps.XChart.types.structure.ColumnCategoryType"), "members", true)).addElement(newMember);
+        SNode newMember = SModelOperations.createNewNode(SNodeOperations.getModel(thisNode), null, SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0xecf91126e5044aaeL, 0x8ee73192d64e77f6L, 0x7ba0dd1c8fd02c54L, "org.campagnelab.mps.XChart.types.structure.CategoryValue")));
+        SPropertyOperations.set(newMember, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), value);
+        ListSequence.fromList(SLinkOperations.getChildren(SNodeOperations.cast(typeRef, MetaAdapterFactory.getConcept(0xecf91126e5044aaeL, 0x8ee73192d64e77f6L, 0x111107811be80fcdL, "org.campagnelab.mps.XChart.types.structure.ColumnCategoryType")), MetaAdapterFactory.getContainmentLink(0xecf91126e5044aaeL, 0x8ee73192d64e77f6L, 0x111107811be80fcdL, 0x7ba0dd1c8fd02ca7L, "members"))).addElement(newMember);
       }
-      SPropertyOperations.set(typeRef, "name", "Categories from " + SPropertyOperations.getString(column, "name"));
-      SLinkOperations.setTarget(column, "category", SNodeOperations.cast(typeRef, "org.campagnelab.mps.XChart.types.structure.ColumnCategoryType"), true);
+      SPropertyOperations.set(typeRef, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "Categories from " + SPropertyOperations.getString(column, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+      SLinkOperations.setTarget(column, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9a6fL, 0x2e307ee8500ed306L, "category"), SNodeOperations.cast(typeRef, MetaAdapterFactory.getConcept(0xecf91126e5044aaeL, 0x8ee73192d64e77f6L, 0x111107811be80fcdL, "org.campagnelab.mps.XChart.types.structure.ColumnCategoryType")));
     }
-    SLinkOperations.setTarget(column, "type", typeRef, false);
+    SLinkOperations.setTarget(column, MetaAdapterFactory.getReferenceLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9a6fL, 0x2e307ee8500ada3dL, "type"), typeRef);
   }
-
   protected static Logger LOG = LogManager.getLogger(DelimitedFile_Behavior.class);
 }

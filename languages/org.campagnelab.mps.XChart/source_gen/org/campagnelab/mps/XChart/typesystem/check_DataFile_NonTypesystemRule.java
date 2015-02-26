@@ -8,6 +8,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.io.File;
 import jetbrains.mps.errors.messageTargets.MessageTarget;
 import jetbrains.mps.errors.messageTargets.NodeMessageTarget;
@@ -17,12 +18,11 @@ import jetbrains.mps.smodel.SModelUtil_new;
 public class check_DataFile_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
   public check_DataFile_NonTypesystemRule() {
   }
-
   public void applyRule(final SNode dataFile, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (SPropertyOperations.getString(dataFile, "path") == null) {
+    if (SPropertyOperations.getString(dataFile, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a72L, "path")) == null) {
       return;
     }
-    File file = new File(SPropertyOperations.getString(dataFile, "path"));
+    File file = new File(SPropertyOperations.getString(dataFile, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a72L, "path")));
     if (file == null) {
       return;
     }
@@ -33,18 +33,15 @@ public class check_DataFile_NonTypesystemRule extends AbstractNonTypesystemRule_
       }
     }
   }
-
   public String getApplicableConceptFQName() {
     return "org.campagnelab.mps.XChart.structure.DataFile";
   }
-
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {
     {
       boolean b = SModelUtil_new.isAssignableConcept(argument.getConcept().getQualifiedName(), this.getApplicableConceptFQName());
       return new IsApplicableStatus(b, null);
     }
   }
-
   public boolean overrides() {
     return false;
   }

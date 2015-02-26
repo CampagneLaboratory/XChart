@@ -4,46 +4,40 @@ package org.campagnelab.mps.XChart.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import com.xeiam.xchart.XChartPanel;
 import jetbrains.mps.openapi.editor.EditorContext;
-import javax.swing.JComponent;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class Chart_Behavior {
   public static void init(SNode thisNode) {
-    SLinkOperations.setTarget(thisNode, "style", SConceptOperations.createNewNode("org.campagnelab.mps.XChart.structure.ChartStyle", null), true);
+    SLinkOperations.setTarget(thisNode, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2b6c6bL, 0x64cd2230006c3ecaL, "style"), SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, "org.campagnelab.mps.XChart.structure.ChartStyle"))));
   }
-
   public static void call_addSeries_6638345083849971954(SNode thisNode, String seriesName, String... valueNames) {
     SNode series = Chart_Behavior.call_createNewSeries_6638345083852264294(thisNode, seriesName, valueNames);
-    ListSequence.fromList(SLinkOperations.getTargets(thisNode, "dataSeries", true)).addElement(series);
+    ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2b6c6bL, 0x5c2023aeab55cf83L, "dataSeries"))).addElement(series);
   }
-
   public static SNode call_createNewSeries_6638345083852264294(SNode thisNode, String seriesName, String... valueNames) {
-    SNode series = SConceptOperations.createNewNode("org.campagnelab.mps.XChart.structure.DataSeries", null);
-    SPropertyOperations.set(series, "name", seriesName);
+    SNode series = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x5c2023aeab55cfe9L, "org.campagnelab.mps.XChart.structure.DataSeries")));
+    SPropertyOperations.set(series, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), seriesName);
     for (String value : valueNames) {
-      SNode ref = SConceptOperations.createNewNode("org.campagnelab.mps.XChart.structure.DoublesReference", null);
-      SPropertyOperations.set(ref, "name", value);
-      ListSequence.fromList(SLinkOperations.getTargets(series, "values", true)).addElement(ref);
+      SNode ref = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x5c2023aeab643748L, "org.campagnelab.mps.XChart.structure.DoublesReference")));
+      SPropertyOperations.set(ref, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), value);
+      ListSequence.fromList(SLinkOperations.getChildren(series, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x5c2023aeab55cfe9L, 0x5c2023aeab643743L, "values"))).addElement(ref);
     }
     return series;
   }
-
   public static SNode call_series_6638345083850011770(SNode thisNode, final String name) {
-    return ListSequence.fromList(SLinkOperations.getTargets(thisNode, "dataSeries", true)).findFirst(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SLinkOperations.getChildren(thisNode, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2b6c6bL, 0x5c2023aeab55cf83L, "dataSeries"))).findFirst(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SPropertyOperations.getString(it, "name").equals(name);
+        return SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")).equals(name);
       }
     });
   }
-
   public static XChartPanel virtual_getComponentInternal_7263499363579573717(SNode thisNode) {
     XChartPanel component = null;
 
@@ -55,43 +49,19 @@ public class Chart_Behavior {
     }
     return component;
   }
-
   public static void call_putComponentInternal_7263499363579768301(SNode thisNode, XChartPanel component) {
     thisNode.putUserObject("component", component);
   }
-
   public static int call_getWidth_7263499363579584527(SNode thisNode) {
-    int width = Math.max(150, SPropertyOperations.getInteger(SLinkOperations.getTarget(thisNode, "style", true), "width"));
+    int width = Math.max(150, SPropertyOperations.getInteger(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2b6c6bL, 0x64cd2230006c3ecaL, "style")), MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x49236d46f43192a9L, "width")));
     return width;
   }
-
   public static int call_getHeight_7263499363579587829(SNode thisNode) {
-    int height = Math.max(150, SPropertyOperations.getInteger(SLinkOperations.getTarget(thisNode, "style", true), "height"));
+    int height = Math.max(150, SPropertyOperations.getInteger(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2b6c6bL, 0x64cd2230006c3ecaL, "style")), MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x49236d46f43192abL, "height")));
     return height;
   }
-
   public static void call_refresh_1507870905442172858(SNode thisNode, EditorContext editorContext) {
     Chart_Behavior.call_putComponentInternal_7263499363579768301(thisNode, null);
     editorContext.getEditorComponent().rebuildEditorContent();
-  }
-
-  @Deprecated
-  public static JComponent call_getJComponent_5455899477603853704(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(JComponent.class, thisNode, "virtual_getJComponent_5455899477603853704", new Object[]{});
-  }
-
-  @Deprecated
-  public static JComponent callSuper_getJComponent_5455899477603853704(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper(JComponent.class, SNodeOperations.cast(thisNode, "org.campagnelab.mps.XChart.structure.Chart"), callerConceptFqName, "virtual_getJComponent_5455899477603853704", new Class[]{SNode.class}, new Object[]{});
-  }
-
-  @Deprecated
-  public static XChartPanel call_getComponentInternal_7263499363579573717(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(XChartPanel.class, thisNode, "virtual_getComponentInternal_7263499363579573717", new Object[]{});
-  }
-
-  @Deprecated
-  public static XChartPanel callSuper_getComponentInternal_7263499363579573717(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper(XChartPanel.class, SNodeOperations.cast(thisNode, "org.campagnelab.mps.XChart.structure.Chart"), callerConceptFqName, "virtual_getComponentInternal_7263499363579573717", new Class[]{SNode.class}, new Object[]{});
   }
 }

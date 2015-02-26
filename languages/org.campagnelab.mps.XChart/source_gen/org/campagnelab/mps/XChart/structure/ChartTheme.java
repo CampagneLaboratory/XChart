@@ -12,15 +12,12 @@ public enum ChartTheme {
   XChart("XChart", "XChart");
 
   private String myName;
-
   public String getName() {
     return this.myName;
   }
-
   public String getValueAsString() {
     return this.myValue;
   }
-
   public static List<ChartTheme> getConstants() {
     List<ChartTheme> list = ListSequence.fromList(new LinkedList<ChartTheme>());
     ListSequence.fromList(list).addElement(ChartTheme.GGPlot2);
@@ -28,11 +25,9 @@ public enum ChartTheme {
     ListSequence.fromList(list).addElement(ChartTheme.XChart);
     return list;
   }
-
   public static ChartTheme getDefault() {
     return ChartTheme.XChart;
   }
-
   public static ChartTheme parseValue(String value) {
     if (value == null) {
       return ChartTheme.getDefault();
@@ -48,14 +43,11 @@ public enum ChartTheme {
     }
     return ChartTheme.getDefault();
   }
-
   private String myValue;
-
   ChartTheme(String name, String value) {
     this.myName = name;
     this.myValue = value;
   }
-
   public String getValue() {
     return this.myValue;
   }

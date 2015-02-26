@@ -5,44 +5,31 @@ package org.campagnelab.mps.XChart.behavior;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import org.campagnelab.mps.XChart.helpers.ColumnLoader;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class ColumnToDoubles_Behavior {
   public static void init(SNode thisNode) {
   }
-
   public static double[] virtual_getDoubles_2202909375770410262(SNode thisNode) {
-    double[] cached = (double[]) thisNode.getUserObject(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "file", false), "path") + SLinkOperations.getTarget(thisNode, "column", false));
+    double[] cached = (double[]) thisNode.getUserObject(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9de0L, 0x1e924e67df2cb2d3L, "file")), MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a72L, "path")) + SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9de0L, 0x1e924e67df2c9de3L, "column")));
     if (cached != null) {
       return cached;
     }
     String delimiter = "\t";
     {
-      SNode dFile = SLinkOperations.getTarget(thisNode, "file", false);
-      if (SNodeOperations.isInstanceOf(dFile, "org.campagnelab.mps.XChart.structure.DelimitedFile")) {
-        delimiter = SPropertyOperations.getString(dFile, "delimitor");
+      final SNode dFile = SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9de0L, 0x1e924e67df2cb2d3L, "file"));
+      if (SNodeOperations.isInstanceOf(dFile, MetaAdapterFactory.getConcept(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b92L, "org.campagnelab.mps.XChart.structure.DelimitedFile"))) {
+        delimiter = SPropertyOperations.getString(dFile, MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b92L, 0x1e924e67df33af3aL, "delimitor"));
       }
     }
-    double[] result = ColumnLoader.load(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "file", false), "path"), SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "column", false), "name"), delimiter);
-    thisNode.putUserObject(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "file", false), "path") + SLinkOperations.getTarget(thisNode, "column", false), result);
+    double[] result = ColumnLoader.load(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9de0L, 0x1e924e67df2cb2d3L, "file")), MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a72L, "path")), SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9de0L, 0x1e924e67df2c9de3L, "column")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), delimiter);
+    thisNode.putUserObject(SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9de0L, 0x1e924e67df2cb2d3L, "file")), MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a72L, "path")) + SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9de0L, 0x1e924e67df2c9de3L, "column")), result);
     return result;
 
   }
-
   public static String virtual_getColumnName_7335187880077215104(SNode thisNode) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "column", false), "name");
-  }
-
-  @Deprecated
-  public static String call_getColumnName_4089421369806385653(SNode thisNode) {
-    return BehaviorReflection.invokeVirtual(String.class, thisNode, "virtual_getColumnName_7335187880077215104", new Object[]{});
-  }
-
-  @Deprecated
-  public static String callSuper_getColumnName_4089421369806385653(SNode thisNode, String callerConceptFqName) {
-    return BehaviorManager.getInstance().invokeSuper(String.class, SNodeOperations.cast(thisNode, "org.campagnelab.mps.XChart.structure.ColumnToDoubles"), callerConceptFqName, "virtual_getColumnName_7335187880077215104", new Class[]{SNode.class}, new Object[]{});
+    return SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, MetaAdapterFactory.getReferenceLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9de0L, 0x1e924e67df2c9de3L, "column")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"));
   }
 }

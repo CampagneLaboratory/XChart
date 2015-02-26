@@ -21,11 +21,9 @@ public class CustomSwingWrapper {
   private int numRows;
   private int numColumns;
   private int onClose = JFrame.DO_NOTHING_ON_CLOSE;
-
   public void setOnClose(int onClose) {
     this.onClose = onClose;
   }
-
   /**
    * Constructor
    * 
@@ -34,7 +32,6 @@ public class CustomSwingWrapper {
   public CustomSwingWrapper(Chart chart) {
     this.charts.add(chart);
   }
-
   /**
    * Constructor - The number of rows and columns will be calculated automatically Constructor
    * 
@@ -45,7 +42,6 @@ public class CustomSwingWrapper {
     this.numRows = (int) (Math.sqrt(charts.size()) + 0.5);
     this.numColumns = (int) ((double) charts.size() / this.numRows + 1);
   }
-
   /**
    * Constructor
    * 
@@ -58,7 +54,6 @@ public class CustomSwingWrapper {
     this.numRows = numRows;
     this.numColumns = numColumns;
   }
-
   /**
    * Display the chart in a Swing JFrame
    * 
@@ -68,7 +63,6 @@ public class CustomSwingWrapper {
     this.windowTitle = windowTitle;
     return displayChart();
   }
-
   /**
    * Display the chart in a Swing JFrame
    */
@@ -90,7 +84,6 @@ public class CustomSwingWrapper {
     });
     return frame;
   }
-
   /**
    * Display the charts in a Swing JFrame
    * 
@@ -101,7 +94,6 @@ public class CustomSwingWrapper {
     this.windowTitle = windowTitle;
     return displayChartMatrix();
   }
-
   /**
    * Display the chart in a Swing JFrame
    */
@@ -131,7 +123,6 @@ public class CustomSwingWrapper {
     });
     return frame;
   }
-
   /**
    * Display the chart in a Swing JFrame
    */

@@ -8,11 +8,9 @@ import org.jetbrains.mps.openapi.model.SNode;
 public class BarChart_BehaviorDescriptor extends Chart_BehaviorDescriptor {
   public BarChart_BehaviorDescriptor() {
   }
-
   public JComponent virtual_getJComponent_5455899477603853704(SNode thisNode) {
     return BarChart_Behavior.virtual_getJComponent_5455899477603853704(thisNode);
   }
-
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.mps.XChart.structure.BarChart";

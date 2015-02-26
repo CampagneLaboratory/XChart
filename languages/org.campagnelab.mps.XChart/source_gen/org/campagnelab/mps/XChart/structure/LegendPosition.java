@@ -15,15 +15,12 @@ public enum LegendPosition {
   OutsideEast("OutsideEast", "OutsideE");
 
   private String myName;
-
   public String getName() {
     return this.myName;
   }
-
   public String getValueAsString() {
     return this.myValue;
   }
-
   public static List<LegendPosition> getConstants() {
     List<LegendPosition> list = ListSequence.fromList(new LinkedList<LegendPosition>());
     ListSequence.fromList(list).addElement(LegendPosition.InsideNorth);
@@ -34,11 +31,9 @@ public enum LegendPosition {
     ListSequence.fromList(list).addElement(LegendPosition.OutsideEast);
     return list;
   }
-
   public static LegendPosition getDefault() {
     return LegendPosition.InsideNorth;
   }
-
   public static LegendPosition parseValue(String value) {
     if (value == null) {
       return LegendPosition.getDefault();
@@ -63,14 +58,11 @@ public enum LegendPosition {
     }
     return LegendPosition.getDefault();
   }
-
   private String myValue;
-
   LegendPosition(String name, String value) {
     this.myName = name;
     this.myValue = value;
   }
-
   public String getValue() {
     return this.myValue;
   }
