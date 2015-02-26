@@ -535,171 +535,171 @@
     <property role="31Cu5t" value="&#9;" />
     <property role="31JHgl" value="/Users/mas2182/Lab/Projects/GobyWeb/data/1-3.tsv" />
     <property role="TrG5h" value="1-3.tsv" />
-    <node concept="31JHg8" id="4DOwJpJMJ4g" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd5j" role="31JHgj">
       <property role="TrG5h" value="PAIRS" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4h" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd5A" role="31JHgj">
       <property role="TrG5h" value="Cohort" />
-      <ref role="1YeEjl" node="4DOwJpJMJ4i" resolve="Categories from Cohort" />
-      <node concept="aYgxc" id="4DOwJpJMJ4i" role="1YfERI">
+      <ref role="1YeEjl" node="5Ak$p3etd5B" resolve="Categories from Cohort" />
+      <node concept="aYgxc" id="5Ak$p3etd5B" role="1YfERI">
         <property role="TrG5h" value="Categories from Cohort" />
-        <node concept="3Osf58" id="4DOwJpJMJ4j" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd5C" role="3Osf6V">
           <property role="TrG5h" value="VALIDATION" />
         </node>
-        <node concept="3Osf58" id="4DOwJpJMJ4k" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd5D" role="3Osf6V">
           <property role="TrG5h" value="DISCOVERY" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4l" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd5E" role="31JHgj">
       <property role="TrG5h" value="allogenomics mismatch score" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4m" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd5F" role="31JHgj">
       <property role="TrG5h" value="alloscore ILLUMINA-660W" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4n" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd5G" role="31JHgj">
       <property role="TrG5h" value="alloscore restricted to HLA Loci" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4o" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd5H" role="31JHgj">
       <property role="TrG5h" value="alloscore excluding HLA loci" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4p" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd5I" role="31JHgj">
       <property role="TrG5h" value="Recipient Gender" />
-      <ref role="1YeEjl" node="4DOwJpJMJ4q" resolve="Categories from Recipient Gender" />
-      <node concept="aYgxc" id="4DOwJpJMJ4q" role="1YfERI">
+      <ref role="1YeEjl" node="5Ak$p3etd5J" resolve="Categories from Recipient Gender" />
+      <node concept="aYgxc" id="5Ak$p3etd5J" role="1YfERI">
         <property role="TrG5h" value="Categories from Recipient Gender" />
-        <node concept="3Osf58" id="4DOwJpJMJ4r" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd5K" role="3Osf6V">
           <property role="TrG5h" value="F" />
         </node>
-        <node concept="3Osf58" id="4DOwJpJMJ4s" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd5L" role="3Osf6V">
           <property role="TrG5h" value="M" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4t" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd5M" role="31JHgj">
       <property role="TrG5h" value="Occurence of ACR 1yr post transplantation" />
-      <ref role="1YeEjl" node="4DOwJpJMJ4u" resolve="Categories from Occurence of ACR 1yr post transplantation" />
-      <node concept="aYgxc" id="4DOwJpJMJ4u" role="1YfERI">
+      <ref role="1YeEjl" node="5Ak$p3etd5N" resolve="Categories from Occurence of ACR 1yr post transplantation" />
+      <node concept="aYgxc" id="5Ak$p3etd5N" role="1YfERI">
         <property role="TrG5h" value="Categories from Occurence of ACR 1yr post transplantation" />
-        <node concept="3Osf58" id="4DOwJpJMJ4v" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd5O" role="3Osf6V">
           <property role="TrG5h" value="yes" />
         </node>
-        <node concept="3Osf58" id="4DOwJpJMJ4w" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd5P" role="3Osf6V">
           <property role="TrG5h" value="no" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4x" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd5Q" role="31JHgj">
       <property role="TrG5h" value="RACE Recipient" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4y" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd5R" role="31JHgj">
       <property role="TrG5h" value="Recipient Race binary coding" />
-      <ref role="1YeEjl" node="4DOwJpJMJ4z" resolve="Categories from Recipient Race binary coding" />
-      <node concept="aYgxc" id="4DOwJpJMJ4z" role="1YfERI">
+      <ref role="1YeEjl" node="5Ak$p3etd5S" resolve="Categories from Recipient Race binary coding" />
+      <node concept="aYgxc" id="5Ak$p3etd5S" role="1YfERI">
         <property role="TrG5h" value="Categories from Recipient Race binary coding" />
-        <node concept="3Osf58" id="4DOwJpJMJ4$" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd5T" role="3Osf6V">
           <property role="TrG5h" value="WHITE" />
         </node>
-        <node concept="3Osf58" id="4DOwJpJMJ4_" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd5U" role="3Osf6V">
           <property role="TrG5h" value="BLACK" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4A" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd5V" role="31JHgj">
       <property role="TrG5h" value="HLA ABDR mismatches" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4B" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd5W" role="31JHgj">
       <property role="TrG5h" value="HLA DR mismatches" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4C" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd5X" role="31JHgj">
       <property role="TrG5h" value="Type of Transplantation (Living Related, Living Unrelated, Living unspecified)" />
-      <ref role="1YeEjl" node="4DOwJpJMJ4D" resolve="Categories from Type of Transplantation (Living Related, Living Unrelated, Living unspecified)" />
-      <node concept="aYgxc" id="4DOwJpJMJ4D" role="1YfERI">
+      <ref role="1YeEjl" node="5Ak$p3etd5Y" resolve="Categories from Type of Transplantation (Living Related, Living Unrelated, Living unspecified)" />
+      <node concept="aYgxc" id="5Ak$p3etd5Y" role="1YfERI">
         <property role="TrG5h" value="Categories from Type of Transplantation (Living Related, Living Unrelated, Living unspecified)" />
-        <node concept="3Osf58" id="4DOwJpJMJ4E" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd5Z" role="3Osf6V">
           <property role="TrG5h" value="LRRT NIECE" />
         </node>
-        <node concept="3Osf58" id="4DOwJpJMJ4F" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd60" role="3Osf6V">
           <property role="TrG5h" value="LURT" />
         </node>
-        <node concept="3Osf58" id="4DOwJpJMJ4G" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd61" role="3Osf6V">
           <property role="TrG5h" value="LRRT" />
         </node>
-        <node concept="3Osf58" id="4DOwJpJMJ4H" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd62" role="3Osf6V">
           <property role="TrG5h" value="Living" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4I" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd63" role="31JHgj">
       <property role="TrG5h" value="Creatinine M12" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4J" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd64" role="31JHgj">
       <property role="TrG5h" value="Creatinine M24" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4K" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd65" role="31JHgj">
       <property role="TrG5h" value="Creatinine M36" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4L" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd66" role="31JHgj">
       <property role="TrG5h" value="Creatinine M48" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4M" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd67" role="31JHgj">
       <property role="TrG5h" value="Creatinine M60" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4N" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd68" role="31JHgj">
       <property role="TrG5h" value="Donor Age" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4O" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd69" role="31JHgj">
       <property role="TrG5h" value="Recipient Age at Transplantation" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4P" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd6a" role="31JHgj">
       <property role="TrG5h" value="Donor Gender" />
-      <ref role="1YeEjl" node="4DOwJpJMJ4Q" resolve="Categories from Donor Gender" />
-      <node concept="aYgxc" id="4DOwJpJMJ4Q" role="1YfERI">
+      <ref role="1YeEjl" node="5Ak$p3etd6b" resolve="Categories from Donor Gender" />
+      <node concept="aYgxc" id="5Ak$p3etd6b" role="1YfERI">
         <property role="TrG5h" value="Categories from Donor Gender" />
-        <node concept="3Osf58" id="4DOwJpJMJ4R" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd6c" role="3Osf6V">
           <property role="TrG5h" value="F" />
         </node>
-        <node concept="3Osf58" id="4DOwJpJMJ4S" role="3Osf6V">
+        <node concept="3Osf58" id="5Ak$p3etd6d" role="3Osf6V">
           <property role="TrG5h" value="M" />
         </node>
       </node>
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4T" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd6e" role="31JHgj">
       <property role="TrG5h" value="Donor Race" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_9L" resolve="String" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4U" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd6f" role="31JHgj">
       <property role="TrG5h" value="MDRD-eGFR-M12" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4V" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd6g" role="31JHgj">
       <property role="TrG5h" value="MDRD-eGFR-M24" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4W" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd6h" role="31JHgj">
       <property role="TrG5h" value="MDRD-eGFR-M36" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4X" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd6i" role="31JHgj">
       <property role="TrG5h" value="MDRD_eGFR_M48" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>
-    <node concept="31JHg8" id="4DOwJpJMJ4Y" role="31JHgj">
+    <node concept="31JHg8" id="5Ak$p3etd6j" role="31JHgj">
       <property role="TrG5h" value="MDRD_eGFR_M60" />
       <ref role="1YeEjl" to="9nc5:1ID5TXdv_7G" resolve="Numeric" />
     </node>

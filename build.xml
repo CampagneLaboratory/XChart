@@ -34,7 +34,7 @@
         <version>${XChart_version}</version>
         <vendor url="http://campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
-        <idea-version until-build="136.1" since-build="135.1" />
+        <idea-version until-build="140.1" since-build="139.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
