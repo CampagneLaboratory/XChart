@@ -18,6 +18,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="018d456a-d391-4635-ba93-c9ea1b0a7842" name="Default" comment="Migration to 3.2: upgrade project files.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/XChart.build0/source_gen/XChart/build/XChart.xml" afterPath="$PROJECT_DIR$/solutions/XChart.build0/source_gen/XChart/build/XChart.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <list id="55b6849a-a6e6-4921-8925-e27bd437e866" name="New changelist" comment="" />
@@ -284,7 +286,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="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" />
+          <option name="history" value="kaurqQAABAAHKIwXT+xpSEsYtDGvZMpdgsYAAB1UZW1wTW9kZWxfMTQyNTQ4MzA2MjkzNDUxMDAwMBdIlW9odIFRQtSFIxDhqbgPyQAALlRlbXBNb2R1bGU5NTZmNjg3NC04MTUxLTQyZDQtODUyMy0xMGUxYTliODBmYzn/////q6urq1paWloABKXk3lNGo0TaqrNo/fHDTtAAACFqZXRicmFpbnMubXBzLmNvbnNvbGUuaWRlQ29tbWFuZHMAASdrNx50+IUJAAAFQ2xlYW4AEgAAAAAAAM6rUZUl6k8im5IQO5XKjAwAABdqZXRicmFpbnMubXBzLmxhbmcuY29yZQABAAABEDluqqQAAA1JTmFtZWRDb25jZXB0ABIAAQAAARA5bsBBAAAEbmFtZQAAAAAahVTE64RDuow0bw2QxudaAAAfamV0YnJhaW5zLm1wcy5jb25zb2xlLmJsQ29tbWFuZAADakCjWWVgqdkAAAxCTEV4cHJlc3Npb24AEgAAAAAAAWpAo1llYKpCAAAKZXhwcmVzc2lvbgA7xkQhdgus/QAAD1F1ZXJ5RXhwcmVzc2lvbgASAAAAAAABO8ZEIXYW5UgAAAlwYXJhbWV0ZXIAO8ZEIXYW3fkAABJRdWVyeVBhcmFtZXRlckxpc3QAEgAAAAAAAN4a2G1uUEoCswbU0X9kw3UAABpqZXRicmFpbnMubXBzLmNvbnNvbGUuYmFzZQADFfs0BR9yWiwAAAtDb25zb2xlUm9vdAASAAAAAAACFfs0BR9yW68AAAdoaXN0b3J5ABX7NAUfcluxAAANY29tbWFuZEhvbGRlcgAE4nFgrLRISwAADUNvbW1hbmRIb2xkZXIAEgAAAAAAAQTicWCstEkkAAAHY29tbWFuZAAKg18owaoCvgAAB0hpc3RvcnkAEgAAAAAAAWPaM3krXfSaAAAEaXRlbQClpaWlAAXeGthtblBKArMG1NF/ZMN1AQAAAA3/////8maR0g3vTAauxiy5DErwpAAAHWpldGJyYWlucy5tcHMuY29uc29sZS5zY3JpcHRz/////xqFVMTrhEO6jDRvDZDG51oBAAAAB/////+l5N5TRqNE2qqzaP3xw07QAQAAAAL/////mVpzlH92S4upKcU0SHCBBgAAJmpldGJyYWlucy5tcHMuY29uc29sZS5pbnRlcm5hbENvbW1hbmRz/////wAAAAEXSPvCXdJdpEg6ixlwko4bYtcAACRqZXRicmFpbnMubXBzLmRldmtpdC5nZW5lcmFsLXB1cnBvc2UAAAAFByg1mx0rd8RG35vysly+oyJUAAAkamV0YnJhaW5zLm1wcy5jb25zb2xlLmJhc2Uuc3RydWN0dXJlcP////8HKOcS81NcPEKIrc6HyValL/sAACdqZXRicmFpbnMubXBzLmNvbnNvbGUuc2NyaXB0cy5zdHJ1Y3R1cmVw/////wcok1ug7nKRTKqoB9duj8aTkQAAKWpldGJyYWlucy5tcHMuY29uc29sZS5ibENvbW1hbmQuc3RydWN0dXJlcP////8HKBNaYG8DdkxcmrhAMPBRoGIAACtqZXRicmFpbnMubXBzLmNvbnNvbGUuaWRlQ29tbWFuZHMuc3RydWN0dXJlcP////8HKJBEUgapc0wdt2Aw5cd7dJcAADBqZXRicmFpbnMubXBzLmNvbnNvbGUuaW50ZXJuYWxDb21tYW5kcy5zdHJ1Y3R1cmVw/////7q6uroAAAABAAUYAPi0MB5Wro7//3sAAAAAAAAAAAACAAcYAPi0MB5Wro8AAnsAAAAAAAAAAAABAAYYAPi0MB5WrpAABXsAAQAAAQAAABEAAAAAAAAAAQACGAD4tDAeVq6RAAR7AAAAAAAAAAAAAQAAGAD4tDAeVq6SAAB7AAAAAAAAAAAAAQAEGAD4tDAeVq6TAAF7AAAAAAAAAAAAAH19fX19AAYYAPi0MB5WrpQAA3sAAQAAAQAAABEAAAAAAAAAAH19" />
         </TabState>
       </list>
     </option>
@@ -309,13 +311,23 @@
         <entry file="mps://node://XChart.build/XChart.build/XChart">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="40">
-                <selectionStack />
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="52" />
+                    <property name="caretX" value="247" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_text_3" cellNumber="0" isInList="false">
+                      <node node_reference="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <errorLabels />
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -334,7 +346,7 @@
                 <errorLabels />
                 <folded />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -353,7 +365,7 @@
                 <errorLabels />
                 <folded />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -373,7 +385,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -394,7 +406,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -415,7 +427,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -434,7 +446,7 @@
                 <errorLabels />
                 <folded />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -454,7 +466,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -474,7 +486,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -495,7 +507,7 @@
                 <folded />
                 <enabledHints />
               </memento>
-              <inspectorMemento viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorLabels />
                 <folded />
@@ -610,6 +622,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="FileSystem">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
@@ -625,16 +647,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Project">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="FileSystem">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -697,7 +709,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22252856" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22252856" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32656378" sideWeight="0.49901536" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
@@ -728,8 +740,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2437043" sideWeight="0.5013785" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.49946752" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.49946752" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46791226" sideWeight="0.4997367" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.4988086" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1584,8 +1596,8 @@
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="true" />
                 <property name="selectionEnd" value="10" />
+                <property name="hasNonTrivialSelection" value="true" />
                 <property name="caretXRelative" value="64" />
                 <property name="selectionStart" value="0" />
                 <property name="caretX" value="147" />
@@ -1615,8 +1627,8 @@
           <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="true" />
                 <property name="selectionEnd" value="60" />
+                <property name="hasNonTrivialSelection" value="true" />
                 <property name="caretXRelative" value="292" />
                 <property name="selectionStart" value="0" />
                 <property name="caretX" value="375" />
@@ -1868,7 +1880,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1914,7 +1926,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1932,7 +1944,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1951,7 +1963,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1969,7 +1981,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1988,7 +2000,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2002,12 +2014,22 @@
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="52" />
+                <property name="caretX" value="247" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_text_3" cellNumber="0" isInList="false">
+                  <node node_reference="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorLabels />
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2024,7 +2046,7 @@
             <errorLabels />
             <folded />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2041,7 +2063,7 @@
             <errorLabels />
             <folded />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -2058,7 +2080,7 @@
             <errorLabels />
             <folded />
           </memento>
-          <inspectorMemento viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)/3797805458484492591" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
