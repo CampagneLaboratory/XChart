@@ -4,7 +4,7 @@ package org.campagnelab.mps.XChart.structure;
 
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 
 public enum ChartTheme {
   GGPlot2("GGPlot2 ", "GGPlot2"),
