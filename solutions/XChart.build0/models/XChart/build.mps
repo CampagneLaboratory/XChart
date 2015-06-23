@@ -369,6 +369,11 @@
             <ref role="1Busuk" node="7H5cA3sEqXS" resolve="org.campagnelab.mps.XChart.types" />
           </node>
         </node>
+        <node concept="1SiIV0" id="6rHGyHN0mYm" role="3bR37C">
+          <node concept="1Busua" id="6rHGyHN0mYn" role="1SiIV1">
+            <ref role="1Busuk" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="7H5cA3sEqXS" role="2G$12L">
         <property role="BnDLt" value="false" />

@@ -115,6 +115,7 @@
     <extendedLanguage>c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</extendedLanguage>
     <extendedLanguage>ecf91126-e504-4aae-8ee7-3192d64e77f6(org.campagnelab.mps.XChart.types)</extendedLanguage>
     <extendedLanguage>4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</extendedLanguage>
+    <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
   </extendedLanguages>
 </language>
 
