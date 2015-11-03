@@ -4,7 +4,7 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/XChart" />
   <property name="build.layout" location="${build.dir}/artifacts/XChart" />
-  <property name="mps_home" location="" />
+  <property name="mps_home" location="${basedir}/../../../../../Applications/MPS 3.3.app/Contents" />
   <property name="XChart_version" value="1.1.11" />
   <property name="artifacts.mps" location="${mps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
@@ -65,12 +65,13 @@
         <sources jar="org.campagnelab.mps.XChart-src.jar" descriptor="org.campagnelab.mps.XChart.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar">
+    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.mps.XChart" />
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.mps.XChart.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart-generator.jar">
+    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.mps.XChart#2202909375769974311" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart-generator-template">
@@ -82,12 +83,14 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart-src.jar">
+    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart/generator/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.mps.XChart/org.campagnelab.mps.XChart.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart-generator-template" prefix="module/generator/template" />
@@ -114,12 +117,13 @@
         <sources jar="org.campagnelab.mps.XChart.types-src.jar" descriptor="org.campagnelab.mps.XChart.types.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar">
+    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types" />
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart.types" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart.types/source_gen" includes="**/trace.info, **/exports" />
       <fileset dir="${build.tmp}/default/org.campagnelab.mps.XChart.types.jar" />
     </jar>
-    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types-generator.jar">
+    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types#9080041854839272070" />
     </jar>
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart.types-generator-template">
@@ -131,17 +135,44 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart.types-languageModels">
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart.types/languageModels" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types-src.jar">
+    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/org.campagnelab.mps.XChart.types-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart.types/generator/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <fileset dir="${basedir}/languages/org.campagnelab.mps.XChart.types/source_gen">
         <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
       </fileset>
       <zipfileset file="${basedir}/languages/org.campagnelab.mps.XChart.types/org.campagnelab.mps.XChart.types.mpl" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart.types-generator-template" prefix="module/generator/template" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart.types-languageAccessories" prefix="module/languageAccessories" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-org.campagnelab.mps.XChart.types-languageModels" prefix="module/languageModels" />
+    </jar>
+    <mkdir dir="${build.tmp}/default/XChart.build.jar" />
+    <mkdir dir="${build.tmp}/default/XChart.build.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/XChart.build.jar/META-INF/module.xml">
+      <module namespace="XChart.build" type="solution" uuid="f4badde6-d2fb-4344-91d3-caedb26a938e">
+        <dependencies />
+        <sources jar="XChart.build-src.jar" descriptor="XChart.build.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/XChart.build.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/XChart.build" />
+      <fileset dir="${basedir}/solutions/XChart.build0" includes="icons/**, resources/**" />
+      <fileset dir="${basedir}/solutions/XChart.build0/source_gen" includes="**/trace.info, **/exports" />
+      <fileset dir="${build.tmp}/default/XChart.build.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-XChart.build0-models">
+      <fileset dir="${basedir}/solutions/XChart.build0/models" includes="**/*.mps, **/*.metadata, **/*.history, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/XChart__dl__lbrace_XChart_version_rbrace_.zip/XChart/languages/XChart/XChart.build-src.jar" duplicate="preserve">
+      <fileset dir="${basedir}/solutions/XChart.build0/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+      </fileset>
+      <zipfileset file="${basedir}/solutions/XChart.build0/XChart.build.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-XChart.build0-models" prefix="module/models" />
     </jar>
     <zip destfile="${build.layout}/XChart_${XChart_version}.zip">
       <zipfileset file="${basedir}/languages/org.campagnelab.mps.XChart/xchart-2.4.1-SNAPSHOT.jar" prefix="XChart/lib" />
@@ -161,7 +192,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.org.campagnelab.mps.XChart, java.compile.org.campagnelab.mps.XChart#2202909375769974311, java.compile.org.campagnelab.mps.XChart.types, java.compile.org.campagnelab.mps.XChart.types#9080041854839272070" />
+  <target name="compileJava" depends="java.compile.org.campagnelab.mps.XChart, java.compile.org.campagnelab.mps.XChart#2202909375769974311, java.compile.org.campagnelab.mps.XChart.types, java.compile.org.campagnelab.mps.XChart.types#9080041854839272070, java.compile.XChart.build" />
   
   <target name="processResources" />
   
@@ -187,12 +218,12 @@
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.scopes.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.tuples.jar" />
+      <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.unitTest.libs/jetbrains.mps.baseLanguage.unitTest.libs.jar" />
       <library file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguageInternal.jar" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.bootstrap-languages.devkit" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.general-purpose.devkit" />
       <library file="${artifacts.mps}/languages/devkits/jetbrains.mps.devkit.language-design.devkit" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.actions.jar" />
-      <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.aspectDescriptor.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.behavior.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.checkedName.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.classLike.jar" />
@@ -224,16 +255,27 @@
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.traceable.jar" />
       <library file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.typesystem.jar" />
       <library file="${artifacts.mps}/languages/make/jetbrains.mps.make.facet.jar" />
+      <library file="${artifacts.mps}/languages/make/jetbrains.mps.make.reduced.jar" />
       <library file="${artifacts.mps}/languages/make/jetbrains.mps.make.script.jar" />
+      <library file="${artifacts.mps}/languages/make/jetbrains.mps.tool.gentest.jar" />
       <library file="${artifacts.mps}/languages/util/jetbrains.mps.execution.util.jar" />
+      <library file="${artifacts.mps}/languages/xml/jetbrains.mps.core.xml.jar" />
       <library file="${artifacts.mps}/lib/mps-closures.jar" />
       <library file="${artifacts.mps}/lib/mps-collections.jar" />
       <library file="${artifacts.mps}/lib/mps-core.jar" />
       <library file="${artifacts.mps}/lib/mps-editor.jar" />
       <library file="${artifacts.mps}/lib/mps-openapi.jar" />
       <library file="${artifacts.mps}/lib/mps-platform.jar" />
+      <library file="${artifacts.mps}/lib/mps-test.jar" />
+      <library file="${artifacts.mps}/lib/mps-tool.jar" />
       <library file="${artifacts.mps}/lib/mps-tuples.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.mps.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.build.workflow.jar" />
+      <library file="${artifacts.mps}/plugins/mps-build/languages/build/jetbrains.mps.ide.build.jar" />
+      <library file="${artifacts.mps}/plugins/mps-core/languages/util/jetbrains.mps.core.properties.jar" />
       <chunk>
+        <module file="${basedir}/solutions/XChart.build0/XChart.build.msd" />
         <module file="${basedir}/languages/org.campagnelab.mps.XChart.types/org.campagnelab.mps.XChart.types.mpl" />
       </chunk>
       <chunk>
@@ -255,7 +297,7 @@
   <target name="java.compile.org.campagnelab.mps.XChart" depends="java.compile.org.campagnelab.mps.XChart.types, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.mps.XChart/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.XChart" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart" fork="false" includeantruntime="false" source="1.8" target="1.8">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart" fork="true" includeantruntime="false" source="1.8" target="1.8">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.mps.XChart/source_gen" />
@@ -264,12 +306,11 @@
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
         <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.mps.XChart.types" />
         <fileset file="${basedir}/languages/org.campagnelab.mps.XChart/xchart-2.4.1-SNAPSHOT.jar" />
@@ -300,7 +341,7 @@
   <target name="java.compile.org.campagnelab.mps.XChart#2202909375769974311" depends="java.compile.org.campagnelab.mps.XChart, java.compile.org.campagnelab.mps.XChart.types, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.mps.XChart/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.XChart#2202909375769974311" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart#2202909375769974311" fork="false" includeantruntime="false" source="1.8" target="1.8">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart#2202909375769974311" fork="true" includeantruntime="false" source="1.8" target="1.8">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.mps.XChart/generator/source_gen" />
@@ -309,12 +350,11 @@
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
         <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.mps.XChart" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.mps.XChart.types" />
@@ -341,7 +381,7 @@
   <target name="java.compile.org.campagnelab.mps.XChart.types" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.mps.XChart.types/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types" fork="false" includeantruntime="false" source="1.8" target="1.8">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types" fork="true" includeantruntime="false" source="1.8" target="1.8">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.mps.XChart.types/source_gen" />
@@ -350,12 +390,11 @@
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
         <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
         <fileset file="${artifacts.mps}/lib/annotations.jar" />
@@ -378,7 +417,7 @@
   <target name="java.compile.org.campagnelab.mps.XChart.types#9080041854839272070" depends="java.compile.org.campagnelab.mps.XChart.types, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.mps.XChart.types/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types#9080041854839272070" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types#9080041854839272070" fork="false" includeantruntime="false" source="1.8" target="1.8">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types#9080041854839272070" fork="true" includeantruntime="false" source="1.8" target="1.8">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.mps.XChart.types/generator/source_gen" />
@@ -387,12 +426,11 @@
         <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
         <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
         <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
         <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
         <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
         <pathelement path="${build.tmp}/java/out/org.campagnelab.mps.XChart.types" />
         <fileset file="${artifacts.mps}/lib/log4j.jar" />
@@ -413,7 +451,23 @@
     </copy>
   </target>
   
+  <target name="java.compile.XChart.build">
+    <mkdir dir="${basedir}/solutions/XChart.build0/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/XChart.build" />
+    <javac destdir="${build.tmp}/java/out/XChart.build" fork="true" includeantruntime="false" source="1.8" target="1.8">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${basedir}/solutions/XChart.build0/source_gen" />
+      </src>
+      <classpath />
+    </javac>
+    <copy todir="${build.tmp}/java/out/XChart.build">
+      <fileset dir="${basedir}/solutions/XChart.build0/source_gen" excludes="**/*.java" />
+    </copy>
+  </target>
+  
   <target name="cleanSources">
+    <delete dir="${basedir}/solutions/XChart.build0/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.mps.XChart.types/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.mps.XChart.types/generator/source_gen" />
     <delete dir="${basedir}/languages/org.campagnelab.mps.XChart/source_gen" />

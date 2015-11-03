@@ -1,3 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-83nz81u663m5q3r8q61ros3cd74utp3" />
+<dependencies version="2" modelHash="-83nz81u663m5q3r8q61ros3cd74utp3">
+  <dep model="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25/f:java_stub#5ec1cd3d-0a50-4049-a8fa-ae768d7baa25#com.xeiam.xchart(org.campagnelab.mps.XChart/com.xeiam.xchart@java_stub)" />
+  <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="2y5m1tbgov02be84gi16uvvxt47q232" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-cl8kifsnw5jtzcst4yjwqi6gda5el5s" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="19uchsffy2fbhy8fxadw6t0s4o36pge" />
+  <dep model="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)" hash="-cpw289a22c5lnt1xxlomd2pnbtf4g59" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-afok4i31abohs3f5rk0sqlnvuruthqa" />
+  <dep model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" hash="-8cqv15pi0vbdinpjg72gcvac5uomso0" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="-77sy6xhjavqcj7zabmxjwdba0x2o622" />
+  <common hash="-7ig2khtijxfe5xyui848dsv4qjlatci" dependsOnNodes="true">
+    <dep root="6638345083849127064" />
+    <dep root="9178698721098102113" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  </common>
+  <source id="9178698721098102113" name="A" hash="-5caj9ygaw8u5e43v0yle0x8zxsjwfz1">
+    <dep root="6638345083849127064" />
+    <dep model="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25/f:java_stub#5ec1cd3d-0a50-4049-a8fa-ae768d7baa25#com.xeiam.xchart(org.campagnelab.mps.XChart/com.xeiam.xchart@java_stub)" />
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="ChartViewer_A.java" />
+  </source>
+  <source id="6638345083849127064" name="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" hash="-9scnns524ywu67dh6xy0o3ziw6ylcsc">
+    <file name="CWSWOFK-exome-S1-Donor-ACR.sequence-variation-stats.tsv" />
+  </source>
+</dependencies>
 

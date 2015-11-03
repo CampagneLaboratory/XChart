@@ -57,7 +57,9 @@
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
       <concept id="7389400916848036984" name="jetbrains.mps.build.structure.BuildLayout_Folder" flags="ng" index="398223" />
-      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT" />
+      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
+        <child id="7389400916848144618" name="defaultPath" index="398pKh" />
+      </concept>
       <concept id="7389400916848153117" name="jetbrains.mps.build.structure.BuildSourceMacroRelativePath" flags="ng" index="398BVA">
         <reference id="7389400916848153130" name="macro" index="398BVh" />
       </concept>
@@ -132,6 +134,7 @@
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
         <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
+      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
       <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
         <child id="9200313594498201639" name="generator" index="1TViLv" />
       </concept>
@@ -153,6 +156,32 @@
     <node concept="3b7kt6" id="7XxitGzkyrj" role="10PD9s" />
     <node concept="398rNT" id="7XxitGzkyrk" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
+      <node concept="55IIr" id="2fif0v6rcEc" role="398pKh">
+        <node concept="2Ry0Ak" id="2fif0v6rcFb" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="2fif0v6rcFe" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="2fif0v6rcFh" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="2fif0v6rcFm" role="2Ry0An">
+                <property role="2Ry0Am" value=".." />
+                <node concept="2Ry0Ak" id="2fif0v6rcFs" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                  <node concept="2Ry0Ak" id="2fif0v6rcFx" role="2Ry0An">
+                    <property role="2Ry0Am" value="Applications" />
+                    <node concept="2Ry0Ak" id="2fif0v6rcFA" role="2Ry0An">
+                      <property role="2Ry0Am" value="MPS 3.3.app" />
+                      <node concept="2Ry0Ak" id="2fif0v6rcFF" role="2Ry0An">
+                        <property role="2Ry0Am" value="Contents" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2kB4xC" id="20gh$F6s$xr" role="1l3spd">
       <property role="TrG5h" value="build_number" />
@@ -390,6 +419,35 @@
           <property role="TrG5h" value="org.campagnelab.mps.XChart.types#9080041854839272070" />
           <property role="3LESm3" value="348a2fa5-a1e1-4a5c-9edb-816eff4cdfd9" />
           <property role="2GAjPV" value="false" />
+        </node>
+      </node>
+      <node concept="1E1JtA" id="8sao6UGt6b" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="XChart.build" />
+        <property role="3LESm3" value="f4badde6-d2fb-4344-91d3-caedb26a938e" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="8sao6UGt6e" role="3LF7KH">
+          <node concept="2Ry0Ak" id="8sao6UGtqB" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="8sao6UGtqG" role="2Ry0An">
+              <property role="2Ry0Am" value="XChart.build0" />
+              <node concept="2Ry0Ak" id="8sao6UGtqL" role="2Ry0An">
+                <property role="2Ry0Am" value="XChart.build.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="8sao6UGtrN" role="3bR37C">
+          <node concept="3bR9La" id="8sao6UGtrO" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="8sao6UGt6b" resolve="XChart.build" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="8sao6UGtrP" role="3bR37C">
+          <node concept="3bR9La" id="8sao6UGtrQ" role="1SiIV1">
+            <property role="3bR36h" value="true" />
+            <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
+          </node>
         </node>
       </node>
     </node>
