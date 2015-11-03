@@ -132,6 +132,7 @@
       <concept id="4278635856200794926" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyExtendLanguage" flags="ng" index="1Busua">
         <reference id="4278635856200794928" name="language" index="1Busuk" />
       </concept>
+      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
       <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
         <child id="9200313594498201639" name="generator" index="1TViLv" />
       </concept>
@@ -395,6 +396,35 @@
           <property role="TrG5h" value="org.campagnelab.mps.XChart.types#9080041854839272070" />
           <property role="3LESm3" value="348a2fa5-a1e1-4a5c-9edb-816eff4cdfd9" />
           <property role="2GAjPV" value="false" />
+        </node>
+      </node>
+      <node concept="1E1JtA" id="8sao6UHUAH" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="XChart.build" />
+        <property role="3LESm3" value="f4badde6-d2fb-4344-91d3-caedb26a938e" />
+        <property role="2GAjPV" value="false" />
+        <node concept="55IIr" id="8sao6UHUAK" role="3LF7KH">
+          <node concept="2Ry0Ak" id="8sao6UHUCm" role="iGT6I">
+            <property role="2Ry0Am" value="solutions" />
+            <node concept="2Ry0Ak" id="8sao6UHUCT" role="2Ry0An">
+              <property role="2Ry0Am" value="XChart.build0" />
+              <node concept="2Ry0Ak" id="8sao6UHUDU" role="2Ry0An">
+                <property role="2Ry0Am" value="XChart.build.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="8sao6UHUFq" role="3bR37C">
+          <node concept="3bR9La" id="8sao6UHUFr" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="8sao6UHUAH" resolve="XChart.build" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="8sao6UHUFs" role="3bR37C">
+          <node concept="3bR9La" id="8sao6UHUFt" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:78GwwOvB3tw" resolve="jetbrains.mps.ide.build" />
+          </node>
         </node>
       </node>
     </node>
