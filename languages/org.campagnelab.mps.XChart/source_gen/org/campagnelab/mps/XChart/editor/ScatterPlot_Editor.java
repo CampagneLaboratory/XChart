@@ -13,7 +13,7 @@ import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import javax.swing.JComponent;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import org.campagnelab.mps.XChart.behavior.Chart__BehaviorDescriptor;
 import jetbrains.mps.editor.runtime.cells.BigCellUtil;
 
 public class ScatterPlot_Editor extends DefaultNodeEditor {
@@ -59,7 +59,7 @@ public class ScatterPlot_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static JComponent _QueryFunction_JComponent_1j0lna_a3a(final SNode node, final EditorContext editorContext) {
-    return BehaviorReflection.invokeVirtual(JComponent.class, node, "virtual_getJComponent_5455899477603853704", new Object[]{});
+    return (JComponent) Chart__BehaviorDescriptor.getJComponent_id4IRfUGkOim8.invoke(node);
   }
   private EditorCell createConstant_1j0lna_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");

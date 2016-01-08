@@ -5,14 +5,20 @@ package org.campagnelab.mps.XChart.behavior;
 import javax.swing.JComponent;
 import org.jetbrains.mps.openapi.model.SNode;
 
+/**
+ * Will be removed after 3.3
+ * Need to support compilation of the legacy behavior descriptors before the language is rebuilt
+ * This class is not involved in the actual method invocation
+ */
+@Deprecated
 public class Histogram_BehaviorDescriptor extends Chart_BehaviorDescriptor {
-  public Histogram_BehaviorDescriptor() {
+  public JComponent virtual_getJComponent_5455899477603853704(SNode __thisNode__) {
+    return null;
   }
-  public JComponent virtual_getJComponent_5455899477603853704(SNode thisNode) {
-    return Histogram_Behavior.virtual_getJComponent_5455899477603853704(thisNode);
-  }
+
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.mps.XChart.structure.Histogram";
   }
+
 }

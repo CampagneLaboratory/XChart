@@ -6,25 +6,31 @@ import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
 import jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
+import jetbrains.mps.smodel.behaviour.DefaultValuesHolder;
 
+/**
+ * Will be removed after 3.3
+ * Need to support compilation of the legacy behavior descriptors before the language is rebuilt
+ * This class is not involved in the actual method invocation
+ */
+@Deprecated
 public class ColumnToDoubles_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements Doubles_BehaviorDescriptor, INamedConcept_BehaviorDescriptor, IDontSubstituteByDefault_BehaviorDescriptor {
-  public ColumnToDoubles_BehaviorDescriptor() {
+  public String virtual_getColumnName_7335187880077215104(SNode __thisNode__) {
+    return null;
   }
-  public String virtual_getColumnName_7335187880077215104(SNode thisNode) {
-    return ColumnToDoubles_Behavior.virtual_getColumnName_7335187880077215104(thisNode);
+  public double[] virtual_getDoubles_2202909375770410262(SNode __thisNode__) {
+    return null;
   }
-  public double[] virtual_getDoubles_2202909375770410262(SNode thisNode) {
-    return ColumnToDoubles_Behavior.virtual_getDoubles_2202909375770410262(thisNode);
+  public String virtual_getFqName_1213877404258(SNode __thisNode__) {
+    return null;
   }
-  public String virtual_getFqName_1213877404258(SNode thisNode) {
-    return INamedConcept_Behavior.virtual_getFqName_1213877404258(thisNode);
+  public int virtual_size_2202909375770434166(SNode __thisNode__) {
+    return DefaultValuesHolder.defaultValue(Integer.TYPE);
   }
-  public int virtual_size_2202909375770434166(SNode thisNode) {
-    return Doubles_Behavior.virtual_size_2202909375770434166(thisNode);
-  }
+
   @Override
   public String getConceptFqName() {
     return "org.campagnelab.mps.XChart.structure.ColumnToDoubles";
   }
+
 }

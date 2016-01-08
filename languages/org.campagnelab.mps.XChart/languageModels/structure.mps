@@ -2,7 +2,7 @@
 <model ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -28,6 +28,7 @@
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
+        <property id="1587916991969465369" name="conceptId" index="1pbfSe" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -63,6 +64,7 @@
     <property role="TrG5h" value="Histogram" />
     <property role="3GE5qa" value="charts" />
     <property role="34LRSv" value="Histogram" />
+    <property role="1pbfSe" value="37844022" />
     <ref role="1TJDcQ" node="1UijAvvaQLF" resolve="Chart" />
   </node>
   <node concept="1TIwiD" id="1UijAvvb8Ii">
@@ -71,6 +73,7 @@
     <property role="19KtqR" value="true" />
     <property role="R4oN_" value="File with column delimited by some character" />
     <property role="3GE5qa" value="files" />
+    <property role="1pbfSe" value="37824007" />
     <ref role="1TJDcQ" node="1UijAvvb8In" resolve="DataFile" />
     <node concept="1TJgyi" id="1UijAvvcUWU" role="1TKVEl">
       <property role="TrG5h" value="delimitor" />
@@ -82,6 +85,7 @@
     <property role="19KtqR" value="true" />
     <property role="R4oN_" value="A data file" />
     <property role="3GE5qa" value="files" />
+    <property role="1pbfSe" value="37824002" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1UijAvvb9DO" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -100,6 +104,7 @@
   <node concept="1TIwiD" id="1UijAvvb9DJ">
     <property role="TrG5h" value="Column" />
     <property role="3GE5qa" value="data" />
+    <property role="1pbfSe" value="37820202" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2SKvIxg3Hc6" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -119,6 +124,7 @@
   <node concept="1TIwiD" id="1UijAvvb9Rw">
     <property role="TrG5h" value="ColumnToDoubles" />
     <property role="3GE5qa" value="data" />
+    <property role="1pbfSe" value="37819321" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1UijAvvbbbj" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -145,6 +151,7 @@
   <node concept="PlHQZ" id="1UijAvvb9RB">
     <property role="TrG5h" value="Doubles" />
     <property role="3GE5qa" value="data" />
+    <property role="1pbfSe" value="37819314" />
   </node>
   <node concept="1TIwiD" id="37GCX3DaB_D">
     <property role="TrG5h" value="Tsvfile" />
@@ -152,6 +159,7 @@
     <property role="19KtqR" value="true" />
     <property role="R4oN_" value="Tab delimited file" />
     <property role="3GE5qa" value="files" />
+    <property role="1pbfSe" value="454499641" />
     <ref role="1TJDcQ" node="1UijAvvb8Ii" resolve="DelimitedFile" />
   </node>
   <node concept="1TIwiD" id="4$zrkrO8rXv">
@@ -160,6 +168,7 @@
     <property role="34LRSv" value="Page" />
     <property role="R4oN_" value="A 2D page where to view diagrams" />
     <property role="19KtqR" value="true" />
+    <property role="1pbfSe" value="1027943589" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4$zrkrOasaZ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -190,6 +199,7 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="charts" />
+    <property role="1pbfSe" value="37897518" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6jd8z00r3Va" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -207,11 +217,13 @@
   <node concept="1TIwiD" id="4$zrkrO9wy7">
     <property role="3GE5qa" value="charts" />
     <property role="TrG5h" value="ScatterPlot" />
+    <property role="1pbfSe" value="1028224461" />
     <ref role="1TJDcQ" node="1UijAvvaQLF" resolve="Chart" />
   </node>
   <node concept="1TIwiD" id="4$zrkrObWak">
     <property role="3GE5qa" value="files" />
     <property role="TrG5h" value="FileRef" />
+    <property role="1pbfSe" value="1028861914" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="4$zrkrO8rXy" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -232,6 +244,7 @@
   <node concept="1TIwiD" id="6jd8z00r3UB">
     <property role="3GE5qa" value="charts" />
     <property role="TrG5h" value="ChartStyle" />
+    <property role="1pbfSe" value="1698259159" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2L53R4ZrnMo" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -304,11 +317,13 @@
   <node concept="1TIwiD" id="5Kw8UUF7ke2">
     <property role="3GE5qa" value="charts" />
     <property role="TrG5h" value="BarChart" />
+    <property role="1pbfSe" value="121464624" />
     <ref role="1TJDcQ" node="1UijAvvaQLF" resolve="Chart" />
   </node>
   <node concept="1TIwiD" id="5Kw8UUFlsZD">
     <property role="3GE5qa" value="charts" />
     <property role="TrG5h" value="DataSeries" />
+    <property role="1pbfSe" value="125170583" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5Kw8UUFp3t3" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -323,6 +338,7 @@
   <node concept="1TIwiD" id="5Kw8UUFp3t8">
     <property role="TrG5h" value="DoublesReference" />
     <property role="3GE5qa" value="data" />
+    <property role="1pbfSe" value="126114550" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5Kw8UUFp3t9" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -337,6 +353,7 @@
   <node concept="1TIwiD" id="2L53R4ZrkDO">
     <property role="3GE5qa" value="charts" />
     <property role="TrG5h" value="Legend" />
+    <property role="1pbfSe" value="1806850533" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="2L53R4ZrkF3" role="1TKVEl">
       <property role="TrG5h" value="position" />
@@ -376,6 +393,7 @@
     <property role="3GE5qa" value="data" />
     <property role="TrG5h" value="TypedColumnValue" />
     <property role="34LRSv" value="$" />
+    <property role="1pbfSe" value="754159834" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="14h1S4rSCA_" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -387,6 +405,7 @@
   <node concept="PlHQZ" id="1S_LPePAwZB">
     <property role="3GE5qa" value="files" />
     <property role="TrG5h" value="HasDataToPreserve" />
+    <property role="1pbfSe" value="742402246" />
   </node>
 </model>
 

@@ -10,7 +10,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import javax.swing.JComponent;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import org.campagnelab.mps.XChart.behavior.Chart__BehaviorDescriptor;
 import jetbrains.mps.editor.runtime.cells.BigCellUtil;
 
 public class Histogram_Editor extends DefaultNodeEditor {
@@ -52,7 +52,7 @@ public class Histogram_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   private static JComponent _QueryFunction_JComponent_dnpd9w_a3a(final SNode node, final EditorContext editorContext) {
-    return BehaviorReflection.invokeVirtual(JComponent.class, node, "virtual_getJComponent_5455899477603853704", new Object[]{});
+    return (JComponent) Chart__BehaviorDescriptor.getJComponent_id4IRfUGkOim8.invoke(node);
   }
   private EditorCell createComponent_dnpd9w_a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "org.campagnelab.mps.XChart.editor.ChartDimensions");
