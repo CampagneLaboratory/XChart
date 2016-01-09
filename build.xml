@@ -36,7 +36,7 @@
         <version>${XChart_version}</version>
         <vendor url="http://campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
-        <idea-version until-build="140.1" since-build="139.1" />
+        <idea-version until-build="144.1" since-build="143.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
@@ -310,7 +310,7 @@
   <target name="java.compile.org.campagnelab.mps.XChart" depends="java.compile.org.campagnelab.mps.XChart.types, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.mps.XChart/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.XChart" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.mps.XChart/source_gen" />
@@ -357,7 +357,7 @@
   <target name="java.compile.org.campagnelab.mps.XChart#2202909375769974311" depends="java.compile.org.campagnelab.mps.XChart, java.compile.org.campagnelab.mps.XChart.types, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.mps.XChart/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.XChart#2202909375769974311" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart#2202909375769974311" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart#2202909375769974311" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.mps.XChart/generator/source_gen" />
@@ -405,7 +405,7 @@
   <target name="java.compile.org.campagnelab.mps.XChart.types" depends="fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.mps.XChart.types/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.mps.XChart.types/source_gen" />
@@ -445,7 +445,7 @@
   <target name="java.compile.org.campagnelab.mps.XChart.types#9080041854839272070" depends="java.compile.org.campagnelab.mps.XChart.types, fetchDependencies">
     <mkdir dir="${basedir}/languages/org.campagnelab.mps.XChart.types/generator/source_gen" />
     <mkdir dir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types#9080041854839272070" />
-    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types#9080041854839272070" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/org.campagnelab.mps.XChart.types#9080041854839272070" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/languages/org.campagnelab.mps.XChart.types/generator/source_gen" />
@@ -486,7 +486,7 @@
   <target name="java.compile.XChart.build">
     <mkdir dir="${basedir}/solutions/XChart.build0/source_gen" />
     <mkdir dir="${build.tmp}/java/out/XChart.build" />
-    <javac destdir="${build.tmp}/java/out/XChart.build" fork="false" includeantruntime="false" source="1.6" target="1.6">
+    <javac destdir="${build.tmp}/java/out/XChart.build" fork="true" includeantruntime="false" source="1.6" target="1.6">
       <compilerarg value="-Xlint:none" />
       <src>
         <path location="${basedir}/solutions/XChart.build0/source_gen" />
