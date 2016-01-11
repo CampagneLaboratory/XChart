@@ -252,6 +252,9 @@
       <node concept="m$_yC" id="7XxitGzkyrT" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
+      <node concept="m$_yC" id="47V82LIqXCr" role="m$_yJ">
+        <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
+      </node>
       <node concept="3_J27D" id="7XxitGzkyrU" role="m_cZH">
         <node concept="3Mxwew" id="7XxitGzkyrV" role="3MwsjC">
           <property role="3MwjfP" value="XChart" />
