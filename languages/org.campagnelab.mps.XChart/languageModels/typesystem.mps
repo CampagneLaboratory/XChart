@@ -2,11 +2,11 @@
 <model ref="r:4a32eeec-6ab1-43b8-be93-bebaf91a504e(org.campagnelab.mps.XChart.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
   </imports>
   <registry>
@@ -135,11 +135,11 @@
         <node concept="3cpWsn" id="7S2MvlRmF1Q" role="3cpWs9">
           <property role="TrG5h" value="file" />
           <node concept="3uibUv" id="7S2MvlRmF1R" role="1tU5fm">
-            <ref role="3uigEE" to="guwi:~File" resolve="File" />
+            <ref role="3uigEE" to="fxg7:~File" resolve="File" />
           </node>
           <node concept="2ShNRf" id="7S2MvlRmF5B" role="33vP2m">
             <node concept="1pGfFk" id="7S2MvlRmF5C" role="2ShVmc">
-              <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+              <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
               <node concept="2OqwBi" id="7S2MvlRmF5D" role="37wK5m">
                 <node concept="1YBJjd" id="7S2MvlRmF5E" role="2Oq$k0">
                   <ref role="1YBMHb" node="5Kw8UUF8UNZ" resolve="dataFile" />
@@ -177,7 +177,7 @@
         <node concept="3fqX7Q" id="5Kw8UUF8Xx6" role="3clFbw">
           <node concept="2OqwBi" id="5Kw8UUF8Xx8" role="3fr31v">
             <node concept="liA8E" id="5Kw8UUF8Xxe" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
+              <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
             </node>
             <node concept="37vLTw" id="7S2MvlRmJs_" role="2Oq$k0">
               <ref role="3cqZAo" node="7S2MvlRmF1Q" resolve="file" />

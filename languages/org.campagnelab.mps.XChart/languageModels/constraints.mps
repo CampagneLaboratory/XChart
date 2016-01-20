@@ -2,17 +2,17 @@
 <model ref="r:7546b2ca-c35b-4f89-867f-8a418d6edf81(org.campagnelab.mps.XChart.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="0" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
     <import index="zlf9" ref="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)" />
     <import index="r8sq" ref="r:255861a3-240e-44f9-891d-2d789f4b6268(org.campagnelab.mps.XChart.types.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -223,11 +223,11 @@
             <node concept="3cpWsn" id="5Kw8UUF8J2B" role="3cpWs9">
               <property role="TrG5h" value="file" />
               <node concept="3uibUv" id="5Kw8UUF8J2C" role="1tU5fm">
-                <ref role="3uigEE" to="guwi:~File" resolve="File" />
+                <ref role="3uigEE" to="fxg7:~File" resolve="File" />
               </node>
               <node concept="2ShNRf" id="37GCX3DbnWb" role="33vP2m">
                 <node concept="1pGfFk" id="37GCX3DbnWc" role="2ShVmc">
-                  <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                  <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                   <node concept="1Wqviy" id="37GCX3DbnWd" role="37wK5m" />
                 </node>
               </node>
@@ -240,7 +240,7 @@
             <node concept="3fqX7Q" id="37GCX3DbnW8" role="3clFbw">
               <node concept="2OqwBi" id="37GCX3DbnWa" role="3fr31v">
                 <node concept="liA8E" id="37GCX3DbnWe" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~File.exists():boolean" resolve="exists" />
+                  <ref role="37wK5l" to="fxg7:~File.exists():boolean" resolve="exists" />
                 </node>
                 <node concept="37vLTw" id="5Kw8UUF8KHW" role="2Oq$k0">
                   <ref role="3cqZAo" node="5Kw8UUF8J2B" resolve="file" />
@@ -266,7 +266,7 @@
                   <ref role="3cqZAo" node="5Kw8UUF8J2B" resolve="file" />
                 </node>
                 <node concept="liA8E" id="5Kw8UUF8LY$" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~File.getName():java.lang.String" resolve="getName" />
+                  <ref role="37wK5l" to="fxg7:~File.getName():java.lang.String" resolve="getName" />
                 </node>
               </node>
               <node concept="2OqwBi" id="5Kw8UUF8FhL" role="37vLTJ">
@@ -470,11 +470,11 @@
             <node concept="3cpWsn" id="5q$AhPcJb7c" role="3cpWs9">
               <property role="TrG5h" value="f" />
               <node concept="3uibUv" id="5q$AhPcJb7d" role="1tU5fm">
-                <ref role="3uigEE" to="guwi:~File" resolve="File" />
+                <ref role="3uigEE" to="fxg7:~File" resolve="File" />
               </node>
               <node concept="2ShNRf" id="5q$AhPcJbDh" role="33vP2m">
                 <node concept="1pGfFk" id="5q$AhPcJc5H" role="2ShVmc">
-                  <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                  <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                   <node concept="2OqwBi" id="5q$AhPcIOeV" role="37wK5m">
                     <node concept="2OqwBi" id="5q$AhPcIN7y" role="2Oq$k0">
                       <node concept="Bn53e" id="5q$AhPcIMV2" role="2Oq$k0" />
@@ -512,7 +512,7 @@
                   <ref role="3cqZAo" node="5q$AhPcJb7c" resolve="f" />
                 </node>
                 <node concept="liA8E" id="5q$AhPcJd$w" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~File.getName():java.lang.String" resolve="getName" />
+                  <ref role="37wK5l" to="fxg7:~File.getName():java.lang.String" resolve="getName" />
                 </node>
               </node>
             </node>
@@ -638,7 +638,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="6LdTs9L9ElQ" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                    <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                     <node concept="2OqwBi" id="6LdTs9L9EsL" role="37wK5m">
                       <node concept="3kakTB" id="6LdTs9L9EnS" role="2Oq$k0" />
                       <node concept="3TrcHB" id="6LdTs9L9EKE" role="2OqNvi">
