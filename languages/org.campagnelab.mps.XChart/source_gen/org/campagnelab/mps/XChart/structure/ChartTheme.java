@@ -4,19 +4,27 @@ package org.campagnelab.mps.XChart.structure;
 
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 
 public enum ChartTheme {
   GGPlot2("GGPlot2 ", "GGPlot2"),
   MatLab("MatLab", "MatLab"),
   XChart("XChart", "XChart");
 
-  private String myName;
+  private final String myName;
   public String getName() {
-    return this.myName;
+    return myName;
+  }
+  private final String myValue;
+  private ChartTheme(String name, String value) {
+    myName = name;
+    myValue = value;
+  }
+  public String getValue() {
+    return myValue;
   }
   public String getValueAsString() {
-    return this.myValue;
+    return myValue;
   }
   public static List<ChartTheme> getConstants() {
     List<ChartTheme> list = ListSequence.fromList(new LinkedList<ChartTheme>());
@@ -42,13 +50,5 @@ public enum ChartTheme {
       return ChartTheme.XChart;
     }
     return ChartTheme.getDefault();
-  }
-  private String myValue;
-  ChartTheme(String name, String value) {
-    this.myName = name;
-    this.myValue = value;
-  }
-  public String getValue() {
-    return this.myValue;
   }
 }

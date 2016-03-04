@@ -4,7 +4,7 @@ package org.campagnelab.mps.XChart.structure;
 
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.LinkedList;
 
 public enum LegendPosition {
   InsideNorth("InsideNorth", "InsideN"),
@@ -14,12 +14,20 @@ public enum LegendPosition {
   InsideNorthWest("InsideNorthWest", "InsideNW"),
   OutsideEast("OutsideEast", "OutsideE");
 
-  private String myName;
+  private final String myName;
   public String getName() {
-    return this.myName;
+    return myName;
+  }
+  private final String myValue;
+  private LegendPosition(String name, String value) {
+    myName = name;
+    myValue = value;
+  }
+  public String getValue() {
+    return myValue;
   }
   public String getValueAsString() {
-    return this.myValue;
+    return myValue;
   }
   public static List<LegendPosition> getConstants() {
     List<LegendPosition> list = ListSequence.fromList(new LinkedList<LegendPosition>());
@@ -57,13 +65,5 @@ public enum LegendPosition {
       return LegendPosition.OutsideEast;
     }
     return LegendPosition.getDefault();
-  }
-  private String myValue;
-  LegendPosition(String name, String value) {
-    this.myName = name;
-    this.myValue = value;
-  }
-  public String getValue() {
-    return this.myValue;
   }
 }

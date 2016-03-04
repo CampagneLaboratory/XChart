@@ -8,7 +8,7 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.ModelAccessor;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import org.campagnelab.mps.XChart.behavior.Doubles__BehaviorDescriptor;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.editor.runtime.cells.EmptyCellAction;
@@ -27,7 +27,7 @@ public class Doubles_Editor extends DefaultNodeEditor {
   private EditorCell createModelAccess_980cth_a0(final EditorContext editorContext, final SNode node) {
     ModelAccessor modelAccessor = new ModelAccessor() {
       public String getText() {
-        return BehaviorReflection.invokeVirtual(String.class, node, "virtual_getColumnName_7335187880077215104", new Object[]{});
+        return (String) Doubles__BehaviorDescriptor.getColumnName_id6nbOCdKKcm0.invoke(node);
       }
       public void setText(String text) {
       }

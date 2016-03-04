@@ -2,8 +2,8 @@
 <model ref="r:d2c1095a-594a-4ff4-97d7-a186cca5ed85(XChart.build)">
   <persistence version="9" />
   <languages>
-    <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="-1" />
-    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="-1" />
+    <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
+    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="1" />
   </languages>
   <imports>
@@ -41,9 +41,7 @@
         <reference id="5617550519002745380" name="script" index="1l3spb" />
         <child id="4129895186893471026" name="artifacts" index="2JcizS" />
       </concept>
-      <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
-        <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
-      </concept>
+      <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z" />
       <concept id="4380385936562003279" name="jetbrains.mps.build.structure.BuildString" flags="ng" index="NbPM2">
         <child id="4903714810883783243" name="parts" index="3MwsjC" />
       </concept>
@@ -225,13 +223,13 @@
         <node concept="2pNUuL" id="5KK2jWpWIvb" role="2pNNFR">
           <property role="2pNUuO" value="until-build" />
           <node concept="2pMdtt" id="5KK2jWpWIvf" role="2pMdts">
-            <property role="2pMdty" value="140.1" />
+            <property role="2pMdty" value="143.1" />
           </node>
         </node>
         <node concept="2pNUuL" id="5KK2jWpWItQ" role="2pNNFR">
           <property role="2pNUuO" value="since-build" />
           <node concept="2pMdtt" id="5KK2jWpWIv5" role="2pMdts">
-            <property role="2pMdty" value="139.1" />
+            <property role="2pMdty" value="142.1" />
           </node>
         </node>
       </node>
@@ -428,9 +426,7 @@
         </node>
       </node>
     </node>
-    <node concept="2_Ic$z" id="31yq_4rSfy5" role="3989C9">
-      <property role="TZNOO" value="1.6" />
-    </node>
+    <node concept="2_Ic$z" id="31yq_4rSfy5" role="3989C9" />
   </node>
 </model>
 

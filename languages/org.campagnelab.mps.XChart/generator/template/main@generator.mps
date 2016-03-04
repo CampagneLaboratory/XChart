@@ -2,22 +2,22 @@
 <model ref="r:20fc4f12-541f-4713-8b43-61bd6fff90f9(org.campagnelab.mps.XChart.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="1" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="zlf9" ref="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)" />
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
-    <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="r80k" ref="f:java_stub#5ec1cd3d-0a50-4049-a8fa-ae768d7baa25#com.xeiam.xchart(org.campagnelab.mps.XChart/com.xeiam.xchart@java_stub)" />
+    <import index="rdp5" ref="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25/java:com.xeiam.xchart(org.campagnelab.mps.XChart/)" />
     <import index="986b" ref="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" />
-    <import index="dbrf" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
+    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -330,16 +330,16 @@
           <node concept="3cpWsn" id="62UWPSfziGj" role="3cpWs9">
             <property role="TrG5h" value="charts" />
             <node concept="3uibUv" id="62UWPSfziGk" role="1tU5fm">
-              <ref role="3uigEE" to="k7g3:~ArrayList" resolve="ArrayList" />
+              <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
               <node concept="3uibUv" id="62UWPSfziGl" role="11_B2D">
-                <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+                <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
               </node>
             </node>
             <node concept="2ShNRf" id="62UWPSfziGm" role="33vP2m">
               <node concept="1pGfFk" id="62UWPSfziGn" role="2ShVmc">
-                <ref role="37wK5l" to="k7g3:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
                 <node concept="3uibUv" id="62UWPSfziGo" role="1pMfVU">
-                  <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+                  <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
                 </node>
               </node>
             </node>
@@ -388,7 +388,7 @@
               <node concept="3cpWsn" id="62UWPSfziGH" role="3cpWs9">
                 <property role="TrG5h" value="chart" />
                 <node concept="3uibUv" id="62UWPSfziGI" role="1tU5fm">
-                  <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+                  <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
                 </node>
                 <node concept="10Nm6u" id="62UWPSfziGJ" role="33vP2m" />
               </node>
@@ -431,7 +431,7 @@
                       <ref role="3cqZAo" node="62UWPSfziGj" resolve="charts" />
                     </node>
                     <node concept="liA8E" id="62UWPSfziH3" role="2OqNvi">
-                      <ref role="37wK5l" to="k7g3:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+                      <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
                       <node concept="37vLTw" id="62UWPSfziH4" role="37wK5m">
                         <ref role="3cqZAo" node="62UWPSfziGH" resolve="chart" />
                       </node>
@@ -493,9 +493,9 @@
       </node>
       <node concept="3Tm1VV" id="62UWPSfzgtt" role="1B3o_S" />
       <node concept="3uibUv" id="62UWPSfzknf" role="3clF45">
-        <ref role="3uigEE" to="k7g3:~ArrayList" resolve="ArrayList" />
+        <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
         <node concept="3uibUv" id="62UWPSfzkng" role="11_B2D">
-          <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+          <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
         </node>
       </node>
     </node>
@@ -510,9 +510,9 @@
           <node concept="3cpWsn" id="5Kw8UUFiCD$" role="3cpWs9">
             <property role="TrG5h" value="charts" />
             <node concept="3uibUv" id="5Kw8UUFiCDx" role="1tU5fm">
-              <ref role="3uigEE" to="k7g3:~ArrayList" resolve="ArrayList" />
+              <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
               <node concept="3uibUv" id="5Kw8UUFiD5c" role="11_B2D">
-                <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+                <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
               </node>
             </node>
             <node concept="1rXfSq" id="62UWPSfzmUP" role="33vP2m">
@@ -547,8 +547,8 @@
             <node concept="liA8E" id="7YP$8fx203o" role="2OqNvi">
               <ref role="37wK5l" to="986b:7YP$8fx0J8V" resolve="setOnClose" />
               <node concept="10M0yZ" id="7YP$8fx204c" role="37wK5m">
-                <ref role="1PxDUh" to="dbrf:~JFrame" resolve="JFrame" />
-                <ref role="3cqZAo" to="dbrf:~WindowConstants.DISPOSE_ON_CLOSE" resolve="DISPOSE_ON_CLOSE" />
+                <ref role="1PxDUh" to="dxuu:~JFrame" resolve="JFrame" />
+                <ref role="3cqZAo" to="dxuu:~WindowConstants.DISPOSE_ON_CLOSE" resolve="DISPOSE_ON_CLOSE" />
               </node>
             </node>
           </node>
@@ -590,9 +590,9 @@
           <node concept="3cpWsn" id="62UWPSfzn5U" role="3cpWs9">
             <property role="TrG5h" value="charts" />
             <node concept="3uibUv" id="62UWPSfzn5V" role="1tU5fm">
-              <ref role="3uigEE" to="k7g3:~ArrayList" resolve="ArrayList" />
+              <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
               <node concept="3uibUv" id="62UWPSfzn5W" role="11_B2D">
-                <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+                <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
               </node>
             </node>
             <node concept="1rXfSq" id="62UWPSfzn5X" role="33vP2m">
@@ -632,7 +632,7 @@
       </node>
       <node concept="3Tm1VV" id="62UWPSfwqqM" role="1B3o_S" />
       <node concept="3uibUv" id="62UWPSfwBJv" role="3clF45">
-        <ref role="3uigEE" to="dbrf:~JPanel" resolve="JPanel" />
+        <ref role="3uigEE" to="dxuu:~JPanel" resolve="JPanel" />
       </node>
       <node concept="37vLTG" id="62UWPSfwsho" role="3clF46">
         <property role="TrG5h" value="filenames" />
@@ -704,7 +704,7 @@
         <node concept="3cpWsn" id="5Kw8UUFiTt5" role="3cpWs9">
           <property role="TrG5h" value="chart" />
           <node concept="3uibUv" id="5Kw8UUFiTt6" role="1tU5fm">
-            <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+            <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
           </node>
           <node concept="10Nm6u" id="5Kw8UUFiTtv" role="33vP2m" />
         </node>
@@ -747,19 +747,19 @@
                             <node concept="2OqwBi" id="5Kw8UUFeg7O" role="2Oq$k0">
                               <node concept="2ShNRf" id="5Kw8UUFeg7P" role="2Oq$k0">
                                 <node concept="1pGfFk" id="5Kw8UUFeg7Q" role="2ShVmc">
-                                  <ref role="37wK5l" to="r80k:~ChartBuilder.&lt;init&gt;()" resolve="ChartBuilder" />
+                                  <ref role="37wK5l" to="rdp5:~ChartBuilder.&lt;init&gt;()" resolve="ChartBuilder" />
                                 </node>
                               </node>
                               <node concept="liA8E" id="5Kw8UUFeg7R" role="2OqNvi">
-                                <ref role="37wK5l" to="r80k:~ChartBuilder.chartType(com.xeiam.xchart.StyleManager$ChartType):com.xeiam.xchart.ChartBuilder" resolve="chartType" />
+                                <ref role="37wK5l" to="rdp5:~ChartBuilder.chartType(com.xeiam.xchart.StyleManager$ChartType):com.xeiam.xchart.ChartBuilder" resolve="chartType" />
                                 <node concept="Rm8GO" id="5Kw8UUFiWhs" role="37wK5m">
-                                  <ref role="1Px2BO" to="r80k:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
-                                  <ref role="Rm8GQ" to="r80k:~StyleManager$ChartType.Bar" resolve="Bar" />
+                                  <ref role="1Px2BO" to="rdp5:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
+                                  <ref role="Rm8GQ" to="rdp5:~StyleManager$ChartType.Bar" resolve="Bar" />
                                 </node>
                               </node>
                             </node>
                             <node concept="liA8E" id="5Kw8UUFeg7T" role="2OqNvi">
-                              <ref role="37wK5l" to="r80k:~ChartBuilder.width(int):com.xeiam.xchart.ChartBuilder" resolve="width" />
+                              <ref role="37wK5l" to="rdp5:~ChartBuilder.width(int):com.xeiam.xchart.ChartBuilder" resolve="width" />
                               <node concept="3cmrfG" id="5Kw8UUFiWlC" role="37wK5m">
                                 <property role="3cmrfH" value="100" />
                                 <node concept="17Uvod" id="5Kw8UUFiWC9" role="lGtFl">
@@ -787,7 +787,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="5Kw8UUFeg7V" role="2OqNvi">
-                            <ref role="37wK5l" to="r80k:~ChartBuilder.height(int):com.xeiam.xchart.ChartBuilder" resolve="height" />
+                            <ref role="37wK5l" to="rdp5:~ChartBuilder.height(int):com.xeiam.xchart.ChartBuilder" resolve="height" />
                             <node concept="3cmrfG" id="5Kw8UUFiZme" role="37wK5m">
                               <property role="3cmrfH" value="100" />
                               <node concept="17Uvod" id="5Kw8UUFiZLX" role="lGtFl">
@@ -815,15 +815,15 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="5Kw8UUFeg7X" role="2OqNvi">
-                          <ref role="37wK5l" to="r80k:~ChartBuilder.theme(com.xeiam.xchart.StyleManager$ChartTheme):com.xeiam.xchart.ChartBuilder" resolve="theme" />
+                          <ref role="37wK5l" to="rdp5:~ChartBuilder.theme(com.xeiam.xchart.StyleManager$ChartTheme):com.xeiam.xchart.ChartBuilder" resolve="theme" />
                           <node concept="Rm8GO" id="5Kw8UUFj5xK" role="37wK5m">
-                            <ref role="1Px2BO" to="r80k:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
-                            <ref role="Rm8GQ" to="r80k:~StyleManager$ChartTheme.GGPlot2" resolve="GGPlot2" />
+                            <ref role="1Px2BO" to="rdp5:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
+                            <ref role="Rm8GQ" to="rdp5:~StyleManager$ChartTheme.GGPlot2" resolve="GGPlot2" />
                           </node>
                         </node>
                       </node>
                       <node concept="liA8E" id="5Kw8UUFeg83" role="2OqNvi">
-                        <ref role="37wK5l" to="r80k:~ChartBuilder.title(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="title" />
+                        <ref role="37wK5l" to="rdp5:~ChartBuilder.title(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="title" />
                         <node concept="Xl_RD" id="5Kw8UUFj7mQ" role="37wK5m">
                           <property role="Xl_RC" value="title" />
                           <node concept="17Uvod" id="5Kw8UUFj8NM" role="lGtFl">
@@ -851,7 +851,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="5Kw8UUFeg85" role="2OqNvi">
-                      <ref role="37wK5l" to="r80k:~ChartBuilder.xAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="xAxisTitle" />
+                      <ref role="37wK5l" to="rdp5:~ChartBuilder.xAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="xAxisTitle" />
                       <node concept="Xl_RD" id="5Kw8UUFjbab" role="37wK5m">
                         <property role="Xl_RC" value="xColumnName" />
                         <node concept="17Uvod" id="5Kw8UUFjfUK" role="lGtFl">
@@ -898,7 +898,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="5Kw8UUFeg8b" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~ChartBuilder.yAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="yAxisTitle" />
+                    <ref role="37wK5l" to="rdp5:~ChartBuilder.yAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="yAxisTitle" />
                     <node concept="Xl_RD" id="5Kw8UUFje1Z" role="37wK5m">
                       <property role="Xl_RC" value="yColumnName" />
                       <node concept="17Uvod" id="5Kw8UUFjo7L" role="lGtFl">
@@ -945,7 +945,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="5Kw8UUFeg8h" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~ChartBuilder.build():com.xeiam.xchart.Chart" resolve="build" />
+                  <ref role="37wK5l" to="rdp5:~ChartBuilder.build():com.xeiam.xchart.Chart" resolve="build" />
                 </node>
               </node>
             </node>
@@ -981,7 +981,7 @@
                     <ref role="3cqZAo" node="5Kw8UUFiTt5" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="5Kw8UUFFWRe" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
+                    <ref role="37wK5l" to="rdp5:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
                     <node concept="Xl_RD" id="5Kw8UUFFWRf" role="37wK5m">
                       <property role="Xl_RC" value="seriesName" />
                       <node concept="17Uvod" id="5Kw8UUFFWRg" role="lGtFl">
@@ -1132,7 +1132,7 @@
                     <ref role="3cqZAo" node="5Kw8UUFiTt5" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="5Kw8UUFGNjj" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
+                    <ref role="37wK5l" to="rdp5:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
                     <node concept="Xl_RD" id="5Kw8UUFGNjk" role="37wK5m">
                       <property role="Xl_RC" value="seriesName" />
                       <node concept="17Uvod" id="5Kw8UUFGNjl" role="lGtFl">
@@ -1358,7 +1358,7 @@
         <node concept="3cpWsn" id="5Kw8UUFjr0J" role="3cpWs9">
           <property role="TrG5h" value="chart" />
           <node concept="3uibUv" id="5Kw8UUFjr0K" role="1tU5fm">
-            <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+            <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
           </node>
           <node concept="10Nm6u" id="5Kw8UUFjr0L" role="33vP2m" />
         </node>
@@ -1395,19 +1395,19 @@
                             <node concept="2OqwBi" id="5Kw8UUFjr0Y" role="2Oq$k0">
                               <node concept="2ShNRf" id="5Kw8UUFjr0Z" role="2Oq$k0">
                                 <node concept="1pGfFk" id="5Kw8UUFjr10" role="2ShVmc">
-                                  <ref role="37wK5l" to="r80k:~ChartBuilder.&lt;init&gt;()" resolve="ChartBuilder" />
+                                  <ref role="37wK5l" to="rdp5:~ChartBuilder.&lt;init&gt;()" resolve="ChartBuilder" />
                                 </node>
                               </node>
                               <node concept="liA8E" id="5Kw8UUFjr11" role="2OqNvi">
-                                <ref role="37wK5l" to="r80k:~ChartBuilder.chartType(com.xeiam.xchart.StyleManager$ChartType):com.xeiam.xchart.ChartBuilder" resolve="chartType" />
+                                <ref role="37wK5l" to="rdp5:~ChartBuilder.chartType(com.xeiam.xchart.StyleManager$ChartType):com.xeiam.xchart.ChartBuilder" resolve="chartType" />
                                 <node concept="Rm8GO" id="5Kw8UUFjr12" role="37wK5m">
-                                  <ref role="1Px2BO" to="r80k:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
-                                  <ref role="Rm8GQ" to="r80k:~StyleManager$ChartType.Bar" resolve="Bar" />
+                                  <ref role="1Px2BO" to="rdp5:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
+                                  <ref role="Rm8GQ" to="rdp5:~StyleManager$ChartType.Bar" resolve="Bar" />
                                 </node>
                               </node>
                             </node>
                             <node concept="liA8E" id="5Kw8UUFjr13" role="2OqNvi">
-                              <ref role="37wK5l" to="r80k:~ChartBuilder.width(int):com.xeiam.xchart.ChartBuilder" resolve="width" />
+                              <ref role="37wK5l" to="rdp5:~ChartBuilder.width(int):com.xeiam.xchart.ChartBuilder" resolve="width" />
                               <node concept="3cmrfG" id="5Kw8UUFjr14" role="37wK5m">
                                 <property role="3cmrfH" value="100" />
                                 <node concept="17Uvod" id="5Kw8UUFjr15" role="lGtFl">
@@ -1435,7 +1435,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="5Kw8UUFjr1e" role="2OqNvi">
-                            <ref role="37wK5l" to="r80k:~ChartBuilder.height(int):com.xeiam.xchart.ChartBuilder" resolve="height" />
+                            <ref role="37wK5l" to="rdp5:~ChartBuilder.height(int):com.xeiam.xchart.ChartBuilder" resolve="height" />
                             <node concept="3cmrfG" id="5Kw8UUFjr1f" role="37wK5m">
                               <property role="3cmrfH" value="100" />
                               <node concept="17Uvod" id="5Kw8UUFjr1g" role="lGtFl">
@@ -1463,15 +1463,15 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="5Kw8UUFjr1p" role="2OqNvi">
-                          <ref role="37wK5l" to="r80k:~ChartBuilder.theme(com.xeiam.xchart.StyleManager$ChartTheme):com.xeiam.xchart.ChartBuilder" resolve="theme" />
+                          <ref role="37wK5l" to="rdp5:~ChartBuilder.theme(com.xeiam.xchart.StyleManager$ChartTheme):com.xeiam.xchart.ChartBuilder" resolve="theme" />
                           <node concept="Rm8GO" id="5Kw8UUFjr1q" role="37wK5m">
-                            <ref role="1Px2BO" to="r80k:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
-                            <ref role="Rm8GQ" to="r80k:~StyleManager$ChartTheme.GGPlot2" resolve="GGPlot2" />
+                            <ref role="1Px2BO" to="rdp5:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
+                            <ref role="Rm8GQ" to="rdp5:~StyleManager$ChartTheme.GGPlot2" resolve="GGPlot2" />
                           </node>
                         </node>
                       </node>
                       <node concept="liA8E" id="5Kw8UUFjr1r" role="2OqNvi">
-                        <ref role="37wK5l" to="r80k:~ChartBuilder.title(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="title" />
+                        <ref role="37wK5l" to="rdp5:~ChartBuilder.title(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="title" />
                         <node concept="Xl_RD" id="5Kw8UUFjr1s" role="37wK5m">
                           <property role="Xl_RC" value="title" />
                           <node concept="17Uvod" id="5Kw8UUFjr1t" role="lGtFl">
@@ -1499,7 +1499,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="5Kw8UUFjr1A" role="2OqNvi">
-                      <ref role="37wK5l" to="r80k:~ChartBuilder.xAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="xAxisTitle" />
+                      <ref role="37wK5l" to="rdp5:~ChartBuilder.xAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="xAxisTitle" />
                       <node concept="Xl_RD" id="5Kw8UUFjr1B" role="37wK5m">
                         <property role="Xl_RC" value="xColumnName" />
                         <node concept="17Uvod" id="5Kw8UUFjr1C" role="lGtFl">
@@ -1546,7 +1546,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="5Kw8UUFjr1Y" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~ChartBuilder.yAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="yAxisTitle" />
+                    <ref role="37wK5l" to="rdp5:~ChartBuilder.yAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="yAxisTitle" />
                     <node concept="Xl_RD" id="5Kw8UUFjr1Z" role="37wK5m">
                       <property role="Xl_RC" value="yColumnName" />
                       <node concept="17Uvod" id="5Kw8UUFjr20" role="lGtFl">
@@ -1593,7 +1593,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="5Kw8UUFjr2m" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~ChartBuilder.build():com.xeiam.xchart.Chart" resolve="build" />
+                  <ref role="37wK5l" to="rdp5:~ChartBuilder.build():com.xeiam.xchart.Chart" resolve="build" />
                 </node>
               </node>
             </node>
@@ -1625,16 +1625,16 @@
             <node concept="3cpWsn" id="6jd8z00p_Ya" role="3cpWs9">
               <property role="TrG5h" value="x" />
               <node concept="3uibUv" id="6jd8z00p_Y7" role="1tU5fm">
-                <ref role="3uigEE" to="k7g3:~ArrayList" resolve="ArrayList" />
+                <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
                 <node concept="3uibUv" id="6jd8z00pGB8" role="11_B2D">
-                  <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+                  <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
                 </node>
               </node>
               <node concept="2ShNRf" id="6jd8z00qass" role="33vP2m">
                 <node concept="1pGfFk" id="6jd8z00qasq" role="2ShVmc">
-                  <ref role="37wK5l" to="k7g3:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                  <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
                   <node concept="3uibUv" id="6jd8z00qasr" role="1pMfVU">
-                    <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+                    <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
                   </node>
                 </node>
               </node>
@@ -1644,16 +1644,16 @@
             <node concept="3cpWsn" id="6jd8z00pGOV" role="3cpWs9">
               <property role="TrG5h" value="y" />
               <node concept="3uibUv" id="6jd8z00pGOW" role="1tU5fm">
-                <ref role="3uigEE" to="k7g3:~ArrayList" resolve="ArrayList" />
+                <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
                 <node concept="3uibUv" id="6jd8z00pGOX" role="11_B2D">
-                  <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+                  <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
                 </node>
               </node>
               <node concept="2ShNRf" id="6jd8z00qbvR" role="33vP2m">
                 <node concept="1pGfFk" id="6jd8z00qbu3" role="2ShVmc">
-                  <ref role="37wK5l" to="k7g3:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                  <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
                   <node concept="3uibUv" id="6jd8z00qbu4" role="1pMfVU">
-                    <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+                    <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
                   </node>
                 </node>
               </node>
@@ -1707,7 +1707,7 @@
                                             </node>
                                           </node>
                                           <node concept="liA8E" id="v$4mMi0TEl" role="2OqNvi">
-                                            <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                            <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                                             <node concept="Xl_RD" id="v$4mMi0TVR" role="37wK5m">
                                               <property role="Xl_RC" value="x" />
                                             </node>
@@ -1762,7 +1762,7 @@
                 <ref role="3cqZAo" node="5Kw8UUFjr0J" resolve="chart" />
               </node>
               <node concept="liA8E" id="4$zrkrO8cCp" role="2OqNvi">
-                <ref role="37wK5l" to="r80k:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
+                <ref role="37wK5l" to="rdp5:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
                 <node concept="Xl_RD" id="4$zrkrO8cCq" role="37wK5m">
                   <property role="Xl_RC" value="series" />
                 </node>
@@ -1791,7 +1791,7 @@
         <node concept="3cpWsn" id="3bLvkJqzfsI" role="3cpWs9">
           <property role="TrG5h" value="chart" />
           <node concept="3uibUv" id="3bLvkJqzfsJ" role="1tU5fm">
-            <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+            <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
           </node>
           <node concept="10Nm6u" id="3bLvkJqzfsK" role="33vP2m" />
         </node>
@@ -1835,19 +1835,19 @@
                             <node concept="2OqwBi" id="3bLvkJqzft6" role="2Oq$k0">
                               <node concept="2ShNRf" id="3bLvkJqzft7" role="2Oq$k0">
                                 <node concept="1pGfFk" id="3bLvkJqzft8" role="2ShVmc">
-                                  <ref role="37wK5l" to="r80k:~ChartBuilder.&lt;init&gt;()" resolve="ChartBuilder" />
+                                  <ref role="37wK5l" to="rdp5:~ChartBuilder.&lt;init&gt;()" resolve="ChartBuilder" />
                                 </node>
                               </node>
                               <node concept="liA8E" id="3bLvkJqzft9" role="2OqNvi">
-                                <ref role="37wK5l" to="r80k:~ChartBuilder.chartType(com.xeiam.xchart.StyleManager$ChartType):com.xeiam.xchart.ChartBuilder" resolve="chartType" />
+                                <ref role="37wK5l" to="rdp5:~ChartBuilder.chartType(com.xeiam.xchart.StyleManager$ChartType):com.xeiam.xchart.ChartBuilder" resolve="chartType" />
                                 <node concept="Rm8GO" id="3bLvkJqzrIL" role="37wK5m">
-                                  <ref role="Rm8GQ" to="r80k:~StyleManager$ChartType.Scatter" resolve="Scatter" />
-                                  <ref role="1Px2BO" to="r80k:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
+                                  <ref role="Rm8GQ" to="rdp5:~StyleManager$ChartType.Scatter" resolve="Scatter" />
+                                  <ref role="1Px2BO" to="rdp5:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
                                 </node>
                               </node>
                             </node>
                             <node concept="liA8E" id="3bLvkJqzftb" role="2OqNvi">
-                              <ref role="37wK5l" to="r80k:~ChartBuilder.width(int):com.xeiam.xchart.ChartBuilder" resolve="width" />
+                              <ref role="37wK5l" to="rdp5:~ChartBuilder.width(int):com.xeiam.xchart.ChartBuilder" resolve="width" />
                               <node concept="3cmrfG" id="3bLvkJqzftc" role="37wK5m">
                                 <property role="3cmrfH" value="100" />
                                 <node concept="17Uvod" id="3bLvkJqzftd" role="lGtFl">
@@ -1875,7 +1875,7 @@
                             </node>
                           </node>
                           <node concept="liA8E" id="3bLvkJqzftm" role="2OqNvi">
-                            <ref role="37wK5l" to="r80k:~ChartBuilder.height(int):com.xeiam.xchart.ChartBuilder" resolve="height" />
+                            <ref role="37wK5l" to="rdp5:~ChartBuilder.height(int):com.xeiam.xchart.ChartBuilder" resolve="height" />
                             <node concept="3cmrfG" id="3bLvkJqzftn" role="37wK5m">
                               <property role="3cmrfH" value="100" />
                               <node concept="17Uvod" id="3bLvkJqzfto" role="lGtFl">
@@ -1903,15 +1903,15 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="3bLvkJqzftx" role="2OqNvi">
-                          <ref role="37wK5l" to="r80k:~ChartBuilder.theme(com.xeiam.xchart.StyleManager$ChartTheme):com.xeiam.xchart.ChartBuilder" resolve="theme" />
+                          <ref role="37wK5l" to="rdp5:~ChartBuilder.theme(com.xeiam.xchart.StyleManager$ChartTheme):com.xeiam.xchart.ChartBuilder" resolve="theme" />
                           <node concept="Rm8GO" id="3bLvkJqzfty" role="37wK5m">
-                            <ref role="Rm8GQ" to="r80k:~StyleManager$ChartTheme.GGPlot2" resolve="GGPlot2" />
-                            <ref role="1Px2BO" to="r80k:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
+                            <ref role="Rm8GQ" to="rdp5:~StyleManager$ChartTheme.GGPlot2" resolve="GGPlot2" />
+                            <ref role="1Px2BO" to="rdp5:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
                           </node>
                         </node>
                       </node>
                       <node concept="liA8E" id="3bLvkJqzftz" role="2OqNvi">
-                        <ref role="37wK5l" to="r80k:~ChartBuilder.title(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="title" />
+                        <ref role="37wK5l" to="rdp5:~ChartBuilder.title(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="title" />
                         <node concept="Xl_RD" id="3bLvkJqzft$" role="37wK5m">
                           <property role="Xl_RC" value="title" />
                           <node concept="17Uvod" id="3bLvkJqzft_" role="lGtFl">
@@ -1939,7 +1939,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="3bLvkJqzftI" role="2OqNvi">
-                      <ref role="37wK5l" to="r80k:~ChartBuilder.xAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="xAxisTitle" />
+                      <ref role="37wK5l" to="rdp5:~ChartBuilder.xAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="xAxisTitle" />
                       <node concept="Xl_RD" id="3bLvkJqzftJ" role="37wK5m">
                         <property role="Xl_RC" value="xColumnName" />
                         <node concept="17Uvod" id="3bLvkJqzftK" role="lGtFl">
@@ -1986,7 +1986,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="3bLvkJqzfu2" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~ChartBuilder.yAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="yAxisTitle" />
+                    <ref role="37wK5l" to="rdp5:~ChartBuilder.yAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="yAxisTitle" />
                     <node concept="Xl_RD" id="3bLvkJqzfu3" role="37wK5m">
                       <property role="Xl_RC" value="yColumnName" />
                       <node concept="17Uvod" id="3bLvkJqzfu4" role="lGtFl">
@@ -2033,7 +2033,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3bLvkJqzfum" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~ChartBuilder.build():com.xeiam.xchart.Chart" resolve="build" />
+                  <ref role="37wK5l" to="rdp5:~ChartBuilder.build():com.xeiam.xchart.Chart" resolve="build" />
                 </node>
               </node>
             </node>
@@ -2069,7 +2069,7 @@
                     <ref role="3cqZAo" node="3bLvkJqzfsI" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="3bLvkJqzfus" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
+                    <ref role="37wK5l" to="rdp5:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
                     <node concept="Xl_RD" id="3bLvkJqzfut" role="37wK5m">
                       <property role="Xl_RC" value="seriesName" />
                       <node concept="17Uvod" id="3bLvkJqzfuu" role="lGtFl">
@@ -2220,7 +2220,7 @@
                     <ref role="3cqZAo" node="3bLvkJqzfsI" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="3bLvkJqzfvp" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
+                    <ref role="37wK5l" to="rdp5:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
                     <node concept="Xl_RD" id="3bLvkJqzfvq" role="37wK5m">
                       <property role="Xl_RC" value="seriesName" />
                       <node concept="17Uvod" id="3bLvkJqzfvr" role="lGtFl">
@@ -2447,7 +2447,7 @@
           <node concept="3cpWsn" id="3bLvkJqzBrF" role="3cpWs9">
             <property role="TrG5h" value="chart" />
             <node concept="3uibUv" id="3bLvkJqzBrG" role="1tU5fm">
-              <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+              <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
             </node>
           </node>
         </node>
@@ -2460,14 +2460,14 @@
                     <ref role="3cqZAo" node="3bLvkJqzBrF" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="2L53R4ZmaAj" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                    <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2L53R4ZmaAk" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~StyleManager.setYAxisMin(double):void" resolve="setYAxisMin" />
+                  <ref role="37wK5l" to="rdp5:~StyleManager.setYAxisMin(double):void" resolve="setYAxisMin" />
                   <node concept="2YIFZM" id="2L53R4ZmaAs" role="37wK5m">
-                    <ref role="1Pybhc" to="e2lb:~Double" resolve="Double" />
-                    <ref role="37wK5l" to="e2lb:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
+                    <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                    <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
                     <node concept="Xl_RD" id="3bLvkJqzCpO" role="37wK5m">
                       <property role="Xl_RC" value="0.0" />
                       <node concept="17Uvod" id="3bLvkJqzC$_" role="lGtFl">
@@ -2515,14 +2515,14 @@
                     <ref role="3cqZAo" node="3bLvkJqzBrF" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="3bLvkJqzGZJ" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                    <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="3bLvkJqzGZK" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~StyleManager.setYAxisMax(double):void" resolve="setYAxisMax" />
+                  <ref role="37wK5l" to="rdp5:~StyleManager.setYAxisMax(double):void" resolve="setYAxisMax" />
                   <node concept="2YIFZM" id="3bLvkJqzGZL" role="37wK5m">
-                    <ref role="1Pybhc" to="e2lb:~Double" resolve="Double" />
-                    <ref role="37wK5l" to="e2lb:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
+                    <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                    <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
                     <node concept="Xl_RD" id="3bLvkJqzGZM" role="37wK5m">
                       <property role="Xl_RC" value="0.0" />
                       <node concept="17Uvod" id="3bLvkJqzGZN" role="lGtFl">
@@ -2570,14 +2570,14 @@
                     <ref role="3cqZAo" node="3bLvkJqzBrF" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="5KK2jWojLG9" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                    <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="5KK2jWojLGa" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~StyleManager.setXAxisMin(double):void" resolve="setXAxisMin" />
+                  <ref role="37wK5l" to="rdp5:~StyleManager.setXAxisMin(double):void" resolve="setXAxisMin" />
                   <node concept="2YIFZM" id="5KK2jWojLGb" role="37wK5m">
-                    <ref role="1Pybhc" to="e2lb:~Double" resolve="Double" />
-                    <ref role="37wK5l" to="e2lb:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
+                    <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                    <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
                     <node concept="Xl_RD" id="5KK2jWojLGc" role="37wK5m">
                       <property role="Xl_RC" value="0.0" />
                       <node concept="17Uvod" id="5KK2jWojLGd" role="lGtFl">
@@ -2625,14 +2625,14 @@
                     <ref role="3cqZAo" node="3bLvkJqzBrF" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="5KK2jWojMr3" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                    <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="5KK2jWojMr4" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~StyleManager.setXAxisMax(double):void" resolve="setXAxisMax" />
+                  <ref role="37wK5l" to="rdp5:~StyleManager.setXAxisMax(double):void" resolve="setXAxisMax" />
                   <node concept="2YIFZM" id="5KK2jWojMr5" role="37wK5m">
-                    <ref role="1Pybhc" to="e2lb:~Double" resolve="Double" />
-                    <ref role="37wK5l" to="e2lb:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
+                    <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                    <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
                     <node concept="Xl_RD" id="5KK2jWojMr6" role="37wK5m">
                       <property role="Xl_RC" value="0.0" />
                       <node concept="17Uvod" id="5KK2jWojMr7" role="lGtFl">
@@ -2680,11 +2680,11 @@
                     <ref role="3cqZAo" node="3bLvkJqzBrF" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="3bLvkJq__zm" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                    <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="3bLvkJq__Xa" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~StyleManager.setLegendVisible(boolean):void" resolve="setLegendVisible" />
+                  <ref role="37wK5l" to="rdp5:~StyleManager.setLegendVisible(boolean):void" resolve="setLegendVisible" />
                   <node concept="3clFbT" id="3bLvkJq__Ya" role="37wK5m">
                     <property role="3clFbU" value="true" />
                     <node concept="17Uvod" id="3bLvkJq__Zr" role="lGtFl">
@@ -2717,14 +2717,14 @@
                     <ref role="3cqZAo" node="3bLvkJqzBrF" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="3bLvkJqBvrx" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                    <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="3bLvkJqBvDN" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~StyleManager.setLegendPosition(com.xeiam.xchart.StyleManager$LegendPosition):void" resolve="setLegendPosition" />
+                  <ref role="37wK5l" to="rdp5:~StyleManager.setLegendPosition(com.xeiam.xchart.StyleManager$LegendPosition):void" resolve="setLegendPosition" />
                   <node concept="Rm8GO" id="3bLvkJqBKvq" role="37wK5m">
-                    <ref role="Rm8GQ" to="r80k:~StyleManager$LegendPosition.InsideN" resolve="InsideN" />
-                    <ref role="1Px2BO" to="r80k:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
+                    <ref role="Rm8GQ" to="rdp5:~StyleManager$LegendPosition.InsideN" resolve="InsideN" />
+                    <ref role="1Px2BO" to="rdp5:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
                     <node concept="1ZhdrF" id="3bLvkJqBKx3" role="lGtFl">
                       <property role="2qtEX8" value="enumConstantDeclaration" />
                       <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1083260308424/1083260308426" />
@@ -2744,7 +2744,7 @@
                                 </node>
                               </node>
                               <node concept="liA8E" id="3bLvkJqBMrL" role="2OqNvi">
-                                <ref role="37wK5l" to="e2lb:~String.toString():java.lang.String" resolve="toString" />
+                                <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
                               </node>
                             </node>
                           </node>

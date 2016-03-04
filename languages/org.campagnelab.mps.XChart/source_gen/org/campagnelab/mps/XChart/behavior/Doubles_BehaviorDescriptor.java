@@ -4,6 +4,12 @@ package org.campagnelab.mps.XChart.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 
+/**
+ * Will be removed after 3.3
+ * Need to support compilation of the legacy behavior descriptors before the language is rebuilt
+ * This interface is not involved in the actual method invocation
+ */
+@Deprecated
 public interface Doubles_BehaviorDescriptor {
   public int virtual_size_2202909375770434166(SNode thisNode);
   public double[] virtual_getDoubles_2202909375770410262(SNode thisNode);

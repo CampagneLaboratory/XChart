@@ -2,23 +2,23 @@
 <model ref="r:fbd71c0b-f517-4268-8dd6-be04c874a752(org.campagnelab.mps.XChart.behavior)">
   <persistence version="9" />
   <languages>
-    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
-    <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="-1" />
+    <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="0" />
+    <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="ztlb" ref="r:989540b8-cc89-4ed5-ba78-cf2ce766b8ce(org.campagnelab.mps.XChart.structure)" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-    <import index="dbrf" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="ec5l" ref="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
-    <import index="1t7x" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
-    <import index="r80k" ref="f:java_stub#5ec1cd3d-0a50-4049-a8fa-ae768d7baa25#com.xeiam.xchart(org.campagnelab.mps.XChart/com.xeiam.xchart@java_stub)" />
+    <import index="rdp5" ref="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25/java:com.xeiam.xchart(org.campagnelab.mps.XChart/)" />
     <import index="986b" ref="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" />
-    <import index="srng" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor(MPS.Editor/jetbrains.mps.openapi.editor@java_stub)" />
+    <import index="cj4x" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.editor(MPS.Editor/)" />
     <import index="r8sq" ref="r:255861a3-240e-44f9-891d-2d789f4b6268(org.campagnelab.mps.XChart.types.structure)" />
   </imports>
   <registry>
@@ -50,9 +50,6 @@
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
-      <concept id="1177326519037" name="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" flags="nn" index="u8gfJ">
-        <child id="1177326540772" name="statement" index="u8lrQ" />
-      </concept>
       <concept id="1153952380246" name="jetbrains.mps.baseLanguage.structure.TryStatement" flags="nn" index="2GUZhq">
         <child id="1153952416686" name="body" index="2GV8ay" />
         <child id="1153952429843" name="finallyBody" index="2GVbov" />
@@ -239,14 +236,22 @@
       <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
         <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
-      <concept id="1172420572800" name="jetbrains.mps.lang.smodel.structure.SConceptType" flags="in" index="3THzug" />
+      <concept id="1172420572800" name="jetbrains.mps.lang.smodel.structure.ConceptNodeType" flags="in" index="3THzug" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -338,7 +343,7 @@
                   <node concept="13iPFW" id="4$zrkrOaWPS" role="2JrQYb" />
                 </node>
                 <node concept="liA8E" id="4$zrkrOaYC$" role="2OqNvi">
-                  <ref role="37wK5l" to="ec5l:~SNode.getUserObject(java.lang.Object):java.lang.Object" resolve="getUserObject" />
+                  <ref role="37wK5l" to="mhbf:~SNode.getUserObject(java.lang.Object):java.lang.Object" resolve="getUserObject" />
                   <node concept="3cpWs3" id="4$zrkrOb0wk" role="37wK5m">
                     <node concept="2OqwBi" id="4$zrkrOb0SK" role="3uHU7w">
                       <node concept="13iPFW" id="4$zrkrOb0N4" role="2Oq$k0" />
@@ -463,7 +468,7 @@
               <node concept="13iPFW" id="4$zrkrObaB1" role="2JrQYb" />
             </node>
             <node concept="liA8E" id="4$zrkrObcoX" role="2OqNvi">
-              <ref role="37wK5l" to="ec5l:~SNode.putUserObject(java.lang.Object,java.lang.Object):void" resolve="putUserObject" />
+              <ref role="37wK5l" to="mhbf:~SNode.putUserObject(java.lang.Object,java.lang.Object):void" resolve="putUserObject" />
               <node concept="3cpWs3" id="4$zrkrObcY$" role="37wK5m">
                 <node concept="2OqwBi" id="4$zrkrObcY_" role="3uHU7w">
                   <node concept="13iPFW" id="4$zrkrObcYA" role="2Oq$k0" />
@@ -545,7 +550,7 @@
           <node concept="3cpWsn" id="37GCX3DatSN" role="3cpWs9">
             <property role="TrG5h" value="reader" />
             <node concept="3uibUv" id="37GCX3DatSO" role="1tU5fm">
-              <ref role="3uigEE" to="fxg7:~BufferedReader" resolve="BufferedReader" />
+              <ref role="3uigEE" to="guwi:~BufferedReader" resolve="BufferedReader" />
             </node>
             <node concept="10Nm6u" id="37GCX3Dau2Q" role="33vP2m" />
           </node>
@@ -559,13 +564,13 @@
                 </node>
                 <node concept="2ShNRf" id="37GCX3DasW0" role="37vLTx">
                   <node concept="1pGfFk" id="37GCX3DasW1" role="2ShVmc">
-                    <ref role="37wK5l" to="fxg7:~BufferedReader.&lt;init&gt;(java.io.Reader)" resolve="BufferedReader" />
+                    <ref role="37wK5l" to="guwi:~BufferedReader.&lt;init&gt;(java.io.Reader)" resolve="BufferedReader" />
                     <node concept="2ShNRf" id="37GCX3DasW2" role="37wK5m">
                       <node concept="1pGfFk" id="37GCX3DasW3" role="2ShVmc">
-                        <ref role="37wK5l" to="fxg7:~FileReader.&lt;init&gt;(java.io.File)" resolve="FileReader" />
+                        <ref role="37wK5l" to="guwi:~FileReader.&lt;init&gt;(java.io.File)" resolve="FileReader" />
                         <node concept="2ShNRf" id="37GCX3DasW4" role="37wK5m">
                           <node concept="1pGfFk" id="37GCX3DasW5" role="2ShVmc">
-                            <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                            <ref role="37wK5l" to="guwi:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
                             <node concept="2OqwBi" id="37GCX3DayIu" role="37wK5m">
                               <node concept="13iPFW" id="37GCX3DayFF" role="2Oq$k0" />
                               <node concept="3TrcHB" id="37GCX3Dazxh" role="2OqNvi">
@@ -589,7 +594,7 @@
                     <ref role="3cqZAo" node="37GCX3DatSN" resolve="reader" />
                   </node>
                   <node concept="liA8E" id="37GCX3DasWg" role="2OqNvi">
-                    <ref role="37wK5l" to="fxg7:~BufferedReader.readLine():java.lang.String" resolve="readLine" />
+                    <ref role="37wK5l" to="guwi:~BufferedReader.readLine():java.lang.String" resolve="readLine" />
                   </node>
                 </node>
               </node>
@@ -605,7 +610,7 @@
                     <ref role="3cqZAo" node="37GCX3DasWc" resolve="header" />
                   </node>
                   <node concept="liA8E" id="37GCX3DasWn" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                    <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
                     <node concept="2OqwBi" id="37GCX3DasWo" role="37wK5m">
                       <node concept="13iPFW" id="37GCX3DasWq" role="2Oq$k0" />
                       <node concept="3TrcHB" id="37GCX3DasWs" role="2OqNvi">
@@ -635,7 +640,7 @@
             <node concept="3cpWsn" id="37GCX3DavWC" role="TDEfY">
               <property role="TrG5h" value="e" />
               <node concept="3uibUv" id="37GCX3DazSW" role="1tU5fm">
-                <ref role="3uigEE" to="fxg7:~IOException" resolve="IOException" />
+                <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
               </node>
             </node>
             <node concept="3clFbS" id="37GCX3DaB4r" role="TDEfX">
@@ -655,7 +660,7 @@
                           <ref role="3cqZAo" node="37GCX3DatSN" resolve="reader" />
                         </node>
                         <node concept="liA8E" id="7XxitGzdaRa" role="2OqNvi">
-                          <ref role="37wK5l" to="fxg7:~BufferedReader.close():void" resolve="close" />
+                          <ref role="37wK5l" to="guwi:~BufferedReader.close():void" resolve="close" />
                         </node>
                       </node>
                     </node>
@@ -672,7 +677,7 @@
                 <node concept="3cpWsn" id="7XxitGzdaRf" role="TDEfY">
                   <property role="TrG5h" value="e" />
                   <node concept="3uibUv" id="7XxitGzdaRg" role="1tU5fm">
-                    <ref role="3uigEE" to="fxg7:~IOException" resolve="IOException" />
+                    <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
                   </node>
                 </node>
                 <node concept="3clFbS" id="7XxitGzdaRh" role="TDEfX" />
@@ -743,7 +748,7 @@
                 <ref role="3cqZAo" node="4m7W1CEBY6b" resolve="type" />
               </node>
               <node concept="liA8E" id="5lSCf5CP78Y" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~Enum.toString():java.lang.String" resolve="toString" />
+                <ref role="37wK5l" to="wyt6:~Enum.toString():java.lang.String" resolve="toString" />
               </node>
             </node>
             <node concept="Xl_RD" id="5lSCf5CP5aq" role="3uHU7B">
@@ -980,7 +985,7 @@
           <node concept="3cpWsn" id="6jd8z00rNMs" role="3cpWs9">
             <property role="TrG5h" value="component" />
             <node concept="3uibUv" id="6jd8z00rNMt" role="1tU5fm">
-              <ref role="3uigEE" to="r80k:~XChartPanel" resolve="XChartPanel" />
+              <ref role="3uigEE" to="rdp5:~XChartPanel" resolve="XChartPanel" />
             </node>
             <node concept="BsUDl" id="6jd8z00s6eh" role="33vP2m">
               <ref role="37wK5l" node="6jd8z00rVnl" resolve="getComponentInternal" />
@@ -1047,7 +1052,7 @@
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="5Kw8UUFB1QG" role="2OqNvi">
-                                    <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                                     <node concept="Xl_RD" id="5Kw8UUFB1QH" role="37wK5m">
                                       <property role="Xl_RC" value="x" />
                                     </node>
@@ -1072,16 +1077,16 @@
                   <node concept="3cpWsn" id="6jd8z00p_Ya" role="3cpWs9">
                     <property role="TrG5h" value="xa" />
                     <node concept="3uibUv" id="6jd8z00p_Y7" role="1tU5fm">
-                      <ref role="3uigEE" to="k7g3:~ArrayList" resolve="ArrayList" />
+                      <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
                       <node concept="3uibUv" id="6jd8z00pGB8" role="11_B2D">
-                        <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+                        <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
                       </node>
                     </node>
                     <node concept="2ShNRf" id="6jd8z00qass" role="33vP2m">
                       <node concept="1pGfFk" id="6jd8z00qasq" role="2ShVmc">
-                        <ref role="37wK5l" to="k7g3:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                        <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
                         <node concept="3uibUv" id="6jd8z00qasr" role="1pMfVU">
-                          <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+                          <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
                         </node>
                       </node>
                     </node>
@@ -1091,16 +1096,16 @@
                   <node concept="3cpWsn" id="6jd8z00pGOV" role="3cpWs9">
                     <property role="TrG5h" value="y" />
                     <node concept="3uibUv" id="6jd8z00pGOW" role="1tU5fm">
-                      <ref role="3uigEE" to="k7g3:~ArrayList" resolve="ArrayList" />
+                      <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
                       <node concept="3uibUv" id="6jd8z00pGOX" role="11_B2D">
-                        <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+                        <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
                       </node>
                     </node>
                     <node concept="2ShNRf" id="6jd8z00qbvR" role="33vP2m">
                       <node concept="1pGfFk" id="6jd8z00qbu3" role="2ShVmc">
-                        <ref role="37wK5l" to="k7g3:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                        <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
                         <node concept="3uibUv" id="6jd8z00qbu4" role="1pMfVU">
-                          <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+                          <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
                         </node>
                       </node>
                     </node>
@@ -1132,7 +1137,7 @@
                       <ref role="3cqZAo" node="6jd8z00rNMs" resolve="component" />
                     </node>
                     <node concept="liA8E" id="5Kw8UUFB1R9" role="2OqNvi">
-                      <ref role="37wK5l" to="r80k:~XChartPanel.updateSeries(java.lang.String,java.util.Collection,java.util.List):com.xeiam.xchart.Series" resolve="updateSeries" />
+                      <ref role="37wK5l" to="rdp5:~XChartPanel.updateSeries(java.lang.String,java.util.Collection,java.util.List):com.xeiam.xchart.Series" resolve="updateSeries" />
                       <node concept="2OqwBi" id="5Kw8UUFB1Ra" role="37wK5m">
                         <node concept="2GrUjf" id="5Kw8UUFB1Rb" role="2Oq$k0">
                           <ref role="2Gs0qQ" node="5Kw8UUFB1Qn" resolve="series" />
@@ -1170,7 +1175,7 @@
           <node concept="3cpWsn" id="5Kw8UUFB1Rs" role="3cpWs9">
             <property role="TrG5h" value="chart" />
             <node concept="3uibUv" id="5Kw8UUFB1Rt" role="1tU5fm">
-              <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+              <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
             </node>
             <node concept="2OqwBi" id="5Kw8UUFB1Ru" role="33vP2m">
               <node concept="2OqwBi" id="5Kw8UUFB1Rv" role="2Oq$k0">
@@ -1182,8 +1187,8 @@
               <node concept="2qgKlT" id="5Kw8UUFB1Ry" role="2OqNvi">
                 <ref role="37wK5l" node="5Kw8UUFeeZh" resolve="buildChart" />
                 <node concept="Rm8GO" id="5Kw8UUFB1Rz" role="37wK5m">
-                  <ref role="1Px2BO" to="r80k:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
-                  <ref role="Rm8GQ" to="r80k:~StyleManager$ChartType.Bar" resolve="Bar" />
+                  <ref role="1Px2BO" to="rdp5:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
+                  <ref role="Rm8GQ" to="rdp5:~StyleManager$ChartType.Bar" resolve="Bar" />
                 </node>
                 <node concept="2OqwBi" id="5Kw8UUFB1R$" role="37wK5m">
                   <node concept="2OqwBi" id="5Kw8UUFB1R_" role="2Oq$k0">
@@ -1252,7 +1257,7 @@
                                 </node>
                               </node>
                               <node concept="liA8E" id="5Kw8UUFBgLC" role="2OqNvi">
-                                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                                 <node concept="Xl_RD" id="5Kw8UUFBgLD" role="37wK5m">
                                   <property role="Xl_RC" value="x" />
                                 </node>
@@ -1277,16 +1282,16 @@
               <node concept="3cpWsn" id="5Kw8UUFBgLI" role="3cpWs9">
                 <property role="TrG5h" value="xa" />
                 <node concept="3uibUv" id="5Kw8UUFBgLJ" role="1tU5fm">
-                  <ref role="3uigEE" to="k7g3:~ArrayList" resolve="ArrayList" />
+                  <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
                   <node concept="3uibUv" id="5Kw8UUFBgLK" role="11_B2D">
-                    <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+                    <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
                   </node>
                 </node>
                 <node concept="2ShNRf" id="5Kw8UUFBgLL" role="33vP2m">
                   <node concept="1pGfFk" id="5Kw8UUFBgLM" role="2ShVmc">
-                    <ref role="37wK5l" to="k7g3:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                    <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
                     <node concept="3uibUv" id="5Kw8UUFBgLN" role="1pMfVU">
-                      <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+                      <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
                     </node>
                   </node>
                 </node>
@@ -1296,16 +1301,16 @@
               <node concept="3cpWsn" id="5Kw8UUFBgLP" role="3cpWs9">
                 <property role="TrG5h" value="y" />
                 <node concept="3uibUv" id="5Kw8UUFBgLQ" role="1tU5fm">
-                  <ref role="3uigEE" to="k7g3:~ArrayList" resolve="ArrayList" />
+                  <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
                   <node concept="3uibUv" id="5Kw8UUFBgLR" role="11_B2D">
-                    <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+                    <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
                   </node>
                 </node>
                 <node concept="2ShNRf" id="5Kw8UUFBgLS" role="33vP2m">
                   <node concept="1pGfFk" id="5Kw8UUFBgLT" role="2ShVmc">
-                    <ref role="37wK5l" to="k7g3:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                    <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
                     <node concept="3uibUv" id="5Kw8UUFBgLU" role="1pMfVU">
-                      <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+                      <ref role="3uigEE" to="wyt6:~Double" resolve="Double" />
                     </node>
                   </node>
                 </node>
@@ -1337,7 +1342,7 @@
                   <ref role="3cqZAo" node="5Kw8UUFB1Rs" resolve="chart" />
                 </node>
                 <node concept="liA8E" id="5Kw8UUFBgM7" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
+                  <ref role="37wK5l" to="rdp5:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
                   <node concept="2OqwBi" id="5Kw8UUFBgM8" role="37wK5m">
                     <node concept="2GrUjf" id="5Kw8UUFBgM9" role="2Oq$k0">
                       <ref role="2Gs0qQ" node="5Kw8UUFBgLj" resolve="series" />
@@ -1365,14 +1370,14 @@
                 <ref role="3cqZAo" node="5Kw8UUFB1Rs" resolve="chart" />
               </node>
               <node concept="liA8E" id="4$zrkrO8cCD" role="2OqNvi">
-                <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
               </node>
             </node>
             <node concept="liA8E" id="4$zrkrO8cCE" role="2OqNvi">
-              <ref role="37wK5l" to="r80k:~StyleManager.setLegendPosition(com.xeiam.xchart.StyleManager$LegendPosition):void" resolve="setLegendPosition" />
+              <ref role="37wK5l" to="rdp5:~StyleManager.setLegendPosition(com.xeiam.xchart.StyleManager$LegendPosition):void" resolve="setLegendPosition" />
               <node concept="Rm8GO" id="4$zrkrO8cCF" role="37wK5m">
-                <ref role="1Px2BO" to="r80k:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
-                <ref role="Rm8GQ" to="r80k:~StyleManager$LegendPosition.InsideNE" resolve="InsideNE" />
+                <ref role="1Px2BO" to="rdp5:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
+                <ref role="Rm8GQ" to="rdp5:~StyleManager$LegendPosition.InsideNE" resolve="InsideNE" />
               </node>
             </node>
           </node>
@@ -1384,7 +1389,7 @@
             </node>
             <node concept="2ShNRf" id="4$zrkrO8cCH" role="37vLTx">
               <node concept="1pGfFk" id="4$zrkrO8cCI" role="2ShVmc">
-                <ref role="37wK5l" to="r80k:~XChartPanel.&lt;init&gt;(com.xeiam.xchart.Chart)" resolve="XChartPanel" />
+                <ref role="37wK5l" to="rdp5:~XChartPanel.&lt;init&gt;(com.xeiam.xchart.Chart)" resolve="XChartPanel" />
                 <node concept="37vLTw" id="4$zrkrO8cCJ" role="37wK5m">
                   <ref role="3cqZAo" node="5Kw8UUFB1Rs" resolve="chart" />
                 </node>
@@ -1407,7 +1412,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="4$zrkrO8cpP" role="3clF45">
-        <ref role="3uigEE" to="dbrf:~JComponent" resolve="JComponent" />
+        <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
       </node>
     </node>
   </node>
@@ -1420,7 +1425,7 @@
       <property role="13i0iv" value="true" />
       <node concept="3Tm1VV" id="4IRfUGkOim9" role="1B3o_S" />
       <node concept="3uibUv" id="4IRfUGkOkpD" role="3clF45">
-        <ref role="3uigEE" to="dbrf:~JComponent" resolve="JComponent" />
+        <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
       </node>
       <node concept="3clFbS" id="4IRfUGkOimb" role="3clF47">
         <node concept="3cpWs6" id="6nbOCdKLca3" role="3cqZAp">
@@ -1625,7 +1630,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="5Kw8UUFlSDn" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                         <node concept="37vLTw" id="5Kw8UUFlSIM" role="37wK5m">
                           <ref role="3cqZAo" node="5Kw8UUFlNGK" resolve="name" />
                         </node>
@@ -1649,14 +1654,14 @@
       <property role="TrG5h" value="getComponentInternal" />
       <node concept="3Tm1VV" id="6jd8z00rVnm" role="1B3o_S" />
       <node concept="3uibUv" id="6jd8z00saHV" role="3clF45">
-        <ref role="3uigEE" to="r80k:~XChartPanel" resolve="XChartPanel" />
+        <ref role="3uigEE" to="rdp5:~XChartPanel" resolve="XChartPanel" />
       </node>
       <node concept="3clFbS" id="6jd8z00rVno" role="3clF47">
         <node concept="3cpWs8" id="6jd8z00rWoT" role="3cqZAp">
           <node concept="3cpWsn" id="6jd8z00rWoU" role="3cpWs9">
             <property role="TrG5h" value="component" />
             <node concept="3uibUv" id="6jd8z00rWoV" role="1tU5fm">
-              <ref role="3uigEE" to="r80k:~XChartPanel" resolve="XChartPanel" />
+              <ref role="3uigEE" to="rdp5:~XChartPanel" resolve="XChartPanel" />
             </node>
             <node concept="10Nm6u" id="6jd8z00rWoW" role="33vP2m" />
           </node>
@@ -1675,14 +1680,14 @@
                       <node concept="13iPFW" id="6jd8z00rWp6" role="2JrQYb" />
                     </node>
                     <node concept="liA8E" id="6jd8z00rWp7" role="2OqNvi">
-                      <ref role="37wK5l" to="ec5l:~SNode.getUserObject(java.lang.Object):java.lang.Object" resolve="getUserObject" />
+                      <ref role="37wK5l" to="mhbf:~SNode.getUserObject(java.lang.Object):java.lang.Object" resolve="getUserObject" />
                       <node concept="Xl_RD" id="6jd8z00rWp8" role="37wK5m">
                         <property role="Xl_RC" value="component" />
                       </node>
                     </node>
                   </node>
                   <node concept="3uibUv" id="6jd8z00rWp9" role="10QFUM">
-                    <ref role="3uigEE" to="r80k:~XChartPanel" resolve="XChartPanel" />
+                    <ref role="3uigEE" to="rdp5:~XChartPanel" resolve="XChartPanel" />
                   </node>
                 </node>
               </node>
@@ -1692,7 +1697,7 @@
             <node concept="3cpWsn" id="6jd8z00rWpb" role="TDEfY">
               <property role="TrG5h" value="e" />
               <node concept="3uibUv" id="6jd8z00rWpc" role="1tU5fm">
-                <ref role="3uigEE" to="e2lb:~ClassCastException" resolve="ClassCastException" />
+                <ref role="3uigEE" to="wyt6:~ClassCastException" resolve="ClassCastException" />
               </node>
             </node>
             <node concept="3clFbS" id="6jd8z00rWpd" role="TDEfX">
@@ -1710,7 +1715,7 @@
                     <node concept="13iPFW" id="6jd8z00rWpl" role="2JrQYb" />
                   </node>
                   <node concept="liA8E" id="6jd8z00rWpm" role="2OqNvi">
-                    <ref role="37wK5l" to="ec5l:~SNode.putUserObject(java.lang.Object,java.lang.Object):void" resolve="putUserObject" />
+                    <ref role="37wK5l" to="mhbf:~SNode.putUserObject(java.lang.Object,java.lang.Object):void" resolve="putUserObject" />
                     <node concept="Xl_RD" id="6jd8z00rWpn" role="37wK5m">
                       <property role="Xl_RC" value="component" />
                     </node>
@@ -1741,7 +1746,7 @@
               <node concept="13iPFW" id="5q$AhPc_c_i" role="2JrQYb" />
             </node>
             <node concept="liA8E" id="5q$AhPc_dXR" role="2OqNvi">
-              <ref role="37wK5l" to="ec5l:~SNode.putUserObject(java.lang.Object,java.lang.Object):void" resolve="putUserObject" />
+              <ref role="37wK5l" to="mhbf:~SNode.putUserObject(java.lang.Object,java.lang.Object):void" resolve="putUserObject" />
               <node concept="Xl_RD" id="5q$AhPc_dYO" role="37wK5m">
                 <property role="Xl_RC" value="component" />
               </node>
@@ -1755,7 +1760,7 @@
       <node concept="37vLTG" id="6jd8z00sFiH" role="3clF46">
         <property role="TrG5h" value="component" />
         <node concept="3uibUv" id="6jd8z00sFiG" role="1tU5fm">
-          <ref role="3uigEE" to="r80k:~XChartPanel" resolve="XChartPanel" />
+          <ref role="3uigEE" to="rdp5:~XChartPanel" resolve="XChartPanel" />
         </node>
       </node>
     </node>
@@ -1769,8 +1774,8 @@
             <property role="TrG5h" value="width" />
             <node concept="10Oyi0" id="6jd8z00rWpr" role="1tU5fm" />
             <node concept="2YIFZM" id="6jd8z00rWps" role="33vP2m">
-              <ref role="1Pybhc" to="e2lb:~Math" resolve="Math" />
-              <ref role="37wK5l" to="e2lb:~Math.max(int,int):int" resolve="max" />
+              <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+              <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
               <node concept="3cmrfG" id="6jd8z00rWpt" role="37wK5m">
                 <property role="3cmrfH" value="150" />
               </node>
@@ -1805,8 +1810,8 @@
             <property role="TrG5h" value="height" />
             <node concept="10Oyi0" id="6jd8z00rWp_" role="1tU5fm" />
             <node concept="2YIFZM" id="6jd8z00rWpA" role="33vP2m">
-              <ref role="37wK5l" to="e2lb:~Math.max(int,int):int" resolve="max" />
-              <ref role="1Pybhc" to="e2lb:~Math" resolve="Math" />
+              <ref role="37wK5l" to="wyt6:~Math.max(int,int):int" resolve="max" />
+              <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
               <node concept="3cmrfG" id="6jd8z00rWpB" role="37wK5m">
                 <property role="3cmrfH" value="150" />
               </node>
@@ -1836,7 +1841,7 @@
       <node concept="37vLTG" id="1jH29_Q1MZM" role="3clF46">
         <property role="TrG5h" value="editorContext" />
         <node concept="3uibUv" id="1jH29_Q1N28" role="1tU5fm">
-          <ref role="3uigEE" to="srng:~EditorContext" resolve="EditorContext" />
+          <ref role="3uigEE" to="cj4x:~EditorContext" resolve="EditorContext" />
         </node>
       </node>
       <node concept="3Tm1VV" id="1jH29_Q1K1i" role="1B3o_S" />
@@ -1858,11 +1863,11 @@
                 <ref role="3cqZAo" node="1jH29_Q1MZM" resolve="editorContext" />
               </node>
               <node concept="liA8E" id="5Kw8UUFdEz2" role="2OqNvi">
-                <ref role="37wK5l" to="srng:~EditorContext.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                <ref role="37wK5l" to="cj4x:~EditorContext.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
               </node>
             </node>
             <node concept="liA8E" id="5Kw8UUFdEO4" role="2OqNvi">
-              <ref role="37wK5l" to="srng:~EditorComponent.rebuildEditorContent():void" resolve="rebuildEditorContent" />
+              <ref role="37wK5l" to="cj4x:~EditorComponent.rebuildEditorContent():void" resolve="rebuildEditorContent" />
             </node>
           </node>
         </node>
@@ -1925,7 +1930,7 @@
           <node concept="3cpWsn" id="5Kw8UUFD8Jl" role="3cpWs9">
             <property role="TrG5h" value="component" />
             <node concept="3uibUv" id="5Kw8UUFD8Jm" role="1tU5fm">
-              <ref role="3uigEE" to="r80k:~XChartPanel" resolve="XChartPanel" />
+              <ref role="3uigEE" to="rdp5:~XChartPanel" resolve="XChartPanel" />
             </node>
             <node concept="BsUDl" id="5Kw8UUFD8Jn" role="33vP2m">
               <ref role="37wK5l" node="6jd8z00rVnl" resolve="getComponentInternal" />
@@ -1992,7 +1997,7 @@
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="5Kw8UUFD5zL" role="2OqNvi">
-                                    <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                                     <node concept="Xl_RD" id="5Kw8UUFD5zM" role="37wK5m">
                                       <property role="Xl_RC" value="x" />
                                     </node>
@@ -2043,7 +2048,7 @@
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="5Kw8UUFD5$6" role="2OqNvi">
-                                    <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                                     <node concept="Xl_RD" id="5Kw8UUFD5$7" role="37wK5m">
                                       <property role="Xl_RC" value="y" />
                                     </node>
@@ -2070,7 +2075,7 @@
                       <ref role="3cqZAo" node="5Kw8UUFD8Jl" resolve="component" />
                     </node>
                     <node concept="liA8E" id="5Kw8UUFD5$e" role="2OqNvi">
-                      <ref role="37wK5l" to="r80k:~XChartPanel.updateSeries(java.lang.String,java.util.Collection,java.util.List):com.xeiam.xchart.Series" resolve="updateSeries" />
+                      <ref role="37wK5l" to="rdp5:~XChartPanel.updateSeries(java.lang.String,java.util.Collection,java.util.List):com.xeiam.xchart.Series" resolve="updateSeries" />
                       <node concept="2OqwBi" id="5Kw8UUFD5$f" role="37wK5m">
                         <node concept="2GrUjf" id="5Kw8UUFD5$g" role="2Oq$k0">
                           <ref role="2Gs0qQ" node="5Kw8UUFD5zs" resolve="series" />
@@ -2126,7 +2131,7 @@
           <node concept="3cpWsn" id="5Kw8UUFDha9" role="3cpWs9">
             <property role="TrG5h" value="chart" />
             <node concept="3uibUv" id="5Kw8UUFDhaa" role="1tU5fm">
-              <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+              <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
             </node>
             <node concept="2OqwBi" id="5Kw8UUFDhab" role="33vP2m">
               <node concept="2OqwBi" id="5Kw8UUFDhac" role="2Oq$k0">
@@ -2138,8 +2143,8 @@
               <node concept="2qgKlT" id="5Kw8UUFDhaf" role="2OqNvi">
                 <ref role="37wK5l" node="5Kw8UUFeeZh" resolve="buildChart" />
                 <node concept="Rm8GO" id="5Kw8UUFErjW" role="37wK5m">
-                  <ref role="1Px2BO" to="r80k:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
-                  <ref role="Rm8GQ" to="r80k:~StyleManager$ChartType.Scatter" resolve="Scatter" />
+                  <ref role="1Px2BO" to="rdp5:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
+                  <ref role="Rm8GQ" to="rdp5:~StyleManager$ChartType.Scatter" resolve="Scatter" />
                 </node>
                 <node concept="2OqwBi" id="5Kw8UUFDhah" role="37wK5m">
                   <node concept="2OqwBi" id="5Kw8UUFDhai" role="2Oq$k0">
@@ -2208,7 +2213,7 @@
                                 </node>
                               </node>
                               <node concept="liA8E" id="5Kw8UUFDhaL" role="2OqNvi">
-                                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                                 <node concept="Xl_RD" id="5Kw8UUFDhaM" role="37wK5m">
                                   <property role="Xl_RC" value="x" />
                                 </node>
@@ -2259,7 +2264,7 @@
                                 </node>
                               </node>
                               <node concept="liA8E" id="5Kw8UUFDhb6" role="2OqNvi">
-                                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                                 <node concept="Xl_RD" id="5Kw8UUFDhb7" role="37wK5m">
                                   <property role="Xl_RC" value="y" />
                                 </node>
@@ -2286,7 +2291,7 @@
                   <ref role="3cqZAo" node="5Kw8UUFDha9" resolve="chart" />
                 </node>
                 <node concept="liA8E" id="5Kw8UUFDhbe" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
+                  <ref role="37wK5l" to="rdp5:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
                   <node concept="2OqwBi" id="5Kw8UUFDhbf" role="37wK5m">
                     <node concept="2GrUjf" id="5Kw8UUFDhbg" role="2Oq$k0">
                       <ref role="2Gs0qQ" node="5Kw8UUFDhas" resolve="series" />
@@ -2331,14 +2336,14 @@
                 <ref role="3cqZAo" node="5Kw8UUFDha9" resolve="chart" />
               </node>
               <node concept="liA8E" id="5Kw8UUFDhbu" role="2OqNvi">
-                <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
               </node>
             </node>
             <node concept="liA8E" id="5Kw8UUFDhbv" role="2OqNvi">
-              <ref role="37wK5l" to="r80k:~StyleManager.setLegendPosition(com.xeiam.xchart.StyleManager$LegendPosition):void" resolve="setLegendPosition" />
+              <ref role="37wK5l" to="rdp5:~StyleManager.setLegendPosition(com.xeiam.xchart.StyleManager$LegendPosition):void" resolve="setLegendPosition" />
               <node concept="Rm8GO" id="5Kw8UUFDhbw" role="37wK5m">
-                <ref role="1Px2BO" to="r80k:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
-                <ref role="Rm8GQ" to="r80k:~StyleManager$LegendPosition.InsideNE" resolve="InsideNE" />
+                <ref role="1Px2BO" to="rdp5:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
+                <ref role="Rm8GQ" to="rdp5:~StyleManager$LegendPosition.InsideNE" resolve="InsideNE" />
               </node>
             </node>
           </node>
@@ -2350,7 +2355,7 @@
             </node>
             <node concept="2ShNRf" id="5q$AhPc$NrL" role="37vLTx">
               <node concept="1pGfFk" id="5q$AhPc_1jc" role="2ShVmc">
-                <ref role="37wK5l" to="r80k:~XChartPanel.&lt;init&gt;(com.xeiam.xchart.Chart)" resolve="XChartPanel" />
+                <ref role="37wK5l" to="rdp5:~XChartPanel.&lt;init&gt;(com.xeiam.xchart.Chart)" resolve="XChartPanel" />
                 <node concept="37vLTw" id="5Kw8UUFDiES" role="37wK5m">
                   <ref role="3cqZAo" node="5Kw8UUFDha9" resolve="chart" />
                 </node>
@@ -2373,7 +2378,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="4$zrkrO9xSh" role="3clF45">
-        <ref role="3uigEE" to="dbrf:~JComponent" resolve="JComponent" />
+        <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
       </node>
     </node>
   </node>
@@ -2391,15 +2396,15 @@
       <property role="TrG5h" value="getTheme" />
       <node concept="3Tm1VV" id="6jd8z00uBlu" role="1B3o_S" />
       <node concept="3uibUv" id="6jd8z00uBmU" role="3clF45">
-        <ref role="3uigEE" to="r80k:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
+        <ref role="3uigEE" to="rdp5:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
       </node>
       <node concept="3clFbS" id="6jd8z00uBlw" role="3clF47">
         <node concept="3clFbJ" id="6jd8z00xDpl" role="3cqZAp">
           <node concept="3clFbS" id="6jd8z00xDpo" role="3clFbx">
             <node concept="3cpWs6" id="6jd8z00xF3g" role="3cqZAp">
               <node concept="Rm8GO" id="6jd8z00xFkp" role="3cqZAk">
-                <ref role="1Px2BO" to="r80k:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
-                <ref role="Rm8GQ" to="r80k:~StyleManager$ChartTheme.GGPlot2" resolve="GGPlot2" />
+                <ref role="1Px2BO" to="rdp5:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
+                <ref role="Rm8GQ" to="rdp5:~StyleManager$ChartTheme.GGPlot2" resolve="GGPlot2" />
               </node>
             </node>
           </node>
@@ -2411,14 +2416,14 @@
               </node>
             </node>
             <node concept="liA8E" id="6jd8z00xEXJ" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="2OqwBi" id="6jd8z00xChY" role="37wK5m">
                 <node concept="3f7Wdw" id="6jd8z00xC9i" role="2Oq$k0">
                   <ref role="3f7u_j" to="ztlb:6jd8z00u3Qe" />
                   <ref role="3f7vo2" to="ztlb:6jd8z00u3Qd" resolve="ChartTheme" />
                 </node>
                 <node concept="liA8E" id="6jd8z00xD6H" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.toString():java.lang.String" resolve="toString" />
+                  <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
                 </node>
               </node>
             </node>
@@ -2428,8 +2433,8 @@
           <node concept="3clFbS" id="6jd8z00xG64" role="3clFbx">
             <node concept="3cpWs6" id="6jd8z00xG65" role="3cqZAp">
               <node concept="Rm8GO" id="6jd8z00xGOB" role="3cqZAk">
-                <ref role="1Px2BO" to="r80k:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
-                <ref role="Rm8GQ" to="r80k:~StyleManager$ChartTheme.Matlab" resolve="Matlab" />
+                <ref role="1Px2BO" to="rdp5:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
+                <ref role="Rm8GQ" to="rdp5:~StyleManager$ChartTheme.Matlab" resolve="Matlab" />
               </node>
             </node>
           </node>
@@ -2441,14 +2446,14 @@
               </node>
             </node>
             <node concept="liA8E" id="6jd8z00xG6b" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="2OqwBi" id="6jd8z00xG6c" role="37wK5m">
                 <node concept="3f7Wdw" id="6jd8z00xG6d" role="2Oq$k0">
                   <ref role="3f7vo2" to="ztlb:6jd8z00u3Qd" resolve="ChartTheme" />
                   <ref role="3f7u_j" to="ztlb:6jd8z00u3Qf" />
                 </node>
                 <node concept="liA8E" id="6jd8z00xG6e" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.toString():java.lang.String" resolve="toString" />
+                  <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
                 </node>
               </node>
             </node>
@@ -2458,8 +2463,8 @@
           <node concept="3clFbS" id="6jd8z00xGqa" role="3clFbx">
             <node concept="3cpWs6" id="6jd8z00xGqb" role="3cqZAp">
               <node concept="Rm8GO" id="6jd8z00xH8Z" role="3cqZAk">
-                <ref role="1Px2BO" to="r80k:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
-                <ref role="Rm8GQ" to="r80k:~StyleManager$ChartTheme.XChart" resolve="XChart" />
+                <ref role="1Px2BO" to="rdp5:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
+                <ref role="Rm8GQ" to="rdp5:~StyleManager$ChartTheme.XChart" resolve="XChart" />
               </node>
             </node>
           </node>
@@ -2471,14 +2476,14 @@
               </node>
             </node>
             <node concept="liA8E" id="6jd8z00xGqh" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="2OqwBi" id="6jd8z00xGqi" role="37wK5m">
                 <node concept="3f7Wdw" id="6jd8z00xGqj" role="2Oq$k0">
                   <ref role="3f7vo2" to="ztlb:6jd8z00u3Qd" resolve="ChartTheme" />
                   <ref role="3f7u_j" to="ztlb:6jd8z00u3QT" />
                 </node>
                 <node concept="liA8E" id="6jd8z00xGqk" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.toString():java.lang.String" resolve="toString" />
+                  <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
                 </node>
               </node>
             </node>
@@ -2486,8 +2491,8 @@
         </node>
         <node concept="3cpWs6" id="6jd8z00xHNj" role="3cqZAp">
           <node concept="Rm8GO" id="6jd8z00xI4M" role="3cqZAk">
-            <ref role="1Px2BO" to="r80k:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
-            <ref role="Rm8GQ" to="r80k:~StyleManager$ChartTheme.XChart" resolve="XChart" />
+            <ref role="1Px2BO" to="rdp5:~StyleManager$ChartTheme" resolve="StyleManager.ChartTheme" />
+            <ref role="Rm8GQ" to="rdp5:~StyleManager$ChartTheme.XChart" resolve="XChart" />
           </node>
         </node>
       </node>
@@ -2497,7 +2502,7 @@
       <node concept="37vLTG" id="5Kw8UUFerwV" role="3clF46">
         <property role="TrG5h" value="chartType" />
         <node concept="3uibUv" id="5Kw8UUFerM8" role="1tU5fm">
-          <ref role="3uigEE" to="r80k:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
+          <ref role="3uigEE" to="rdp5:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
         </node>
       </node>
       <node concept="37vLTG" id="5Kw8UUFel9u" role="3clF46">
@@ -2510,7 +2515,7 @@
       </node>
       <node concept="3Tm1VV" id="5Kw8UUFeeZi" role="1B3o_S" />
       <node concept="3uibUv" id="5Kw8UUFef2f" role="3clF45">
-        <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+        <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
       </node>
       <node concept="3clFbS" id="5Kw8UUFeeZk" role="3clF47">
         <node concept="3clFbH" id="2L53R4Zj1Pf" role="3cqZAp" />
@@ -2570,11 +2575,11 @@
           <node concept="3cpWsn" id="2L53R4Zo9hP" role="3cpWs9">
             <property role="TrG5h" value="builder" />
             <node concept="3uibUv" id="2L53R4Zo9hQ" role="1tU5fm">
-              <ref role="3uigEE" to="r80k:~ChartBuilder" resolve="ChartBuilder" />
+              <ref role="3uigEE" to="rdp5:~ChartBuilder" resolve="ChartBuilder" />
             </node>
             <node concept="2ShNRf" id="2L53R4Zo9OJ" role="33vP2m">
               <node concept="1pGfFk" id="2L53R4ZoiwA" role="2ShVmc">
-                <ref role="37wK5l" to="r80k:~ChartBuilder.&lt;init&gt;()" resolve="ChartBuilder" />
+                <ref role="37wK5l" to="rdp5:~ChartBuilder.&lt;init&gt;()" resolve="ChartBuilder" />
               </node>
             </node>
           </node>
@@ -2585,7 +2590,7 @@
               <ref role="3cqZAo" node="2L53R4Zo9hP" resolve="builder" />
             </node>
             <node concept="liA8E" id="2L53R4ZojPa" role="2OqNvi">
-              <ref role="37wK5l" to="r80k:~ChartBuilder.chartType(com.xeiam.xchart.StyleManager$ChartType):com.xeiam.xchart.ChartBuilder" resolve="chartType" />
+              <ref role="37wK5l" to="rdp5:~ChartBuilder.chartType(com.xeiam.xchart.StyleManager$ChartType):com.xeiam.xchart.ChartBuilder" resolve="chartType" />
               <node concept="37vLTw" id="2L53R4ZojPR" role="37wK5m">
                 <ref role="3cqZAo" node="5Kw8UUFerwV" resolve="chartType" />
               </node>
@@ -2600,7 +2605,7 @@
                   <ref role="3cqZAo" node="2L53R4Zo9hP" resolve="builder" />
                 </node>
                 <node concept="liA8E" id="2L53R4ZolcP" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~ChartBuilder.width(int):com.xeiam.xchart.ChartBuilder" resolve="width" />
+                  <ref role="37wK5l" to="rdp5:~ChartBuilder.width(int):com.xeiam.xchart.ChartBuilder" resolve="width" />
                   <node concept="2OqwBi" id="2L53R4Zolfz" role="37wK5m">
                     <node concept="13iPFW" id="2L53R4Zolds" role="2Oq$k0" />
                     <node concept="3TrcHB" id="2L53R4Zoly2" role="2OqNvi">
@@ -2610,7 +2615,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="2L53R4Zom8k" role="2OqNvi">
-                <ref role="37wK5l" to="r80k:~ChartBuilder.height(int):com.xeiam.xchart.ChartBuilder" resolve="height" />
+                <ref role="37wK5l" to="rdp5:~ChartBuilder.height(int):com.xeiam.xchart.ChartBuilder" resolve="height" />
                 <node concept="2OqwBi" id="2L53R4Zomdq" role="37wK5m">
                   <node concept="13iPFW" id="2L53R4Zomb0" role="2Oq$k0" />
                   <node concept="3TrcHB" id="2L53R4Zomxg" role="2OqNvi">
@@ -2620,7 +2625,7 @@
               </node>
             </node>
             <node concept="liA8E" id="2L53R4Zon1f" role="2OqNvi">
-              <ref role="37wK5l" to="r80k:~ChartBuilder.theme(com.xeiam.xchart.StyleManager$ChartTheme):com.xeiam.xchart.ChartBuilder" resolve="theme" />
+              <ref role="37wK5l" to="rdp5:~ChartBuilder.theme(com.xeiam.xchart.StyleManager$ChartTheme):com.xeiam.xchart.ChartBuilder" resolve="theme" />
               <node concept="2OqwBi" id="2L53R4Zon9X" role="37wK5m">
                 <node concept="13iPFW" id="2L53R4Zon6r" role="2Oq$k0" />
                 <node concept="2qgKlT" id="2L53R4Zonll" role="2OqNvi">
@@ -2636,7 +2641,7 @@
               <ref role="3cqZAo" node="2L53R4Zo9hP" resolve="builder" />
             </node>
             <node concept="liA8E" id="2L53R4ZooW7" role="2OqNvi">
-              <ref role="37wK5l" to="r80k:~ChartBuilder.title(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="title" />
+              <ref role="37wK5l" to="rdp5:~ChartBuilder.title(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="title" />
               <node concept="2OqwBi" id="2L53R4ZooZE" role="37wK5m">
                 <node concept="13iPFW" id="2L53R4ZooWK" role="2Oq$k0" />
                 <node concept="3TrcHB" id="2L53R4Zop9r" role="2OqNvi">
@@ -2652,7 +2657,7 @@
               <ref role="3cqZAo" node="2L53R4Zo9hP" resolve="builder" />
             </node>
             <node concept="liA8E" id="2L53R4ZorCt" role="2OqNvi">
-              <ref role="37wK5l" to="r80k:~ChartBuilder.xAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="xAxisTitle" />
+              <ref role="37wK5l" to="rdp5:~ChartBuilder.xAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="xAxisTitle" />
               <node concept="37vLTw" id="2L53R4ZorD6" role="37wK5m">
                 <ref role="3cqZAo" node="5Kw8UUFel9u" resolve="xColumnName" />
               </node>
@@ -2665,7 +2670,7 @@
               <ref role="3cqZAo" node="2L53R4Zo9hP" resolve="builder" />
             </node>
             <node concept="liA8E" id="2L53R4ZorE2" role="2OqNvi">
-              <ref role="37wK5l" to="r80k:~ChartBuilder.yAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="yAxisTitle" />
+              <ref role="37wK5l" to="rdp5:~ChartBuilder.yAxisTitle(java.lang.String):com.xeiam.xchart.ChartBuilder" resolve="yAxisTitle" />
               <node concept="37vLTw" id="2L53R4Zosl2" role="37wK5m">
                 <ref role="3cqZAo" node="5Kw8UUFelmi" resolve="yColumnName" />
               </node>
@@ -2676,20 +2681,22 @@
           <node concept="3cpWsn" id="2L53R4Zot9e" role="3cpWs9">
             <property role="TrG5h" value="chart" />
             <node concept="3uibUv" id="2L53R4Zot9f" role="1tU5fm">
-              <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+              <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
             </node>
             <node concept="2OqwBi" id="2L53R4Zotzj" role="33vP2m">
               <node concept="37vLTw" id="2L53R4Zotyp" role="2Oq$k0">
                 <ref role="3cqZAo" node="2L53R4Zo9hP" resolve="builder" />
               </node>
               <node concept="liA8E" id="2L53R4ZotDj" role="2OqNvi">
-                <ref role="37wK5l" to="r80k:~ChartBuilder.build():com.xeiam.xchart.Chart" resolve="build" />
+                <ref role="37wK5l" to="rdp5:~ChartBuilder.build():com.xeiam.xchart.Chart" resolve="build" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="u8gfJ" id="2L53R4Zpav7" role="3cqZAp">
-          <node concept="3SKdUt" id="2L53R4ZpbJH" role="u8lrQ">
+        <node concept="1X3_iC" id="1Ix1m3KM5SH" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3SKdUt" id="2L53R4ZpbJH" role="8Wnug">
             <node concept="3SKdUq" id="2L53R4Zpc64" role="3SKWNk">
               <property role="3SKdUp" value="Currently disabled because of an issue with scaling the X axis: see https://github.com/timmolter/XChart/issues/74" />
             </node>
@@ -2704,14 +2711,14 @@
                     <ref role="3cqZAo" node="2L53R4Zot9e" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="5KK2jWohi2y" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                    <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="5KK2jWohi2z" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~StyleManager.setXAxisMin(double):void" resolve="setXAxisMin" />
+                  <ref role="37wK5l" to="rdp5:~StyleManager.setXAxisMin(double):void" resolve="setXAxisMin" />
                   <node concept="2YIFZM" id="5KK2jWohi2$" role="37wK5m">
-                    <ref role="37wK5l" to="e2lb:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
-                    <ref role="1Pybhc" to="e2lb:~Double" resolve="Double" />
+                    <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
+                    <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
                     <node concept="2OqwBi" id="5KK2jWohi2_" role="37wK5m">
                       <node concept="13iPFW" id="5KK2jWohi2A" role="2Oq$k0" />
                       <node concept="3TrcHB" id="5KK2jWohk7F" role="2OqNvi">
@@ -2742,14 +2749,14 @@
                     <ref role="3cqZAo" node="2L53R4Zot9e" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="5KK2jWohi2N" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                    <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="5KK2jWohi2O" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~StyleManager.setXAxisMax(double):void" resolve="setXAxisMax" />
+                  <ref role="37wK5l" to="rdp5:~StyleManager.setXAxisMax(double):void" resolve="setXAxisMax" />
                   <node concept="2YIFZM" id="5KK2jWohi2P" role="37wK5m">
-                    <ref role="37wK5l" to="e2lb:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
-                    <ref role="1Pybhc" to="e2lb:~Double" resolve="Double" />
+                    <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
+                    <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
                     <node concept="2OqwBi" id="5KK2jWohi2Q" role="37wK5m">
                       <node concept="13iPFW" id="5KK2jWohi2R" role="2Oq$k0" />
                       <node concept="3TrcHB" id="5KK2jWohkj3" role="2OqNvi">
@@ -2780,14 +2787,14 @@
                     <ref role="3cqZAo" node="2L53R4Zot9e" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="2L53R4ZmaAj" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                    <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2L53R4ZmaAk" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~StyleManager.setYAxisMin(double):void" resolve="setYAxisMin" />
+                  <ref role="37wK5l" to="rdp5:~StyleManager.setYAxisMin(double):void" resolve="setYAxisMin" />
                   <node concept="2YIFZM" id="2L53R4ZmaAs" role="37wK5m">
-                    <ref role="37wK5l" to="e2lb:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
-                    <ref role="1Pybhc" to="e2lb:~Double" resolve="Double" />
+                    <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
+                    <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
                     <node concept="2OqwBi" id="2L53R4ZmaAt" role="37wK5m">
                       <node concept="13iPFW" id="2L53R4ZmaAu" role="2Oq$k0" />
                       <node concept="3TrcHB" id="2L53R4ZmRVK" role="2OqNvi">
@@ -2818,14 +2825,14 @@
                     <ref role="3cqZAo" node="2L53R4Zot9e" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="2L53R4Zmbgi" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                    <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2L53R4Zmbgj" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~StyleManager.setYAxisMax(double):void" resolve="setYAxisMax" />
+                  <ref role="37wK5l" to="rdp5:~StyleManager.setYAxisMax(double):void" resolve="setYAxisMax" />
                   <node concept="2YIFZM" id="2L53R4Zmbgr" role="37wK5m">
-                    <ref role="1Pybhc" to="e2lb:~Double" resolve="Double" />
-                    <ref role="37wK5l" to="e2lb:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
+                    <ref role="1Pybhc" to="wyt6:~Double" resolve="Double" />
+                    <ref role="37wK5l" to="wyt6:~Double.parseDouble(java.lang.String):double" resolve="parseDouble" />
                     <node concept="2OqwBi" id="2L53R4Zmbgs" role="37wK5m">
                       <node concept="13iPFW" id="2L53R4Zmbgt" role="2Oq$k0" />
                       <node concept="3TrcHB" id="2L53R4ZmcFd" role="2OqNvi">
@@ -2867,7 +2874,7 @@
       <node concept="37vLTG" id="2L53R4Zy3oR" role="3clF46">
         <property role="TrG5h" value="chart" />
         <node concept="3uibUv" id="2L53R4Zy3tb" role="1tU5fm">
-          <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+          <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
         </node>
       </node>
       <node concept="3Tm1VV" id="2L53R4Zy32c" role="1B3o_S" />
@@ -2882,11 +2889,11 @@
                     <ref role="3cqZAo" node="2L53R4Zy3oR" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="2L53R4ZrF_r" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                    <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2L53R4ZrF_s" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~StyleManager.setLegendVisible(boolean):void" resolve="setLegendVisible" />
+                  <ref role="37wK5l" to="rdp5:~StyleManager.setLegendVisible(boolean):void" resolve="setLegendVisible" />
                   <node concept="3clFbT" id="2L53R4ZrF_t" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -2900,11 +2907,11 @@
                     <ref role="3cqZAo" node="2L53R4Zy3oR" resolve="chart" />
                   </node>
                   <node concept="liA8E" id="2L53R4Zrk3G" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                    <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
                   </node>
                 </node>
                 <node concept="liA8E" id="2L53R4ZrlEC" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~StyleManager.setLegendPosition(com.xeiam.xchart.StyleManager$LegendPosition):void" resolve="setLegendPosition" />
+                  <ref role="37wK5l" to="rdp5:~StyleManager.setLegendPosition(com.xeiam.xchart.StyleManager$LegendPosition):void" resolve="setLegendPosition" />
                   <node concept="2OqwBi" id="2L53R4Zr$SE" role="37wK5m">
                     <node concept="2OqwBi" id="2L53R4Zr$ox" role="2Oq$k0">
                       <node concept="13iPFW" id="2L53R4Zr$lp" role="2Oq$k0" />
@@ -2938,11 +2945,11 @@
                       <ref role="3cqZAo" node="2L53R4Zy3oR" resolve="chart" />
                     </node>
                     <node concept="liA8E" id="2L53R4ZrFeu" role="2OqNvi">
-                      <ref role="37wK5l" to="r80k:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
+                      <ref role="37wK5l" to="rdp5:~Chart.getStyleManager():com.xeiam.xchart.StyleManager" resolve="getStyleManager" />
                     </node>
                   </node>
                   <node concept="liA8E" id="2L53R4ZrFwa" role="2OqNvi">
-                    <ref role="37wK5l" to="r80k:~StyleManager.setLegendVisible(boolean):void" resolve="setLegendVisible" />
+                    <ref role="37wK5l" to="rdp5:~StyleManager.setLegendVisible(boolean):void" resolve="setLegendVisible" />
                     <node concept="3clFbT" id="2L53R4ZrFxo" role="37wK5m">
                       <property role="3clFbU" value="false" />
                     </node>
@@ -2965,7 +2972,7 @@
               <ref role="3cqZAo" node="5Kw8UUFhA$9" resolve="panel" />
             </node>
             <node concept="liA8E" id="5Kw8UUFhFSe" role="2OqNvi">
-              <ref role="37wK5l" to="1t7x:~Component.resize(int,int):void" resolve="resize" />
+              <ref role="37wK5l" to="z60i:~Component.resize(int,int):void" resolve="resize" />
               <node concept="2OqwBi" id="5Kw8UUFhG00" role="37wK5m">
                 <node concept="13iPFW" id="5Kw8UUFhFVP" role="2Oq$k0" />
                 <node concept="3TrcHB" id="5Kw8UUFhHTL" role="2OqNvi">
@@ -2985,7 +2992,7 @@
       <node concept="37vLTG" id="5Kw8UUFhA$9" role="3clF46">
         <property role="TrG5h" value="panel" />
         <node concept="3uibUv" id="5Kw8UUFhA$8" role="1tU5fm">
-          <ref role="3uigEE" to="r80k:~XChartPanel" resolve="XChartPanel" />
+          <ref role="3uigEE" to="rdp5:~XChartPanel" resolve="XChartPanel" />
         </node>
       </node>
     </node>
@@ -3068,7 +3075,7 @@
           <node concept="3cpWsn" id="5Kw8UUF7Sm$" role="3cpWs9">
             <property role="TrG5h" value="component" />
             <node concept="3uibUv" id="7Ef65lH$ccB" role="1tU5fm">
-              <ref role="3uigEE" to="r80k:~XChartPanel" resolve="XChartPanel" />
+              <ref role="3uigEE" to="rdp5:~XChartPanel" resolve="XChartPanel" />
             </node>
             <node concept="BsUDl" id="5Kw8UUF7SmA" role="33vP2m">
               <ref role="37wK5l" node="6jd8z00rVnl" resolve="getComponentInternal" />
@@ -3135,7 +3142,7 @@
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="5Kw8UUFqwB3" role="2OqNvi">
-                                    <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                                     <node concept="Xl_RD" id="5Kw8UUFqwIU" role="37wK5m">
                                       <property role="Xl_RC" value="x" />
                                     </node>
@@ -3186,7 +3193,7 @@
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="5Kw8UUFqxHB" role="2OqNvi">
-                                    <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                                     <node concept="Xl_RD" id="5Kw8UUFqxHC" role="37wK5m">
                                       <property role="Xl_RC" value="heights" />
                                     </node>
@@ -3213,7 +3220,7 @@
                       <ref role="3cqZAo" node="5Kw8UUF7Sm$" resolve="component" />
                     </node>
                     <node concept="liA8E" id="5Kw8UUF87nK" role="2OqNvi">
-                      <ref role="37wK5l" to="r80k:~XChartPanel.updateSeries(java.lang.String,java.util.Collection,java.util.List):com.xeiam.xchart.Series" resolve="updateSeries" />
+                      <ref role="37wK5l" to="rdp5:~XChartPanel.updateSeries(java.lang.String,java.util.Collection,java.util.List):com.xeiam.xchart.Series" resolve="updateSeries" />
                       <node concept="2OqwBi" id="5Kw8UUFzMVm" role="37wK5m">
                         <node concept="2GrUjf" id="5Kw8UUFzMKx" role="2Oq$k0">
                           <ref role="2Gs0qQ" node="5Kw8UUFqkwW" resolve="series" />
@@ -3269,7 +3276,7 @@
           <node concept="3cpWsn" id="5Kw8UUFeuWg" role="3cpWs9">
             <property role="TrG5h" value="chart" />
             <node concept="3uibUv" id="7Ef65lH$dVN" role="1tU5fm">
-              <ref role="3uigEE" to="r80k:~Chart" resolve="Chart" />
+              <ref role="3uigEE" to="rdp5:~Chart" resolve="Chart" />
             </node>
             <node concept="2OqwBi" id="5Kw8UUFewaX" role="33vP2m">
               <node concept="2OqwBi" id="5Kw8UUFevDY" role="2Oq$k0">
@@ -3281,8 +3288,8 @@
               <node concept="2qgKlT" id="5Kw8UUFewzS" role="2OqNvi">
                 <ref role="37wK5l" node="5Kw8UUFeeZh" resolve="buildChart" />
                 <node concept="Rm8GO" id="5Kw8UUFeg7S" role="37wK5m">
-                  <ref role="1Px2BO" to="r80k:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
-                  <ref role="Rm8GQ" to="r80k:~StyleManager$ChartType.Bar" resolve="Bar" />
+                  <ref role="1Px2BO" to="rdp5:~StyleManager$ChartType" resolve="StyleManager.ChartType" />
+                  <ref role="Rm8GQ" to="rdp5:~StyleManager$ChartType.Bar" resolve="Bar" />
                 </node>
                 <node concept="2OqwBi" id="5Kw8UUFqMDP" role="37wK5m">
                   <node concept="2OqwBi" id="5Kw8UUFqKXM" role="2Oq$k0">
@@ -3351,7 +3358,7 @@
                                 </node>
                               </node>
                               <node concept="liA8E" id="5Kw8UUFq_0_" role="2OqNvi">
-                                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                                 <node concept="Xl_RD" id="5Kw8UUFq_0A" role="37wK5m">
                                   <property role="Xl_RC" value="x" />
                                 </node>
@@ -3402,7 +3409,7 @@
                                 </node>
                               </node>
                               <node concept="liA8E" id="5Kw8UUFq_0U" role="2OqNvi">
-                                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                                 <node concept="Xl_RD" id="5Kw8UUFq_0V" role="37wK5m">
                                   <property role="Xl_RC" value="heights" />
                                 </node>
@@ -3429,7 +3436,7 @@
                   <ref role="3cqZAo" node="5Kw8UUFeuWg" resolve="chart" />
                 </node>
                 <node concept="liA8E" id="5Kw8UUFq_12" role="2OqNvi">
-                  <ref role="37wK5l" to="r80k:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
+                  <ref role="37wK5l" to="rdp5:~Chart.addSeries(java.lang.String,java.util.Collection,java.util.Collection):com.xeiam.xchart.Series" resolve="addSeries" />
                   <node concept="2OqwBi" id="5Kw8UUFqDrk" role="37wK5m">
                     <node concept="2GrUjf" id="5Kw8UUFqD0c" role="2Oq$k0">
                       <ref role="2Gs0qQ" node="5Kw8UUFq_0g" resolve="series" />
@@ -3474,7 +3481,7 @@
             </node>
             <node concept="2ShNRf" id="5Kw8UUF7Soc" role="37vLTx">
               <node concept="1pGfFk" id="5Kw8UUF7Sod" role="2ShVmc">
-                <ref role="37wK5l" to="r80k:~XChartPanel.&lt;init&gt;(com.xeiam.xchart.Chart)" resolve="XChartPanel" />
+                <ref role="37wK5l" to="rdp5:~XChartPanel.&lt;init&gt;(com.xeiam.xchart.Chart)" resolve="XChartPanel" />
                 <node concept="37vLTw" id="5Kw8UUF7Soe" role="37wK5m">
                   <ref role="3cqZAo" node="5Kw8UUFeuWg" resolve="chart" />
                 </node>
@@ -3497,7 +3504,7 @@
         </node>
       </node>
       <node concept="3uibUv" id="5Kw8UUF7RoY" role="3clF45">
-        <ref role="3uigEE" to="dbrf:~JComponent" resolve="JComponent" />
+        <ref role="3uigEE" to="dxuu:~JComponent" resolve="JComponent" />
       </node>
     </node>
   </node>
@@ -3572,7 +3579,7 @@
       <property role="TrG5h" value="getPosition" />
       <node concept="3Tm1VV" id="2L53R4Zr_3a" role="1B3o_S" />
       <node concept="3uibUv" id="2L53R4Zr_3h" role="3clF45">
-        <ref role="3uigEE" to="r80k:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
+        <ref role="3uigEE" to="rdp5:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
       </node>
       <node concept="3clFbS" id="2L53R4Zr_3c" role="3clF47">
         <node concept="3clFbH" id="2L53R4ZrAnw" role="3cqZAp" />
@@ -3580,8 +3587,8 @@
           <node concept="3clFbS" id="2L53R4Zr_ZO" role="3clFbx">
             <node concept="3cpWs6" id="2L53R4Zr_ZP" role="3cqZAp">
               <node concept="Rm8GO" id="2L53R4Zr_ZQ" role="3cqZAk">
-                <ref role="Rm8GQ" to="r80k:~StyleManager$LegendPosition.InsideN" resolve="InsideN" />
-                <ref role="1Px2BO" to="r80k:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
+                <ref role="Rm8GQ" to="rdp5:~StyleManager$LegendPosition.InsideN" resolve="InsideN" />
+                <ref role="1Px2BO" to="rdp5:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
               </node>
             </node>
           </node>
@@ -3593,14 +3600,14 @@
               </node>
             </node>
             <node concept="liA8E" id="2L53R4Zr_ZV" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="2OqwBi" id="2L53R4Zr_ZW" role="37wK5m">
                 <node concept="3f7Wdw" id="2L53R4Zr_ZX" role="2Oq$k0">
                   <ref role="3f7u_j" to="ztlb:2L53R4ZrkGD" />
                   <ref role="3f7vo2" to="ztlb:2L53R4ZrkGc" resolve="LegendPosition" />
                 </node>
                 <node concept="liA8E" id="2L53R4Zr_ZY" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.toString():java.lang.String" resolve="toString" />
+                  <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
                 </node>
               </node>
             </node>
@@ -3610,8 +3617,8 @@
           <node concept="3clFbS" id="2L53R4ZrBts" role="3clFbx">
             <node concept="3cpWs6" id="2L53R4ZrBtt" role="3cqZAp">
               <node concept="Rm8GO" id="2L53R4ZrBCn" role="3cqZAk">
-                <ref role="Rm8GQ" to="r80k:~StyleManager$LegendPosition.InsideNE" resolve="InsideNE" />
-                <ref role="1Px2BO" to="r80k:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
+                <ref role="Rm8GQ" to="rdp5:~StyleManager$LegendPosition.InsideNE" resolve="InsideNE" />
+                <ref role="1Px2BO" to="rdp5:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
               </node>
             </node>
           </node>
@@ -3623,14 +3630,14 @@
               </node>
             </node>
             <node concept="liA8E" id="2L53R4ZrBtz" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="2OqwBi" id="2L53R4ZrBt$" role="37wK5m">
                 <node concept="3f7Wdw" id="2L53R4ZrBt_" role="2Oq$k0">
                   <ref role="3f7vo2" to="ztlb:2L53R4ZrkGc" resolve="LegendPosition" />
                   <ref role="3f7u_j" to="ztlb:2L53R4Zrmrn" />
                 </node>
                 <node concept="liA8E" id="2L53R4ZrBtA" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.toString():java.lang.String" resolve="toString" />
+                  <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
                 </node>
               </node>
             </node>
@@ -3640,8 +3647,8 @@
           <node concept="3clFbS" id="2L53R4ZrBIu" role="3clFbx">
             <node concept="3cpWs6" id="2L53R4ZrBIv" role="3cqZAp">
               <node concept="Rm8GO" id="2L53R4ZrBS9" role="3cqZAk">
-                <ref role="Rm8GQ" to="r80k:~StyleManager$LegendPosition.InsideNW" resolve="InsideNW" />
-                <ref role="1Px2BO" to="r80k:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
+                <ref role="Rm8GQ" to="rdp5:~StyleManager$LegendPosition.InsideNW" resolve="InsideNW" />
+                <ref role="1Px2BO" to="rdp5:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
               </node>
             </node>
           </node>
@@ -3653,14 +3660,14 @@
               </node>
             </node>
             <node concept="liA8E" id="2L53R4ZrBI_" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="2OqwBi" id="2L53R4ZrBIA" role="37wK5m">
                 <node concept="3f7Wdw" id="2L53R4ZrBIB" role="2Oq$k0">
                   <ref role="3f7vo2" to="ztlb:2L53R4ZrkGc" resolve="LegendPosition" />
                   <ref role="3f7u_j" to="ztlb:2L53R4Zrmrm" />
                 </node>
                 <node concept="liA8E" id="2L53R4ZrBIC" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.toString():java.lang.String" resolve="toString" />
+                  <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
                 </node>
               </node>
             </node>
@@ -3670,8 +3677,8 @@
           <node concept="3clFbS" id="2L53R4ZrC3Q" role="3clFbx">
             <node concept="3cpWs6" id="2L53R4ZrC3R" role="3cqZAp">
               <node concept="Rm8GO" id="2L53R4ZrCjx" role="3cqZAk">
-                <ref role="Rm8GQ" to="r80k:~StyleManager$LegendPosition.InsideSE" resolve="InsideSE" />
-                <ref role="1Px2BO" to="r80k:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
+                <ref role="Rm8GQ" to="rdp5:~StyleManager$LegendPosition.InsideSE" resolve="InsideSE" />
+                <ref role="1Px2BO" to="rdp5:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
               </node>
             </node>
           </node>
@@ -3683,14 +3690,14 @@
               </node>
             </node>
             <node concept="liA8E" id="2L53R4ZrC3X" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="2OqwBi" id="2L53R4ZrC3Y" role="37wK5m">
                 <node concept="3f7Wdw" id="2L53R4ZrC3Z" role="2Oq$k0">
                   <ref role="3f7vo2" to="ztlb:2L53R4ZrkGc" resolve="LegendPosition" />
                   <ref role="3f7u_j" to="ztlb:2L53R4ZrlQc" />
                 </node>
                 <node concept="liA8E" id="2L53R4ZrC40" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.toString():java.lang.String" resolve="toString" />
+                  <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
                 </node>
               </node>
             </node>
@@ -3700,8 +3707,8 @@
           <node concept="3clFbS" id="2L53R4ZrCt$" role="3clFbx">
             <node concept="3cpWs6" id="2L53R4ZrCt_" role="3cqZAp">
               <node concept="Rm8GO" id="2L53R4ZrCXq" role="3cqZAk">
-                <ref role="Rm8GQ" to="r80k:~StyleManager$LegendPosition.InsideSW" resolve="InsideSW" />
-                <ref role="1Px2BO" to="r80k:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
+                <ref role="Rm8GQ" to="rdp5:~StyleManager$LegendPosition.InsideSW" resolve="InsideSW" />
+                <ref role="1Px2BO" to="rdp5:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
               </node>
             </node>
           </node>
@@ -3713,14 +3720,14 @@
               </node>
             </node>
             <node concept="liA8E" id="2L53R4ZrCtF" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="2OqwBi" id="2L53R4ZrCtG" role="37wK5m">
                 <node concept="3f7Wdw" id="2L53R4ZrCtH" role="2Oq$k0">
                   <ref role="3f7vo2" to="ztlb:2L53R4ZrkGc" resolve="LegendPosition" />
                   <ref role="3f7u_j" to="ztlb:2L53R4ZrCFN" />
                 </node>
                 <node concept="liA8E" id="2L53R4ZrCtI" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.toString():java.lang.String" resolve="toString" />
+                  <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
                 </node>
               </node>
             </node>
@@ -3730,8 +3737,8 @@
           <node concept="3clFbS" id="2L53R4ZyY2C" role="3clFbx">
             <node concept="3cpWs6" id="2L53R4ZyY2D" role="3cqZAp">
               <node concept="Rm8GO" id="2L53R4ZyYmZ" role="3cqZAk">
-                <ref role="Rm8GQ" to="r80k:~StyleManager$LegendPosition.OutsideE" resolve="OutsideE" />
-                <ref role="1Px2BO" to="r80k:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
+                <ref role="Rm8GQ" to="rdp5:~StyleManager$LegendPosition.OutsideE" resolve="OutsideE" />
+                <ref role="1Px2BO" to="rdp5:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
               </node>
             </node>
           </node>
@@ -3743,14 +3750,14 @@
               </node>
             </node>
             <node concept="liA8E" id="2L53R4ZyY2J" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="2OqwBi" id="2L53R4ZyY2K" role="37wK5m">
                 <node concept="3f7Wdw" id="2L53R4ZyY2L" role="2Oq$k0">
                   <ref role="3f7vo2" to="ztlb:2L53R4ZrkGc" resolve="LegendPosition" />
                   <ref role="3f7u_j" to="ztlb:2L53R4Zrmrg" />
                 </node>
                 <node concept="liA8E" id="2L53R4ZyY2M" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~String.toString():java.lang.String" resolve="toString" />
+                  <ref role="37wK5l" to="wyt6:~String.toString():java.lang.String" resolve="toString" />
                 </node>
               </node>
             </node>
@@ -3758,8 +3765,8 @@
         </node>
         <node concept="3cpWs6" id="2L53R4ZtCn9" role="3cqZAp">
           <node concept="Rm8GO" id="2L53R4ZtRkW" role="3cqZAk">
-            <ref role="Rm8GQ" to="r80k:~StyleManager$LegendPosition.InsideSW" resolve="InsideSW" />
-            <ref role="1Px2BO" to="r80k:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
+            <ref role="Rm8GQ" to="rdp5:~StyleManager$LegendPosition.InsideSW" resolve="InsideSW" />
+            <ref role="1Px2BO" to="rdp5:~StyleManager$LegendPosition" resolve="StyleManager.LegendPosition" />
           </node>
         </node>
       </node>

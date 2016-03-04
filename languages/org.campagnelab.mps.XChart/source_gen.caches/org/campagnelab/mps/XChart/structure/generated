@@ -1,3 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="19uyr1hnwd345yd97qcsesxkkmnj3bq" />
+<dependencies version="2" modelHash="7soqb6at0ctauaj056hwwhjxf71tah5">
+  <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+  <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+  <dep model="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.ids(MPS.Core/)" />
+  <dep model="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime.impl(MPS.Core/)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="ablv8pfswrhbw1rlmm7134a3n4snmlw" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="edv6457qhe381dcl4ioix6smpp8i4qc" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="-3i2fksyx0t02zh375cs47dlyeqa2gnb" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="7rnkisogkv9glziinitb1mcanz0rma9" />
+  <dep model="r:255861a3-240e-44f9-891d-2d789f4b6268(org.campagnelab.mps.XChart.types.structure)" hash="e73zgb1zzhczrfma1dxuivbejw2qrrh" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="-5xb7jypw7d0bhouyx3xmbfw2tz5ihja" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="exf8ta60n8p6ynrjiy6o6g4awd1t7t4" />
+  <dep model="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" hash="buofm370f1n4d9i84j2ke5c99le5z68" />
+  <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="-a9qnmv9xpy8bi0sm6iwrptmrospabf2" />
+  <common hash="ct3a9a045njiav4bd4jntwwk48aoi2y" dependsOnNodes="true">
+    <dep root="1229772424348862809" />
+    <dep root="2172361557619118055" />
+    <dep root="2202909375770356843" />
+    <dep root="2202909375770410339" />
+    <dep root="2202909375770430354" />
+    <dep root="2202909375770430359" />
+    <dep root="2202909375770434159" />
+    <dep root="2202909375770435040" />
+    <dep root="2202909375770435047" />
+    <dep root="3189972890131712628" />
+    <dep root="3189972890131712780" />
+    <dep root="3597430320022583657" />
+    <dep root="5270176140464602975" />
+    <dep root="5270176140464883847" />
+    <dep root="5270176140465521300" />
+    <dep root="6638345083846214530" />
+    <dep root="6638345083849920489" />
+    <dep root="6638345083850864456" />
+    <dep root="7263499363579346599" />
+    <dep root="7263499363580132749" />
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <dep model="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.adapter.ids(MPS.Core/)" />
+    <dep model="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime.impl(MPS.Core/)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:255861a3-240e-44f9-891d-2d789f4b6268(org.campagnelab.mps.XChart.types.structure)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <dep model="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
+    <file name="StructureAspectDescriptor.java" />
+  </common>
+  <source id="2202909375770410339" name="Histogram" hash="-e3uppe6rsrx0rgi41f8runxs12n1xkc" />
+  <source id="2202909375770430354" name="DelimitedFile" hash="awq5hcrvczb0e4nk2j8rv0t7p0pwftr" />
+  <source id="2202909375770430359" name="DataFile" hash="anb9xlvf4absaxb72yv7xzq8jy4uxfz" />
+  <source id="2202909375770434159" name="Column" hash="6pziz7t9lkssu6df63y6ox5shrhga46" />
+  <source id="2202909375770435040" name="ColumnToDoubles" hash="czywy61a5binxhj49qat18obde5dlle" />
+  <source id="2202909375770435047" name="Doubles" hash="-5nq3cq9ezaityt8fnwauekflf9n4suk" />
+  <source id="3597430320022583657" name="Tsvfile" hash="dszr7u3rseb3sc20bqweiha44iak0zj" />
+  <source id="5270176140464602975" name="Page" hash="-6f0qv37myrcu8rzbwmtthr915e379ar" />
+  <source id="2202909375770356843" name="Chart" hash="32mbkbl6nw670xbrvjud6era9w2ir9i" />
+  <source id="5270176140464883847" name="ScatterPlot" hash="copoiu845gwuuej50jrqtqdn1up0fln" />
+  <source id="5270176140465521300" name="FileRef" hash="e1m1a06fhkgrw13vgkb3r28qhvxnqg9" />
+  <source id="7263499363579346599" name="ChartStyle" hash="cdcgg1y08cewmfv6zc5wy0axv95qdjo" />
+  <source id="7263499363580132749" name="ChartTheme" hash="a53hkgsq07w5ydrs576ecg59f4u5lwn">
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <file name="ChartTheme.java" />
+    <file name="ChartTheme_PropertySupport.java" />
+  </source>
+  <source id="6638345083846214530" name="BarChart" hash="64ms4711osku0sf16uydgctx78yh8d9" />
+  <source id="6638345083849920489" name="DataSeries" hash="9sp18zqphesf59vihzoy14wxpeqv1c9" />
+  <source id="6638345083850864456" name="DoublesReference" hash="7246fklb4ly0rrjg6kg25a7ngbbb8wn" />
+  <source id="3189972890131712628" name="Legend" hash="-6jytjiufcwhdixw39q6orpjzynyg60b" />
+  <source id="3189972890131712780" name="LegendPosition" hash="c73j1sp1wfbjgi3okyxhnio4cu4jod8">
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
+    <dep model="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
+    <file name="LegendPosition.java" />
+    <file name="LegendPosition_PropertySupport.java" />
+  </source>
+  <source id="1229772424348862809" name="TypedColumnValue" hash="-5o2x75xdn8zx6sc84cyom13qij3ys78" />
+  <source id="2172361557619118055" name="HasDataToPreserve" hash="-b6w8amwizf93cv6t2zkj3j1sl2o79uk" />
+</dependencies>
 

@@ -17,10 +17,10 @@ import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import org.campagnelab.mps.XChart.behavior.DelimitedFile_Behavior;
+import org.campagnelab.mps.XChart.behavior.DelimitedFile__BehaviorDescriptor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.smodel.behaviour.BehaviorReflection;
+import org.campagnelab.mps.XChart.behavior.HasDataToPreserve__BehaviorDescriptor;
 
 public class DelimitedFile_Constraints extends BaseConstraintsDescriptor {
   public DelimitedFile_Constraints() {
@@ -47,15 +47,15 @@ public class DelimitedFile_Constraints extends BaseConstraintsDescriptor {
           List<SNode> previousColumns = ListSequence.fromList(new ArrayList<SNode>());
           ListSequence.fromList(previousColumns).addSequence(ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a74L, "columns"))));
           ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a74L, "columns"))).clear();
-          for (String col : DelimitedFile_Behavior.call_parseColumns_3597430320022539917(node)) {
+          for (String col : DelimitedFile__BehaviorDescriptor.parseColumns_id37GCX3DasUd.invoke(node)) {
             if (col == null) {
               continue;
             }
             SNode c = SModelOperations.createNewNode(SNodeOperations.getModel(node), null, SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9a6fL, "org.campagnelab.mps.XChart.structure.Column")));
             SPropertyOperations.set(c, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), col);
-            DelimitedFile_Behavior.call_assignColumnType_5010237105647900617(node, c);
+            DelimitedFile__BehaviorDescriptor.assignColumnType_id4m7W1CEBXv9.invoke(node, c);
             if (SNodeOperations.isInstanceOf(node, MetaAdapterFactory.getInterfaceConcept(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e25c753b59a0fe7L, "org.campagnelab.mps.XChart.structure.HasDataToPreserve"))) {
-              BehaviorReflection.invokeVirtual(Void.class, SNodeOperations.cast(node, MetaAdapterFactory.getInterfaceConcept(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e25c753b59a0fe7L, "org.campagnelab.mps.XChart.structure.HasDataToPreserve")), "virtual_newColumAdded_2172361557619401878", new Object[]{c, previousColumns});
+              HasDataToPreserve__BehaviorDescriptor.newColumAdded_id1S_LPePBAim.invoke(SNodeOperations.cast(node, MetaAdapterFactory.getInterfaceConcept(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e25c753b59a0fe7L, "org.campagnelab.mps.XChart.structure.HasDataToPreserve")), c, previousColumns);
             }
             ListSequence.fromList(SLinkOperations.getChildren(node, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c8b97L, 0x1e924e67df2c9a74L, "columns"))).addElement(c);
           }

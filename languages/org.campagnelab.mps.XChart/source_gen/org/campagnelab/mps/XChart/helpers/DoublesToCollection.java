@@ -10,7 +10,6 @@ public class DoublesToCollection {
     int i = 0;
     for (double element : data) {
       result.add(element);
-      // <node> 
     }
     return result;
   }
