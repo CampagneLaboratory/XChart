@@ -16,7 +16,7 @@ public enum ChartTheme {
     return myName;
   }
   private final String myValue;
-  ChartTheme(String name, String value) {
+  private ChartTheme(String name, String value) {
     myName = name;
     myValue = value;
   }

@@ -19,7 +19,7 @@ public enum LegendPosition {
     return myName;
   }
   private final String myValue;
-  LegendPosition(String name, String value) {
+  private LegendPosition(String name, String value) {
     myName = name;
     myValue = value;
   }
