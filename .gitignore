@@ -1,8 +1,12 @@
 .mps/workspace.xml
+**/classes_gen/
+**/source_gen/
 */*/source_gen/**/*
 */*/source_gen.caches/**/*
 */*/classes_gen/**/*.class
 */*/classes_gen/**/trace.info
+*/*/source_gen/**/*.class
+*/*/source_gen/**/*.java
 trace.info
 dependencies
 generated

@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="org.campagnelab.mps.XChart.behavior.BarChart_Behavior" file="BarChart_Behavior.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-  </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.BarChart_BehaviorDescriptor" file="BarChart_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="javax.swing.JComponent" />
-    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Chart_BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.BarChart__BehaviorDescriptor" file="BarChart__BehaviorDescriptor.java">
     <classNode dependClassName="com.xeiam.xchart.Chart" />
@@ -46,14 +38,11 @@
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.api.BHDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SConceptId" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.BarChart__BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.ChartStyle__BehaviorDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Chart__BehaviorDescriptor" />
@@ -71,26 +60,12 @@
     <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Tsvfile__BehaviorDescriptor" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode dependClassName="org.jetbrains.annotations.Nullable" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBehaviorAspectDescriptor" />
-  </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.ChartStyle_Behavior" file="ChartStyle_Behavior.java">
-    <classNode dependClassName="com.xeiam.xchart.Chart" />
-    <classNode dependClassName="com.xeiam.xchart.StyleManager" />
-    <classNode dependClassName="com.xeiam.xchart.XChartPanel" />
-    <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.ChartStyle__BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.ChartStyle_BehaviorDescriptor" file="ChartStyle_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.ChartStyle__BehaviorDescriptor" file="ChartStyle__BehaviorDescriptor.java">
     <classNode dependClassName="com.xeiam.xchart.Chart" />
@@ -123,23 +98,9 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.Chart_Behavior" file="Chart_Behavior.java">
-    <classNode dependClassName="com.xeiam.xchart.XChartPanel" />
-    <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
-    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Chart__BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-  </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Chart_BehaviorDescriptor" file="Chart_BehaviorDescriptor.java">
-    <classNode dependClassName="com.xeiam.xchart.XChartPanel" />
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="javax.swing.JComponent" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Chart__BehaviorDescriptor" file="Chart__BehaviorDescriptor.java">
     <classNode dependClassName="com.xeiam.xchart.XChartPanel" />
@@ -166,7 +127,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.EditorContext" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
@@ -177,22 +137,9 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.ColumnToDoubles_Behavior" file="ColumnToDoubles_Behavior.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-  </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.ColumnToDoubles_BehaviorDescriptor" file="ColumnToDoubles_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Integer" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.IDontSubstituteByDefault_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.smodel.behaviour.DefaultValuesHolder" />
-    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Doubles_BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.ColumnToDoubles__BehaviorDescriptor" file="ColumnToDoubles__BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Object" />
@@ -220,20 +167,9 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.Column_Behavior" file="Column_Behavior.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Column__BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-  </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Column_BehaviorDescriptor" file="Column_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Column__BehaviorDescriptor" file="Column__BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Boolean" />
@@ -258,18 +194,9 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.DataFile_Behavior" file="DataFile_Behavior.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-  </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.DataFile_BehaviorDescriptor" file="DataFile_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.DataFile__BehaviorDescriptor" file="DataFile__BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Object" />
@@ -290,26 +217,11 @@
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.DataSeries_BehaviorDescriptor" file="DataSeries_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.DelimitedFile_Behavior" file="DelimitedFile_Behavior.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.DelimitedFile__BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.DelimitedFile_BehaviorDescriptor" file="DelimitedFile_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.DataFile_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.DelimitedFile__BehaviorDescriptor" file="DelimitedFile__BehaviorDescriptor.java">
     <classNode dependClassName="java.io.BufferedReader" />
@@ -352,21 +264,10 @@
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.DoublesReference_BehaviorDescriptor" file="DoublesReference_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.Doubles_Behavior" file="Doubles_Behavior.java">
-    <classNode dependClassName="java.lang.Deprecated" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Doubles_BehaviorDescriptor" file="Doubles_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Doubles__BehaviorDescriptor" file="Doubles__BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Integer" />
@@ -391,19 +292,9 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.FileRef_Behavior" file="FileRef_Behavior.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-  </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.FileRef_BehaviorDescriptor" file="FileRef_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.ScopeProvider_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.scope.Scope" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.FileRef__BehaviorDescriptor" file="FileRef__BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Class" />
@@ -431,13 +322,8 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.HasDataToPreserve_Behavior" file="HasDataToPreserve_Behavior.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-  </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.HasDataToPreserve_BehaviorDescriptor" file="HasDataToPreserve_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.util.List" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.HasDataToPreserve__BehaviorDescriptor" file="HasDataToPreserve__BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Class" />
@@ -462,17 +348,9 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.Histogram_Behavior" file="Histogram_Behavior.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-  </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Histogram_BehaviorDescriptor" file="Histogram_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="javax.swing.JComponent" />
-    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Chart_BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Histogram__BehaviorDescriptor" file="Histogram__BehaviorDescriptor.java">
     <classNode dependClassName="com.xeiam.xchart.Chart" />
@@ -509,18 +387,9 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.Legend_Behavior" file="Legend_Behavior.java">
-    <classNode dependClassName="com.xeiam.xchart.StyleManager" />
-    <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Legend__BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-  </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Legend_BehaviorDescriptor" file="Legend_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Legend__BehaviorDescriptor" file="Legend__BehaviorDescriptor.java">
     <classNode dependClassName="com.xeiam.xchart.StyleManager" />
@@ -545,23 +414,9 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.Page_Behavior" file="Page_Behavior.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-  </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Page_BehaviorDescriptor" file="Page_BehaviorDescriptor.java">
-    <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.execution.util.behavior.IMainClass_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.ScopeProvider_BehaviorDescriptor" />
-    <classNode dependClassName="jetbrains.mps.scope.Scope" />
-    <classNode dependClassName="jetbrains.mps.smodel.behaviour.DefaultValuesHolder" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="java.lang.Cloneable" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Page__BehaviorDescriptor" file="Page__BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Object" />
@@ -580,17 +435,9 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.ScatterPlot_Behavior" file="ScatterPlot_Behavior.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-  </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.ScatterPlot_BehaviorDescriptor" file="ScatterPlot_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="javax.swing.JComponent" />
-    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.Chart_BehaviorDescriptor" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.ScatterPlot__BehaviorDescriptor" file="ScatterPlot__BehaviorDescriptor.java">
     <classNode dependClassName="com.xeiam.xchart.Chart" />
@@ -625,15 +472,9 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.core.aspects.behaviour.BaseBHDescriptor" />
   </dependency>
-  <dependency className="org.campagnelab.mps.XChart.behavior.Tsvfile_Behavior" file="Tsvfile_Behavior.java">
-    <classNode dependClassName="java.lang.Deprecated" />
-  </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Tsvfile_BehaviorDescriptor" file="Tsvfile_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="org.campagnelab.mps.XChart.behavior.DelimitedFile_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.Tsvfile__BehaviorDescriptor" file="Tsvfile__BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Object" />
@@ -655,10 +496,7 @@
   </dependency>
   <dependency className="org.campagnelab.mps.XChart.behavior.TypedColumnValue_BehaviorDescriptor" file="TypedColumnValue_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Deprecated" />
-    <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.baseLanguage.behavior.Expression_BehaviorDescriptor" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
 </dependenciesRoot>
 

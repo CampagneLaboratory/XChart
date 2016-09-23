@@ -2,8 +2,8 @@
 <model ref="r:cfb31b41-ab7a-42c8-913f-b1491325cb39(org.campagnelab.mps.XChart.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="1" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="4" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -52,6 +52,9 @@
       <concept id="1074767920765" name="jetbrains.mps.lang.editor.structure.CellModel_ModelAccess" flags="sg" stub="8104358048506729357" index="XafU7">
         <child id="1176718152741" name="modelAcessor" index="3TRxkO" />
       </concept>
+      <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
+        <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
+      </concept>
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="8313721352726366579" name="jetbrains.mps.lang.editor.structure.CellModel_Empty" flags="ng" index="35HoNQ" />
@@ -64,6 +67,7 @@
       <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
         <property id="1238091709220" name="labelName" index="1413C4" />
       </concept>
+      <concept id="3308396621974580100" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Default" flags="ng" index="3p36aQ" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
@@ -210,7 +214,7 @@
                   <node concept="2OqwBi" id="6LdTs9Lcbb1" role="2Oq$k0">
                     <node concept="pncrf" id="6LdTs9Lcb6M" role="2Oq$k0" />
                     <node concept="3TrEf2" id="6LdTs9LcbFU" role="2OqNvi">
-                      <ref role="3Tt5mk" to="ztlb:2SKvIxg2HCX" />
+                      <ref role="3Tt5mk" to="ztlb:2SKvIxg2HCX" resolve="type" />
                     </node>
                   </node>
                   <node concept="2qgKlT" id="6LdTs9Lc_F9" role="2OqNvi">
@@ -238,7 +242,7 @@
         <property role="3F0ifm" value="Column type: " />
       </node>
       <node concept="1iCGBv" id="2SKvIxg2HDb" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:2SKvIxg2HCX" />
+        <ref role="1NtTu8" to="ztlb:2SKvIxg2HCX" resolve="type" />
         <node concept="1sVBvm" id="2SKvIxg2HDd" role="1sWHZn">
           <node concept="3SHvHV" id="2SKvIxg2HDp" role="2wV5jI" />
         </node>
@@ -258,7 +262,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="2SKvIxg3JWh" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:2SKvIxg3Hc6" />
+        <ref role="1NtTu8" to="ztlb:2SKvIxg3Hc6" resolve="category" />
         <node concept="pkWqt" id="2SKvIxg3K8H" role="pqm2j">
           <node concept="3clFbS" id="2SKvIxg3K8I" role="2VODD2">
             <node concept="3clFbF" id="2SKvIxg3KiU" role="3cqZAp">
@@ -322,7 +326,7 @@
         <property role="3F0ifm" value="look in these files:" />
       </node>
       <node concept="3F2HdR" id="4$zrkrObs3G" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:4$zrkrOasaZ" />
+        <ref role="1NtTu8" to="ztlb:4$zrkrOasaZ" resolve="columns" />
         <node concept="l2Vlx" id="4$zrkrObs3H" role="2czzBx" />
         <node concept="pVoyu" id="4$zrkrObs3R" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -336,7 +340,7 @@
       </node>
       <node concept="l2Vlx" id="4$zrkrO8rY0" role="2iSdaV" />
       <node concept="3F2HdR" id="4$zrkrO8rYt" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:4$zrkrO8rXw" />
+        <ref role="1NtTu8" to="ztlb:4$zrkrO8rXw" resolve="charts" />
         <node concept="l2Vlx" id="4$zrkrO8rYu" role="2czzBx" />
         <node concept="pVoyu" id="4$zrkrO8rY$" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -420,7 +424,7 @@
     <node concept="3EZMnI" id="4$zrkrOaBQC" role="2wV5jI">
       <node concept="35HoNQ" id="5q$AhPcLD6w" role="3EZMnx" />
       <node concept="1iCGBv" id="4$zrkrOaBR8" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:1UijAvvb9Rz" />
+        <ref role="1NtTu8" to="ztlb:1UijAvvb9Rz" resolve="column" />
         <node concept="1sVBvm" id="4$zrkrOaBR9" role="1sWHZn">
           <node concept="3F0A7n" id="4$zrkrOaBRi" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -439,7 +443,7 @@
         <property role="3F0ifm" value="column is obtained from file: " />
       </node>
       <node concept="1iCGBv" id="4$zrkrOaBQJ" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:1UijAvvbbbj" />
+        <ref role="1NtTu8" to="ztlb:1UijAvvbbbj" resolve="file" />
         <node concept="1sVBvm" id="4$zrkrOaBQK" role="1sWHZn">
           <node concept="3F0A7n" id="4$zrkrOaBQP" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -468,7 +472,7 @@
     <ref role="1XX52x" to="ztlb:1UijAvvaQLF" resolve="Chart" />
     <node concept="3EZMnI" id="6jd8z00wsHN" role="2wV5jI">
       <node concept="3F1sOY" id="6jd8z00wsHU" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:6jd8z00r3Va" />
+        <ref role="1NtTu8" to="ztlb:6jd8z00r3Va" resolve="style" />
       </node>
       <node concept="l2Vlx" id="6jd8z00wsHQ" role="2iSdaV" />
     </node>
@@ -478,7 +482,7 @@
     <ref role="1XX52x" to="ztlb:4$zrkrObWak" resolve="FileRef" />
     <node concept="3EZMnI" id="35dLqAo7W_L" role="2wV5jI">
       <node concept="1iCGBv" id="35dLqAobSEQ" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:4$zrkrObWZL" />
+        <ref role="1NtTu8" to="ztlb:4$zrkrObWZL" resolve="file" />
         <node concept="1sVBvm" id="35dLqAobSER" role="1sWHZn">
           <node concept="3F0A7n" id="35dLqAobSKP" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -494,7 +498,7 @@
       </node>
       <node concept="3F2HdR" id="35dLqAobSMY" role="3EZMnx">
         <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="ztlb:4$zrkrO8rXy" />
+        <ref role="1NtTu8" to="ztlb:4$zrkrO8rXy" resolve="selectedColumns" />
         <node concept="l2Vlx" id="35dLqAobSMZ" role="2czzBx" />
         <node concept="4$FPG" id="6jd8z00kB8Z" role="4_6I_">
           <node concept="3clFbS" id="6jd8z00kHRq" role="2VODD2">
@@ -528,7 +532,7 @@
                     </node>
                   </node>
                   <node concept="3TrEf2" id="6jd8z00kQse" role="2OqNvi">
-                    <ref role="3Tt5mk" to="ztlb:4$zrkrObWZL" />
+                    <ref role="3Tt5mk" to="ztlb:4$zrkrObWZL" resolve="file" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="6jd8z00kOOG" role="37vLTJ">
@@ -536,7 +540,7 @@
                     <ref role="3cqZAo" node="6jd8z00kOBo" resolve="cols" />
                   </node>
                   <node concept="3TrEf2" id="6jd8z00kPcq" role="2OqNvi">
-                    <ref role="3Tt5mk" to="ztlb:1UijAvvbbbj" />
+                    <ref role="3Tt5mk" to="ztlb:1UijAvvbbbj" resolve="file" />
                   </node>
                 </node>
               </node>
@@ -742,7 +746,7 @@
         <property role="3F0ifm" value="Legend:" />
       </node>
       <node concept="3F1sOY" id="2L53R4ZtkF4" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:2L53R4ZrnMo" />
+        <ref role="1NtTu8" to="ztlb:2L53R4ZrnMo" resolve="legend" />
       </node>
       <node concept="3F0ifn" id="2L53R4ZitPb" role="3EZMnx">
         <property role="3F0ifm" value="}" />
@@ -797,7 +801,7 @@
         <property role="3F0ifm" value=":{" />
       </node>
       <node concept="3F2HdR" id="5Kw8UUFp9v8" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:5Kw8UUFp3t3" />
+        <ref role="1NtTu8" to="ztlb:5Kw8UUFp3t3" resolve="values" />
         <node concept="l2Vlx" id="5Kw8UUFp9v9" role="2czzBx" />
       </node>
       <node concept="l2Vlx" id="5Kw8UUFmpkJ" role="2iSdaV" />
@@ -818,7 +822,7 @@
         <property role="3F0ifm" value=":" />
       </node>
       <node concept="1iCGBv" id="5Kw8UUFpMMu" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:5Kw8UUFp3t9" />
+        <ref role="1NtTu8" to="ztlb:5Kw8UUFp3t9" resolve="doubles" />
         <node concept="1sVBvm" id="5Kw8UUFpMMv" role="1sWHZn">
           <node concept="XafU7" id="5Kw8UUFpMMQ" role="2wV5jI">
             <node concept="3TQVft" id="5Kw8UUFpMMS" role="3TRxkO">
@@ -858,7 +862,7 @@
     <ref role="1XX52x" to="ztlb:1UijAvvaQLF" resolve="Chart" />
     <node concept="3EZMnI" id="1jH29_Q1IB6" role="2wV5jI">
       <node concept="3F2HdR" id="5Kw8UUFm869" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:5Kw8UUFlsY3" />
+        <ref role="1NtTu8" to="ztlb:5Kw8UUFlsY3" resolve="dataSeries" />
         <node concept="2iRkQZ" id="5Kw8UUFm86a" role="2czzBx" />
       </node>
       <node concept="l2Vlx" id="1jH29_Q1IB7" role="2iSdaV" />
@@ -915,7 +919,7 @@
         <property role="3F0ifm" value="$(" />
       </node>
       <node concept="1iCGBv" id="6K3Kmzqfa0Q" role="3EZMnx">
-        <ref role="1NtTu8" to="ztlb:14h1S4rSCA_" />
+        <ref role="1NtTu8" to="ztlb:14h1S4rSCA_" resolve="column" />
         <node concept="1sVBvm" id="6K3Kmzqfa0S" role="1sWHZn">
           <node concept="3F0A7n" id="6K3Kmzqfa10" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -934,6 +938,9 @@
       </node>
       <node concept="l2Vlx" id="14h1S4rSCGs" role="2iSdaV" />
     </node>
+  </node>
+  <node concept="3p36aQ" id="6ZRAi5_IkKE">
+    <ref role="aqKnT" to="ztlb:1UijAvvb9Rw" resolve="ColumnToDoubles" />
   </node>
 </model>
 

@@ -15,6 +15,7 @@
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptPresentationAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
@@ -24,6 +25,7 @@
     <classNode dependClassName="org.campagnelab.mps.XChart.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="org.campagnelab.mps.XChart.intentions.IntentionsDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.XChart.scripts.ScriptsDescriptor" />
+    <classNode dependClassName="org.campagnelab.mps.XChart.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="org.campagnelab.mps.XChart.structure.StructureAspectDescriptor" />
     <classNode dependClassName="org.campagnelab.mps.XChart.typesystem.TypesystemDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
