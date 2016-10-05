@@ -17,13 +17,15 @@ import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandlerElementKeyMap;
 import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
+import jetbrains.mps.nodeEditor.cellMenu.OldNewCompositeSubstituteInfo;
+import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
@@ -120,7 +122,7 @@ public class FileRef_Editor extends DefaultNodeEditor {
       return nodeFactory(listOwner, editorContext);
     }
     public SNode nodeFactory(SNode node, EditorContext editorContext) {
-      SNode cols = SConceptOperations.createNewNode(SNodeOperations.asInstanceConcept(MetaAdapterFactory.getConcept(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9de0L, "org.campagnelab.mps.XChart.structure.ColumnToDoubles")));
+      SNode cols = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9de0L, "org.campagnelab.mps.XChart.structure.ColumnToDoubles"));
       SLinkOperations.setTarget(cols, MetaAdapterFactory.getReferenceLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2c9de0L, 0x1e924e67df2cb2d3L, "file"), SLinkOperations.getTarget(SNodeOperations.getNodeAncestor(node, MetaAdapterFactory.getConcept(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x49236d46f42fc294L, "org.campagnelab.mps.XChart.structure.FileRef"), true, false), MetaAdapterFactory.getReferenceLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x49236d46f42fc294L, 0x49236d46f42fcff1L, "file")));
       return cols;
     }
@@ -144,7 +146,7 @@ public class FileRef_Editor extends DefaultNodeEditor {
           elementCell.addKeyMap(new RefNodeListHandlerElementKeyMap(this, ","));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultSubstituteInfo) {
-          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
+          elementCell.setSubstituteInfo(new OldNewCompositeSubstituteInfo(myEditorContext, new SChildSubstituteInfo(elementCell, myOwnerNode, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x49236d46f42fc294L, 0x49236d46f421bf62L, "selectedColumns"), elementNode), new DefaultChildSubstituteInfo(myOwnerNode, elementNode, super.getLinkDeclaration(), myEditorContext)));
         }
       }
     }

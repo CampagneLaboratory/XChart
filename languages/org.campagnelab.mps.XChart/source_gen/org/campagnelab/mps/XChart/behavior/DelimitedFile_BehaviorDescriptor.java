@@ -4,16 +4,13 @@ package org.campagnelab.mps.XChart.behavior;
 
 
 /**
- * Will be removed after 3.3
+ * Will be removed after 3.4
  * Need to support compilation of the legacy behavior descriptors before the language is rebuilt
  * This class is not involved in the actual method invocation
  */
 @Deprecated
-public class DelimitedFile_BehaviorDescriptor extends DataFile_BehaviorDescriptor {
-
-  @Override
+public class DelimitedFile_BehaviorDescriptor {
   public String getConceptFqName() {
-    return "org.campagnelab.mps.XChart.structure.DelimitedFile";
+    return null;
   }
-
 }
