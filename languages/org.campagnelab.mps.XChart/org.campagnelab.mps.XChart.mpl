@@ -10,9 +10,9 @@
     </modelRoot>
   </models>
   <accessoryModels>
-    <model modelUID="ae5ecb97-e2f9-4f79-a34d-94c5e9c5c35d/java:com.xeiam.xchart(org.campagnelab.mps.xchart.lib/)" />
     <model modelUID="r:ec296f40-f73d-425d-b0d7-375a081142e4(org.campagnelab.mps.XChart.helpers)" />
     <model modelUID="r:d1a256e6-591a-459f-809c-7fc9df45e4d5(org.campagnelab.mps.XChart.types.roots)" />
+    <model modelUID="5ec1cd3d-0a50-4049-a8fa-ae768d7baa25/java:com.xeiam.xchart(org.campagnelab.mps.XChart/)" />
   </accessoryModels>
   <generators>
     <generator name="" generatorUID="org.campagnelab.mps.XChart#2202909375769974311" uuid="fc03d545-e591-43a1-9f8a-eb731c443080">

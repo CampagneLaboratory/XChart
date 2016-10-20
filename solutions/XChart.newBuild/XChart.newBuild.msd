@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="XChart.build" uuid="f4badde6-d2fb-4344-91d3-caedb26a938e" moduleVersion="1" compileInMPS="true">
+<solution name="XChart.newBuild" uuid="458e7a44-300a-4712-95cd-255c2e0c289d" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -19,7 +19,7 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="f4badde6-d2fb-4344-91d3-caedb26a938e(XChart.build)" version="0" />
+    <module reference="458e7a44-300a-4712-95cd-255c2e0c289d(XChart.newBuild)" version="0" />
     <module reference="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" version="0" />
   </dependencyVersions>
 </solution>
