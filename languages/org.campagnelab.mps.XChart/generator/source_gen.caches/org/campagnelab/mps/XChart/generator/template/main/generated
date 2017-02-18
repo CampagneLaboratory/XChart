@@ -47,12 +47,16 @@
     <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" />
     <file name="QueriesGenerated.java" />
   </common>
-  <source id="2202909375769974312" name="main" hash="-epv17ifh7ohfa2raux2bn1qwivnfg29" />
+  <source id="2202909375769974312" name="main" hash="-epv17ifh7ohfa2raux2bn1qwivnfg29">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
   <source id="6638345083849127425" name="ChartViewer" hash="-ysb8g91ximmqtnpzup3rsroc1a50t2">
     <dep model="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.generator.runtime(MPS.Core/)" />
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="6638345083849250048" name="BarChart_Statements" hash="-4cvu7ktn5xnmw850ltvdm9yx2468b9w" />
+  <source id="6638345083849250048" name="BarChart_Statements" hash="-4cvu7ktn5xnmw850ltvdm9yx2468b9w">
+    <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
+  </source>
   <source id="6638345083849388076" name="Histogram_Statements" hash="6z7xh7g8wvna1mzmdyh1cti6cpyf47a" />
   <source id="3670852936026355499" name="ScatterPlot_Statements" hash="5nx0d0ycvpzr2kpacdsj22xt9zqd0k0" />
   <source id="3670852936026432553" name="Styles_Statements" hash="-1bdkl5cckewfykm9qso28kmbpz0anji" />
