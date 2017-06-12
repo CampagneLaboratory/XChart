@@ -2,7 +2,7 @@
 <model ref="r:64aeeca7-3a4b-4dcc-b81a-48f20fa34cb4(org.campangelab.xchart)">
   <persistence version="9" />
   <languages>
-    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="2" />
+    <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="3" />
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
   </languages>
@@ -58,7 +58,9 @@
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
       <concept id="7389400916848036984" name="jetbrains.mps.build.structure.BuildLayout_Folder" flags="ng" index="398223" />
-      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT" />
+      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
+        <child id="7389400916848144618" name="defaultPath" index="398pKh" />
+      </concept>
       <concept id="7389400916848153117" name="jetbrains.mps.build.structure.BuildSourceMacroRelativePath" flags="ng" index="398BVA">
         <reference id="7389400916848153130" name="macro" index="398BVh" />
       </concept>
@@ -154,6 +156,32 @@
     <node concept="3b7kt6" id="7XxitGzkyrj" role="10PD9s" />
     <node concept="398rNT" id="7XxitGzkyrk" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
+      <node concept="55IIr" id="36Bza9HiORL" role="398pKh">
+        <node concept="2Ry0Ak" id="36Bza9HiORO" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="36Bza9HiOUn" role="2Ry0An">
+            <property role="2Ry0Am" value=".." />
+            <node concept="2Ry0Ak" id="36Bza9HiOV$" role="2Ry0An">
+              <property role="2Ry0Am" value=".." />
+              <node concept="2Ry0Ak" id="36Bza9HiOW5" role="2Ry0An">
+                <property role="2Ry0Am" value=".." />
+                <node concept="2Ry0Ak" id="36Bza9HiOWA" role="2Ry0An">
+                  <property role="2Ry0Am" value=".." />
+                  <node concept="2Ry0Ak" id="36Bza9HiOY5" role="2Ry0An">
+                    <property role="2Ry0Am" value="Applications" />
+                    <node concept="2Ry0Ak" id="36Bza9HiOZ6" role="2Ry0An">
+                      <property role="2Ry0Am" value="MPS 2017.1.app" />
+                      <node concept="2Ry0Ak" id="36Bza9HiP0_" role="2Ry0An">
+                        <property role="2Ry0Am" value="Contents" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2kB4xC" id="20gh$F6s$xr" role="1l3spd">
       <property role="TrG5h" value="build_number" />
@@ -169,7 +197,7 @@
       <node concept="aVJcg" id="3iOwZ5v0v$L" role="aVJcv">
         <node concept="NbPM2" id="3iOwZ5v0v$K" role="aVJcq">
           <node concept="3Mxwew" id="3iOwZ5v0v$J" role="3MwsjC">
-            <property role="3MwjfP" value="1.2.1" />
+            <property role="3MwjfP" value="1.2.2" />
           </node>
         </node>
       </node>

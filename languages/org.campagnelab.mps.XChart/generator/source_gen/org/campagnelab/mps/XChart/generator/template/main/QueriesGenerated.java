@@ -9,9 +9,9 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.campagnelab.mps.XChart.behavior.Doubles__BehaviorDescriptor;
-import jetbrains.mps.internal.collections.runtime.ITranslator2;
-import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
@@ -77,11 +77,7 @@ public class QueriesGenerated {
     return (SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2b6c6bL, 0x64cd2230006c3ecaL, "style")), MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x64cd2230006e018fL, "yAxisLabel")) != null ? SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2b6c6bL, 0x64cd2230006c3ecaL, "style")), MetaAdapterFactory.getProperty(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x64cd2230006c3ea7L, 0x64cd2230006e018fL, "yAxisLabel")) : "y");
   }
   public static Object propertyMacro_GetPropertyValue_568598610958112950(final PropertyMacroContext _context) {
-    return (String) Doubles__BehaviorDescriptor.getColumnName_id6nbOCdKKcm0.invoke(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2b6c6bL, 0x5c2023aeab55cf83L, "dataSeries"))).translate(new ITranslator2<SNode, SNode>() {
-      public Iterable<SNode> translate(SNode it) {
-        return SLinkOperations.getChildren(it, MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x5c2023aeab55cfe9L, 0x5c2023aeab643743L, "values"));
-      }
-    }).findFirst(new IWhereFilter<SNode>() {
+    return (String) Doubles__BehaviorDescriptor.getColumnName_id6nbOCdKKcm0.invoke(SLinkOperations.getTarget(Sequence.fromIterable(SLinkOperations.collectMany(SLinkOperations.getChildren(_context.getNode(), MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x1e924e67df2b6c6bL, 0x5c2023aeab55cf83L, "dataSeries")), MetaAdapterFactory.getContainmentLink(0x5ec1cd3d0a504049L, 0xa8faae768d7baa25L, 0x5c2023aeab55cfe9L, 0x5c2023aeab643743L, "values"))).findFirst(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")).equals("x");
       }
