@@ -39,7 +39,7 @@
         <vendor url="http://campagnelab.org">Campagne Laboratory</vendor>
         <depends>jetbrains.mps.core</depends>
         <depends>jetbrains.mps.build</depends>
-        <idea-version until-build="163.1" since-build="162.1" />
+        <idea-version until-build="171.1216" since-build="171.1" />
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
